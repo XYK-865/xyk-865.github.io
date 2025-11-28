@@ -6,7 +6,7 @@ subtitle: <a href='#'>北京工商大学</a>. 帅哥学院. 魅力吴彦祖专�
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>北京工商大学 233</p>
