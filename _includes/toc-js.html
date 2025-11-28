@@ -1,0 +1,34 @@
+<nav id="toc" class="toc" aria-label="Table of contents"></nav>
+<script>
+(function() {
+  try {
+    const toc = document.getElementById('toc');
+    if (!toc) return;
+    const content = document.querySelector('.post-content') || document.querySelector('article') || document.body;
+    const headers = content.querySelectorAll('h2, h3');
+    if (!headers.length) { toc.style.display = 'none'; return; }
+    const ul = document.createElement('ul');
+    headers.forEach(h => {
+      if (!h.id) h.id = h.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+      const li = document.createElement('li');
+      li.className = h.tagName.toLowerCase();
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    toc.appendChild(ul);
+  } catch (e) {
+    console.warn('TOC generation failed', e);
+  }
+})();
+</script>
+
+<style>
+.toc { margin: 0 0 1em 0; padding: 0.6em 0.8em; border-left: 3px solid rgba(0,0,0,0.1); background: rgba(0,0,0,0.02); border-radius: 4px; }
+.toc ul { list-style: none; margin:0; padding:0; }
+.toc li.h2 { margin: 6px 0; font-weight:600; }
+.toc li.h3 { margin: 4px 0 4px 12px; font-weight:400; }
+.toc a { color: inherit; text-decoration: none; }
+</style>
