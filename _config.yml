@@ -6,7 +6,7 @@ title: Spike Hsu # the website title (if blank, full name will be used instead)
 first_name: Spike
 middle_name: C.
 last_name: Hsu
-avatar: /assets/img/prof_pic.png
+avatar: /assets/img/prof_pic.png.jpg
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
