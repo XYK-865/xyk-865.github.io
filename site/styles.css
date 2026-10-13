@@ -21,3 +21,7 @@
 @media(max-width:580px){.about-hero{padding-block:3.5rem}.profile-photo{width:100px}.resume-grid{grid-template-columns:1fr}}
 .resume-switch{display:flex;gap:.65rem;flex-wrap:wrap;margin:2rem 0 1rem}.resume-switch button{padding:.75rem 1.15rem;border:1px solid var(--line);border-radius:100px;background:var(--bg);color:var(--text);cursor:pointer}.resume-switch button.active{border-color:var(--text);background:var(--text);color:var(--bg)}.resume-viewer{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.resume-viewer iframe{display:block;width:100%;height:min(80vh,900px);min-height:550px;border:0}.resume-open{display:inline-block;margin-top:1rem;padding-bottom:.3rem;border-bottom:1px solid var(--line)}
 @media(max-width:580px){.resume-viewer iframe{min-height:500px}}
+.about-copy h1,.about-copy h1 strong{color:var(--text);font-weight:700}.profile-card{margin-top:2.4rem}
+@media(max-width:900px){.profile-card{margin-top:0}}
+.about-page{background-image:linear-gradient(color-mix(in srgb,var(--bg) 83%,transparent),color-mix(in srgb,var(--bg) 88%,transparent)),url("assets/spike-background-v2.png");background-position:center;background-size:cover;background-attachment:fixed}.about-left{min-width:0}.hero-art{margin:3rem 0 0;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}.hero-art img{width:100%;height:auto}
+@media(max-width:900px){.about-page{background-attachment:scroll}.hero-art{margin-top:2rem}}
