@@ -9,10 +9,45 @@
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="resume"></header>
   <main id="main" class="page-shell inner-page resume-page">
-    <p class="kicker">CURRICULUM VITAE</p><h1>简历</h1><p>选择语言查看简历，也可以打开 PDF 原文件。</p>
-    <div class="resume-switch" role="group" aria-label="选择简历语言"><button type="button" class="active" data-resume="zh" aria-pressed="true">中文简历</button><button type="button" data-resume="en" aria-pressed="false">English CV</button></div>
-    <div class="resume-viewer"><iframe id="resume-frame" src="assets/spike-hsu-resume-zh.pdf" title="中文简历 PDF"></iframe></div>
-    <a class="resume-open" id="resume-open" href="assets/spike-hsu-resume-zh.pdf" target="_blank" rel="noreferrer">在新窗口打开中文 PDF ↗</a>
+    <p class="kicker">CURRICULUM VITAE / 简历</p>
+    <div class="resume-intro">
+      <div><h1 id="resume-page-title">在线简历。</h1><p id="resume-page-description">在线阅读中文或英文版本，按需下载 PDF。</p></div>
+      <a class="resume-download" data-resume-download href="assets/spike-hsu-resume-zh.pdf" download>下载中文 PDF <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="resume-switch" role="group" aria-label="选择简历语言">
+      <button type="button" class="active" data-resume="zh" aria-controls="resume-zh" aria-pressed="true">中文简历</button>
+      <button type="button" data-resume="en" aria-controls="resume-en" aria-pressed="false">English CV</button>
+    </div>
+    <article class="resume-document" id="resume-zh" data-resume-content="zh" lang="zh-CN">
+      <header class="resume-heading">
+        <div><p class="resume-overline">CHENG XU / SPIKE HSU</p><h2>徐诚</h2><p>数据分析 · 电商运营 · 化妆品技术与工程</p></div>
+        <dl class="resume-contact"><div><dt>所在地</dt><dd>北京</dd></div><div><dt>邮箱</dt><dd><a href="mailto:xuchengspike@163.com">xuchengspike@163.com</a></dd></div><div><dt>GitHub</dt><dd><a href="https://github.com/XYK-865" target="_blank" rel="noreferrer">XYK-865 ↗</a></dd></div><div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/%E8%AF%9A-%E5%BE%90-8778b338b/" target="_blank" rel="noreferrer">个人主页 ↗</a></dd></div></dl>
+      </header>
+      <section class="resume-section"><h3>个人简介</h3><p>北京工商大学化妆品技术与工程本科在读。关注数据分析、电商运营与消费品牌实践，习惯从业务问题出发，用数据寻找可执行的优化方向。</p></section>
+      <section class="resume-section"><h3>教育背景</h3><div class="resume-entry"><div class="resume-entry-head"><h4>北京工商大学 <small>化妆品技术与工程</small></h4><time>2023.09 — 2027.07</time></div><p>本科在读</p></div></section>
+      <section class="resume-section"><h3>实习经历</h3>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>北京鹏泰宝尊电子商务有限公司 <small>电商数据分析实习生</small></h4><time>2026.05 — 2026.07</time></div><ul><li>每日跟踪天猫、京东平台的竞品价格、以旧换新及区域补贴政策，形成情报报告，支持定价和促销决策。</li><li>使用千牛、抖音电商罗盘和快手小店分析流量与会员转化，评估大促券、88VIP 券效果并提出 CRM 优化建议。</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>作业帮教育科技（北京）有限公司 <small>数据运营实习生</small></h4><time>2026.01 — 2026.04</time></div><ul><li>用 MySQL、Excel 和转化漏斗定位短视频渠道波动，协助调整投放策略，抖音渠道转化率提升约 10%。</li><li>将运营反馈整理成结构化数据，复盘客诉链路并提出流程建议，使问题处理闭环时间缩短约 15%。</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>北京朗知网络传媒科技股份有限公司 <small>AE 实习生</small></h4><time>2025.07 — 2025.11</time></div><ul><li>围绕苹果新品与双十一活动整理价格、销量和舆情数据，支持竞品分析与传播策略。</li><li>完善产品 brief，整理华为产品卖点与竞品资料，协助活动策划及 KOL 协同。</li></ul></div>
+      </section>
+      <section class="resume-section"><h3>项目经历</h3><div class="resume-entry"><div class="resume-entry-head"><h4>雀巢 CEO 商业挑战赛 <small>项目发起人兼小组组长</small></h4><time>2025.03 — 2025.04</time></div><ul><li>带领三人团队研究徐福记品牌年轻化，结合公开资料、问卷和线下观察识别消费机会。</li><li>提出“糖职星球”主题礼盒与整合营销方案，统筹调研、产品设计、财务测算及中英文路演材料。</li></ul></div></section>
+      <section class="resume-section"><h3>技能与证书</h3><p>MySQL（多表连接、子查询、窗口函数） · Excel（数据透视表、INDEX+MATCH） · Tableau · CDA Level I · AI 辅助资料整理与数据分析</p></section>
+    </article>
+    <article class="resume-document" id="resume-en" data-resume-content="en" lang="en" hidden>
+      <header class="resume-heading">
+        <div><p class="resume-overline">CHENG XU / SPIKE HSU</p><h2>Cheng Xu</h2><p>E-commerce Data Analysis · Operations · Cosmetic Technology</p></div>
+        <dl class="resume-contact"><div><dt>Based in</dt><dd>Beijing, China</dd></div><div><dt>Email</dt><dd><a href="mailto:xuchengspike@163.com">xuchengspike@163.com</a></dd></div><div><dt>GitHub</dt><dd><a href="https://github.com/XYK-865" target="_blank" rel="noreferrer">XYK-865 ↗</a></dd></div><div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/%E8%AF%9A-%E5%BE%90-8778b338b/" target="_blank" rel="noreferrer">Profile ↗</a></dd></div></dl>
+      </header>
+      <section class="resume-section"><h3>Education</h3><div class="resume-entry"><div class="resume-entry-head"><h4>Beijing Technology and Business University <small>Cosmetic Technology and Engineering</small></h4><time>Sep 2023 — Jun 2027</time></div></div></section>
+      <section class="resume-section"><h3>Internship Experience</h3>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>Beijing Cheil Bhaza E-commerce Co., Ltd. <small>E-commerce Data Analyst</small></h4><time>May 2026 — Jun 2026</time></div><ul><li>Monitored pricing, trade-in programs and regional subsidies across Tmall and JD.com, delivering daily intelligence reports for pricing and promotion decisions.</li><li>Analyzed traffic and customer-service conversion across Tmall, Douyin and Kuaishou; evaluated member funnels and campaign coupons to inform CRM recommendations.</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>ZuoYeBang Education Technology (Beijing) Co., Ltd. <small>Data Operations Intern</small></h4><time>Jan 2026 — Apr 2026</time></div><ul><li>Used MySQL, Excel and conversion-funnel analysis to identify short-video channel volatility, contributing to an approximately 10% increase in Douyin conversion rate.</li><li>Structured operations feedback and analyzed customer complaints, helping shorten the issue-resolution loop by approximately 15%.</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>Beijing Longzhi Network Media Technology Co., Ltd. <small>AE Intern</small></h4><time>Jul 2025 — Nov 2025</time></div><ul><li>Compiled pricing, sales and online engagement insights for Apple-related campaigns and Double 11 planning.</li><li>Supported social listening, product brief enrichment and KOL coordination.</li></ul></div>
+      </section>
+      <section class="resume-section"><h3>Skills & Interests</h3><p>Excel · MySQL · Tableau · Trello · CDA Level I · AI-assisted analysis · Basketball · Fitness · Reading</p></section>
+    </article>
+    <div class="resume-endcap"><p>更习惯阅读文件？<span>Prefer a file?</span></p><a class="resume-download" data-resume-download href="assets/spike-hsu-resume-zh.pdf" download>下载中文 PDF <span aria-hidden="true">↓</span></a></div>
+    <p class="resume-source-note">网页内容根据原版简历整理；完整信息以下载的 PDF 为准。</p>
   </main>
   <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script><script src="resume.js"></script>
 </body>
