@@ -1,5 +1,6 @@
 const pages=[
   {id:'about',label:'关于',href:'index.html'},
+  {id:'resume',label:'简历',href:'resume.html'},
   {id:'blog',label:'博客',href:'blog.html'},
   {id:'projects',label:'项目',href:'projects.html'},
   {id:'fitness',label:'健身',href:'fitness.html'},
