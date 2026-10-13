@@ -8,7 +8,12 @@
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="resume"></header>
-  <main id="main" class="page-shell inner-page resume-page"><p class="kicker">CURRICULUM VITAE</p><h1>简历</h1><p>中文和英文版本即将开放。目前尚未收到简历文件，因此这里不会展示未经确认的经历。</p><div class="resume-grid"><section><span>01 / 中文</span><h2>中文简历</h2><p>待上传 PDF 文件</p></section><section><span>02 / English</span><h2>English CV</h2><p>PDF coming soon</p></section></div><a class="resume-contact" href="mailto:xuchengspike@163.com?subject=索取简历">邮件联系索取简历 ↗</a></main>
-  <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script>
+  <main id="main" class="page-shell inner-page resume-page">
+    <p class="kicker">CURRICULUM VITAE</p><h1>简历</h1><p>选择语言查看简历，也可以打开 PDF 原文件。</p>
+    <div class="resume-switch" role="group" aria-label="选择简历语言"><button type="button" class="active" data-resume="zh" aria-pressed="true">中文简历</button><button type="button" data-resume="en" aria-pressed="false">English CV</button></div>
+    <div class="resume-viewer"><iframe id="resume-frame" src="assets/spike-hsu-resume-zh.pdf" title="中文简历 PDF"></iframe></div>
+    <a class="resume-open" id="resume-open" href="assets/spike-hsu-resume-zh.pdf" target="_blank" rel="noreferrer">在新窗口打开中文 PDF ↗</a>
+  </main>
+  <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script><script src="resume.js"></script>
 </body>
 </html>
