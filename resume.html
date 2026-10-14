@@ -9,10 +9,57 @@
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="resume"></header>
   <main id="main" class="page-shell inner-page resume-page">
-    <p class="kicker">CURRICULUM VITAE</p><h1>简历</h1><p>选择语言查看简历，也可以打开 PDF 原文件。</p>
-    <div class="resume-switch" role="group" aria-label="选择简历语言"><button type="button" class="active" data-resume="zh" aria-pressed="true">中文简历</button><button type="button" data-resume="en" aria-pressed="false">English CV</button></div>
-    <div class="resume-viewer"><iframe id="resume-frame" src="assets/spike-hsu-resume-zh.pdf" title="中文简历 PDF"></iframe></div>
-    <a class="resume-open" id="resume-open" href="assets/spike-hsu-resume-zh.pdf" target="_blank" rel="noreferrer">在新窗口打开中文 PDF ↗</a>
+    <p class="kicker">CURRICULUM VITAE / 简历</p>
+    <div class="resume-intro">
+      <div><h1 id="resume-page-title">在线简历。</h1><p id="resume-page-description">在线阅读中文或英文版本，按需下载 PDF。</p></div>
+      <a class="resume-download" data-resume-download href="assets/spike-hsu-resume-zh.pdf" download>下载中文 PDF <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="resume-switch" role="group" aria-label="选择简历语言">
+      <button type="button" class="active" data-resume="zh" aria-controls="resume-zh" aria-pressed="true">中文简历</button>
+      <button type="button" data-resume="en" aria-controls="resume-en" aria-pressed="false">English CV</button>
+    </div>
+    <article class="resume-document" id="resume-zh" data-resume-content="zh" lang="zh-CN">
+      <header class="resume-heading">
+        <h2>徐诚</h2><img class="resume-portrait" src="assets/resume-portrait.jpg" alt="中文简历中的证件照">
+      </header>
+      <section class="resume-section"><h3>基本信息</h3>
+        <div class="resume-facts"><p>籍贯：北京</p><p>出生日期：2005.04.20</p><p>Email：xuchengspike@163.com</p><p>电话：+86152-1097-0483</p><p>地址：海淀区 阜成路11号</p></div>
+        <div class="resume-education"><strong>教育背景：</strong><span>2023.09-2027.07</span><span>北京工商大学</span><span>化妆品技术与工程</span><span>大四在读</span></div>
+        <p>到岗时间：立即到岗</p>
+      </section>
+      <section class="resume-section"><h3>实习经历</h3>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>北京鹏泰宝尊电子商务有限公司 | 电商数据分析实习生</h4><time>2026.05-2026.07</time></div><ul><li><strong>竞品情报与价格监测体系：</strong>为应对核心电商渠道价格及补贴政策频繁变化，每日监测天猫、京东中苹果、华为、小米等品牌的产品价格、以旧换新及国补区域政策，形成竞品日报并同步手机业务线与市场部，为定价和促销节奏调整提供依据。</li><li><strong>全渠道流量与会员漏斗分析：</strong>为提升店铺流量及会员运营效率，使用千牛、抖音电商罗盘和快手小店跟踪流量、客服转化率及直播营业额占比，并按会员增长、粉丝留存、支付人数和支付金额拆解转化漏斗，评估大促券及 88VIP 券对营业额的拉动，输出 CRM 与营销优化建议。</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>作业帮教育科技（北京）有限公司 | 数据运营实习生</h4><time>2026.01-2026.04</time></div><ul><li><strong>短视频渠道的数据监测与增长优化：</strong>针对抖音、快手渠道客流波动问题，使用 MySQL 提取全链路流量与用户行为数据，结合 Excel 趋势分析和转化漏斗定位异常环节，协同运营团队调整投放策略，使抖音渠道转化率提升约 10%。</li><li><strong>与内部运营同事紧密对接，解决需求：</strong>对接内部运营团队，运用 5W2H 分析法深度解构业务痛点，将零散反馈转化为结构化的数据并交付产品团队；通过复盘客诉全链路数据，定位核心瓶颈并输出流程优化建议，使运营端处理问题的闭环时间缩短15%。</li></ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>北京朗知网络传媒科技股份有限公司 | AE实习生</h4><time>2025.07-2025.11</time></div><ul><li><strong>数据驱动产出活动策略及竞品分析：</strong>围绕苹果新品及双十一传播需求，采集产品信息、价格、销量和网络热度数据，形成竞品分析报告；持续监测新品舆情与话题趋势，为活动策略调整和突发舆情响应提供依据。</li><li><strong>Brief与KOL协同：</strong>负责产品 brief 数据完善与多维度信息收集。承接华为大中国区宣传需求，检索整理产品卖点、竞品对比等数据，辅助生成活动策略。</li></ul></div>
+      </section>
+      <section class="resume-section"><h3>项目经历</h3><div class="resume-entry"><div class="resume-entry-head"><h4>雀巢 CEO 商业挑战赛 | 项目发起人兼小组组长</h4><time>2025.03–2025.04</time></div><ul><li><strong>市场调研与机会识别：</strong>带领3人团队围绕徐福记品牌年轻化议题，通过公开网络资料、问卷星调研、线下大卖场观察及行业白皮书，分析糖果行业趋势、品牌线上渠道表现和 Z 世代就业焦虑，识别零食消费与青年求职场景的结合机会。</li><li><strong>整合营销方案设计：</strong>提出“产品营销＋雇主品牌共建”思路及“糖职星球”主题礼盒概念，设计3款差异化礼盒和面试邀请函互动载体，规划“预热—高潮—二次传播”的线上线下营销路径，并结合行业数据完成销量与成本测算。</li><li><strong>团队统筹与成果交付：</strong>统筹市场调研、产品设计、传播规划、财务测算和 PPT 制作等分工，定期组织进度复盘并把控交付节点；牵头完成中英文策划案、商业 PPT 与路演材料，形成兼顾产品销售、人才吸引和品牌年轻化的完整方案。</li></ul></div></section>
+      <section class="resume-section"><p><strong>技能：</strong>MySQL（多表连接、子查询、窗口函数）；Excel（数据透视表、INDEX+MATCH）；Tableau 可视化。</p><p><strong>证书与 AI：</strong>CDALevelI；能够使用 ChatGPT、Codex、Grok 辅助资料整理、数据处理和方案验证。</p><p><strong>自我评价：</strong>具有较强的数据分析与洞察能力，熟练运用 SQL 与 Excel 解决实际业务问题，善于将数据转化为可落地的优化策略；沟通表达能力突出；学习意愿强，适应能力快，始终以数据驱动业务增长为目标。</p></section>
+    </article>
+    <article class="resume-document" id="resume-en" data-resume-content="en" lang="en" hidden>
+      <header class="resume-heading">
+        <div><h2>Cheng Xu (Spike Hsu)</h2><p>Email: xuchengspike@163.com | Phone: +86152-1097-0483</p></div>
+      </header>
+      <section class="resume-section"><h3>EDUCATION</h3><div class="resume-education"><span>September 2023-Jun 2027</span><span>Beijing Technology and Business University</span><span>Cosmetic Technology and Engineering</span></div></section>
+      <section class="resume-section"><h3>INTERNSHIP EXPERIENCE</h3>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>Beijing Cheil Bhaza E-commerce Co., Ltd. <small>E-commerce Data Analyst</small></h4><time>May 2026–Jun 2026</time></div><ul>
+          <li><strong>Competitive Intelligence &amp; Price Monitoring:</strong> Monitored competitor pricing (Apple, Huawei, Xiaomi, etc.) across core e-commerce platforms (Tmall, JD.com). Tracked market fluctuations, trade-in programs, and regional subsidies (e.g., "JD Government Subsidy") to deliver daily intelligence reports to the Mobile Business Unit Head and Marketing Department, driving agile pricing and promotional strategies.</li>
+          <li><strong>Multi-Channel Traffic &amp; User Operations:</strong> Managed full-channel backends including Tmall Qianniu, Douyin (TikTok) Compass, and Kuaishou Shop. Monitored multi-dimensional traffic data daily, focused heavily on customer service conversion rates and live-streaming revenue shares, and generated comprehensive traffic performance evaluation reports.</li>
+          <li><strong>Funnel Analysis &amp; CRM Strategy:</strong> Applied funnel models to dissect Tmall flagship store user assets, conducting daily reviews of the member conversion path (growth, retention, active buyers, and GMV). Executed multi-dimensional drill-down analyses to quantitatively evaluate the ROI of campaign/88VIP exclusive coupons, delivering actionable CRM and marketing optimization recommendations to store managers and strategists.</li>
+        </ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>ZuoYeBang Education Technology (Beijing) Co., Ltd. <small>Data Operations Intern</small></h4><time>Jan 2026–Apr 2026</time></div><ul>
+          <li><strong>Short-Video Growth Optimization:</strong> Spearheaded data monitoring and growth optimization for short-video channels (Douyin, Kuaishou). Utilized MySQL to extract full-link traffic and user behavior data, and Excel for statistical tracking and trend analysis; pinpointed key variance factors via conversion funnel models, helping the team optimize ad spend and boost the Douyin channel conversion rate by ~10%.</li>
+          <li><strong>Cross-Functional Data Support &amp; Process Optimization:</strong> Partnered closely with internal operations to deconstruct business pain points using the 5W2H framework, translating unstructured feedback into structured data insights for the Product team. Analyzed end-to-end customer complaint data to identify bottlenecks, shortening the operational issue-resolution loop by 15%.</li>
+        </ul></div>
+        <div class="resume-entry"><div class="resume-entry-head"><h4>Beijing Longzhi Network Media Technology Co., Ltd. <small>AE Intern</small></h4><time>July 2025–Nov 2025</time></div><ul>
+          <li><strong>Data-Driven Strategy &amp; Competitive Analysis:</strong> Conducted extensive retrieval and synthesis of key metrics for Apple products, including pricing, sales volume, and online engagement, to deliver comprehensive competitive analysis reports that guided campaign strategies.</li>
+          <li><strong>Social Listening &amp; Crisis Response:</strong> Monitored real-time public sentiment and trending topics regarding new product launches; responded rapidly to emerging PR dynamics, providing crucial data support for Single's Day (Double 11) promotional strategies.</li>
+          <li><strong>Brief Optimization &amp; KOL Collaboration:</strong> Spearheaded the data enrichment and multi-dimensional information gathering for product briefs, ensuring accurate demand alignment while deeply engaging and coordinating with multiple KOLs.</li>
+        </ul></div>
+      </section>
+      <section class="resume-section"><h3>SKILLS &amp; INTERESTS</h3><p><strong>Tools:</strong> EXCEL, MySQL Data Analysis, Trello, tableau.</p><p><strong>Awards &amp; Skills:</strong> CDA LEVEL1 Certificate holder; Competent in using ChatGPT, Grok, Claude and other AI tools to assist data processing and insight generation</p><p><strong>Interests:</strong> Basketball, Fitness, Reading</p></section>
+    </article>
+    <div class="resume-endcap"><p>更习惯阅读文件？<span>Prefer a file?</span></p><a class="resume-download" data-resume-download href="assets/spike-hsu-resume-zh.pdf" download>下载中文 PDF <span aria-hidden="true">↓</span></a></div>
+    <p class="resume-source-note">网页内容根据原版简历整理；完整信息以下载的 PDF 为准。</p>
   </main>
   <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script><script src="resume.js"></script>
 </body>
