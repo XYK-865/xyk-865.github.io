@@ -39,3 +39,4 @@
 .resume-education{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:1.5rem;row-gap:.45rem;margin:1.25rem 0 .8rem;color:#343a35;line-height:1.9}
 .resume-education strong{min-width:5.5rem}
 @media(max-width:700px){.resume-education{display:grid;grid-template-columns:1fr 1fr;gap:.45rem 1rem}.resume-education strong{grid-column:1/-1}}
+#resume-zh .resume-section h3{font-size:1rem;letter-spacing:0;font-weight:700}
