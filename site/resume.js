@@ -8,6 +8,7 @@ function showResume(language,updateUrl=false){
   document.querySelector('#resume-page-title').textContent=selected.title;
   document.querySelector('#resume-page-description').textContent=selected.description;
   document.querySelectorAll('[data-resume-content]').forEach(content=>{content.hidden=content.dataset.resumeContent!==language});
+  document.querySelectorAll('[data-resume-quote]').forEach(quote=>{quote.hidden=quote.dataset.resumeQuote!==language});
   document.querySelectorAll('[data-resume]').forEach(button=>{const active=button.dataset.resume===language;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active))});
   if(updateUrl){const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url)}
 }
