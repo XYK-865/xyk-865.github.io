@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
-  <title>五岳旅行相册 · Spike Hsu</title>
-  <meta name="description" content="Spike Hsu 的五岳旅行相册：北岳恒山、东岳泰山、中岳嵩山、西岳华山、南岳衡山。">
+  <title>旅行 · Spike Hsu</title>
+  <meta name="description" content="Spike Hsu 的旅行相册，按年份与旅程收藏走过的地方。">
   <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,24 +15,31 @@
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header id="site-header" data-page="travel"></header>
-  <main id="main" class="page-shell inner-page travel-page">
-    <div class="page-intro travel-intro">
-      <p class="kicker">TRAVEL / 五岳</p>
-      <h1>走过五岳。</h1>
-      <p>从恒山到衡山，把沿途的山、路与相遇，留在这里。</p>
-    </div>
-    <nav class="travel-index" aria-label="五岳相册导航">
-      <a href="#hengshan-north">北岳恒山 <span>15</span></a>
-      <a href="#taishan">东岳泰山 <span>18</span></a>
-      <a href="#songshan">中岳嵩山 <span>16</span></a>
-      <a href="#huashan">西岳华山 <span>16</span></a>
-      <a href="#hengshan-south">南岳衡山 <span>13</span></a>
-    </nav>
-    <div id="travel-albums"></div>
+  <main id="main" class="page-shell travel-page">
+    <section class="travel-hero" aria-labelledby="travel-title">
+      <div class="travel-hero-copy">
+        <p class="kicker">TRAVEL / 五岳</p>
+        <h1 id="travel-title">走过五岳</h1>
+        <p>从恒山到衡山，把沿途的山、路与相遇，留在这里。</p>
+      </div>
+      <span class="travel-hero-date">2026.10.1 — 10.7</span>
+    </section>
+    <section class="travel-years" aria-labelledby="travel-years-title">
+      <div class="travel-years-heading">
+        <div><p class="kicker">BY YEAR / 旅行归档</p><h2 id="travel-years-title">按年份收藏</h2></div>
+        <p>每一年是一段旅程。点开年份，再走进其中的小相册。</p>
+      </div>
+      <a class="travel-year-card" href="travel-2026.html" aria-label="查看 2026 年五岳旅行合集，2026 年 10 月 1 日至 7 日">
+        <img src="assets/travel/taishan/03.jpg" alt="泰山日出，山顶与天空被晨光染红" loading="lazy">
+        <span class="travel-year-card-content"><small>2026 / 旅行合集</small><strong>五岳之行</strong><span>2026.10.1 — 10.7 · 5 个相册 · 78 张照片</span></span>
+        <span class="travel-year-card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </section>
   </main>
   <footer id="site-footer"></footer>
   <script src="posts.js"></script>
   <script src="app.js"></script>
+  <script src="travel.js"></script>
   <script src="travel.js"></script>
 </body>
 </html>
