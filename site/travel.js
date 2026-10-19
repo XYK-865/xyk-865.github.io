@@ -1,9 +1,9 @@
 const travelAlbums = [
-  { slug: 'hengshan-north', name: '北岳恒山', province: '山西', count: 16, omit: [11], cover: '02.jpg' },
-  { slug: 'taishan', name: '东岳泰山', province: '山东', count: 19, omit: [7], cover: '03.jpg' },
-  { slug: 'songshan', name: '中岳嵩山', province: '河南', count: 19, omit: [5, 7, 17], cover: '12.jpg' },
-  { slug: 'huashan', name: '西岳华山', province: '陕西', count: 17, omit: [8], cover: '04.jpg' },
-  { slug: 'hengshan-south', name: '南岳衡山', province: '湖南', count: 13, cover: '07.jpg' }
+  { slug: 'hengshan-north', name: '北岳恒山', province: '山西', day: '10.1', count: 16, omit: [11], cover: '02.jpg' },
+  { slug: 'taishan', name: '东岳泰山', province: '山东', day: '10.2', count: 19, omit: [7], cover: '03.jpg' },
+  { slug: 'songshan', name: '中岳嵩山', province: '河南', day: '10.4', count: 19, omit: [5, 7, 17], cover: '12.jpg' },
+  { slug: 'huashan', name: '西岳华山', province: '陕西', day: '10.5', count: 17, omit: [8], cover: '04.jpg' },
+  { slug: 'hengshan-south', name: '南岳衡山', province: '湖南', day: '10.7', count: 13, cover: '07.jpg' }
 ];
 
 const visibleCount = album => album.count - (album.omit?.length || 0);
@@ -29,7 +29,7 @@ if (cardRoot) {
     cover.loading = index < 2 ? 'eager' : 'lazy';
     const label = document.createElement('span');
     label.className = 'travel-album-card-content';
-    label.innerHTML = `<small>${String(index + 1).padStart(2, '0')} / ${album.province}</small><strong>${album.name}</strong><span>${visibleCount(album)} 张照片 · 查看相册 ↗</span>`;
+    label.innerHTML = `<small>${album.day} / ${album.province}</small><strong>${album.name}</strong><span>${visibleCount(album)} 张照片 · 查看相册 ↗</span>`;
     card.append(cover, label);
     cardRoot.append(card);
   }
