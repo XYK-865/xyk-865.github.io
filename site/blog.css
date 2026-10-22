@@ -1,0 +1,67 @@
+.blog-intro {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  min-height: 320px;
+  margin-bottom: 2rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+  color: #222522;
+}
+
+.blog-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0 1% 0 46%;
+  background: url("assets/blog-study-background.jpg") center / 100% auto no-repeat;
+  pointer-events: none;
+}
+
+.blog-intro > * {
+  position: relative;
+  max-width: 46%;
+}
+
+.blog-intro .kicker {
+  margin-bottom: 1.5rem;
+}
+
+.blog-intro h1 {
+  font-size: clamp(2.8rem, 5.4vw, 5rem);
+  line-height: 1.14;
+}
+
+.blog-intro p:last-child {
+  margin-top: 1.5rem;
+  color: #636963;
+  font-size: .95rem;
+}
+
+@media (max-width: 720px) {
+  .blog-intro {
+    min-height: 430px;
+    padding: 2rem 1.5rem 205px;
+    border-radius: 16px;
+  }
+
+  .blog-intro::before {
+    inset: auto 1.5rem 1rem;
+    height: 170px;
+    background-size: min(100%, 430px) auto;
+  }
+
+  .blog-intro > * {
+    max-width: 100%;
+  }
+
+  .blog-intro h1 {
+    font-size: clamp(2.7rem, 9vw, 3.5rem);
+  }
+
+  .blog-intro p:last-child {
+    max-width: 28em;
+    margin-top: 1.1rem;
+  }
+}
