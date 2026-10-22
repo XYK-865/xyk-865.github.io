@@ -8,18 +8,20 @@
   <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=about-left-up-36"><link rel="stylesheet" href="fitness.css?v=20261022">
+  <link rel="stylesheet" href="styles.css?v=about-left-up-36"><link rel="stylesheet" href="fitness.css?v=20261022-visual">
 </head>
-<body class="fitness-page">
+<body class="fitness-page fitness-home">
   <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="fitness"></header>
   <main id="main" class="page-shell fitness-main">
+    <section class="fitness-hero" aria-labelledby="fitness-title">
     <header class="fitness-intro">
-      <div><p class="kicker">FITNESS / PERSONAL PRACTICE</p><h1>健身与身体<span>一份持续更新的个人实践。</span></h1></div>
+      <div><p class="kicker">FITNESS / PERSONAL PRACTICE</p><h1 id="fitness-title">健身与身体<span>一份持续更新的个人实践。</span></h1></div>
       <p>从每一次训练出发，记录动作、想法、阅读和日常饮食。保留真实体验，也保留尚未找到答案的问题。</p>
     </header>
     <nav class="fitness-index" aria-label="健身内容分组">
       <a href="#practice"><small>01</small>训练实践</a><a href="#ideas"><small>02</small>观念与记录</a><a href="#references"><small>03</small>参考资料</a><a href="#nutrition"><small>04</small>饮食与食谱</a><a href="#supplements"><small>05</small>训练补剂</a>
     </nav>
+    </section>
     <section id="practice" class="fitness-group" aria-labelledby="practice-title">
       <div class="fitness-group-heading"><div><p class="kicker">01 / PRACTICE</p><h2 id="practice-title">训练实践</h2></div><p>动作选择、训练文章与实际训练记录。</p></div>
       <a class="fitness-feature" href="fitness-practice.html">
@@ -51,7 +53,7 @@
       <div class="fitness-group-heading"><div><p class="kicker">05 / SUPPLEMENTS</p><h2 id="supplements-title">训练补剂</h2></div><p>补剂记录、使用体验与参考来源。</p></div>
       <div class="fitness-supplement-note"><span class="fitness-status">待补充实际记录</span><h3>从自己的使用记录开始。</h3><p>后续会在这里整理补剂名称、使用时间、个人体验和参考来源。当前尚未添加具体条目。</p><div><span>补剂记录</span><span>使用体验</span><span>参考来源</span></div></div>
     </section>
-    <p class="fitness-personal-note">这里呈现的是我的个人训练与生活记录。训练实践会随实际情况持续调整。</p>
+    <figure class="fitness-wings"><img src="assets/fitness/jordan-wings.jpg" alt="乔丹之翼：黑白画面中，乔丹手持篮球、双臂展开" width="1920" height="435" loading="lazy"><figcaption>Just do it</figcaption></figure>
   </main>
   <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script>
 </body>
