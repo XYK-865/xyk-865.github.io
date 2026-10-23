@@ -1,5 +1,5 @@
 const posts=window.SPIKE_POSTS||[];
-const categories=[{id:'all',label:'全部'},{id:'books',label:'书籍'},{id:'films',label:'电影'},{id:'food',label:'饮食'},{id:'finance',label:'金融'},{id:'reflections',label:'感悟'}];
+const categories=[{id:'all',label:'全部'},{id:'books',label:'书籍'},{id:'films',label:'电影'},{id:'food',label:'饮食'},{id:'finance',label:'金融'},{id:'ai-computing',label:'AI&计算机'},{id:'reflections',label:'感悟'}];
 const categoryBar=document.querySelector('#blog-category-bar');
 const tagBar=document.querySelector('#tag-bar');
 const postList=document.querySelector('#post-list');
@@ -13,7 +13,7 @@ function render(){
   const scoped=activeCategory==='all'?posts:posts.filter(post=>post.category===activeCategory);
   const tags=['全部',...new Set(scoped.flatMap(post=>post.tags))];
   const visible=activeTag==='全部'?scoped:scoped.filter(post=>post.tags.includes(activeTag));
-  categoryBar.innerHTML=categories.map(item=>`<button class="blog-category-button ${item.id===activeCategory?'active':''}" type="button" data-category="${item.id}" aria-pressed="${item.id===activeCategory}">${item.label}</button>`).join('');
+  categoryBar.innerHTML=categories.map(item=>`<button class="blog-category-button ${item.id===activeCategory?'active':''}" type="button" data-category="${item.id}" aria-pressed="${item.id===activeCategory}">${escapeHtml(item.label)}</button>`).join('');
   tagBar.innerHTML=tags.map(tag=>`<button class="tag-button ${tag===activeTag?'active':''}" type="button" data-tag="${escapeHtml(tag)}" aria-pressed="${tag===activeTag}">${escapeHtml(tag)}</button>`).join('<span aria-hidden="true">·</span>');
   const published=visible.filter(post=>post.status==='published').length;
   const preparing=visible.length-published;
