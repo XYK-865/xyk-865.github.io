@@ -9,7 +9,7 @@ const pages=[
 ];
 const searchItems=[
   ...pages.map(page=>({title:page.label,description:`前往${page.label}页面`,href:page.href})),
-  ...(window.SPIKE_POSTS||[]).map(post=>({title:post.title,description:post.tags.join(' · '),href:'blog.html'}))
+  ...(window.SPIKE_POSTS||[]).map(post=>({title:post.title,description:post.tags.join(' · '),href:post.href||'blog.html'}))
 ];
 const current=document.querySelector('#site-header')?.dataset.page;
 const savedTheme=localStorage.getItem('spike-theme');
