@@ -24,8 +24,8 @@
   position: absolute;
   inset: 0 36% 0 0;
   z-index: 0;
-  background: url("assets/blog-cardioid.svg") center / contain no-repeat;
-  opacity: .32;
+  background: url("assets/blog-heart-parametric.svg") center / contain no-repeat;
+  opacity: .72;
   pointer-events: none;
 }
 
@@ -67,7 +67,7 @@
     inset: 0 0 185px;
     background-position: 65% center;
     background-size: min(110%, 430px) auto;
-    opacity: .21;
+    opacity: .7;
   }
 
   .blog-intro > * {
