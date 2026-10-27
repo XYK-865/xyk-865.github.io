@@ -6,7 +6,7 @@
   const assets = window.DeepSpaceTextures;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   let renderer = 'static-reference', running = false, ready = false;
-  let frameCount = 0, loaded = 0, request = 0, seconds = 0, last = 0;
+  let frameCount = 0, loaded = 0, fullLoaded = 0, request = 0, seconds = 0, last = 0;
   let initialized = false;
   let width = 1, height = 1, draw;
   const hero = canvas.closest('.console-hero');
@@ -22,6 +22,7 @@
     get ready() { return ready; },
     get frameCount() { return frameCount; },
     get layersLoaded() { return loaded; },
+    get fullResolutionLayers() { return fullLoaded; },
     get elapsed() { return seconds; }
   })});
   function visible() {
@@ -109,20 +110,38 @@
       gl.enableVertexAttribArray(position); gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
       const names = ['baseImage','flowImage','cloud0','cloud1','cloud2'];
       const keys = ['base','flow','layer0','layer1','layer2'];
-      const images = await Promise.all(keys.map(key => new Promise((resolve,reject) => {
-        const image = new Image(); image.onload = () => resolve(image); image.onerror = reject; image.src = assets[key];
-      })));
-      images.forEach((image,index) => {
-        gl.activeTexture(gl.TEXTURE0 + index); gl.bindTexture(gl.TEXTURE_2D, gl.createTexture());
+      const textures = keys.map((key,index) => {
+        const texture = gl.createTexture();
+        gl.activeTexture(gl.TEXTURE0 + index); gl.bindTexture(gl.TEXTURE_2D, texture);
         gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
         gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-        gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,image);
+        gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0,0]));
         gl.uniform1i(gl.getUniformLocation(program,names[index]),index);
-        loaded++;
+        return texture;
       });
+      const populated = new Set(), originals = new Set();
+      function useImage(image,index,original) {
+        if (gl.isContextLost()) return;
+        gl.activeTexture(gl.TEXTURE0 + index); gl.bindTexture(gl.TEXTURE_2D,textures[index]);
+        gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,image);
+        populated.add(index); loaded = populated.size;
+        if (original) { originals.add(index); fullLoaded = originals.size; }
+        if (ready && draw) draw(motion.matches ? 0 : seconds);
+      }
+      function image(source,priority='high',timeout=20000) {
+        return new Promise((resolve,reject) => {
+          const value = new Image(); value.fetchPriority = priority; value.decoding = 'async';
+          const timer = setTimeout(() => { value.onload = value.onerror = null; value.src = ''; reject(new Error('Texture load timed out')); },timeout);
+          value.onload = () => { clearTimeout(timer); resolve(value); };
+          value.onerror = () => { clearTimeout(timer); reject(new Error('Texture unavailable')); };
+          value.src = source;
+        });
+      }
+      const essential = await Promise.all([image(assets.base),image(assets.flow)]);
+      essential.forEach((value,index) => useImage(value,index,true));
       const clock = gl.getUniformLocation(program,'time');
       const crop = gl.getUniformLocation(program,'crop');
       const shift = gl.getUniformLocation(program,'shift');
@@ -138,6 +157,14 @@
       renderer = 'webgl-flow'; ready = true; resize();
       canvas.style.transition = 'opacity .8s ease'; canvas.style.opacity = '1';
       canvas.addEventListener('webglcontextlost', event => { event.preventDefault(); fallback(); });
+      // Start with small versions of the same clouds; one slow original must not
+      // hold the other layers or the whole animation behind Promise.all.
+      keys.slice(2).forEach((key,offset) => {
+        const index = offset + 2, preview = window.DeepSpacePreviewTextures?.[key];
+        const full = () => image(assets[key],'low',45000).then(value => useImage(value,index,true)).catch(() => {});
+        if (!preview) { full(); return; }
+        image(preview).then(value => { useImage(value,index,false); full(); }).catch(full);
+      });
     } catch { fallback(); }
   }
   new ResizeObserver(resize).observe(canvas);

@@ -1,4 +1,4 @@
-.projects-console .console-hero{min-height:440px;margin:22px 0 24px;padding:48px 42px;border-radius:18px;overflow:hidden;background:#151923 url('./deep-space-base.webp?v=cat-smooth-parity-20261027') center/cover no-repeat;isolation:isolate;box-shadow:inset 0 0 0 1px #ffffff18}
+.projects-console .console-hero{min-height:440px;margin:22px 0 24px;padding:48px 42px;border-radius:18px;overflow:hidden;background:#151923 url('./deep-space-base.webp?v=cat-smooth-parity-20261028') center/cover no-repeat;isolation:isolate;box-shadow:inset 0 0 0 1px #ffffff18}
 .projects-console .console-hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#10131eeb 0%,#12151ec2 30%,#1517224d 63%,#15172208 100%)}
 .projects-console .console-hero .cosmos-galaxy{inset:0;width:100%;height:100%;max-width:none;mask-image:none}
 .projects-console .console-hero-copy{z-index:2;max-width:660px}
