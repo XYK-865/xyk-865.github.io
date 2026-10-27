@@ -1,2 +1,110 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffffff"><title>项目 · Spike Hsu</title><link rel="icon" href="favicon.svg?v=2" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body><a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="projects"></header><main id="main" class="page-shell inner-page"><div class="page-intro"><p class="kicker">PROJECTS</p><h1>项目与作品</h1><p>把一个想法变成可以被看见、被使用的东西。</p></div><section class="work-list"><a class="work-row" href="https://space.bilibili.com/317779123" target="_blank" rel="noreferrer"><span>01</span><div><strong>Bilibili 影像频道</strong><small>视频 · 生活记录</small></div><em>访问主页</em><b>↗</b></a><a class="work-row" href="https://github.com/XYK-865" target="_blank" rel="noreferrer"><span>02</span><div><strong>GitHub 实验室</strong><small>代码 · 开源项目</small></div><em>持续更新</em><b>↗</b></a><a class="work-row" href="mailto:xuchengspike@163.com?subject=聊聊一个合作想法"><span>03</span><div><strong>下一件作品</strong><small>也许从一次对话开始</small></div><em>欢迎来信</em><b>→</b></a></section></main><footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>项目与作品 · Spike Hsu</title>
+  <meta name="description" content="把一个想法变成可以被看见、被使用的东西。Spike Hsu 的影像频道与代码实验室。">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/projects/projects.css">
+  <link rel="stylesheet" href="assets/projects/deep-space.css">
+</head>
+<body class="projects-console">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header id="site-header" data-page="projects"></header>
+  <main id="main" class="projects-stage">
+    <div class="console-shell">
+      <section class="console-hero" aria-labelledby="projects-title">
+        <canvas class="cosmos-galaxy" aria-hidden="true"></canvas>
+        <div class="console-hero-copy">
+          <p class="console-section-label">SELECTED DESTINATIONS</p>
+          <h1 id="projects-title">项目与作品<span aria-hidden="true">.</span></h1>
+          <p class="console-description">把一个想法变成可以被看见、被使用的东西。</p>
+        </div>
+        <p class="hero-coordinate" aria-hidden="true"><span class="coordinate-star">✦</span> THOUGHTS INTO THINGS.</p>
+      </section>
 
+      <section class="project-grid" aria-label="作品入口">
+        <a class="project-tile project-tile-video" href="https://space.bilibili.com/317779123" target="_blank" rel="noopener noreferrer" aria-label="访问 Bilibili 影像频道（新窗口）">
+          <div class="tile-heading"><span><b>01</b> IMAGE &amp; MOTION</span><span class="tile-platform">BILIBILI</span></div>
+          <div class="tile-art video-art" aria-hidden="true">
+            <svg viewBox="0 0 520 250" fill="none">
+              <defs>
+                <radialGradient id="video-glow"><stop stop-color="#bba4ed" stop-opacity=".32"/><stop offset="1" stop-color="#e2d9f5" stop-opacity="0"/></radialGradient>
+                <linearGradient id="video-frame" x1="145" y1="45" x2="370" y2="213"><stop stop-color="#baa2e8"/><stop offset=".52" stop-color="#9876d1"/><stop offset="1" stop-color="#c3b7df"/></linearGradient>
+                <linearGradient id="video-screen" x1="170" y1="45" x2="340" y2="207"><stop stop-color="#ffffff" stop-opacity=".94"/><stop offset="1" stop-color="#eee8fa" stop-opacity=".65"/></linearGradient>
+              </defs>
+              <ellipse cx="272" cy="132" rx="205" ry="125" fill="url(#video-glow)"/>
+              <ellipse cx="266" cy="190" rx="175" ry="26" stroke="#ad95d1" stroke-opacity=".2"/>
+              <ellipse cx="266" cy="190" rx="133" ry="18" stroke="#ad95d1" stroke-opacity=".24"/>
+              <g class="video-viewfinder">
+                <rect x="165" y="41" width="226" height="143" rx="22" transform="rotate(8 165 41)" fill="#f9f6ff" fill-opacity=".35" stroke="#b8a5d9" stroke-opacity=".45"/>
+                <rect x="133" y="60" width="238" height="146" rx="22" transform="rotate(-7 133 60)" fill="url(#video-screen)" stroke="url(#video-frame)" stroke-width="1.5"/>
+                <path d="m165 86 12-1m-12 0 1 12m166-33 12-1m0 0 1 12m-166 100-12 1m0 0-1-12m179-21 1 12m0 0-12 1" stroke="#a98dce" stroke-opacity=".7" stroke-linecap="round"/>
+                <circle cx="259" cy="121" r="39" fill="#ffffff" fill-opacity=".65" stroke="#b29bd9" stroke-opacity=".55"/>
+                <path d="m251 105 23 13-20 17z" fill="#9d7acb" fill-opacity=".88"/>
+                <path d="m190 42-13-16m121 4 11-18" stroke="#b599df" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <path d="M52 118h31M67.5 102.5v31M431 171h15M438.5 163.5v15" stroke="#b89ddc" stroke-opacity=".5"/>
+              <circle cx="416" cy="73" r="2" fill="#baa4db"/>
+              <path d="M113 223H416" stroke="#baa5d4" stroke-opacity=".18"/>
+            </svg>
+            <span class="art-caption">FRAME BY FRAME.</span>
+          </div>
+          <div class="tile-copy"><h2>Bilibili 影像频道</h2><p>视频 · 生活记录</p></div>
+          <div class="tile-bottom"><span>访问主页</span><span class="tile-arrow" aria-hidden="true">↗</span></div>
+        </a>
+
+        <a class="project-tile project-tile-code" href="https://github.com/XYK-865" target="_blank" rel="noopener noreferrer" aria-label="访问 GitHub 实验室（新窗口）">
+          <div class="tile-heading"><span><b>02</b> CODE &amp; EXPERIMENTS</span><span class="tile-platform">GITHUB</span></div>
+          <div class="tile-art code-art" aria-hidden="true">
+            <svg viewBox="0 0 520 250" fill="none">
+              <defs>
+                <radialGradient id="code-glow"><stop stop-color="#a6d8d4" stop-opacity=".33"/><stop offset="1" stop-color="#e0f0ec" stop-opacity="0"/></radialGradient>
+                <linearGradient id="code-line" x1="145" y1="38" x2="383" y2="224"><stop stop-color="#8dc4c1"/><stop offset=".5" stop-color="#68a6a6"/><stop offset="1" stop-color="#a8c6cf"/></linearGradient>
+                <linearGradient id="code-plane" x1="170" y1="45" x2="355" y2="190"><stop stop-color="#ffffff" stop-opacity=".83"/><stop offset="1" stop-color="#e4f3f0" stop-opacity=".66"/></linearGradient>
+              </defs>
+              <ellipse cx="260" cy="128" rx="194" ry="125" fill="url(#code-glow)"/>
+              <g class="code-orbit">
+                <ellipse cx="260" cy="130" rx="176" ry="61" transform="rotate(-19 260 130)" stroke="#8bbab8" stroke-opacity=".34"/>
+                <circle cx="421" cy="71" r="3" fill="#87bbb4"/>
+                <circle cx="100" cy="189" r="2" fill="#a3bbc8"/>
+              </g>
+              <path d="m154 88 106-56 106 56v103l-106 40-106-40z" stroke="#83adaf" stroke-opacity=".2"/>
+              <path d="m154 88 106 45 106-45m-106 45v98" stroke="#83adaf" stroke-opacity=".18"/>
+              <g class="code-monolith">
+                <path d="m149 75 113-35 110 40-16 100-113 36-110-40z" fill="url(#code-plane)" stroke="url(#code-line)" stroke-width="1.2"/>
+                <path d="m149 75 110 40 113-35M259 115l-16 101" stroke="#8ab8b3" stroke-opacity=".65"/>
+                <path d="m149 75-16 101 110 40M133 176l113-36 110 40m-110-40 16-100" stroke="#8ab8b3" stroke-opacity=".28"/>
+                <path d="m219 94-21 13 16 20m73-36 19 19-23 14m-20-40-18 53" stroke="#639e9d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="149" cy="75" r="3" fill="#80b8ac"/><circle cx="356" cy="180" r="3" fill="#83b3b2"/>
+              </g>
+              <path d="M79 61h18M88 52v18M415 200h25M427.5 187.5v25" stroke="#91bcbe" stroke-opacity=".55"/>
+              <path d="M113 223H416" stroke="#a1c7c3" stroke-opacity=".3"/>
+            </svg>
+            <span class="art-caption">BUILD. BREAK. REPEAT.</span>
+          </div>
+          <div class="tile-copy"><h2>GitHub 实验室</h2><p>代码 · 开源项目</p></div>
+          <div class="tile-bottom"><span>持续更新</span><span class="tile-arrow" aria-hidden="true">↗</span></div>
+        </a>
+      </section>
+
+      <a class="next-work" href="mailto:xuchengspike@163.com?subject=聊聊一个合作想法">
+        <span class="next-work-symbol" aria-hidden="true">＋</span>
+        <span class="next-work-copy"><strong>下一件作品</strong><span>也许从一次对话开始</span></span>
+        <span class="next-work-action">欢迎来信 <span aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="posts.js"></script>
+  <script src="app.js"></script>
+  <script src="assets/projects/deep-space-textures.js"></script>
+  <script src="assets/projects/deep-space-scene.js"></script>
+</body>
+</html>

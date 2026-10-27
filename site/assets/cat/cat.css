@@ -1,0 +1,5 @@
+/* Adapted from oneko.js by adryd (MIT). See LICENSE-oneko.txt. */
+#spike-cat{position:fixed;left:0;top:0;width:32px;height:32px;pointer-events:none;image-rendering:pixelated;z-index:45;will-change:transform;background-repeat:no-repeat}
+#spike-cat-toggle{border:1px solid var(--line,#d9d9dc);border-radius:20px;padding:6px 12px;background:transparent;color:inherit;font:inherit;cursor:pointer;white-space:nowrap}
+#spike-cat-toggle:focus-visible{outline:2px solid var(--accent,#b900b8);outline-offset:4px}
+#spike-cat[hidden],#spike-cat-toggle[hidden]{display:none}

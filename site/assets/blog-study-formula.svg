@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -60 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">life = integral from birth to death of study dt</title>
+  <desc id="desc">与原图相同的公式：life 等于从 birth 到 death 的 study 对时间的积分。</desc>
+  <g fill="#111" font-family="Times New Roman, Times, serif" font-style="italic">
+    <text x="26" y="253" font-size="143">life</text>
+    <text x="290" y="250" font-size="126" font-style="normal">=</text>
+    <text x="427" y="291" font-size="258" font-family="Cambria Math, STIX Two Math, Times New Roman, serif" font-style="normal">∫</text>
+    <text x="505" y="38" font-size="78">death</text>
+    <text x="433" y="438" font-size="78">birth</text>
+    <text x="673" y="253" font-size="134">study</text>
+    <text x="1037" y="253" font-size="129">dt</text>
+  </g>
+</svg>
