@@ -33,7 +33,9 @@
       this.canvas = canvas;
       this.context = canvas.getContext('2d', {alpha: false});
       this.emblemUrl = emblemUrl;
-      this._sampled = false;
+      const samples = window.SpikeSiteIntroSamples;
+      this._samples = Array.isArray(samples) && samples.length === 41 * 41 ? samples : null;
+      this._sampled = !!this._samples;
       this._destroyed = false;
       this._ready = null;
       this.glow = this.context ? glowTexture() : null;
@@ -58,7 +60,12 @@
           const x = (col + .5) * 240 / grid;
           const y = (row + .5) * 240 / grid;
           let colour;
-          if (pixels) {
+          // Precompute these same SVG pixel colours once, so slow image decoding
+          // and file-origin canvas restrictions cannot change the opening picture.
+          if (this._samples) {
+            colour = this._samples[row * grid + col];
+            if (colour === null) continue;
+          } else if (pixels) {
             const offset = (Math.floor(y) * 240 + Math.floor(x)) * 4;
             if (pixels[offset + 3] < 150 || Math.max(pixels[offset], pixels[offset + 1], pixels[offset + 2]) < 65) continue;
             colour = `${pixels[offset]},${pixels[offset + 1]},${pixels[offset + 2]}`;
@@ -85,6 +92,7 @@
 
     ready() {
       if (this._ready) return this._ready;
+      if (this._samples) { this._ready = Promise.resolve(this); return this._ready; }
       this._ready = new Promise((resolve) => {
         if (!this.context || !this.emblemUrl) { resolve(this); return; }
         const img = new Image();

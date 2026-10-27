@@ -1,7 +1,9 @@
 (() => {
   'use strict';
   if (window.SpikeCatLoader) return;
-  const root = new URL('./', document.currentScript.src);
+  const source = new URL(document.currentScript.src);
+  const version = source.searchParams.get('v');
+  const asset = name => { const url = new URL(name,source); if (version) url.searchParams.set('v',version); return url.href; };
   const pointer = matchMedia('(hover: hover) and (pointer: fine)');
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   let state = 'idle', pending = 0;
@@ -20,10 +22,10 @@
     if (!canLoad() || document.body.classList.contains('video-intro-open') || window.SpikeCat || state !== 'idle') return;
     state = 'loading';
     const css = document.createElement('link');
-    css.id = 'spike-cat-style'; css.rel = 'stylesheet'; css.href = new URL('cat.css', root).href;
+    css.id = 'spike-cat-style'; css.rel = 'stylesheet'; css.href = asset('cat.css');
     css.onload = () => {
       const script = document.createElement('script');
-      script.id = 'spike-cat-script'; script.src = new URL('cat.js', root).href;
+      script.id = 'spike-cat-script'; script.src = asset('cat.js');
       script.onload = () => { state = 'ready'; };
       script.onerror = () => { state = 'unavailable'; };
       document.head.append(script);

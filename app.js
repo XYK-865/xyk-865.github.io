@@ -1,10 +1,30 @@
 (() => {
-  const loader=document.createElement('script');
-  loader.src=new URL('assets/intro/site-intro-loader.js',document.currentScript.src).href;
-  loader.dataset.siteIntroLoader='';
-  document.head.append(loader);
+  const source=new URL(document.currentScript.src);
+  const version=source.searchParams.get('v')||'cat-smooth-parity-20261027';
+  const asset=path=>{const url=new URL(path,source);url.searchParams.set('v',version);return url.href;};
+  document.documentElement.dataset.siteRelease=version;
+  const versionLinks=node=>{
+    const links=[...(node.matches?.('a[href]')?[node]:[]),...node.querySelectorAll('a[href]')];
+    for(const link of links){
+      const href=link.getAttribute('href');
+      if(!href||href.startsWith('#'))continue;
+      const url=new URL(href,document.baseURI);
+      if(url.origin!==location.origin||!url.pathname.endsWith('.html'))continue;
+      url.searchParams.set('v',version);link.setAttribute('href',url.href);
+    }
+  };
+  versionLinks(document);
+  new MutationObserver(records=>{
+    for(const record of records)for(const node of record.addedNodes)if(node.nodeType===1)versionLinks(node);
+  }).observe(document.body,{childList:true,subtree:true});
+  if(!document.querySelector('script[data-site-intro-loader]')){
+    const loader=document.createElement('script');
+    loader.src=asset('assets/intro/site-intro-loader.js');
+    loader.dataset.siteIntroLoader='';
+    document.head.append(loader);
+  }
   const catLoader=document.createElement('script');
-  catLoader.src=new URL('assets/cat/cat-loader.js',document.currentScript.src).href;
+  catLoader.src=asset('assets/cat/cat-loader.js');
   catLoader.dataset.siteCatLoader='';
   document.head.append(catLoader);
 })();
@@ -28,8 +48,11 @@ if(header){
   header.className='topbar';
   header.innerHTML=`<div class="nav-wrap page-shell"><a class="brand" href="index.html" aria-label="Spike Hsu 首页"><span class="brand-mark">♉</span><strong>Spike</strong><span>Hsu</span></a><nav class="main-nav" id="main-nav" aria-label="主导航">${pages.map(page=>`<a href="${page.href}" class="${current===page.id?'active':''}">${page.label}</a>`).join('')}</nav><div class="nav-actions"><button class="search-label search-open" type="button" aria-label="搜索文章（Ctrl+K）">Ctrl K</button><button class="icon-button search-open" type="button" aria-label="打开搜索">⌕</button><button class="icon-button theme-toggle" type="button" aria-label="切换明暗模式">◐</button><button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button></div></div>`;
 }
-document.querySelector('#site-footer').className='site-footer';
-document.querySelector('#site-footer').innerHTML=`<p>© ${new Date().getFullYear()} Spike Hsu</p><p>写作 · 训练 · 旅行 · 生活</p>`;
+const siteFooter=document.querySelector('#site-footer');
+const introControls=[...siteFooter.querySelectorAll('[data-site-intro-replay],.personal-intro-notice')];
+siteFooter.className='site-footer';
+siteFooter.innerHTML=`<p>© ${new Date().getFullYear()} Spike Hsu</p><p>写作 · 训练 · 旅行 · 生活</p>`;
+siteFooter.append(...introControls);
 
 const menu=document.querySelector('.menu-button');
 const nav=document.querySelector('.main-nav');
