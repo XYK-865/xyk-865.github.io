@@ -1,11 +1,13 @@
 (() => {
   'use strict';
   if (window.SpikeSiteIntro) return;
-  const assets = new URL('./', document.currentScript.src);
+  const source = new URL(document.currentScript.src);
+  const version = source.searchParams.get('v');
+  const asset = name => { const url = new URL(name,source); if (version) url.searchParams.set('v',version); return url.href; };
   const rawEmblem = window.SpikeSiteIntroEmblem;
-  if (typeof rawEmblem !== 'string') return;
+  if (typeof rawEmblem !== 'string') { window.SpikeIntroGate?.release(); return; }
   const parsedEmblem = new DOMParser().parseFromString(rawEmblem, 'image/svg+xml').documentElement;
-  if (parsedEmblem.localName !== 'svg') return;
+  if (parsedEmblem.localName !== 'svg') { window.SpikeIntroGate?.release(); return; }
   const entry = document.querySelector('#main') || document.body;
   if (!entry.hasAttribute('tabindex')) entry.setAttribute('tabindex', '-1');
   const footer = document.querySelector('#site-footer') || document.body;
@@ -45,7 +47,7 @@
   const signature = dialog.querySelector('.personal-intro-signature');
   const skip = dialog.querySelector('.personal-intro-skip');
   const audio = dialog.querySelector('audio');
-  audio.src = new URL('intro-reference.wav', assets).href;
+  audio.src = asset('intro-reference.wav');
   const soundButton = dialog.querySelector('.personal-intro-sound');
   const soundHint = dialog.querySelector('.personal-intro-sound-hint');
   const notice = document.createElement('p');
@@ -117,6 +119,7 @@
     request = 0;
   }
   function release() {
+    window.SpikeIntroGate?.release();
     ++run;
     stop();
     stopSound();
@@ -169,6 +172,8 @@
     ++frameCount;
   }
   function staticCard(message) {
+    window.SpikeIntroGate?.release();
+    skip.focus({preventScroll:true});
     stopSound();
     soundButton.hidden = true;
     soundHint.hidden = true;
@@ -188,6 +193,7 @@
     seen = true;
     try { sessionStorage.setItem(sessionKey, '1'); } catch { /* Storage is optional. */ }
     if (typeof dialog.showModal !== 'function') {
+      window.SpikeIntroGate?.release();
       showNotice('浏览器暂不支持开屏，当前页面可正常浏览。');
       return false;
     }
@@ -207,6 +213,7 @@
     visual.style.opacity = signature.style.opacity = skip.style.opacity = '1';
     dialog.classList.remove('is-skipping');
     try { dialog.showModal(); } catch {
+      window.SpikeIntroGate?.release();
       state = 'idle';
       showNotice('开屏暂时无法打开，当前页面可正常浏览。');
       return false;
@@ -251,6 +258,8 @@
         request = requestAnimationFrame(frame);
       };
       render(0);
+      window.SpikeIntroGate?.release();
+      skip.focus({preventScroll:true});
       startSound(0);
       request = requestAnimationFrame(frame);
       return true;
@@ -294,6 +303,9 @@
   window.SpikePersonalIntro = api;
   window.SpikeSiteIntro = api;
   if (!seen && !reducedMotion.matches) play();
-  else if (reducedMotion.matches) showNotice('已按“减少动态效果”设置跳过开屏。点击重播可查看静态个人标识。');
+  else {
+    window.SpikeIntroGate?.release();
+    if (reducedMotion.matches) showNotice('已按“减少动态效果”设置跳过开屏。点击重播可查看静态个人标识。');
+  }
 })();
 
