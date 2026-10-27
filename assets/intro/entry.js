@@ -3,7 +3,7 @@
   if (window.SpikeIntroGate) return;
   const root = document.documentElement;
   const script = new URL(document.currentScript.src);
-  const version = script.searchParams.get('v') || 'cat-smooth-parity-20261027';
+  const version = script.searchParams.get('v') || 'cat-smooth-parity-20261028';
   root.dataset.siteRelease = version;
   let timeout;
   const release = () => { clearTimeout(timeout); root.classList.remove('site-intro-pending'); };

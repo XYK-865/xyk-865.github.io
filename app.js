@@ -1,6 +1,6 @@
 (() => {
   const source=new URL(document.currentScript.src);
-  const version=source.searchParams.get('v')||'cat-smooth-parity-20261027';
+  const version=source.searchParams.get('v')||'cat-smooth-parity-20261028';
   const asset=path=>{const url=new URL(path,source);url.searchParams.set('v',version);return url.href;};
   document.documentElement.dataset.siteRelease=version;
   const versionLinks=node=>{

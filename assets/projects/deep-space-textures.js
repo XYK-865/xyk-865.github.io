@@ -14,4 +14,9 @@
     layer1: asset('deep-space-layer1.webp'),
     layer2: asset('deep-space-layer2.webp')
   });
+  window.DeepSpacePreviewTextures = Object.freeze({
+    layer0: asset('deep-space-layer0-preview.webp'),
+    layer1: asset('deep-space-layer1-preview.webp'),
+    layer2: asset('deep-space-layer2-preview.webp')
+  });
 })();
