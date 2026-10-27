@@ -1,3 +1,14 @@
+(() => {
+  const loader=document.createElement('script');
+  loader.src=new URL('assets/intro/site-intro-loader.js',document.currentScript.src).href;
+  loader.dataset.siteIntroLoader='';
+  document.head.append(loader);
+  const catLoader=document.createElement('script');
+  catLoader.src=new URL('assets/cat/cat-loader.js',document.currentScript.src).href;
+  catLoader.dataset.siteCatLoader='';
+  document.head.append(catLoader);
+})();
+
 const pages=[
   {id:'about',label:'关于',href:'index.html'},
   {id:'resume',label:'简历',href:'resume.html'},
