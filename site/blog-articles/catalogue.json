@@ -1,0 +1,2977 @@
+[
+  {
+    "id": "product-thinking",
+    "title": "产品思维分享与应用",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "product",
+    "href": "blog-articles/product-thinking.html",
+    "summary": "从科学方法、价值、获取与持续行动，梳理产品思维如何应用于工作和生活。",
+    "tags": [
+      "产品思维",
+      "价值创造",
+      "学习方法"
+    ],
+    "sourceDate": "2026-02-28",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "product-thinking-original.html",
+        "stats": {
+          "removedFurniture": 2,
+          "headings": 10,
+          "textChars": 2498
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "product-thinking-original-heading-1",
+        "text": "产品思维，究竟是什么？",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-2",
+        "text": "核心要素、结构与目标",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-3",
+        "text": "产品思维需要哪些能力",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-4",
+        "text": "如何理解\"思维方式\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-5",
+        "text": "如何理解\"价值\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-6",
+        "text": "如何理解\"最大化\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-7",
+        "text": "如何理解\"获取\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-8",
+        "text": "如何理解\"持续\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-9",
+        "text": "如何理解\"科学方法\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-thinking-original-heading-10",
+        "text": "五年后的自己",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "product-design-methods",
+    "title": "「产品设计」的方法与实践",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "product",
+    "href": "blog-articles/product-design-methods.html",
+    "summary": "产品经理的角色、工作环节和六种设计方法：生命周期、场景、KANO、用户体验、项目管理与复盘。",
+    "tags": [
+      "产品设计",
+      "KANO",
+      "用户体验"
+    ],
+    "sourceDate": "2026-02-28",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "product-design-guide.html",
+        "stats": {
+          "removedFurniture": 20,
+          "headings": 42,
+          "textChars": 3871
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "product-design-methods-original-heading-1",
+        "text": "「产品设计」的方法与实践",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-2",
+        "text": "产品经理，究竟是谁？",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-3",
+        "text": "消费品时代",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-4",
+        "text": "软件时代",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-5",
+        "text": "互联网时代",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-6",
+        "text": "产品设计，每天做什么？",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-7",
+        "text": "六大常用方法与实践",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-8",
+        "text": "产品生命周期",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-9",
+        "text": "① 导入期",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-10",
+        "text": "② 成长期",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-11",
+        "text": "③ 成熟期",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-12",
+        "text": "④ 衰退期",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-13",
+        "text": "场景七要素",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-14",
+        "text": "用户",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-15",
+        "text": "环境",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-16",
+        "text": "时机",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-17",
+        "text": "目标",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-18",
+        "text": "动作",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-19",
+        "text": "界面",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-20",
+        "text": "任务",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-21",
+        "text": "KANO 模型",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-22",
+        "text": "没有就崩 · 有了也没人夸",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-23",
+        "text": "做得越好，用户越满意",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-24",
+        "text": "意外惊喜，口碑爆发点",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-25",
+        "text": "做了也无所谓，不做也无所谓",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-26",
+        "text": "做了用户反而不满意",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-27",
+        "text": "用户体验五要素",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-28",
+        "text": "项目生命周期",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-29",
+        "text": "KISS 复盘模型",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-30",
+        "text": "Keep · 保持",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-31",
+        "text": "Improve · 改进",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-32",
+        "text": "Start · 开始",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-33",
+        "text": "Stop · 停止",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-34",
+        "text": "如何让方法越来越好用？",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-35",
+        "text": "1. 结构化思考",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-36",
+        "text": "2. 结构化输出",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-37",
+        "text": "3. 刻意练习",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-38",
+        "text": "Goal · 目标",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-39",
+        "text": "Reality · 现状",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-40",
+        "text": "Options · 方案",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-41",
+        "text": "Will · 行动",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-methods-original-heading-42",
+        "text": "📌 核心要点回顾",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "product-design-framework",
+    "title": "产品设计与实践：系统知识框架",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "product",
+    "href": "blog-articles/product-design-framework.html",
+    "summary": "从产品本质到用户研究、KANO、用户体验五要素与双钻模型，整理方法体系、对比表和练习计划。",
+    "tags": [
+      "知识框架",
+      "双钻模型",
+      "需求分析"
+    ],
+    "sourceDate": "2026-02-26",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "产品设计与实践.md",
+        "stats": {
+          "tables": 10,
+          "headings": 57,
+          "textChars": 6624
+        }
+      }
+    ],
+    "aliases": [
+      "「产品设计」的方法与实践.html",
+      "product_design_framework.md"
+    ],
+    "headings": [
+      {
+        "id": "product-design-framework-original-heading-1",
+        "text": "产品设计与实践 · 系统知识重构（完整版）",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-2",
+        "text": "1. 一句话课程核心主题",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-3",
+        "text": "2. 三大核心脉络 / 知识主干",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-4",
+        "text": "3. 详细知识框架（思维导图式层级结构）",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-5",
+        "text": "一、什么是产品经理？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-6",
+        "text": "1.1 产品的本质",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-7",
+        "text": "1.2 产品经理的核心定位",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-8",
+        "text": "1.3 产品经理的历史演变",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-9",
+        "text": "1.4 产品设计的本质闭环",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-10",
+        "text": "二、产品设计工作有哪些？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-11",
+        "text": "2.1 产品设计工作全局图（抽象→具体）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-12",
+        "text": "2.2 产品经理四大工作板块",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-13",
+        "text": "三、用户研究方法体系",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-14",
+        "text": "3.1 产品生命周期与研究方法匹配",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-15",
+        "text": "3.2 信息架构图",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-16",
+        "text": "3.3 动线管理",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-17",
+        "text": "3.4 信息密度管理",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-18",
+        "text": "四、KANO 模型（完整讲解）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-19",
+        "text": "4.1 KANO 五种需求类型定义",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-20",
+        "text": "4.2 KANO 问卷设计（正反双向提问）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-21",
+        "text": "4.3 Better/Worse 系数（优先级量化工具）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-22",
+        "text": "4.4 实战应用流程",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-23",
+        "text": "五、用户体验五要素",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-24",
+        "text": "5.1 五层架构（由下至上）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-25",
+        "text": "5.2 核心原则",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-26",
+        "text": "六、点-线-面-体结构化设计",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-27",
+        "text": "6.1 四个层级定义",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-28",
+        "text": "6.2 设计思路",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-29",
+        "text": "七、用户行为分析框架",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-30",
+        "text": "7.1 亲和图法（Affinity Diagram）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-31",
+        "text": "7.2 用户旅程地图",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-32",
+        "text": "八、双钻模型（Double Diamond）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-33",
+        "text": "8.1 四阶段流程",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-34",
+        "text": "8.2 常见误区",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-35",
+        "text": "九、重要工具与模型汇总",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-36",
+        "text": "9.1 GROW 模型（目标对话/辅导框架）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-37",
+        "text": "9.2 SMART 原则（目标制定）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-38",
+        "text": "9.3 结构化表达工具",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-39",
+        "text": "9.4 SWOT 分析",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-40",
+        "text": "9.5 Jobs to be Done（JTBD）",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-41",
+        "text": "十、学习与实践闭环",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-42",
+        "text": "10.1 个人能力建构四层模型",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-43",
+        "text": "10.2 成长飞轮",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-44",
+        "text": "10.3 结构化方法论总结",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-45",
+        "text": "4. 高频考点 & 易混淆对比表",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-46",
+        "text": "对比1：KANO五种需求类型",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-47",
+        "text": "对比2：Better vs Worse 系数",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-48",
+        "text": "对比3：双钻第一颗 vs 第二颗",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-49",
+        "text": "对比4：用户体验五要素 vs 点线面体",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-50",
+        "text": "对比5：GROW 模型 vs SMART 原则",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-51",
+        "text": "5. 高效记忆 & 行动建议",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-52",
+        "text": "🔑 三个最值得内化的金句/口诀",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-53",
+        "text": "📅 7天学习拆解计划",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-54",
+        "text": "🎯 面试官最可能问的3个问题 + 深度答法",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-55",
+        "text": "问题1：你如何判断一个需求值不值得做？",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-56",
+        "text": "问题2：请介绍一次你做的产品设计/优化，遇到什么挑战，如何解决的？",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "product-design-framework-original-heading-57",
+        "text": "问题3：你如何理解用户体验？如何衡量产品的用户体验好坏？",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "inflation-deflation",
+    "title": "通货膨胀与通货紧缩：从概念到资产负债表",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "finance",
+    "href": "blog-articles/inflation-deflation.html",
+    "summary": "以一连串问题拆解物价、债务、购买力与资产负债表的关系，保留原有问答和例子。",
+    "tags": [
+      "通胀",
+      "通缩",
+      "资产负债表"
+    ],
+    "sourceDate": "2026-02-10",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "通货膨胀与通货紧缩全面解析.md",
+        "stats": {
+          "tables": 3,
+          "headings": 85,
+          "textChars": 15705
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "inflation-deflation-original-heading-1",
+        "text": "通货膨胀与通货紧缩全面解析",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-2",
+        "text": "A、通胀和通缩是什么意思,钱在其中有什么变化?为什么通胀下挣钱,通缩里花钱",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-3",
+        "text": "一、通胀和通缩是什么意思?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-4",
+        "text": "二、钱在其中有什么变化?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-5",
+        "text": "三、为什么说\"通胀下挣钱,通缩里花钱\"?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-6",
+        "text": "1. 通胀下为什么应该\"挣钱\"(更准确地说是\"借钱投资/购买资产\"或\"将现金转化为资产\")?",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-7",
+        "text": "2. 通缩下为什么应该\"花钱\"(更准确地说是\"持有现金\"或\"谨慎消费/投资\")?",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-8",
+        "text": "一个简单的比喻:苹果和篮子",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-9",
+        "text": "重要提醒",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-10",
+        "text": "总结一下:",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-11",
+        "text": "B、通胀和通缩的本质其实就是物质的价值随周期变化的上调或下降吗?",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-12",
+        "text": "核心区别:什么在变?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-13",
+        "text": "理解本质的三个层面",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-14",
+        "text": "一个比喻:音乐会门票和荧光棒",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-15",
+        "text": "结论",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-16",
+        "text": "C、债务人的钱变\"便宜\"了:比如你去年贷款100万买房,每月还5000元。随着通胀和收入上涨,这5000元的还款压力会越来越小。所以通胀有利于债务人。为什么债务人的钱变\"便宜\"了,随着通胀和收入上涨,为什么这5000元的还款压力会越来越小,为什么通胀有利于债务人。",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-17",
+        "text": "核心答案:因为债务是\"刚性\"的,而通胀会\"侵蚀\"货币的实际购买力,并通常伴随名义收入的上涨。债务人是用\"未来更不值钱的钱\"来偿还\"过去借来的更值钱的钱\"。",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-18",
+        "text": "第一步:理解\"钱的两种价值\"",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-19",
+        "text": "第二步:情景模拟",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-20",
+        "text": "第三步:关键对比与分析",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-21",
+        "text": "为什么说\"通胀有利于债务人\"?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-22",
+        "text": "用一个终极比喻:",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-23",
+        "text": "重要补充与提醒",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-24",
+        "text": "谁是最典型的受益者?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-25",
+        "text": "总结一下:",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-26",
+        "text": "D、通胀是什么原因造成的",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-27",
+        "text": "1. 需求拉动型通胀",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-28",
+        "text": "2. 成本推动型通胀",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-29",
+        "text": "3. 货币驱动型通胀",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-30",
+        "text": "重要补充:通胀的\"预期\"与\"螺旋\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-31",
+        "text": "现实世界中的通胀通常是混合型的",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-32",
+        "text": "总结:",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-33",
+        "text": "E、为什么通缩比通胀更危险",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-34",
+        "text": "一、致命的\"通货紧缩螺旋\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-35",
+        "text": "二、对债务的毁灭性打击:债务通缩",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-36",
+        "text": "三、对生产与就业的持续伤害",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-37",
+        "text": "四、货币政策陷入\"流动性陷阱\",几乎失效",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-38",
+        "text": "五、预期固化,难以扭转",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-39",
+        "text": "现实世界的例证:日本\"失去的三十年\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-40",
+        "text": "总结对比一下:",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-41",
+        "text": "F、如果我一开始就很有钱,那通缩不就很爽?",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-42",
+        "text": "一、真正的\"有钱人\",财富不是以现金形式存在的",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-43",
+        "text": "二、为什么即使有钱,通缩也会让你\"不爽\"甚至\"很惨\"?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-44",
+        "text": "1. 你的资产价值会严重缩水",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-45",
+        "text": "2. 你的收入来源会枯竭",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-46",
+        "text": "3. 你身处的经济系统正在崩溃",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-47",
+        "text": "4. 债务危机可能波及你",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-48",
+        "text": "三、一个简单的比喻:你是豪华游轮上的头等舱乘客",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-49",
+        "text": "结论",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-50",
+        "text": "G、但是我持有大量现金,那我消费不就很爽?",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-51",
+        "text": "一、你\"爽\"的前提是什么?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-52",
+        "text": "二、现实通缩下的\"消费\"是怎样的?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-53",
+        "text": "1. 你能买到的东西在急剧\"劣化\"和\"减少\"",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-54",
+        "text": "2. 消费本身会带来\"负罪感\"和\"风险\"",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-55",
+        "text": "3. 你想消费的\"对象\"可能不存在了",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-56",
+        "text": "三、一个更贴切的比喻:你是剧院里唯一持有黄金门票的观众",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-57",
+        "text": "四、你的\"现金购买力\"在攻击你的\"总财富\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-58",
+        "text": "结论",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-59",
+        "text": "H、我怎么判断一个国家现在是通胀还是通缩?个人在如此情况下又能做些什么?又可以怎么投资",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-60",
+        "text": "🔍 如何判断当前的经济状态",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-61",
+        "text": "💡 个人应对与投资策略",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-62",
+        "text": "1. 应对通货膨胀:目标是跑赢物价涨幅,实现资产保值增值。",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-63",
+        "text": "2. 应对通货紧缩:目标是保住本金和现金流,等待复苏机会。",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-64",
+        "text": "🧭 通用核心原则",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-65",
+        "text": "💎 综合建议",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-66",
+        "text": "I、为什么通缩要避免负债?商品价格变低,不是更有利于贷款吗",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-67",
+        "text": "一、致命的双重打击:资产缩水与收入下降",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-68",
+        "text": "1. 你买的资产(抵押物)在贬值",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-69",
+        "text": "2. 你的收入来源在枯竭",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-70",
+        "text": "二、最关键的数学:债务的实际负担急剧加重",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-71",
+        "text": "三、这就是\"债务-通缩螺旋\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-72",
+        "text": "总结与对比",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-73",
+        "text": "J、资产负债表是什么",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-74",
+        "text": "📊 核心结构:一个无法违背的恒等式",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-75",
+        "text": "📝 资产负债表里有什么?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-76",
+        "text": "资产:你拥有的资源",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-77",
+        "text": "负债:你背负的债务",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-78",
+        "text": "所有者权益:你的财务基石",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-79",
+        "text": "💡 为什么它如此重要?——连接你之前的疑问",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-80",
+        "text": "在通缩中(资产价值下跌):",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-81",
+        "text": "在通胀中(货币购买力下降):",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-82",
+        "text": "🛡️ 如何打造一份健康的个人资产负债表?",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-83",
+        "text": "优化资产端:",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-84",
+        "text": "管理负债端:",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-deflation-original-heading-85",
+        "text": "总结",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "inflation-money-view",
+    "title": "通胀挣钱，通缩花钱：播客观点摘记",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "finance",
+    "href": "blog-articles/inflation-money-view.html",
+    "summary": "围绕金融炼药师播客中的双端思维，整理资产、负债、收入和消费地之间的联系。",
+    "tags": [
+      "播客摘记",
+      "通胀",
+      "现金流"
+    ],
+    "sourceDate": "2026-02-28",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "inflation-deflation-guide.html",
+        "stats": {
+          "removedFurniture": 12,
+          "images": 6,
+          "headings": 31,
+          "textChars": 3838
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "inflation-money-view-original-heading-1",
+        "text": "通胀挣钱，通缩花钱",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-2",
+        "text": "一句话中心论点",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-3",
+        "text": "关键原则与金句",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-4",
+        "text": "通胀挣钱，通缩花钱",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-5",
+        "text": "T字表格两端思维",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-6",
+        "text": "老钱风险偏好下降",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-7",
+        "text": "利率是果，不是因",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-s-tsheet",
+        "text": "T字表格：双端思维框架",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-s-rate",
+        "text": "利率：因即是果，果即是因",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-10",
+        "text": "通胀与通缩的两面性对比",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-s-good-inflation",
+        "text": "什么是\"好通胀\"？住房是关键变量",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-12",
+        "text": "推荐与最差的资产负债收入组合",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-s-best",
+        "text": "▲ 最优组合 — Carry Trade 套息逻辑",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-14",
+        "text": "三大真实故事",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-15",
+        "text": "野比大雄的上海套利：最优组合的教科书",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-16",
+        "text": "卖掉四合院去美国打工：最遗憾的错误组合",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-17",
+        "text": "通胀挣完，通缩花钱：退休的最优策略",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-18",
+        "text": "对普通人的行动建议",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-19",
+        "text": "梳理自己的三张表",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-20",
+        "text": "优先完成资本积累，再谈花钱",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-21",
+        "text": "不要盲目加杠杆买通缩中的资产",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-22",
+        "text": "通缩环境下大胆消费服务",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-23",
+        "text": "思考跨区域的资产负债组合",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-24",
+        "text": "明白自己最核心的生产资料是什么",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-25",
+        "text": "📌 核心要点总结",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-26",
+        "text": "基准原则",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-27",
+        "text": "两端思维",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-28",
+        "text": "最优组合",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-29",
+        "text": "最危险组合",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-30",
+        "text": "住房是核心变量",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "inflation-money-view-original-heading-31",
+        "text": "利率不是万能药",
+        "level": 5,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "dalio-interview",
+    "title": "Ray Dalio 访谈：核心内容与个人启发",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "finance",
+    "href": "blog-articles/dalio-interview.html",
+    "summary": "按访谈问题整理大周期、风险与决策观点，并区分后续面向年轻人的个人启发。",
+    "tags": [
+      "访谈笔记",
+      "达利欧",
+      "宏观周期"
+    ],
+    "sourceDate": "2026-02-18",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "ray_dalio_interview_analysis.html",
+        "stats": {
+          "removedFurniture": 1,
+          "headings": 23,
+          "textChars": 9349
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "dalio-interview-original-heading-1",
+        "text": "一、按主持人问题逐一整理 Ray Dalio 的回答（核心提炼版）",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-2",
+        "text": "请简要回顾你的人生轨迹，从小时候到现在？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-3",
+        "text": "你觉得股市有情绪吗？它会以某种方式对待你吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-4",
+        "text": "什么是货币？黄金在其中的角色是什么？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-5",
+        "text": "黄金不就是基于信仰吗？它的实用性够吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-6",
+        "text": "目前市场状况下，你如何看待黄金、法币、美元的配置？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-7",
+        "text": "你怎么看比特币和加密货币？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-8",
+        "text": "财富和货币有什么区别？泡沫是如何形成的？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-9",
+        "text": "驱动一切的五大力量是什么？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-10",
+        "text": "印度25岁的年轻人手里有$100，怎么利用这些信息和框架赚钱？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-11",
+        "text": "什么样的心理特质能让交易员成功？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-12",
+        "text": "理解自己的本性有多重要？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-13",
+        "text": "冥想和业力在你的投资生涯中起到作用吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-14",
+        "text": "创造成功社会需要什么？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-15",
+        "text": "你怎么看待全球格局（中国、美国、俄罗斯、印度）？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-16",
+        "text": "如果你25岁，在印度，手里有$100要投资，你会投到哪里？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-17",
+        "text": "二、整体主题总结",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-18",
+        "text": "核心警告：我们正处于\"完美风暴\"之中",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-19",
+        "text": "对普通人的建议",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-20",
+        "text": "对未来10年的展望",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-21",
+        "text": "三、对普通人的个人启发（20-35岁中国/亚洲年轻人）",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-22",
+        "text": "总结核心行动清单（立刻可做）：",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-interview-original-heading-23",
+        "text": "最后的话",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "dalio-zhou-cycles",
+    "title": "达利欧 × 周金涛：双周期观察与行动框架",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "finance",
+    "href": "blog-articles/dalio-zhou-cycles.html",
+    "summary": "对照全球宏观周期与康波框架，记录共同点、差异、风险修正，以及原稿提出的行动清单。",
+    "tags": [
+      "周期理论",
+      "达利欧",
+      "周金涛"
+    ],
+    "sourceDate": "2026-02-17",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "dalio_zhou_cycle_analysis.md",
+        "stats": {
+          "tables": 3,
+          "headings": 32,
+          "textChars": 8088
+        }
+      }
+    ],
+    "aliases": [
+      "dalio_zhou_cycle_analysis_1.html"
+    ],
+    "headings": [
+      {
+        "id": "dalio-zhou-cycles-original-heading-1",
+        "text": "达利欧 × 周金涛：双周期融合投资决策系统",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-2",
+        "text": "第一部分｜极简对照提炼",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-3",
+        "text": "1. Dalio 对未来10年最大财富机会的一句话判断",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-4",
+        "text": "2. 周金涛康波理论核心结论",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-5",
+        "text": "3. Dalio 周期观 vs 周金涛康波论",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-6",
+        "text": "3个本质相似点",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-7",
+        "text": "3个关键不同点",
+        "level": 4,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-8",
+        "text": "4. 融合后6–8条行动级启示",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-9",
+        "text": "5. 黄金 / 比特币态度对比",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-10",
+        "text": "6. 2026年中国25岁年轻人最该立刻做的3–5条行动",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-11",
+        "text": "第二部分｜核心内容系统总结",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-12",
+        "text": "Dalio 对当前大周期的判断",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-13",
+        "text": "Dalio 对 2026–2036 的财富判断",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-14",
+        "text": "Dalio 判断与周金涛康波框架的对照",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-15",
+        "text": "黄金逻辑的异同",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-16",
+        "text": "第三部分｜对中国年轻人的\"双周期融合启示\"",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-17",
+        "text": "1. 在萧条期，现金流比账面财富更重要",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-18",
+        "text": "2. 不要用父辈的地产逻辑指导自己的财富决策",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-19",
+        "text": "3. 人力资本是当前阶段回报最高的投资",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-20",
+        "text": "4. 建立决策规则，而不是依赖情绪择时",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-21",
+        "text": "5. 分散化不是平庸，是在不确定性中的生存策略",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-22",
+        "text": "6. 学会区分\"财富\"与\"货币\"，避免纸面富贵陷阱",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-23",
+        "text": "7. 认清技术战是未来十年最重要的地缘经济主轴",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-24",
+        "text": "8. 理解\"中性\"的战略价值——国际动荡中最安全的位置",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-25",
+        "text": "9. 小额真实入市，早于完美理解开始行动",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-26",
+        "text": "10. 认识自己的风险天性，比选择资产更重要",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-27",
+        "text": "11. 顺势而非逆势——萧条期做防御，不做英雄",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-28",
+        "text": "12. 关注\"业力法则\"——长期人际网络是最低波动的复利资产",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-29",
+        "text": "第四部分｜风险修正与行动清单",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-30",
+        "text": "Dalio 哪些原则在2026年仍然有效",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-31",
+        "text": "周金涛哪些判断需要修正或谨慎使用",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "dalio-zhou-cycles-original-heading-32",
+        "text": "25–35岁普通打工人/创业者：最该立即改变的行为（按优先级排序）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "population-crisis",
+    "title": "人口危机预警：易富贤观点与现实对照笔记",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "society",
+    "href": "blog-articles/population-crisis.html",
+    "summary": "梳理人口预警的论证链条、生育与老龄化议题，以及原稿中的数据对照和长期思考。",
+    "tags": [
+      "人口结构",
+      "社会观察",
+      "阅读笔记"
+    ],
+    "sourceDate": "2026-02-16",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "易富贤人口危机深度剖析_2026完整版.md",
+        "stats": {
+          "tables": 3,
+          "headings": 32,
+          "textChars": 10528
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "population-crisis-original-heading-1",
+        "text": "易富贤2008年人口危机预警：深度剖析与2026年现实对照",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-2",
+        "text": "一、文章核心要义提炼",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-3",
+        "text": "易富贤的核心论点（3-5句话）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-4",
+        "text": "主要预测与验证状态",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-5",
+        "text": "为何当时是\"异端\"，如今成\"先知\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-6",
+        "text": "二、文章逻辑链条完整复盘",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-7",
+        "text": "完整因果链条",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-8",
+        "text": "\"人口负反馈螺旋\"机制详解",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-9",
+        "text": "2008年主流观点 vs 易富贤观点：谁更高瞻远瞩？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-10",
+        "text": "三、2026年当下的现实对照与更新解读",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-11",
+        "text": "当前真实局面（2024-2026年数据）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-12",
+        "text": "\"立即停止计划生育\"的窗口，已经永久关闭",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-13",
+        "text": "四、对普通人最有指导性的建议",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-14",
+        "text": "4.1 生育决策：理性权衡，不盲从大势也不盲从本能",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-15",
+        "text": "4.2 职业与技能选择：顺应人口结构，布局10年需求曲线",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-16",
+        "text": "4.3 家庭财务与养老准备：自力更生是唯一可靠选项",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-17",
+        "text": "4.4 生活方式调整：低增长时代的理性适配",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-18",
+        "text": "五、未来5-15年投资建议",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-19",
+        "text": "看多领域（理由+方向）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-20",
+        "text": "谨慎/回避领域",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-21",
+        "text": "资产配置大原则与比例参考",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-22",
+        "text": "六、需要重点规避的系统性风险",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-23",
+        "text": "风险1：养老金体系承压与替代率下降",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-24",
+        "text": "风险2：房产资产缩水与负财富效应",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-25",
+        "text": "风险3：医疗支出的隐性通胀",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-26",
+        "text": "风险4：劳动力市场的结构性失衡与\"35岁危机\"",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-27",
+        "text": "风险5：汇率波动与境外资产配置受限",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-28",
+        "text": "风险6：社保代际矛盾激化与年轻人负担加重",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-29",
+        "text": "风险7：消费长期低迷引发的就业恶性循环",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-30",
+        "text": "风险8：地缘政治与供应链重组的就业冲击",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-31",
+        "text": "七、一句话总结全文精神",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "population-crisis-original-heading-32",
+        "text": "结语",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "medical-insurance",
+    "title": "医保与社保卡：完整问答整理",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "public-services",
+    "href": "blog-articles/medical-insurance.html",
+    "summary": "从社保卡、个人账户与统筹，到大学生医保、职工医保和异地就医，按问题整理。",
+    "tags": [
+      "医保",
+      "社保卡",
+      "异地就医",
+      "大学生医保"
+    ],
+    "sourceDate": "2026-03-07",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "医保知识完整指南.html",
+        "stats": {
+          "removedFurniture": 53,
+          "tables": 4,
+          "headings": 53,
+          "textChars": 14290
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "medical-insurance-original-heading-1",
+        "text": "社保卡基础知识",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-2",
+        "text": "社保卡是什么？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-3",
+        "text": "社保卡有什么用？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-4",
+        "text": "我是一名学生，没有工作，需要换第三代社保卡吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-5",
+        "text": "我是北京户籍在校大学生，开通了第三代社保卡，有什么好处和便利性？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-6",
+        "text": "社保卡可以当做身份证用吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-7",
+        "text": "三代社保卡可以乘坐公交车，钱从哪里扣？是从医保里扣还是从养老金里扣？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-8",
+        "text": "什么是电子社保卡？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-9",
+        "text": "医保核心概念",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-10",
+        "text": "居民医保和职工医保有什么区别？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-11",
+        "text": "医保报销的底层逻辑是什么？钱从哪来？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-12",
+        "text": "住院起付线、门诊起付线、年度封顶线是什么意思？我要达到这个数目才能报销吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-13",
+        "text": "个人账户和统筹账户有什么区别？报销的钱从哪里扣？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-14",
+        "text": "医保会过期吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-15",
+        "text": "医保断缴后，之前的缴费年限会清零吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-16",
+        "text": "\"连续年限清零\"是什么意思？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-17",
+        "text": "学生 / 无业人员医保",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-18",
+        "text": "我没工作，医保卡里也没钱，怎么报销？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-19",
+        "text": "大学生医保好像现在用不了，都是去定点医院然后拿着报销单，单独报销？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-20",
+        "text": "也就是说，其实这个报销还是国家给报销？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-21",
+        "text": "职工医保详解",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-22",
+        "text": "以后工作了，公司交医保基金，然后医保卡报销，是这样吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-23",
+        "text": "这个职工医保的钱是从工资里面扣吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-24",
+        "text": "每年9–12月集中缴费，是自己出还是公司出？公司缴纳的钱和医保卡里面的钱有什么关系？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-25",
+        "text": "只要我缴纳了医保，那我就能走统筹报销吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-26",
+        "text": "买药报销规则",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-27",
+        "text": "买药怎么报销？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-28",
+        "text": "门诊统筹报销（医院拿药）怎么走？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-29",
+        "text": "深圳职工医保一档，买药（门诊）报销具体规则是什么？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-30",
+        "text": "药店买药：刷个人账户，也就是说从我的社保卡里面直接扣？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-31",
+        "text": "异地就医详解",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-32",
+        "text": "为什么医保卡异地要备案？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-33",
+        "text": "所以还是本地参保比较方便对吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-34",
+        "text": "在哪里备案？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-35",
+        "text": "异地就医报销速度如何？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-36",
+        "text": "异地就医有什么麻烦？为什么手工报销不能网上完成？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-37",
+        "text": "如果本地参保就医，报销是立马报销吗？异地备案后和参保地一样吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-38",
+        "text": "第二代卡不支持异地就医吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-39",
+        "text": "三代卡异地就医方便吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-40",
+        "text": "我是北京出生的，参保在深圳，可以申请北京的长期异地就医备案吗？满足条件吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-41",
+        "text": "我已经选择北京为异地长期居住了，参保在深圳，去上海看病要再申请临时的吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-42",
+        "text": "去上海临时看病按深圳标准80%报销，这个80%是乘以深圳报销的80%吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-43",
+        "text": "北京异地备案后享受100%吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-44",
+        "text": "如果我老是出差，没有固定居住地，怎么办？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-45",
+        "text": "我在深圳缴纳到退休后，老了回北京住，以后是否还要异地就医？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-46",
+        "text": "我是北京人，居住了20多年，我家的户口本可以作为北京居住证吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-47",
+        "text": "长期异地就医备案的有效期是多久？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-48",
+        "text": "医保转移 · 城市选择 · 报销对比",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-49",
+        "text": "我在上海缴纳了一段时间，跳槽去了深圳怎么办？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-50",
+        "text": "公司就不能缴纳北京医保吗？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-51",
+        "text": "深圳 vs 北京医保报销对比：报销比例和范围哪个更好？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-52",
+        "text": "国家医保目录（2025版）全国都差不多，那是就医地目录还是参保地报销比例影响更大？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "medical-insurance-original-heading-53",
+        "text": "那我以后选择深圳工作，以后去其他城市生活，报销不就福利比较多吗？有套利空间？",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  },
+  {
+    "id": "government-services",
+    "title": "全生活场景政务服务平台汇总",
+    "date": "2026-10-30",
+    "status": "published",
+    "category": "public-services",
+    "href": "blog-articles/government-services.html",
+    "summary": "按基础政务、就业社保、就医、交通、教育和维权等生活场景整理国家级与北京市级服务入口。",
+    "tags": [
+      "政务服务",
+      "北京",
+      "便民工具"
+    ],
+    "sourceDate": "2026-03-01",
+    "versions": [
+      {
+        "id": "original",
+        "label": "正文",
+        "source": "政务服务平台汇总.html",
+        "stats": {
+          "removedFurniture": 15,
+          "headings": 16,
+          "textChars": 5741
+        }
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "government-services-original-heading-1",
+        "text": "基础政务办理",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-2",
+        "text": "就业社保 / 公积金",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-3",
+        "text": "就医健康",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-4",
+        "text": "交通出行",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-5",
+        "text": "教育升学",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-6",
+        "text": "文旅消费",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-7",
+        "text": "民生维权 / 便民服务",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-8",
+        "text": "养老托育 / 住房",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-9",
+        "text": "通用便民工具",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-10",
+        "text": "问答：覆盖情况分析",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-11",
+        "text": "补充：冷门但正规国家级平台",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-12",
+        "text": "🛃 海关 & 出入境边检（出国、海淘必用）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-13",
+        "text": "📋 专利、商标、版权（创业、设计、发明用）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-14",
+        "text": "⚖️ 司法、诉讼、法院（打官司、法律咨询）",
+        "level": 3,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-15",
+        "text": "极简版：普通人生活必用 10 个官方 App / 公众号",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      },
+      {
+        "id": "government-services-original-heading-16",
+        "text": "📌 核心使用贴士",
+        "level": 2,
+        "version": "original",
+        "label": "正文"
+      }
+    ]
+  }
+]

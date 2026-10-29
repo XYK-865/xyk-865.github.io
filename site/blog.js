@@ -1,5 +1,5 @@
 const posts=window.SPIKE_POSTS||[];
-const categories=[{id:'all',label:'全部'},{id:'books',label:'书籍'},{id:'films',label:'电影'},{id:'food',label:'饮食'},{id:'finance',label:'金融'},{id:'ai-computing',label:'AI&计算机'},{id:'reflections',label:'感悟'}];
+const categories=window.SPIKE_BLOG_CATEGORIES||[{id:'all',label:'全部'},{id:'books',label:'书籍'},{id:'films',label:'电影'},{id:'food',label:'饮食'},{id:'finance',label:'金融'},{id:'ai-computing',label:'AI&计算机'},{id:'reflections',label:'感悟'}];
 const categoryBar=document.querySelector('#blog-category-bar');
 const tagBar=document.querySelector('#tag-bar');
 const postList=document.querySelector('#post-list');
