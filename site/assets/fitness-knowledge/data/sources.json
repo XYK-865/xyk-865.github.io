@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "id": "acsm2026",
+      "title": "ACSM Position Stand: Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults",
+      "year": 2026,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "type": "立场声明/综述的综述",
+      "use": "训练负重、容量、力竭、周期化等"
+    },
+    {
+      "id": "roberts2023",
+      "title": "Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions",
+      "year": 2023,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37382939/",
+      "type": "机制综述",
+      "use": "mTORC1、卫星细胞、核糖体生物发生与机制局限"
+    },
+    {
+      "id": "robinson2024",
+      "title": "Exploring the Dose-Response Relationship Between Estimated Resistance Training Proximity to Failure, Strength Gain, and Muscle Hypertrophy",
+      "year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38970765/",
+      "type": "元回归",
+      "use": "RIR及距离力竭与长期训练适应的关系"
+    },
+    {
+      "id": "singer2024",
+      "title": "Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy",
+      "year": 2024,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39205815/",
+      "type": "系统综述/荟萃分析",
+      "use": "组间休息与肌肥大"
+    },
+    {
+      "id": "nih_ods",
+      "title": "Dietary Supplements for Exercise and Athletic Performance — NIH ODS",
+      "year": null,
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "type": "专业事实说明",
+      "use": "补剂功效及安全概述"
+    },
+    {
+      "id": "issn_creatine",
+      "title": "ISSN Position Stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+      "year": 2017,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/",
+      "type": "立场声明",
+      "use": "肌酸补充与运动表现"
+    }
+  ]
+}

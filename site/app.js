@@ -17,7 +17,8 @@
   new MutationObserver(records=>{
     for(const record of records)for(const node of record.addedNodes)if(node.nodeType===1)versionLinks(node);
   }).observe(document.body,{childList:true,subtree:true});
-  if(!document.querySelector('script[data-site-intro-loader]')){
+  const isBlogPage=document.querySelector('#site-header')?.dataset.page==='blog'||/\/(?:blog\.html|reflections\.html)$|\/blog-articles\//.test(location.pathname);
+  if(!isBlogPage&&!document.querySelector('script[data-site-intro-loader]')){
     const loader=document.createElement('script');
     loader.src=asset('assets/intro/site-intro-loader.js');
     loader.dataset.siteIntroLoader='';

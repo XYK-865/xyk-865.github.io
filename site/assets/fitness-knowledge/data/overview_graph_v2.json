@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "网站总览图; 连接密度只表示知识结构的联系数量，不代表生理学作用强度。",
+  "nodes": [
+    {
+      "id": "goal",
+      "label": "目标：肌肥大＋力量",
+      "category": "目标",
+      "layer": 0,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 1,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "plan",
+      "label": "训练计划与周期化",
+      "category": "训练处方",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 3,
+      "degree": 4,
+      "crossDomainDegree": 3
+    },
+    {
+      "id": "method",
+      "label": "训练方法 RPT / Drop Set",
+      "category": "训练处方",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 0,
+      "degree": 2,
+      "crossDomainDegree": 0
+    },
+    {
+      "id": "dose",
+      "label": "训练变量 负重·组数·次数·休息",
+      "category": "训练处方",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 5,
+      "degree": 7,
+      "crossDomainDegree": 5
+    },
+    {
+      "id": "metrics",
+      "label": "监控指标 RM / RIR / RPE",
+      "category": "训练处方",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 0,
+      "degree": 1,
+      "crossDomainDegree": 0
+    },
+    {
+      "id": "mechanics",
+      "label": "动作生物力学 ROM / 力臂 / 收缩",
+      "category": "训练处方",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 1,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "tension",
+      "label": "机械张力",
+      "category": "生理刺激",
+      "layer": 2,
+      "overviewOriginalCrossDomainConnections": 4,
+      "degree": 4,
+      "crossDomainDegree": 4
+    },
+    {
+      "id": "stress",
+      "label": "代谢应激",
+      "category": "生理刺激",
+      "layer": 2,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 1,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "damage",
+      "label": "肌肉损伤",
+      "category": "生理刺激",
+      "layer": 2,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 1,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "sense",
+      "label": "机械信号转导",
+      "category": "细胞机制",
+      "layer": 3,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 2,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "signal",
+      "label": "mTORC1 / MAPK等",
+      "category": "细胞机制",
+      "layer": 3,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 2,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "satellite",
+      "label": "卫星细胞 / 肌核",
+      "category": "细胞机制",
+      "layer": 3,
+      "overviewOriginalCrossDomainConnections": 2,
+      "degree": 2,
+      "crossDomainDegree": 2
+    },
+    {
+      "id": "protein",
+      "label": "长期蛋白质净积累",
+      "category": "组织适应",
+      "layer": 4,
+      "overviewOriginalCrossDomainConnections": 3,
+      "degree": 4,
+      "crossDomainDegree": 3
+    },
+    {
+      "id": "remodel",
+      "label": "肌纤维结构重塑",
+      "category": "组织适应",
+      "layer": 4,
+      "overviewOriginalCrossDomainConnections": 2,
+      "degree": 3,
+      "crossDomainDegree": 2
+    },
+    {
+      "id": "hyp",
+      "label": "肌肥大",
+      "category": "结果反馈",
+      "layer": 5,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 2,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "track",
+      "label": "实际评估 e1RM / 肌围度 / 日志",
+      "category": "结果反馈",
+      "layer": 5,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 2,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "energy",
+      "label": "能量系统 ATP-PCr / 糖酵解 / 氧化",
+      "category": "支持系统",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 2,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "creatine",
+      "label": "肌酸补充",
+      "category": "支持系统",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 0,
+      "degree": 1,
+      "crossDomainDegree": 0
+    },
+    {
+      "id": "food",
+      "label": "营养：蛋白质 / 能量",
+      "category": "支持系统",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 1,
+      "degree": 1,
+      "crossDomainDegree": 1
+    },
+    {
+      "id": "rest",
+      "label": "睡眠 / 恢复 / Deload",
+      "category": "支持系统",
+      "layer": 1,
+      "overviewOriginalCrossDomainConnections": 3,
+      "degree": 3,
+      "crossDomainDegree": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "goal",
+      "target": "plan",
+      "label": "决定目标",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "plan",
+      "target": "method",
+      "label": "选择方法",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "method",
+      "target": "dose",
+      "label": "安排组结构",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "metrics",
+      "target": "dose",
+      "label": "量化控制",
+      "kind": "measurement",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "mechanics",
+      "target": "tension",
+      "label": "改变受力",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "dose",
+      "target": "tension",
+      "label": "施加刺激",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "dose",
+      "target": "stress",
+      "label": "可能伴随",
+      "kind": "hypothesis",
+      "evidenceStatus": "hypothesis",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "dose",
+      "target": "damage",
+      "label": "可能伴随",
+      "kind": "hypothesis",
+      "evidenceStatus": "hypothesis",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "tension",
+      "target": "sense",
+      "label": "触发",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "sense",
+      "target": "signal",
+      "label": "调节信号",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "signal",
+      "target": "protein",
+      "label": "调控合成",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "tension",
+      "target": "satellite",
+      "label": "参与性调节",
+      "kind": "hypothesis",
+      "evidenceStatus": "hypothesis",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "satellite",
+      "target": "remodel",
+      "label": "条件性贡献",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "protein",
+      "target": "remodel",
+      "label": "支持重塑",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "remodel",
+      "target": "hyp",
+      "label": "产生结果",
+      "kind": "pathway",
+      "evidenceStatus": "ungraded",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "hyp",
+      "target": "track",
+      "label": "观察变化",
+      "kind": "measurement",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "track",
+      "target": "plan",
+      "label": "反馈修正",
+      "kind": "measurement",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "creatine",
+      "target": "energy",
+      "label": "提高PCr储备",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "energy",
+      "target": "dose",
+      "label": "支持训练输出",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "food",
+      "target": "protein",
+      "label": "支持净积累",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "rest",
+      "target": "protein",
+      "label": "影响适应",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "rest",
+      "target": "plan",
+      "label": "影响安排",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    },
+    {
+      "source": "rest",
+      "target": "dose",
+      "label": "影响当日表现",
+      "kind": "support",
+      "evidenceStatus": "structural",
+      "provenance": "prior conversation overview graph; relation evidence requires separate review"
+    }
+  ]
+}

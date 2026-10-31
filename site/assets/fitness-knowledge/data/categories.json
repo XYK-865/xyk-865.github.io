@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0",
+  "categories": [
+    {
+      "id": "metrics",
+      "name": "训练指标与负荷",
+      "description": "了解训练做了多少、用了多大强度、距离力竭还有多远",
+      "order": 1
+    },
+    {
+      "id": "methods",
+      "name": "训练方法与组结构",
+      "description": "掌握如何安排不同训练组，以及它们之间的区别",
+      "order": 2
+    },
+    {
+      "id": "mechanisms",
+      "name": "肌肥大与生理适应",
+      "description": "理解训练刺激到细胞反应、肌肉重塑之间的路径",
+      "order": 3
+    },
+    {
+      "id": "energy",
+      "name": "运动供能与代谢",
+      "description": "理解高强度肌肉工作和组间恢复的能量支持",
+      "order": 4
+    },
+    {
+      "id": "periodization",
+      "name": "周期化与恢复",
+      "description": "了解如何分配长期刺激，管理累积疲劳",
+      "order": 5
+    },
+    {
+      "id": "nutrition",
+      "name": "营养与运动补剂",
+      "description": "区分基础营养、补剂作用与证据",
+      "order": 6
+    },
+    {
+      "id": "biomechanics",
+      "name": "动作与运动解剖",
+      "description": "理解动作、关节力学与肌肉收缩",
+      "order": 7
+    },
+    {
+      "id": "tracking",
+      "name": "训练评估与记录",
+      "description": "用可观察结果指导下一周期",
+      "order": 8
+    }
+  ]
+}

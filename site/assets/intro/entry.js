@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  if (/\/(?:blog\.html|reflections\.html)$|\/blog-articles\//.test(location.pathname)) return;
   if (window.SpikeIntroGate) return;
   const root = document.documentElement;
   const script = new URL(document.currentScript.src);

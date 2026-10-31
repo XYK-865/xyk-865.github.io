@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0",
+  "paths": [
+    {
+      "slug": "rpt-to-hypertrophy",
+      "title": "从RPT到肌肥大",
+      "summary": "从方法和训练指标出发，追踪可观察的训练适应。",
+      "conceptIds": [
+        "rpt",
+        "top-set",
+        "backoff-set",
+        "rir",
+        "rpe",
+        "load",
+        "rest-interval",
+        "atp-pcr-system",
+        "mechanical-tension",
+        "mechanotransduction",
+        "mtorc1",
+        "mps",
+        "hypertrophy",
+        "e1rm"
+      ],
+      "caution": "RPT并不独占某一种增肌通路；e1RM也不是直接的肌肥大指标。"
+    },
+    {
+      "slug": "creatine-to-energy",
+      "title": "从肌酸到磷酸原系统",
+      "summary": "将运动补剂、供能和训练表现关联。",
+      "conceptIds": [
+        "creatine",
+        "pcr",
+        "creatine-kinase",
+        "adp",
+        "atp",
+        "atp-pcr-system",
+        "pcr-resynthesis",
+        "rest-interval",
+        "load"
+      ],
+      "caution": "肌酸帮助能量再合成及重复表现，不等于直接给肌肉提供ATP。"
+    },
+    {
+      "slug": "hypertrophy-molecular",
+      "title": "从机械张力到细胞适应",
+      "summary": "理解关键刺激、mTORC1与卫星细胞的不同作用。",
+      "conceptIds": [
+        "mechanical-tension",
+        "mechanotransduction",
+        "mtorc1",
+        "ribosome-biogenesis",
+        "mps",
+        "mpb",
+        "net-protein-balance",
+        "satellite-cell",
+        "myonucleus",
+        "hypertrophy"
+      ],
+      "caution": "卫星细胞的贡献依情境而定；分子事件不意味着每次刺激都能预测长期增长。"
+    },
+    {
+      "slug": "fatigue-and-periodization",
+      "title": "从训练疲劳到周期化",
+      "summary": "从RIR和训练表现进入Deload与刺激-恢复-适应模型。",
+      "conceptIds": [
+        "rir",
+        "hard-set",
+        "volume",
+        "fitness-fatigue",
+        "sra",
+        "supercompensation",
+        "periodization",
+        "mesocycle",
+        "deload",
+        "readiness",
+        "e1rm"
+      ],
+      "caution": "超量恢复模型不能用作固定恢复小时数公式。"
+    },
+    {
+      "slug": "drop-set-vs-rpt",
+      "title": "RPT与Drop Set的关键区别",
+      "summary": "对比重组、降重、休息安排及计数规则。",
+      "conceptIds": [
+        "rpt",
+        "top-set",
+        "backoff-set",
+        "drop-set",
+        "rest-interval",
+        "straight-sets",
+        "volume",
+        "double-progression"
+      ],
+      "caution": "一次正式组内连续递减两次不等于三组独立常规训练组。"
+    }
+  ]
+}

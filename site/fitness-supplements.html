@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="assets/intro/entry.js?v=cat-smooth-parity-20261028"></script>
+  <title>补剂与热量估算 · Spike Hsu</title>
+  <meta name="description" content="整理10类常见讨论的运动补剂：潜在收益、适用情境、证据边界、风险与论文来源。另提供有公式说明的Mifflin静息热量与每日总消耗估算。">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028">
+  <link rel="stylesheet" href="fitness.css?v=20261022-footer-clean">
+  <link rel="stylesheet" href="fitness-resources.css">
+  <link rel="stylesheet" href="fitness-supplements.css">
+</head>
+<body class="fitness-page resources-page supplements-page">
+  <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="fitness"></header>
+  <main id="main" class="page-shell fitness-main">
+    <nav class="fitness-breadcrumb" aria-label="当前位置"><a href="fitness.html">健身</a><span aria-hidden="true">/</span><span>补剂与热量估算</span></nav>
+    <header class="fitness-article-header supplement-hero">
+      <p class="kicker">NUTRITION / EVIDENCE &amp; CONTEXT</p>
+      <h1>先看需要，<br>再看补充。</h1>
+      <p>把常见讨论的补剂放回具体运动情境，也给日常饮食留一个有来源的热量估算工具。</p>
+      <div class="fitness-article-meta"><span>10 类补剂</span><span>资料核对：2026.10.29</span><span>研究资料整理 · 个人体验尚未填写</span></div>
+      <div class="fitness-header-links"><a href="#energy">估算热量消耗 ↓</a><a href="#supplement-library">查看补剂资料 ↓</a></div>
+    </header>
+
+    <section id="energy" class="energy-section" aria-labelledby="energy-title">
+      <div class="supplement-section-heading"><div><p class="kicker">01 / ENERGY ESTIMATE</p><h2 id="energy-title">热量消耗估算</h2></div><p>输入身体数据，先建立一个可解释的起点。</p></div>
+      <div class="energy-layout">
+        <form id="energy-form" class="energy-form">
+          <fieldset><legend>身体数据 · 公制</legend><div class="energy-input-grid">
+            <label for="energy-sex">公式中的性别参数<select id="energy-sex" name="sex" required><option value="" selected disabled>选择公式参数</option><option value="male">男性公式（＋5）</option><option value="female">女性公式（−161）</option></select></label>
+            <label for="energy-age">年龄<span class="energy-field"><input id="energy-age" name="age" type="number" min="19" max="78" step="1" inputmode="numeric" placeholder="19–78" required><span>岁</span></span></label>
+            <label for="energy-height">身高<span class="energy-field"><input id="energy-height" name="height" type="number" min="120" max="230" step="0.1" inputmode="decimal" placeholder="例如 175" required><span>cm</span></span></label>
+            <label for="energy-weight">体重<span class="energy-field"><input id="energy-weight" name="weight" type="number" min="35" max="250" step="0.1" inputmode="decimal" placeholder="例如 70" required><span>kg</span></span></label>
+          </div></fieldset>
+          <label class="energy-activity-label" for="energy-activity">日常活动系数<select id="energy-activity" name="activity" required><option value="" selected disabled>按整体生活方式选择</option></select></label>
+          <p id="energy-activity-description" class="energy-helper">把工作、步行、家务与训练一起考虑，不只看每周去健身房几次。</p>
+          <div class="energy-actions"><button type="submit">估算消耗 <span aria-hidden="true">↗</span></button><button type="reset">清空</button></div>
+          <p class="energy-helper">输入只用于当前页面计算，不会上传或写入本地存储。</p>
+        </form>
+        <div class="energy-results" aria-live="polite" aria-atomic="true">
+          <p class="kicker">YOUR STARTING POINT</p>
+          <div class="energy-result"><span>静息热量估算 · RMR</span><p><strong id="energy-rmr">—</strong><small>千卡 / 日</small></p></div>
+          <div class="energy-result"><span>每日总消耗估算 · TDEE</span><p><strong id="energy-tdee">—</strong><small>千卡 / 日</small></p></div>
+          <p id="energy-result-detail">完成左侧输入后显示结果。数字按 10 千卡取整，避免把估算看成精确测量。</p>
+          <p class="energy-result-note">这不是直接的减脂或增肌摄入目标。运动员、高肌肉量人群及训练负荷变化较大时，应结合实际记录重新评估。</p>
+        </div>
+      </div>
+      <p id="energy-status" class="energy-status" role="status"></p>
+      <details class="energy-method"><summary>公式、活动系数与适用边界</summary><div>
+        <p>Mifflin–St Jeor 简化式预测的是静息能量消耗（REE / RMR），常用于 BMR 工具的近似估算；它不等于在严格基础条件下测得的基础代谢率。</p>
+        <div class="energy-equations"><p>男性：10 × 体重（kg）＋ 6.25 × 身高（cm）− 5 × 年龄 ＋ 5</p><p>女性：10 × 体重（kg）＋ 6.25 × 身高（cm）− 5 × 年龄 − 161</p><p>本页 TDEE 近似值 ＝ 静息消耗估算 × 所选活动系数</p></div>
+        <p>原研究来自 498 位 19–78 岁健康成年人，并非专为运动员建立。本页将年龄输入限定在原研究区间；儿童青少年、孕哺期或疾病相关营养需求不宜由此工具决定。</p>
+        <p>活动系数是本页从 FAO/WHO/UNU 的生活方式 PAL 区间中选取的示例点：轻／久坐 1.40–1.69、较活跃 1.70–1.99、高活动 2.00–2.40。FAO 的 PAL 原以基础代谢为分母，本页用预测静息消耗作近似；这些系数不属于 Mifflin 原方程，也没有由输入数据测得你的真实活动量。</p>
+        <ol id="energy-sources" class="supplement-sources"></ol>
+      </div></details>
+    </section>
+
+    <section id="supplement-library" class="supplement-library" aria-labelledby="supplement-library-title">
+      <div class="supplement-section-heading"><div><p class="kicker">02 / SUPPLEMENT NOTES</p><h2 id="supplement-library-title">常见讨论的补剂</h2></div><p>按作用和证据情境整理，未统计实时讨论热度。</p></div>
+      <p class="supplement-intro">先把训练、饮食与恢复放稳，再判断是否有需要补足的地方。下面的内容来自研究与专业资料，不表示我已经使用这些补剂；服用剂量与个体搭配需回到原文和个人情况。</p>
+      <nav id="supplement-index" class="supplement-index" aria-label="补剂条目索引"></nav>
+      <div class="supplement-controls"><label for="supplement-search">查找条目<input id="supplement-search" type="search" placeholder="名称、用途或关键词"></label><label for="supplement-evidence">按证据情境查看<select id="supplement-evidence"><option value="all">全部条目</option></select></label></div>
+      <p id="supplement-count" class="supplement-count" role="status"></p>
+      <div id="supplement-cards" class="supplement-grid"></div>
+      <noscript><p>请启用 JavaScript 查看条目与计算器。也可直接阅读 <a href="https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/" target="_blank" rel="noopener noreferrer">NIH ODS 专业资料</a>及 <a href="https://www.ausport.gov.au/ais/nutrition/supplements/group_a" target="_blank" rel="noopener noreferrer">AIS 补剂框架</a>。</p></noscript>
+      <aside class="supplement-reading-note"><h3>怎样读这些资料</h3><p>看清研究对象、运动项目、观察指标与时间，再判断是否接近自己的训练情境。“证据较充分”始终有条件；AIS A 组同样指特定运动情境下按规范使用，不代表人人都需要。</p><p>补剂可能与药物相互作用，也存在成分标注与污染问题。参赛者还需核对反兴奋剂要求；有用药、疾病或特殊营养需要时，请让专业人员核对具体产品。</p><div><a href="https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/" target="_blank" rel="noopener noreferrer">NIH ODS · 使用与安全资料 ↗</a><a href="https://www.ausport.gov.au/ais/nutrition/supplements/group_a" target="_blank" rel="noopener noreferrer">AIS · A 组的含义 ↗</a></div></aside>
+    </section>
+    <nav class="fitness-related-links" aria-label="返回与继续阅读"><a href="fitness.html#supplements">← 返回健身</a><a href="fitness.html#nutrition">饮食与食谱 ↗</a><a href="fitness-papers.html">论文资料 ↗</a></nav>
+  </main>
+  <footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js?v=cat-smooth-parity-20261028"></script><script type="module" src="fitness-supplements.js"></script>
+</body>
+</html>
