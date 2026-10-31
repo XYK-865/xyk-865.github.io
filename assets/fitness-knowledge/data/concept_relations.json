@@ -1,0 +1,482 @@
+{
+  "schemaVersion": "1.0",
+  "relations": [
+    {
+      "source": "rpt",
+      "target": "top-set",
+      "relation": "has_part",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rpt",
+      "target": "backoff-set",
+      "relation": "has_part",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rpt",
+      "target": "rest-interval",
+      "relation": "uses",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rpt",
+      "target": "drop-set",
+      "relation": "contrasts_with",
+      "evidenceTag": "defined",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "drop-set",
+      "target": "rest-pause",
+      "relation": "contrasts_with",
+      "evidenceTag": "defined",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "drop-set",
+      "target": "volume",
+      "relation": "organizes",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "ascending-pyramid",
+      "target": "descending-pyramid",
+      "relation": "contrasts_with",
+      "evidenceTag": "defined",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "straight-sets",
+      "target": "rpt",
+      "relation": "contrasts_with",
+      "evidenceTag": "defined",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "double-progression",
+      "target": "progressive-overload",
+      "relation": "is_a",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rir",
+      "target": "rpe",
+      "relation": "approx_correspondence",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "rir",
+      "target": "failure",
+      "relation": "measures_proximity",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rpe",
+      "target": "autoregulation",
+      "relation": "supports",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "rm",
+      "target": "one-rm",
+      "relation": "is_related_to",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "one-rm",
+      "target": "percent-1rm",
+      "relation": "defines",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "e1rm",
+      "target": "one-rm",
+      "relation": "estimates",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "volume",
+      "target": "hard-set",
+      "relation": "often_operationalized_by",
+      "evidenceTag": "heuristic",
+      "direction": "directed"
+    },
+    {
+      "source": "volume-load",
+      "target": "hypertrophy",
+      "relation": "not_a_direct_measure_of",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "load",
+      "target": "mechanical-tension",
+      "relation": "modulates",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "rom",
+      "target": "mechanical-tension",
+      "relation": "modulates",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "moment-arm",
+      "target": "torque",
+      "relation": "defines",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "torque",
+      "target": "mechanical-tension",
+      "relation": "modulates",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "concentric",
+      "target": "motor-unit-recruitment",
+      "relation": "involves",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "eccentric",
+      "target": "mechanical-tension",
+      "relation": "can_modulate",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "titin",
+      "target": "mechanotransduction",
+      "relation": "related_mechanism",
+      "evidenceTag": "emerging",
+      "direction": "directed"
+    },
+    {
+      "source": "mechanical-tension",
+      "target": "mechanotransduction",
+      "relation": "triggers",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "mechanotransduction",
+      "target": "mtorc1",
+      "relation": "modulates",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "mechanotransduction",
+      "target": "mapk",
+      "relation": "modulates",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "mtorc1",
+      "target": "mps",
+      "relation": "regulates",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "ribosome-biogenesis",
+      "target": "mps",
+      "relation": "enables_capacity",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "mps",
+      "target": "net-protein-balance",
+      "relation": "is_component_of",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "mpb",
+      "target": "net-protein-balance",
+      "relation": "is_component_of",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "net-protein-balance",
+      "target": "hypertrophy",
+      "relation": "supports_long_term",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "satellite-cell",
+      "target": "myonucleus",
+      "relation": "may_add",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "myonucleus",
+      "target": "hypertrophy",
+      "relation": "contextual_contribution",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "muscle-damage",
+      "target": "satellite-cell",
+      "relation": "can_involve",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "metabolic-stress",
+      "target": "hypertrophy",
+      "relation": "independent_causal_role_uncertain",
+      "evidenceTag": "emerging",
+      "direction": "directed"
+    },
+    {
+      "source": "mechanical-tension",
+      "target": "hypertrophy",
+      "relation": "key_training_stimulus",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "hypertrophy",
+      "target": "pr",
+      "relation": "different_outcome_from",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "atp-pcr-system",
+      "target": "atp",
+      "relation": "regenerates",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "pcr",
+      "target": "atp-pcr-system",
+      "relation": "part_of",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "creatine-kinase",
+      "target": "pcr",
+      "relation": "catalyzes_reaction_with",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "pcr-resynthesis",
+      "target": "rest-interval",
+      "relation": "recovery_related_to",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "glycolysis",
+      "target": "atp",
+      "relation": "regenerates",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "oxidative-system",
+      "target": "atp",
+      "relation": "regenerates",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "creatine",
+      "target": "pcr",
+      "relation": "supports_store",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "pcr",
+      "target": "load",
+      "relation": "supports_repeated_high_intensity_work",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "glycogen",
+      "target": "glycolysis",
+      "relation": "substrate_for",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "lactate",
+      "target": "glycolysis",
+      "relation": "product_related_to",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "protein",
+      "target": "mps",
+      "relation": "provides_building_blocks_for",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "leucine",
+      "target": "mtorc1",
+      "relation": "nutrition_signal_related_to",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "whey-protein",
+      "target": "protein",
+      "relation": "source_of",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "caffeine",
+      "target": "readiness",
+      "relation": "may_change_arousal",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "caloric-surplus",
+      "target": "hypertrophy",
+      "relation": "can_support",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "periodization",
+      "target": "macrocycle",
+      "relation": "contains",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "periodization",
+      "target": "mesocycle",
+      "relation": "contains",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "periodization",
+      "target": "microcycle",
+      "relation": "contains",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "block-periodization",
+      "target": "accumulation",
+      "relation": "may_include",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "block-periodization",
+      "target": "intensification",
+      "relation": "may_include",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "periodization",
+      "target": "deload",
+      "relation": "may_include",
+      "evidenceTag": "defined",
+      "direction": "directed"
+    },
+    {
+      "source": "deload",
+      "target": "fitness-fatigue",
+      "relation": "manages_fatigue",
+      "evidenceTag": "heuristic",
+      "direction": "directed"
+    },
+    {
+      "source": "sra",
+      "target": "supercompensation",
+      "relation": "related_model",
+      "evidenceTag": "heuristic",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "rest-interval",
+      "target": "pcr-resynthesis",
+      "relation": "allows",
+      "evidenceTag": "supported",
+      "direction": "directed"
+    },
+    {
+      "source": "working-set",
+      "target": "warmup-set",
+      "relation": "contrasts_with",
+      "evidenceTag": "defined",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "pr",
+      "target": "strength",
+      "relation": "indicates_possible_improvement_in",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "e1rm",
+      "target": "strength",
+      "relation": "estimates",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "hrv",
+      "target": "readiness",
+      "relation": "potential_indicator",
+      "evidenceTag": "context_dependent",
+      "direction": "directed"
+    },
+    {
+      "source": "mev",
+      "target": "mav",
+      "relation": "same_heuristic_framework",
+      "evidenceTag": "heuristic",
+      "direction": "bidirectional"
+    },
+    {
+      "source": "mav",
+      "target": "mrv",
+      "relation": "same_heuristic_framework",
+      "evidenceTag": "heuristic",
+      "direction": "bidirectional"
+    }
+  ],
+  "relationNote": "知识关联不等于生物学效应大小；evidenceTag属于谨慎的编辑性标注，并非GRADE评分。"
+}

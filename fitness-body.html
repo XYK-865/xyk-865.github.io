@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人体与运动平面 · 健身 · Spike Hsu</title>
+  <meta name="description" content="旋转真实三维人体，切换骨骼、主要肌肉与皮肤，认识中文肌群和人体三大运动平面。">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028">
+  <link rel="stylesheet" href="fitness.css?v=20261022-footer-clean">
+  <link rel="stylesheet" href="fitness-body.css?v=20261029-parts">
+  <script type="importmap">{"imports":{"three":"./assets/body/three.module.js"}}</script>
+</head>
+<body class="fitness-page body-page">
+<a class="skip-link" href="#main">跳到主要内容</a>
+<header id="site-header" data-page="fitness"></header>
+<main id="main" class="page-shell fitness-main body-main">
+  <nav class="fitness-breadcrumb" aria-label="当前位置"><a href="fitness.html">健身</a><span>/</span><span>人体与运动平面</span></nav>
+  <header class="body-heading">
+    <div><p class="kicker">ANATOMY / MOVE IN THREE DIMENSIONS</p><h1>从身体，理解动作。</h1></div>
+    <p>转一转、分一层、选一块肌肉。<br>把训练里读到的名字，放回立体的身体。</p>
+  </header>
+  <div class="body-workspace">
+    <aside class="body-controls" aria-label="人体显示控制">
+      <section class="body-control-section">
+        <h2><span>01</span> 解剖层次</h2>
+        <label class="body-opacity" for="layer-depth">逐个显示肌肉 <output id="layer-depth-label">准备部件…</output></label>
+        <div class="body-stepper"><button type="button" id="body-decrease" aria-label="减少一个肌肉部件">−</button><input id="layer-depth" type="range" min="0" max="1" value="1" step="1" aria-label="显示的肌肉部件数量"><button type="button" id="body-increase" aria-label="增加一个肌肉部件">+</button></div>
+        <div class="body-part-actions"><button type="button" id="body-bones-only">仅骨骼</button><button type="button" id="body-all-muscles">全部肌肉</button></div>
+        <p class="body-small">按分区与名称逐个增减；数量按左右侧、肌头等网格部件计，不表示解剖深浅。</p>
+        <label class="body-layer"><span><i class="body-swatch bone"></i>骨骼</span><input type="checkbox" data-layer="bone" checked></label>
+        <label class="body-layer"><span><i class="body-swatch muscle"></i>骨骼肌</span><input type="checkbox" data-layer="muscle" checked></label>
+        <label class="body-layer"><span><i class="body-swatch skin"></i>皮肤轮廓</span><input type="checkbox" data-layer="skin"></label>
+        <label class="body-opacity" for="skin-opacity">皮肤透明度 <output id="skin-value">22%</output></label>
+        <input id="skin-opacity" type="range" min="5" max="100" value="22">
+        <p class="body-small">皮肤是独立外层网格。降低透明度，观察其下的肌肉与骨骼。</p>
+      </section>
+      <section class="body-control-section body-muscle-section">
+        <h2><span>02</span> 找到肌群</h2>
+        <label class="body-search-label" for="muscle-search">按中文或英文搜索</label>
+        <input id="muscle-search" type="search" placeholder="胸、背、股四头…" autocomplete="off">
+        <label class="body-search-label body-region-label" for="muscle-region">身体分区</label><select id="muscle-region"><option value="all">全部分区</option></select>
+        <div id="muscle-list" class="body-muscle-list" aria-label="主要肌群"></div>
+        <p id="muscle-empty" class="body-small" hidden>没有匹配的肌群，试试“肩”或“腿”。</p>
+      </section>
+    </aside>
+    <section class="body-viewer-panel" aria-label="可交互三维人体">
+      <div class="body-stage" id="body-stage">
+        <div class="body-stage-top"><span class="body-live"><i></i> BODY / 3D</span><span id="body-view-label">前视图</span></div>
+        <canvas id="body-canvas" tabindex="0" aria-label="三维人体：拖动旋转，滚轮缩放，点击肌肉查看中文说明。方向键旋转，加减键缩放，Home 复位。"></canvas>
+        <div class="body-loading" id="body-loading" role="status"><span class="body-spinner"></span><strong>正在加载真实人体网格</strong><span id="body-load-progress">准备模型…</span></div>
+        <div class="body-view-buttons" aria-label="观察方向">
+          <button type="button" data-view="front" aria-pressed="true">前</button><button type="button" data-view="back" aria-pressed="false">后</button><button type="button" data-view="left" aria-pressed="false">左</button><button type="button" data-view="right" aria-pressed="false">右</button><button type="button" id="body-reset" title="复位视角与缩放">↺ 复位</button>
+        </div>
+        <div class="body-stage-bottom"><span>拖动旋转 · 滚轮缩放 · 点击选择</span><button type="button" id="body-rotate" aria-pressed="false">自动旋转</button></div>
+      </div>
+      <div class="body-model-caption"><span id="body-model-count">BodyParts3D · 真实解剖网格</span><a href="#body-sources">模型来源与范围 ↗</a></div><p id="body-part-status" class="body-small" role="status" aria-live="polite"></p>
+    </section>
+    <aside class="body-info" aria-label="肌群与运动平面说明">
+      <section class="body-selection" aria-live="polite">
+        <p class="body-eyebrow">SELECTED MUSCLE / 当前选择</p>
+        <h2 id="muscle-name">胸大肌</h2><p id="muscle-en" class="body-en">Pectoralis major</p>
+        <p id="muscle-description">覆盖胸前的扇形肌肉。使上臂向身体中线靠拢，并参与肩关节内旋。</p>
+        <dl class="body-muscle-facts"><div><dt>主要动作</dt><dd id="muscle-function">肩水平内收、内收与内旋</dd></div><div><dt>训练中认识它</dt><dd id="muscle-examples">卧推、俯卧撑、夹胸</dd></div></dl>
+        <p class="body-small" id="muscle-scope">点击模型或左侧名称，高亮同一肌群。</p>
+        <div class="body-part-actions"><button type="button" id="body-isolate">仅看所选肌群</button><button type="button" id="body-show-group">显示所选肌群</button></div>
+        <div id="body-parts" class="body-parts" aria-label="当前肌群的独立网格部件"></div>
+        <button type="button" id="body-clear" class="body-text-button">取消高亮</button>
+      </section>
+      <section class="body-plane-section">
+        <h2><span>03</span> 人体三大平面</h2>
+        <div class="body-plane-tabs" role="group" aria-label="选择人体平面"><button type="button" data-plane="sagittal" aria-pressed="true">矢状面</button><button type="button" data-plane="coronal" aria-pressed="false">冠状面</button><button type="button" data-plane="transverse" aria-pressed="false">水平面</button></div>
+        <p class="body-plane-en" id="plane-en">SAGITTAL PLANE</p>
+        <h3 id="plane-heading">分为左与右</h3><p id="plane-description">矢状面将身体分成左右两部分；经过正中线的称为正中矢状面。屈曲与伸展通常在这个平面内进行。</p>
+        <p class="body-plane-example" id="plane-example">动作联想：深蹲、弯举、向前弓步。</p>
+        <label class="body-plane-option"><input type="checkbox" id="plane-visible" checked>显示平面</label>
+        <label class="body-plane-option"><input type="checkbox" id="plane-clip">剖切观察（保留一侧）</label>
+        <label class="body-opacity" for="plane-position">平面位置 <output id="plane-value">中间</output></label><input id="plane-position" type="range" min="-80" max="80" value="0">
+        <p class="body-small">彩色平面是空间方向示意；剖切只裁开表面网格，不生成 CT 或组织切片。多数训练动作包含多个平面的运动。</p>
+      </section>
+    </aside>
+  </div>
+  <section id="body-sources" class="body-sources"><h2>真实模型，明确边界。</h2><div><p id="body-coverage">本页按官方 FMA 概念与网格映射收录可核验的骨骼肌部件，保留左右侧与肌头的独立控制，并展示骨骼与皮肤。分区压缩加载，数量以当前模型清单为准。</p><p>本次 ISA 数据缺少背阔肌、腹直肌、腹内斜肌与腹横肌的对应独立网格；其中背阔肌与腹直肌保留文字说明。没有用其他形状补造，也不宣称完整人体。部分官方概念对应多个网格，以部件编号区分；显示顺序不是解剖层次。</p><p>BodyParts3D, © The Database Center for Life Science，按 <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html" target="_blank" rel="noopener noreferrer">CC BY 4.0 官方许可 ↗</a>使用。模型来自成人男性参考体型，不代表个体差异。中文名称、配色、坐标、分包与交互由本站整理；用于运动学习与空间认知。</p><p>模型：<a href="https://lifesciencedb.jp/bp3d/" target="_blank" rel="noopener noreferrer">BodyParts3D / DBCLS ↗</a> · <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/desc.html" target="_blank" rel="noopener noreferrer">官方数据与说明 ↗</a> · <a href="assets/body/MODEL-SOURCES.txt">许可与处理记录 ↗</a>。三平面术语参考 <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology" target="_blank" rel="noopener noreferrer">OpenStax《Anatomy and Physiology 2e》↗</a>。</p></div></section>
+  <nav class="fitness-related-links" aria-label="继续阅读"><a href="fitness.html">← 返回健身</a><a href="fitness-methods.html">训练方法 ↗</a><a href="fitness-philosophy.html#glossary">训练概念 ↗</a></nav>
+</main>
+<footer id="site-footer"></footer>
+<script src="posts.js"></script><script src="app.js?v=cat-smooth-parity-20261028"></script>
+<script type="module" src="fitness-body.js?v=20261029-parts"></script>
+</body></html>

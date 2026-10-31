@@ -1,5 +1,10 @@
 (() => {
   'use strict';
+  if (document.querySelector('#site-header')?.dataset.page === 'blog' || /\/(?:blog\.html|reflections\.html)$|\/blog-articles\//.test(location.pathname)) {
+    window.SpikeIntroGate?.release();
+    document.documentElement.classList.remove('site-intro-pending');
+    return;
+  }
   if (window.SpikeSiteIntroLoading) return;
   window.SpikeSiteIntroLoading = true;
   const source = new URL(document.currentScript.src);

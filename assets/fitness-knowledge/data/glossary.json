@@ -1,0 +1,2542 @@
+{
+  "schemaVersion": "1.0",
+  "terms": [
+    {
+      "id": "rep",
+      "slug": "rep",
+      "zh": "重复次数",
+      "en": "Repetition",
+      "definition": "一次完整完成预定动作的重复。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "set",
+      "slug": "set",
+      "zh": "训练组",
+      "en": "Set",
+      "definition": "在一段连续练习中完成的一系列重复。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "rm",
+      "slug": "rm",
+      "zh": "重复最大次数",
+      "en": "Repetition Maximum",
+      "definition": "某负重下可完成的最大合格重复次数，需连同重量和次数表达。",
+      "category": "metrics",
+      "example": "85kg×5RM表示85kg最大只能完成约5次，而不是任意完成5次。",
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "one-rm"
+      ],
+      "tags": []
+    },
+    {
+      "id": "one-rm",
+      "slug": "one-rm",
+      "zh": "一次最大重量",
+      "en": "One-Repetition Maximum",
+      "definition": "在既定技术标准下只能成功完成一次的最大负重。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "rm",
+        "percent-1rm",
+        "e1rm"
+      ],
+      "tags": []
+    },
+    {
+      "id": "e1rm",
+      "slug": "e1rm",
+      "zh": "估算一次最大重量",
+      "en": "Estimated One-Repetition Maximum",
+      "definition": "利用非极限组的负重与重复表现估计最大力量，受公式与RIR估计影响。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": "不同公式估算误差不同，尤其在高次数、疲劳或技术改变时。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "one-rm",
+        "strength"
+      ],
+      "tags": []
+    },
+    {
+      "id": "percent-1rm",
+      "slug": "percent-1rm",
+      "zh": "最大重量百分比",
+      "en": "Percentage of 1RM",
+      "definition": "以1RM的比例表达训练负重强度。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "one-rm"
+      ],
+      "tags": []
+    },
+    {
+      "id": "rir",
+      "slug": "rir",
+      "zh": "剩余重复次数",
+      "en": "Repetitions in Reserve",
+      "definition": "一组结束时估计还能继续完成的合格重复次数。",
+      "category": "metrics",
+      "example": "85kg卧推完成5次，估计还能完成2次合格重复，则RIR≈2。",
+      "commonMisconception": "RIR是估算值，不能当作仪器精确测量。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "rpe",
+        "failure"
+      ],
+      "tags": []
+    },
+    {
+      "id": "rpe",
+      "slug": "rpe",
+      "zh": "主观用力程度",
+      "en": "Rating of Perceived Exertion",
+      "definition": "力量训练中常用1至10的主观努力程度量表，接近力竭时可近似对应RIR。",
+      "category": "metrics",
+      "example": "力量训练RPE8通常可近似理解为RIR2。",
+      "commonMisconception": "RPE有不同量表；不能普遍用10-RIR作绝对等式。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "rir",
+        "autoregulation"
+      ],
+      "tags": []
+    },
+    {
+      "id": "failure",
+      "slug": "failure",
+      "zh": "向心力竭",
+      "en": "Momentary Muscular Failure",
+      "definition": "在既定技术标准下无法继续完成一次向心阶段的重复。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "rir"
+      ],
+      "tags": []
+    },
+    {
+      "id": "technical-failure",
+      "slug": "technical-failure",
+      "zh": "技术性力竭",
+      "en": "Technical Failure",
+      "definition": "无法保持预定动作技术继续完成重复的状态。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "load",
+      "slug": "load",
+      "zh": "负荷",
+      "en": "Load",
+      "definition": "每次重复采用的外部负重或阻力大小。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "mechanical-tension",
+        "pcr"
+      ],
+      "tags": []
+    },
+    {
+      "id": "volume",
+      "slug": "volume",
+      "zh": "训练容量",
+      "en": "Training Volume",
+      "definition": "描述累计训练工作量，可用每肌群每周组数、总重复等不同指标表达。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "drop-set",
+        "hard-set"
+      ],
+      "tags": []
+    },
+    {
+      "id": "volume-load",
+      "slug": "volume-load",
+      "zh": "容量负荷",
+      "en": "Volume Load",
+      "definition": "常用重量乘以重复次数乘以组数的计算方式，不等于肌肥大刺激强度。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": "容量负荷高不直接代表增肌效果更强。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "frequency",
+      "slug": "frequency",
+      "zh": "训练频率",
+      "en": "Training Frequency",
+      "definition": "一个肌群或动作在某一时间段内被训练的次数。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "rest-interval",
+      "slug": "rest-interval",
+      "zh": "组间休息",
+      "en": "Rest Interval",
+      "definition": "不同训练组之间的恢复时长。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "rpt",
+        "pcr-resynthesis"
+      ],
+      "tags": []
+    },
+    {
+      "id": "tut",
+      "slug": "tut",
+      "zh": "张力持续时间",
+      "en": "Time Under Tension",
+      "definition": "肌肉在负荷作用下的时间，单凭它不能量化肌肥大刺激。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "hard-set",
+      "slug": "hard-set",
+      "zh": "高努力程度组",
+      "en": "Hard Set",
+      "definition": "主观上接近力竭的训练组，属于训练量管理的实用术语而非统一生物学单位。",
+      "category": "metrics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026",
+        "robinson2024"
+      ],
+      "relatedIds": [
+        "volume"
+      ],
+      "tags": []
+    },
+    {
+      "id": "straight-sets",
+      "slug": "straight-sets",
+      "zh": "固定组",
+      "en": "Straight Sets",
+      "definition": "多组使用相近的负重与目标次数，常安排完整组间休息。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "rpt"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ascending-pyramid",
+      "slug": "ascending-pyramid",
+      "zh": "正金字塔",
+      "en": "Ascending Pyramid",
+      "definition": "正式组负重逐组增加、目标重复次数通常减少。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "descending-pyramid"
+      ],
+      "tags": []
+    },
+    {
+      "id": "descending-pyramid",
+      "slug": "descending-pyramid",
+      "zh": "递减金字塔",
+      "en": "Descending Pyramid",
+      "definition": "正式组负重逐组减少、目标重复次数通常增加，是否休息需另外规定。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "ascending-pyramid"
+      ],
+      "tags": []
+    },
+    {
+      "id": "rpt",
+      "slug": "rpt",
+      "zh": "倒金字塔训练法",
+      "en": "Reverse Pyramid Training",
+      "definition": "通常先做最重正式组，在充分休息后逐组减重继续训练。",
+      "category": "methods",
+      "example": "85kg×5；充分休息；77.5kg×7；充分休息；70kg×9。",
+      "commonMisconception": "RPT中的减重组之间有明确休息，不等于连续无休递减组。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "top-set",
+        "backoff-set",
+        "rest-interval",
+        "drop-set",
+        "straight-sets"
+      ],
+      "tags": []
+    },
+    {
+      "id": "top-set",
+      "slug": "top-set",
+      "zh": "顶组",
+      "en": "Top Set",
+      "definition": "一次动作训练中最重或最具代表性的高强度正式组。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "rpt"
+      ],
+      "tags": []
+    },
+    {
+      "id": "backoff-set",
+      "slug": "backoff-set",
+      "zh": "回退组",
+      "en": "Back-off Set",
+      "definition": "顶组后采用较低负重补充训练量的训练组。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "rpt"
+      ],
+      "tags": []
+    },
+    {
+      "id": "drop-set",
+      "slug": "drop-set",
+      "zh": "递减组",
+      "en": "Drop Set",
+      "definition": "接近力竭后短休或几乎不休息地减重继续训练，可连续减重多次。",
+      "category": "methods",
+      "example": "重组接近力竭后立即减重，继续重复，再立即减重继续。",
+      "commonMisconception": "一个正式组内连续降重两次仍可视为一个递减组序列，不应自动记作三个独立常规组。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "rpt",
+        "rest-pause",
+        "volume"
+      ],
+      "tags": []
+    },
+    {
+      "id": "rest-pause",
+      "slug": "rest-pause",
+      "zh": "休息暂停组",
+      "en": "Rest-Pause Set",
+      "definition": "在一段短休息后，通常用同一负重继续补充重复。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "drop-set"
+      ],
+      "tags": []
+    },
+    {
+      "id": "myoreps",
+      "slug": "myoreps",
+      "zh": "肌肉激活重复法",
+      "en": "Myo-Reps",
+      "definition": "接近力竭的激活组后接多次短休息的小组练习。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "cluster-set",
+      "slug": "cluster-set",
+      "zh": "簇式组",
+      "en": "Cluster Set",
+      "definition": "在一个预定训练组中插入短暂休息，以维持输出质量。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "superset",
+      "slug": "superset",
+      "zh": "超级组",
+      "en": "Superset",
+      "definition": "两种动作以较少中间休息交替训练。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "giant-set",
+      "slug": "giant-set",
+      "zh": "巨型组",
+      "en": "Giant Set",
+      "definition": "连续安排三个或更多动作，动作之间休息较短。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "amrap",
+      "slug": "amrap",
+      "zh": "尽可能多次数",
+      "en": "As Many Reps as Possible",
+      "definition": "在指定负重、时限或技术条件下完成尽可能多的重复。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "emom",
+      "slug": "emom",
+      "zh": "每分钟训练",
+      "en": "Every Minute on the Minute",
+      "definition": "每分钟起始执行预定动作与重复，剩余时间作为休息。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "double-progression",
+      "slug": "double-progression",
+      "zh": "双重渐进",
+      "en": "Double Progression",
+      "definition": "先逐步增加同一重量下的次数，达到目标区间上限后再提高负重。",
+      "category": "methods",
+      "example": "70kg卧推目标3×8–12；都达到12次且技术和RIR达标后增加重量。",
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "progressive-overload"
+      ],
+      "tags": []
+    },
+    {
+      "id": "progressive-overload",
+      "slug": "progressive-overload",
+      "zh": "渐进超负荷",
+      "en": "Progressive Overload",
+      "definition": "随着适应提高训练要求，例如提高负重、有效重复或可恢复训练量。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "double-progression"
+      ],
+      "tags": []
+    },
+    {
+      "id": "autoregulation",
+      "slug": "autoregulation",
+      "zh": "自我调节",
+      "en": "Autoregulation",
+      "definition": "根据当天表现、RIR及恢复情况调整训练处方。",
+      "category": "methods",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "rpe"
+      ],
+      "tags": []
+    },
+    {
+      "id": "hypertrophy",
+      "slug": "hypertrophy",
+      "zh": "肌肥大",
+      "en": "Muscle Hypertrophy",
+      "definition": "长期训练后肌纤维体积、横截面积或相关组织结构增加。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "volume-load",
+        "net-protein-balance",
+        "myonucleus",
+        "metabolic-stress",
+        "mechanical-tension",
+        "pr",
+        "caloric-surplus"
+      ],
+      "tags": []
+    },
+    {
+      "id": "hyperplasia",
+      "slug": "hyperplasia",
+      "zh": "肌纤维增生",
+      "en": "Muscle Fiber Hyperplasia",
+      "definition": "肌纤维数量增加的概念，在人类抗阻训练中的重要性尚不明确。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "emerging",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "myofibril",
+      "slug": "myofibril",
+      "zh": "肌原纤维",
+      "en": "Myofibril",
+      "definition": "肌纤维内由重复排列的肌节组成的收缩结构。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "sarcomere",
+      "slug": "sarcomere",
+      "zh": "肌节",
+      "en": "Sarcomere",
+      "definition": "肌原纤维的基本收缩单位，包含肌动蛋白与肌球蛋白等结构。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "sarcoplasmic-hypertrophy",
+      "slug": "sarcoplasmic-hypertrophy",
+      "zh": "肌浆肥大",
+      "en": "Sarcoplasmic Hypertrophy",
+      "definition": "非收缩成分占比变化的假说或观察范畴，独立训练意义仍有争论。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "emerging",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "mechanical-tension",
+      "slug": "mechanical-tension",
+      "zh": "机械张力",
+      "en": "Mechanical Tension",
+      "definition": "肌肉主动收缩及受力拉长时承受的张力，是肌肥大关键训练刺激。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": "重量越重不必然意味着目标肌肉获得的有效刺激越大。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "load",
+        "rom",
+        "torque",
+        "eccentric",
+        "mechanotransduction",
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "metabolic-stress",
+      "slug": "metabolic-stress",
+      "zh": "代谢应激",
+      "en": "Metabolic Stress",
+      "definition": "高强度运动中出现的代谢产物与细胞环境变化，不能等同独立的必需增肌开关。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": "泵感、乳酸与代谢应激不等于已证实独立驱动肌肥大的必需条件。",
+      "evidenceTag": "context_dependent",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "muscle-damage",
+      "slug": "muscle-damage",
+      "zh": "运动性肌肉损伤",
+      "en": "Exercise-Induced Muscle Damage",
+      "definition": "训练可能造成的结构或功能损伤，不代表损伤越多增肌越好。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": "不能以酸痛或肌肉损伤程度衡量增肌成效。",
+      "evidenceTag": "context_dependent",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "satellite-cell"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mechanotransduction",
+      "slug": "mechanotransduction",
+      "zh": "机械信号转导",
+      "en": "Mechanotransduction",
+      "definition": "细胞把机械负荷感知转化为细胞内信号反应的过程。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "titin",
+        "mechanical-tension",
+        "mtorc1",
+        "mapk"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mtorc1",
+      "slug": "mtorc1",
+      "zh": "mTORC1复合体",
+      "en": "Mechanistic Target of Rapamycin Complex 1",
+      "definition": "参与调控细胞生长及肌肉蛋白质翻译的信号复合体。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "mechanotransduction",
+        "mps",
+        "leucine"
+      ],
+      "tags": []
+    },
+    {
+      "id": "akt",
+      "slug": "akt",
+      "zh": "蛋白激酶B",
+      "en": "Protein Kinase B (AKT)",
+      "definition": "与生长及代谢调节相关的蛋白激酶，参与多条肌肉适应通路。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "mapk",
+      "slug": "mapk",
+      "zh": "丝裂原活化蛋白激酶通路",
+      "en": "MAPK Signaling",
+      "definition": "与细胞应激和适应调控相关的信号网络，不能简单视为单一增肌开关。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "mechanotransduction"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ampk",
+      "slug": "ampk",
+      "zh": "AMP活化蛋白激酶",
+      "en": "AMP-Activated Protein Kinase",
+      "definition": "参与细胞能量状态感知与代谢调节的信号激酶。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "mps",
+      "slug": "mps",
+      "zh": "肌肉蛋白质合成",
+      "en": "Muscle Protein Synthesis",
+      "definition": "肌肉组织新蛋白质合成的过程。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "mtorc1",
+        "ribosome-biogenesis",
+        "net-protein-balance",
+        "protein"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mpb",
+      "slug": "mpb",
+      "zh": "肌肉蛋白质分解",
+      "en": "Muscle Protein Breakdown",
+      "definition": "肌肉蛋白质被分解和更新的过程。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "net-protein-balance"
+      ],
+      "tags": []
+    },
+    {
+      "id": "net-protein-balance",
+      "slug": "net-protein-balance",
+      "zh": "蛋白质净平衡",
+      "en": "Net Protein Balance",
+      "definition": "蛋白质合成与分解在一段时间尺度上的差额。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "mps",
+        "mpb",
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "satellite-cell",
+      "slug": "satellite-cell",
+      "zh": "卫星细胞",
+      "en": "Satellite Cell",
+      "definition": "骨骼肌干细胞，参与修复及某些肌肥大适应，但非所有肌肥大的绝对前提。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": "并非所有肌肥大都必须先激活卫星细胞或增加肌核。",
+      "evidenceTag": "context_dependent",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "myonucleus",
+        "muscle-damage"
+      ],
+      "tags": []
+    },
+    {
+      "id": "myonucleus",
+      "slug": "myonucleus",
+      "zh": "肌核",
+      "en": "Myonucleus",
+      "definition": "肌纤维内的细胞核，可参与转录与长期生长适应。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "satellite-cell",
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ribosome-biogenesis",
+      "slug": "ribosome-biogenesis",
+      "zh": "核糖体生物发生",
+      "en": "Ribosome Biogenesis",
+      "definition": "形成核糖体并扩展细胞蛋白质翻译能力的过程。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "mps"
+      ],
+      "tags": []
+    },
+    {
+      "id": "motor-unit",
+      "slug": "motor-unit",
+      "zh": "运动单位",
+      "en": "Motor Unit",
+      "definition": "一个运动神经元及其支配的肌纤维组成的功能单位。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "motor-unit-recruitment",
+      "slug": "motor-unit-recruitment",
+      "zh": "运动单位募集",
+      "en": "Motor Unit Recruitment",
+      "definition": "神经系统根据力量需求动员运动单位参与收缩。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "concentric"
+      ],
+      "tags": []
+    },
+    {
+      "id": "type-i-fiber",
+      "slug": "type-i-fiber",
+      "zh": "I型肌纤维",
+      "en": "Type I Muscle Fiber",
+      "definition": "一般氧化能力较强、相对抗疲劳的肌纤维类型。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "type-ii-fiber",
+      "slug": "type-ii-fiber",
+      "zh": "II型肌纤维",
+      "en": "Type II Muscle Fiber",
+      "definition": "一般收缩速度和功率较高、对高力量输出重要的肌纤维类型。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "doms",
+      "slug": "doms",
+      "zh": "延迟性肌肉酸痛",
+      "en": "Delayed Onset Muscle Soreness",
+      "definition": "训练后延迟出现的酸痛，不能作为增肌效果的可靠直接指标。",
+      "category": "mechanisms",
+      "example": null,
+      "commonMisconception": "没有延迟性酸痛也完全可能产生肌肥大。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "atp",
+      "slug": "atp",
+      "zh": "三磷酸腺苷",
+      "en": "Adenosine Triphosphate",
+      "definition": "肌肉收缩直接使用的主要能量货币。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "atp-pcr-system",
+        "glycolysis",
+        "oxidative-system"
+      ],
+      "tags": []
+    },
+    {
+      "id": "adp",
+      "slug": "adp",
+      "zh": "二磷酸腺苷",
+      "en": "Adenosine Diphosphate",
+      "definition": "ATP释放能量后形成的重要产物，可再合成为ATP。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "pcr",
+      "slug": "pcr",
+      "zh": "磷酸肌酸",
+      "en": "Phosphocreatine",
+      "definition": "可在肌酸激酶催化下快速帮助ADP再合成为ATP的储备物。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "atp-pcr-system",
+        "creatine-kinase",
+        "creatine",
+        "load"
+      ],
+      "tags": []
+    },
+    {
+      "id": "creatine-kinase",
+      "slug": "creatine-kinase",
+      "zh": "肌酸激酶",
+      "en": "Creatine Kinase",
+      "definition": "催化肌酸与磷酸肌酸相关可逆反应的酶。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "pcr"
+      ],
+      "tags": []
+    },
+    {
+      "id": "atp-pcr-system",
+      "slug": "atp-pcr-system",
+      "zh": "磷酸原系统",
+      "en": "ATP-PCr System",
+      "definition": "在短时高功率运动中快速支持ATP再合成的供能途径。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": "三套能量系统始终共同参与，不是严格先后开关。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "atp",
+        "pcr"
+      ],
+      "tags": []
+    },
+    {
+      "id": "glycolysis",
+      "slug": "glycolysis",
+      "zh": "糖酵解",
+      "en": "Glycolysis",
+      "definition": "葡萄糖或糖原分解并提供ATP的代谢过程。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "atp",
+        "glycogen",
+        "lactate"
+      ],
+      "tags": []
+    },
+    {
+      "id": "oxidative-system",
+      "slug": "oxidative-system",
+      "zh": "氧化供能",
+      "en": "Oxidative Energy System",
+      "definition": "利用有氧代谢途径持续再合成ATP的供能方式。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "atp"
+      ],
+      "tags": []
+    },
+    {
+      "id": "glycogen",
+      "slug": "glycogen",
+      "zh": "糖原",
+      "en": "Glycogen",
+      "definition": "人体储存碳水化合物的一种形式，是运动重要的燃料储备。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "glycolysis"
+      ],
+      "tags": []
+    },
+    {
+      "id": "lactate",
+      "slug": "lactate",
+      "zh": "乳酸根",
+      "en": "Lactate",
+      "definition": "糖酵解过程中产生并可被继续利用的代谢物，不应简化成造成酸痛的废物。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "glycolysis"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mitochondria",
+      "slug": "mitochondria",
+      "zh": "线粒体",
+      "en": "Mitochondria",
+      "definition": "与氧化磷酸化和细胞代谢调控密切相关的细胞器。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "pcr-resynthesis",
+      "slug": "pcr-resynthesis",
+      "zh": "磷酸肌酸再合成",
+      "en": "PCr Resynthesis",
+      "definition": "运动后通过代谢过程恢复肌肉磷酸肌酸储备。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [
+        "rest-interval"
+      ],
+      "tags": []
+    },
+    {
+      "id": "vo2max",
+      "slug": "vo2max",
+      "zh": "最大摄氧量",
+      "en": "VO2max",
+      "definition": "递增运动测试中可达到的最大氧摄取能力指标。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "epoc",
+      "slug": "epoc",
+      "zh": "运动后过量氧耗",
+      "en": "Excess Post-exercise Oxygen Consumption",
+      "definition": "运动后氧耗高于安静基线的现象。",
+      "category": "energy",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "roberts2023"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "periodization",
+      "slug": "periodization",
+      "zh": "周期化训练",
+      "en": "Periodization",
+      "definition": "有目的地改变训练变量以协调适应与疲劳。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "macrocycle",
+        "mesocycle",
+        "microcycle",
+        "deload"
+      ],
+      "tags": []
+    },
+    {
+      "id": "macrocycle",
+      "slug": "macrocycle",
+      "zh": "大周期",
+      "en": "Macrocycle",
+      "definition": "长期训练目标下较大的规划时间段。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "periodization"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mesocycle",
+      "slug": "mesocycle",
+      "zh": "中周期",
+      "en": "Mesocycle",
+      "definition": "通常以数周计、具有阶段性重点的训练安排。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "periodization"
+      ],
+      "tags": []
+    },
+    {
+      "id": "microcycle",
+      "slug": "microcycle",
+      "zh": "小周期",
+      "en": "Microcycle",
+      "definition": "通常以数天至约一周为单位的训练安排。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "periodization"
+      ],
+      "tags": []
+    },
+    {
+      "id": "linear-periodization",
+      "slug": "linear-periodization",
+      "zh": "线性周期化",
+      "en": "Linear Periodization",
+      "definition": "以较有规律的趋势改变负重、重复次数或训练量的安排。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "undulating-periodization",
+      "slug": "undulating-periodization",
+      "zh": "波动周期化",
+      "en": "Undulating Periodization",
+      "definition": "训练变量在不同训练日或周之间波动变化。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "dup",
+      "slug": "dup",
+      "zh": "每日波动周期化",
+      "en": "Daily Undulating Periodization",
+      "definition": "在不同训练日采用不同强度或次数范围的周期化方式。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "block-periodization",
+      "slug": "block-periodization",
+      "zh": "区块周期化",
+      "en": "Block Periodization",
+      "definition": "在连续阶段中有重点地安排不同适应目标，同时可保留其他能力刺激。",
+      "category": "periodization",
+      "example": "示例：前4周较偏重力量，后4周较偏重容量；并非固定周期要求。",
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "accumulation",
+        "intensification"
+      ],
+      "tags": []
+    },
+    {
+      "id": "accumulation",
+      "slug": "accumulation",
+      "zh": "积累期",
+      "en": "Accumulation Phase",
+      "definition": "周期中相对强调训练量、基础能力或工作容量的阶段。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "block-periodization"
+      ],
+      "tags": []
+    },
+    {
+      "id": "intensification",
+      "slug": "intensification",
+      "zh": "强化期",
+      "en": "Intensification Phase",
+      "definition": "周期中相对强调较高训练负荷与专项表现的阶段。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "block-periodization"
+      ],
+      "tags": []
+    },
+    {
+      "id": "deload",
+      "slug": "deload",
+      "zh": "减量周",
+      "en": "Deload",
+      "definition": "主动减少训练压力，让疲劳消退同时尽量保持训练适应。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": "无需按固定周数机械安排，可结合长期压力与表现决策。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "periodization",
+        "fitness-fatigue"
+      ],
+      "tags": []
+    },
+    {
+      "id": "taper",
+      "slug": "taper",
+      "zh": "赛前减量",
+      "en": "Taper",
+      "definition": "在竞赛或测试前降低训练负担以优化表现。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "sra",
+      "slug": "sra",
+      "zh": "刺激恢复适应模型",
+      "en": "Stimulus-Recovery-Adaptation",
+      "definition": "从训练刺激、恢复到长期适应的概念框架，非固定小时数公式。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "supercompensation"
+      ],
+      "tags": []
+    },
+    {
+      "id": "supercompensation",
+      "slug": "supercompensation",
+      "zh": "超量恢复",
+      "en": "Supercompensation",
+      "definition": "用来描述适当恢复后表现可能高于训练前基线的经典概念模型。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": "超量恢复曲线不是固定48或72小时的生理时间表。",
+      "evidenceTag": "heuristic",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "sra"
+      ],
+      "tags": []
+    },
+    {
+      "id": "fitness-fatigue",
+      "slug": "fitness-fatigue",
+      "zh": "体能疲劳模型",
+      "en": "Fitness-Fatigue Model",
+      "definition": "把可观察表现理解为潜在适应与短期疲劳共同作用的框架。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "deload"
+      ],
+      "tags": []
+    },
+    {
+      "id": "functional-overreaching",
+      "slug": "functional-overreaching",
+      "zh": "功能性超量训练",
+      "en": "Functional Overreaching",
+      "definition": "短期提高训练压力并伴随暂时表现下降，恢复后可能获得提高。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "nonfunctional-overreaching",
+      "slug": "nonfunctional-overreaching",
+      "zh": "非功能性超量训练",
+      "en": "Non-functional Overreaching",
+      "definition": "训练压力失衡导致表现下降持续且缺少有益适应。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "overtraining-syndrome",
+      "slug": "overtraining-syndrome",
+      "zh": "过度训练综合征",
+      "en": "Overtraining Syndrome",
+      "definition": "长期训练压力与恢复失衡相关的复杂持续性状态。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "central-fatigue",
+      "slug": "central-fatigue",
+      "zh": "中枢性疲劳",
+      "en": "Central Fatigue",
+      "definition": "神经系统驱动能力变化导致的疲劳组成部分。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "peripheral-fatigue",
+      "slug": "peripheral-fatigue",
+      "zh": "外周性疲劳",
+      "en": "Peripheral Fatigue",
+      "definition": "肌肉及其外周环节导致收缩表现下降的疲劳组成部分。",
+      "category": "periodization",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "protein",
+      "slug": "protein",
+      "zh": "蛋白质",
+      "en": "Protein",
+      "definition": "肌肉蛋白质更新所需的营养物质，日总量和质量通常更重要。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "mps",
+        "whey-protein"
+      ],
+      "tags": []
+    },
+    {
+      "id": "whey-protein",
+      "slug": "whey-protein",
+      "zh": "乳清蛋白",
+      "en": "Whey Protein",
+      "definition": "便于补足蛋白质摄入的一种高质量蛋白来源。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "protein"
+      ],
+      "tags": []
+    },
+    {
+      "id": "creatine",
+      "slug": "creatine",
+      "zh": "一水肌酸",
+      "en": "Creatine Monohydrate",
+      "definition": "提高肌肉肌酸及磷酸肌酸储备，可支持部分高强度运动表现。",
+      "category": "nutrition",
+      "example": "较常见的一水肌酸日常补充方案为3–5g/日；具体应结合个人健康情况。",
+      "commonMisconception": "肌酸主要支持训练供能，不是直接注射或提供ATP。",
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "pcr"
+      ],
+      "tags": []
+    },
+    {
+      "id": "caffeine",
+      "slug": "caffeine",
+      "zh": "咖啡因",
+      "en": "Caffeine",
+      "definition": "可改善觉醒与部分运动表现，但应考虑睡眠及个体耐受性。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "readiness"
+      ],
+      "tags": []
+    },
+    {
+      "id": "beta-alanine",
+      "slug": "beta-alanine",
+      "zh": "β-丙氨酸",
+      "en": "Beta-Alanine",
+      "definition": "提高肌肉肌肽储备，对某些持续高强度运动可能有帮助。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "citrulline",
+      "slug": "citrulline",
+      "zh": "瓜氨酸",
+      "en": "Citrulline",
+      "definition": "参与精氨酸相关代谢，增肌效益尚不确定。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "bcaa",
+      "slug": "bcaa",
+      "zh": "支链氨基酸",
+      "en": "Branched-Chain Amino Acids",
+      "definition": "亮氨酸、异亮氨酸和缬氨酸，蛋白质充足时额外补充通常意义有限。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "eaa",
+      "slug": "eaa",
+      "zh": "必需氨基酸",
+      "en": "Essential Amino Acids",
+      "definition": "人体不能充分自行合成、必须从食物获取的氨基酸。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "leucine",
+      "slug": "leucine",
+      "zh": "亮氨酸",
+      "en": "Leucine",
+      "definition": "必需氨基酸之一，也是参与蛋白质合成信号调控的营养因子。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "mtorc1"
+      ],
+      "tags": []
+    },
+    {
+      "id": "hmb",
+      "slug": "hmb",
+      "zh": "β-羟基β-甲基丁酸",
+      "en": "Beta-Hydroxy Beta-Methylbutyrate",
+      "definition": "亮氨酸代谢产物，效果依人群与训练背景而异。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "electrolytes",
+      "slug": "electrolytes",
+      "zh": "电解质",
+      "en": "Electrolytes",
+      "definition": "钠、钾等离子，参与体液平衡与神经肌肉功能。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "vitamin-d",
+      "slug": "vitamin-d",
+      "zh": "维生素D",
+      "en": "Vitamin D",
+      "definition": "与骨骼和肌肉正常功能相关，缺乏时纠正更有意义。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "omega-3",
+      "slug": "omega-3",
+      "zh": "Omega-3脂肪酸",
+      "en": "Omega-3 Fatty Acids",
+      "definition": "EPA和DHA等脂肪酸，不应视为已经证实的直接增肌补剂。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "tdee",
+      "slug": "tdee",
+      "zh": "每日总能量消耗",
+      "en": "Total Daily Energy Expenditure",
+      "definition": "一天内基础代谢、活动和食物热效应等消耗的总能量。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "bmr",
+      "slug": "bmr",
+      "zh": "基础代谢率",
+      "en": "Basal Metabolic Rate",
+      "definition": "严格安静条件下维持基本生命活动所需的能量消耗。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "caloric-surplus",
+      "slug": "caloric-surplus",
+      "zh": "热量盈余",
+      "en": "Caloric Surplus",
+      "definition": "摄入能量高于消耗，在增肌期常用于支持体重增长。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [
+        "hypertrophy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "caloric-deficit",
+      "slug": "caloric-deficit",
+      "zh": "热量赤字",
+      "en": "Caloric Deficit",
+      "definition": "摄入能量低于消耗，通常用于减脂。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "macros",
+      "slug": "macros",
+      "zh": "宏量营养素",
+      "en": "Macronutrients",
+      "definition": "蛋白质、碳水化合物和脂肪。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "protein-timing",
+      "slug": "protein-timing",
+      "zh": "蛋白质摄入时机",
+      "en": "Protein Timing",
+      "definition": "蛋白质在一天中的摄入分布与训练时间安排。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "bioavailability",
+      "slug": "bioavailability",
+      "zh": "生物利用度",
+      "en": "Bioavailability",
+      "definition": "摄入物质进入体循环或可供利用的程度。",
+      "category": "nutrition",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "nih_ods",
+        "issn_creatine"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "concentric",
+      "slug": "concentric",
+      "zh": "向心收缩",
+      "en": "Concentric Contraction",
+      "definition": "肌肉在产生力量时整体缩短的收缩形式。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "motor-unit-recruitment"
+      ],
+      "tags": []
+    },
+    {
+      "id": "eccentric",
+      "slug": "eccentric",
+      "zh": "离心收缩",
+      "en": "Eccentric Contraction",
+      "definition": "肌肉在主动产生力量时被拉长的收缩形式。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mechanical-tension"
+      ],
+      "tags": []
+    },
+    {
+      "id": "isometric",
+      "slug": "isometric",
+      "zh": "等长收缩",
+      "en": "Isometric Contraction",
+      "definition": "肌肉产生张力而其整体长度变化很小的收缩形式。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "rom",
+      "slug": "rom",
+      "zh": "动作活动范围",
+      "en": "Range of Motion",
+      "definition": "一次动作中关节或身体环节完成的运动幅度。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mechanical-tension"
+      ],
+      "tags": []
+    },
+    {
+      "id": "full-rom",
+      "slug": "full-rom",
+      "zh": "全幅度训练",
+      "en": "Full Range of Motion",
+      "definition": "在预定、可控制的完整动作范围内训练。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "partial-rom",
+      "slug": "partial-rom",
+      "zh": "部分幅度训练",
+      "en": "Partial Range of Motion",
+      "definition": "只在选定区间完成动作重复。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "tempo",
+      "slug": "tempo",
+      "zh": "重复节奏",
+      "en": "Repetition Tempo",
+      "definition": "一次动作各阶段如离心、停顿、向心的速度与时长安排。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "moment-arm",
+      "slug": "moment-arm",
+      "zh": "力臂",
+      "en": "Moment Arm",
+      "definition": "力的作用线至旋转轴的垂直距离。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "torque"
+      ],
+      "tags": []
+    },
+    {
+      "id": "torque",
+      "slug": "torque",
+      "zh": "力矩",
+      "en": "Torque",
+      "definition": "力量产生旋转效应的量，受力和力臂共同影响。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "moment-arm",
+        "mechanical-tension"
+      ],
+      "tags": []
+    },
+    {
+      "id": "bracing",
+      "slug": "bracing",
+      "zh": "躯干支撑",
+      "en": "Bracing",
+      "definition": "协调躯干肌群张力以提高身体和脊柱区域的稳定性。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "intra-abdominal-pressure",
+      "slug": "intra-abdominal-pressure",
+      "zh": "腹内压",
+      "en": "Intra-abdominal Pressure",
+      "definition": "腹腔内部产生的压力，参与躯干承重稳定。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "prime-mover",
+      "slug": "prime-mover",
+      "zh": "主动肌",
+      "en": "Prime Mover",
+      "definition": "在特定动作中贡献较大主要动力的肌群。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "synergist",
+      "slug": "synergist",
+      "zh": "协同肌",
+      "en": "Synergist",
+      "definition": "辅助完成特定关节运动或稳定要求的肌群。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "antagonist",
+      "slug": "antagonist",
+      "zh": "拮抗肌",
+      "en": "Antagonist",
+      "definition": "相对当前主要动作方向起对抗作用的肌群。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "stabilizer",
+      "slug": "stabilizer",
+      "zh": "稳定肌",
+      "en": "Stabilizer",
+      "definition": "帮助维持身体或关节稳定、控制多余运动的肌群。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "titin",
+      "slug": "titin",
+      "zh": "肌联蛋白",
+      "en": "Titin",
+      "definition": "肌节内参与弹性和被动机械性质的巨大蛋白，涉及机械感知研究。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mechanotransduction"
+      ],
+      "tags": []
+    },
+    {
+      "id": "concentric-intent",
+      "slug": "concentric-intent",
+      "zh": "向心加速意图",
+      "en": "Concentric Intent",
+      "definition": "在保持动作标准前提下主动尝试更快地发力，不等于实际举起速度一定快。",
+      "category": "biomechanics",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "pr",
+      "slug": "pr",
+      "zh": "个人最佳记录",
+      "en": "Personal Record",
+      "definition": "某动作、重量或训练表现达到的个人历史最佳成绩。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "hypertrophy",
+        "strength"
+      ],
+      "tags": []
+    },
+    {
+      "id": "working-set",
+      "slug": "working-set",
+      "zh": "正式训练组",
+      "en": "Working Set",
+      "definition": "为了训练目标而设计的主要有效训练组，区别于纯热身组。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "warmup-set"
+      ],
+      "tags": []
+    },
+    {
+      "id": "warmup-set",
+      "slug": "warmup-set",
+      "zh": "热身组",
+      "en": "Warm-up Set",
+      "definition": "在正式训练前逐步准备动作技术、组织和负重感受的组。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "working-set"
+      ],
+      "tags": []
+    },
+    {
+      "id": "vbt",
+      "slug": "vbt",
+      "zh": "速度反馈训练",
+      "en": "Velocity-Based Training",
+      "definition": "利用动作速度测量调节负重、训练表现及疲劳。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "velocity-loss",
+      "slug": "velocity-loss",
+      "zh": "重复速度下降",
+      "en": "Velocity Loss",
+      "definition": "同一组内重复动作速度下降的程度，是部分VBT方法中的疲劳指标。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "readiness",
+      "slug": "readiness",
+      "zh": "训练准备状态",
+      "en": "Training Readiness",
+      "definition": "当天身体与心理状态对预定训练的适应程度。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "caffeine",
+        "hrv"
+      ],
+      "tags": []
+    },
+    {
+      "id": "hrv",
+      "slug": "hrv",
+      "zh": "心率变异性",
+      "en": "Heart Rate Variability",
+      "definition": "连续心跳间隔的变化，不能脱离个人基线单独判断恢复充分与否。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "readiness"
+      ],
+      "tags": []
+    },
+    {
+      "id": "adherence",
+      "slug": "adherence",
+      "zh": "训练依从性",
+      "en": "Adherence",
+      "definition": "长期按计划完成训练的程度。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "mev",
+      "slug": "mev",
+      "zh": "最低有效训练量",
+      "en": "Minimum Effective Volume",
+      "definition": "训练容量规划中推测可产生可观察适应的经验性下限。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "heuristic",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mav"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mav",
+      "slug": "mav",
+      "zh": "最大适应训练量",
+      "en": "Maximum Adaptive Volume",
+      "definition": "经验性训练量模型中可能获得较好适应的区间概念。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "heuristic",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mev",
+        "mrv"
+      ],
+      "tags": []
+    },
+    {
+      "id": "mrv",
+      "slug": "mrv",
+      "zh": "最大可恢复训练量",
+      "en": "Maximum Recoverable Volume",
+      "definition": "经验性容量模型中个人可承受训练量的上限概念，非固定科学阈值。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "heuristic",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "mav"
+      ],
+      "tags": []
+    },
+    {
+      "id": "plateau",
+      "slug": "plateau",
+      "zh": "训练平台期",
+      "en": "Plateau",
+      "definition": "经过一段训练后可观察指标较长时间没有明显进展。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "strength",
+      "slug": "strength",
+      "zh": "最大力量",
+      "en": "Strength",
+      "definition": "在特定任务中产生较大力量的能力。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [
+        "pr",
+        "e1rm"
+      ],
+      "tags": []
+    },
+    {
+      "id": "power",
+      "slug": "power",
+      "zh": "功率或爆发输出",
+      "en": "Power",
+      "definition": "单位时间完成的机械功，受力与速度共同影响。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    },
+    {
+      "id": "muscular-endurance",
+      "slug": "muscular-endurance",
+      "zh": "肌肉耐力",
+      "en": "Muscular Endurance",
+      "definition": "重复维持力量输出、抵抗疲劳的能力。",
+      "category": "tracking",
+      "example": null,
+      "commonMisconception": null,
+      "evidenceTag": "general",
+      "readingSourceIds": [
+        "acsm2026"
+      ],
+      "relatedIds": [],
+      "tags": []
+    }
+  ]
+}

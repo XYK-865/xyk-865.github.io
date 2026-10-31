@@ -1,0 +1,10 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
+Official archive: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/
+Official license (updated 2025-02-27; checked 2026-10-29): https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+Mesh source: https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip
+Selection: official ISA element membership under FMA5022 (muscle organ), FMA10474 (zone of muscle organ), FMA85453 (head of muscle organ), plus FMA32555/FMA32557 (ascending/descending trapezius parts, classified only as organ zones in this release). Union 407 available muscle elements; 407 imported. Bone organs and skin retained. The previous substring selector's two deltoid-branch artery meshes are excluded.
+Independent element IDs, English FMA names, chosen concepts and original memberships are retained in models.json. Chinese names are editorial translations. The most specific supplied name by element coverage is preferred over umbrella concepts; no claim of a full ontology-depth audit. Regions use official ISA memberships plus editorial body-region assignment for explicitly named muscle heads/parts whose parent-region membership is absent; regionMethod records this distinction.
+Adaptations: coordinate rotation/normalization, float32/indexed binary encoding, per-region gzip bundles, computed vertex normals and colours. Display order is a UI sequence by region and name, NOT anatomical depth. Adult male reference, not a complete atlas. No invented muscle geometry.
+Known gaps in supplied ISA element mapping: 背阔肌 Latissimus dorsi, 腹直肌 Rectus abdominis, 腹内斜肌 Internal oblique, 腹横肌 Transversus abdominis. Multiple elements can share a source concept label; their element IDs disambiguate them. Not for clinical use.
+Archive CRC32 and uncompressed sizes are verified against the cached official ZIP central directory before reusing or importing OBJ files.
+Three.js r170: MIT license in THREE-LICENSE.txt.
