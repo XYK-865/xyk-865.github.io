@@ -1,0 +1,526 @@
+{
+  "version": "0.1.0",
+  "title": "人生高性价比清单",
+  "updated": "2026-11-01",
+  "description": "按当前需要选择少量主题，核对来源，试着行动，再留下自己的复盘。",
+  "contentStatus": "主题摘要与查阅入口；原始研究与现行政策尚未逐条独立核验。",
+  "readingHint": "这是一份可选清单，不是必须完成的任务表；可以先从当下最需要的一两项开始。",
+  "scopeNotice": "健康、金融、法律内容为资料索引，不构成针对个人的诊疗、投资或法律意见。具体决定应核对原始来源、适用条件和当地最新规则。",
+  "attribution": {
+    "title": "高性价比人生指南",
+    "creator": "eternity4719 / HowToLiveBetter 项目贡献者",
+    "repositoryURL": "https://github.com/eternity4719/HowToLiveBetter",
+    "onlineURL": "https://eternity4719.github.io/HowToLiveBetter/",
+    "license": "CC BY 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "repositoryLicenseURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE",
+    "snapshot": "e2605d3e2242bd6216c9255192b8a8957a08c55a",
+    "checkedAt": "2026-11-01",
+    "adaptationNotice": "参考原项目重新分类并改写主题摘要、补充个人复盘问题；未复制原项目全文，未沿用其证据评级或量化收益。"
+  },
+  "categories": [
+    {
+      "id": "health",
+      "title": "健康、运动、睡眠与长寿",
+      "description": "记录能长期维持的生活习惯，核对健康信息的适用条件。"
+    },
+    {
+      "id": "money",
+      "title": "金钱管理、理财与消费",
+      "description": "看清现金流、实际成本和风险，把消费与未来选择权一起考虑。"
+    },
+    {
+      "id": "career",
+      "title": "职业发展、失业与劳动保障",
+      "description": "把职业机会、现实代价和劳动权益放在同一张图里。"
+    },
+    {
+      "id": "relationships",
+      "title": "友情、恋爱、婚姻与家庭",
+      "description": "关注真实互动、尊重边界、共同生活与照料分工。"
+    },
+    {
+      "id": "law",
+      "title": "法律常识与风险规避",
+      "description": "在签字、转账、发布内容和处理纠纷前，多核实一步。"
+    },
+    {
+      "id": "growth",
+      "title": "创业、个人成长与技能学习",
+      "description": "用反馈验证方向，用实际产出检验学习。"
+    },
+    {
+      "id": "time",
+      "title": "时间管理与生活决策",
+      "description": "减少打断，把目标写成行动，也给调整与退出留下位置。"
+    }
+  ],
+  "items": [
+    {
+      "id": "health-movement",
+      "category": "health",
+      "title": "让运动适应日常安排",
+      "summary": "把步行、力量训练和中断久坐一起考虑，先找到自己能持续执行的安排，再记录训练与恢复的实际表现。",
+      "reflection": "我能稳定保留的运动安排是什么？两周后用什么记录判断它是否适合我？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/02-%E4%B8%8D%E8%A6%81%E6%85%A2%E6%85%A2%E6%AD%BB.md",
+      "sourceTitle": "第 2 章｜不要慢慢死",
+      "sourceSections": [
+        11,
+        16,
+        17
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/02-%E4%B8%8D%E8%A6%81%E6%85%A2%E6%85%A2%E6%AD%BB.md",
+      "status": "待实践"
+    },
+    {
+      "id": "health-sleep",
+      "category": "health",
+      "title": "先记录自己的作息",
+      "summary": "观察入睡、起床和白天状态之间的关系，把规律作息作为可验证的生活调整；长期不适另行寻求专业评估。",
+      "reflection": "最近哪种安排最容易挤占睡眠？我能先改变哪个环节？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/03-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E7%B2%BE%E5%8A%9B.md",
+      "sourceTitle": "第 3 章｜不要浪费精力",
+      "sourceSections": [
+        2,
+        3,
+        9,
+        26,
+        27
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/03-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E7%B2%BE%E5%8A%9B.md",
+      "status": "待实践"
+    },
+    {
+      "id": "health-food",
+      "category": "health",
+      "title": "从常吃的食物做调整",
+      "summary": "先查看自己常吃的主食、蔬果与饮料，尝试容易坚持的替换，结合网站的食材记录观察口味、便利性与实际份量。",
+      "reflection": "哪一餐最值得先改善？新的搭配是否好吃、方便，也适合我的身体情况？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/02-%E4%B8%8D%E8%A6%81%E6%85%A2%E6%85%A2%E6%AD%BB.md",
+      "sourceTitle": "第 2 章｜不要慢慢死",
+      "sourceSections": [
+        7,
+        18,
+        24,
+        27,
+        28
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/02-%E4%B8%8D%E8%A6%81%E6%85%A2%E6%85%A2%E6%AD%BB.md",
+      "status": "待实践"
+    },
+    {
+      "id": "health-prevention",
+      "category": "health",
+      "title": "检查容易忽略的安全环节",
+      "summary": "以出行和居家环境为入口，盘点安全带、头盔、报警设备及应急用品，把高后果但容易遗漏的事情单独记录。",
+      "reflection": "家里和通勤路上，哪一个风险可以通过一次检查或维护先降低？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/01-%E4%B8%8D%E8%A6%81%E6%97%A9%E6%AD%BB.md",
+      "sourceTitle": "第 1 章｜不要早死",
+      "sourceSections": [
+        1,
+        2,
+        3,
+        26
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/01-%E4%B8%8D%E8%A6%81%E6%97%A9%E6%AD%BB.md",
+      "status": "待实践"
+    },
+    {
+      "id": "money-buffer",
+      "category": "money",
+      "title": "给现金流保留缓冲",
+      "summary": "先看必要支出、收入稳定性和近期承诺，再考虑自己需要多大流动性缓冲；金额随生活阶段重新评估。",
+      "reflection": "如果收入暂时中断，我最先需要支付什么？哪些钱不能承受短期波动？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "sourceTitle": "第 5 章｜不要浪费钱",
+      "sourceSections": [
+        27,
+        39
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "status": "待实践"
+    },
+    {
+      "id": "money-recurring",
+      "category": "money",
+      "title": "复查订阅与冲动购买",
+      "summary": "把自动续费、套餐和大额非必需消费列出来，比较实际使用频率、替代方案和取消条件。",
+      "reflection": "过去一个月，哪笔重复支出没有带来相称的使用价值？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "sourceTitle": "第 5 章｜不要浪费钱",
+      "sourceSections": [
+        1,
+        4,
+        23,
+        24
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "status": "待实践"
+    },
+    {
+      "id": "money-borrowing",
+      "category": "money",
+      "title": "把借款和分期算清楚",
+      "summary": "比较借款或分期时，把利息、费用、还款节奏与违约后果放在一起看，避免只盯着每期付款额。",
+      "reflection": "我清楚总共要还多少、什么时候还吗？这笔支出还有不借钱的替代方案吗？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "sourceTitle": "第 5 章｜不要浪费钱",
+      "sourceSections": [
+        7
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "status": "待实践"
+    },
+    {
+      "id": "money-risk",
+      "category": "money",
+      "title": "先理解风险，再谈回报",
+      "summary": "阅读投资信息时，分别核对风险、费用、流动性和集中程度，记录自己真正理解与尚未理解的部分。",
+      "reflection": "我能用自己的话说明这项资产怎么赚钱、可能怎么亏，以及何时需要取钱吗？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "sourceTitle": "第 5 章｜不要浪费钱",
+      "sourceSections": [
+        6,
+        15,
+        16,
+        18,
+        19
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/05-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E9%92%B1.md",
+      "status": "待实践"
+    },
+    {
+      "id": "career-change",
+      "category": "career",
+      "title": "换工作时比较完整代价",
+      "summary": "除岗位和薪酬，还把通勤、居住、健康、关系和办事成本放进比较，留下接受或放弃这次变化的依据。",
+      "reflection": "如果只看实际生活，一份新工作会改变我的哪些日常？最想验证的假设是什么？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/docs/%E6%8D%A2%E5%B7%A5%E4%BD%9C%E3%80%81%E6%8D%A2%E5%9F%8E%E5%B8%82%E4%B9%8B%E5%89%8D.md",
+      "sourceTitle": "专题｜换工作、换城市之前",
+      "sourceSections": [],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/docs/%E6%8D%A2%E5%B7%A5%E4%BD%9C%E3%80%81%E6%8D%A2%E5%9F%8E%E5%B8%82%E4%B9%8B%E5%89%8D.md",
+      "status": "待实践"
+    },
+    {
+      "id": "career-records",
+      "category": "career",
+      "title": "给劳动关系留下可查记录",
+      "summary": "把合同、工资、考勤、社保和重要沟通整理为自己的资料索引，遇到疑问时据此核对适用规则与正式渠道。",
+      "reflection": "我能否快速找到自己的合同和最近的工资、社保记录？还有什么重要约定只有口头说明？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/19-%E5%9C%A8%E8%81%8C%E7%A6%BB%E8%81%8C%E5%92%8C%E5%B7%A5%E4%BC%A4.md",
+      "sourceTitle": "第 19 章｜在职、离职和工伤",
+      "sourceSections": [
+        8,
+        17,
+        20,
+        21
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/19-%E5%9C%A8%E8%81%8C%E7%A6%BB%E8%81%8C%E5%92%8C%E5%B7%A5%E4%BC%A4.md",
+      "status": "待实践"
+    },
+    {
+      "id": "career-unemployment",
+      "category": "career",
+      "title": "提前知道失业时的支持入口",
+      "summary": "把公共就业服务、失业相关保障和培训支持作为查阅入口；是否符合条件、办理材料和标准再向当地部门核实。",
+      "reflection": "如果工作中断，我知道先联系哪个官方服务吗？哪些材料可以提前整理？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/07-%E6%B2%A1%E9%92%B1%E7%9A%84%E6%97%B6%E5%80%99%E6%80%8E%E4%B9%88%E6%B4%BB.md",
+      "sourceTitle": "第 7 章｜没钱的时候怎么活",
+      "sourceSections": [
+        1,
+        5,
+        12,
+        13,
+        14
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/07-%E6%B2%A1%E9%92%B1%E7%9A%84%E6%97%B6%E5%80%99%E6%80%8E%E4%B9%88%E6%B4%BB.md",
+      "status": "待实践"
+    },
+    {
+      "id": "career-safety",
+      "category": "career",
+      "title": "把职业健康纳入岗位选择",
+      "summary": "了解岗位涉及的危害、防护和报告流程，把身体代价纳入求职与在职记录，而不只比较工资。",
+      "reflection": "这份工作有哪些具体的健康或安全风险？我知道防护责任和正式求助渠道吗？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/19-%E5%9C%A8%E8%81%8C%E7%A6%BB%E8%81%8C%E5%92%8C%E5%B7%A5%E4%BC%A4.md",
+      "sourceTitle": "第 19 章｜在职、离职和工伤",
+      "sourceSections": [
+        9,
+        10,
+        11
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/19-%E5%9C%A8%E8%81%8C%E7%A6%BB%E8%81%8C%E5%92%8C%E5%B7%A5%E4%BC%A4.md",
+      "status": "待实践"
+    },
+    {
+      "id": "relationships-friendship",
+      "category": "relationships",
+      "title": "给真实相处留时间",
+      "summary": "把定期见面和保持联系当成生活的一部分，关注相处的质量与双方的现实安排。",
+      "reflection": "我想继续维护哪些友谊？下一次联系可以从什么具体的小事开始？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/22-%E6%80%8E%E4%B9%88%E6%94%BE%E6%9D%BE.md",
+      "sourceTitle": "第 22 章｜怎么放松：娱乐场所和减压",
+      "sourceSections": [
+        9
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/22-%E6%80%8E%E4%B9%88%E6%94%BE%E6%9D%BE.md",
+      "status": "待实践"
+    },
+    {
+      "id": "relationships-boundaries",
+      "category": "relationships",
+      "title": "分清事实、期待与边界",
+      "summary": "观察对方的实际回应，表达自己的意愿，也尊重拒绝和改变主意的权利，不把猜测当成双方已有的共识。",
+      "reflection": "我真正观察到了什么？哪些只是我的期待？双方的边界是否已经说清？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "sourceTitle": "第 10 章｜恋爱和结婚划不划算",
+      "sourceSections": [
+        2,
+        3,
+        4
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "status": "待实践"
+    },
+    {
+      "id": "relationships-communication",
+      "category": "relationships",
+      "title": "把冲突说成具体问题",
+      "summary": "从具体事件、感受和需求谈起，观察能否形成可执行的调整；持续的关系困扰可以寻求合适的支持。",
+      "reflection": "这次分歧要解决的到底是哪件事？双方能否各提出一个愿意尝试的改变？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "sourceTitle": "第 10 章｜恋爱和结婚划不划算",
+      "sourceSections": [
+        5,
+        17,
+        20
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "status": "待实践"
+    },
+    {
+      "id": "relationships-family",
+      "category": "relationships",
+      "title": "把共同生活的分工说清楚",
+      "summary": "将家务、照料、收入安排与重大财务承诺放在一起讨论，区分双方约定和需要核对的法律默认规则。",
+      "reflection": "这项共同承诺分别占用谁的时间和资源？是否需要留下明确约定并定期重谈？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "sourceTitle": "第 10 章｜恋爱和结婚划不划算",
+      "sourceSections": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/10-%E6%81%8B%E7%88%B1%E5%92%8C%E7%BB%93%E5%A9%9A%E5%88%92%E4%B8%8D%E5%88%92%E7%AE%97.md",
+      "status": "待实践"
+    },
+    {
+      "id": "law-signatures",
+      "category": "law",
+      "title": "先看懂自己将承担什么",
+      "summary": "在签字、借款或担保之前，核对身份、条款、责任范围和空白部分，疑问未解决时不以口头保证代替理解。",
+      "reflection": "这份文件中，我承担的是哪一种责任？是否有我看不懂或无法接受的条款？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/08-%E5%88%AB%E6%8A%8A%E8%87%AA%E5%B7%B1%E6%90%AD%E8%BF%9B%E5%8E%BB.md",
+      "sourceTitle": "第 8 章｜别把自己搭进去：法律与财产安全",
+      "sourceSections": [
+        17,
+        18,
+        28
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/08-%E5%88%AB%E6%8A%8A%E8%87%AA%E5%B7%B1%E6%90%AD%E8%BF%9B%E5%8E%BB.md",
+      "status": "待实践"
+    },
+    {
+      "id": "law-identity",
+      "category": "law",
+      "title": "给账号和身份信息设边界",
+      "summary": "盘点重要账号的验证、授权和找回方式；涉及转账、验证码或身份借用的请求，先通过独立渠道核实。",
+      "reflection": "如果手机或邮箱失去控制，我知道如何恢复吗？有哪些不再需要的授权？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/14-%E8%B4%A6%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md",
+      "sourceTitle": "第 14 章｜账号与信息安全",
+      "sourceSections": [
+        1,
+        2,
+        4,
+        6,
+        10,
+        12
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/14-%E8%B4%A6%E5%8F%B7%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8.md",
+      "status": "待实践"
+    },
+    {
+      "id": "law-copyright",
+      "category": "law",
+      "title": "发布内容前核对使用权",
+      "summary": "区分自己的创作、获得授权的素材和仅可阅读的资料，留下出处、许可证和改编说明，按实际使用方式核对权限。",
+      "reflection": "我准备上传的文字、图片或文件，是否清楚来源和授权范围？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/09-%E6%99%AE%E9%80%9A%E4%BA%BA%E5%AE%B9%E6%98%93%E8%B8%A9%E7%9A%84%E6%B3%95%E5%BE%8B%E7%BA%A2%E7%BA%BF.md",
+      "sourceTitle": "第 9 章｜普通人容易踩的法律红线",
+      "sourceSections": [
+        24,
+        25
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/09-%E6%99%AE%E9%80%9A%E4%BA%BA%E5%AE%B9%E6%98%93%E8%B8%A9%E7%9A%84%E6%B3%95%E5%BE%8B%E7%BA%A2%E7%BA%BF.md",
+      "status": "待实践"
+    },
+    {
+      "id": "law-housing",
+      "category": "law",
+      "title": "把住房交易的约定留下来",
+      "summary": "租住或购房时，以身份、房屋、付款和退还条件为核对入口，把重要承诺写入可查资料；具体规则按当地现状再确认。",
+      "reflection": "付款前我核实了哪些信息？押金、维修、退租或交付条件是否留下了明确记录？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/15-%E7%A7%9F%E6%88%BF%E4%B8%8E%E4%B9%B0%E6%88%BF.md",
+      "sourceTitle": "第 15 章｜租房与买房",
+      "sourceSections": [
+        1,
+        4,
+        6,
+        12,
+        13
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/15-%E7%A7%9F%E6%88%BF%E4%B8%8E%E4%B9%B0%E6%88%BF.md",
+      "status": "待实践"
+    },
+    {
+      "id": "growth-learning",
+      "category": "growth",
+      "title": "用回忆和反馈检验学习",
+      "summary": "读完后尝试不看材料复述或完成小任务，再用反馈找出遗漏，并把复习分散到之后的几次练习。",
+      "reflection": "我能在不翻资料的情况下解释或做出来吗？下一次怎样验证自己没有只停留在熟悉感？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/23-%E5%AD%A6%E4%BB%80%E4%B9%88%E6%8A%80%E8%83%BD%E5%88%92%E7%AE%97.md",
+      "sourceTitle": "第 23 章｜学什么技能划算",
+      "sourceSections": [
+        14,
+        15,
+        17,
+        19
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/23-%E5%AD%A6%E4%BB%80%E4%B9%88%E6%8A%80%E8%83%BD%E5%88%92%E7%AE%97.md",
+      "status": "待实践"
+    },
+    {
+      "id": "growth-skills",
+      "category": "growth",
+      "title": "先核对技能与真实需求",
+      "summary": "学习或考证前，比较目标岗位、实际任务、正规查询渠道与投入成本，避免把宣传中的高收入当作自己的结果。",
+      "reflection": "我想用这个技能完成什么任务？能否从真实岗位、从业者或小作品获得反馈？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/23-%E5%AD%A6%E4%BB%80%E4%B9%88%E6%8A%80%E8%83%BD%E5%88%92%E7%AE%97.md",
+      "sourceTitle": "第 23 章｜学什么技能划算",
+      "sourceSections": [
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/23-%E5%AD%A6%E4%BB%80%E4%B9%88%E6%8A%80%E8%83%BD%E5%88%92%E7%AE%97.md",
+      "status": "待实践"
+    },
+    {
+      "id": "growth-experiment",
+      "category": "growth",
+      "title": "用小规模试验验证想法",
+      "summary": "把需求、目标使用者和关键假设写清楚，先用样品、访谈或小规模交付收集反馈，再决定是否扩大投入。",
+      "reflection": "下一步最小的验证是什么？出现怎样的反馈，我会继续、调整或停止？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/12-%E5%88%9B%E4%B8%9A%E4%B8%8E%E5%81%9A%E7%94%9F%E6%84%8F.md",
+      "sourceTitle": "第 12 章｜创业与做生意",
+      "sourceSections": [
+        1,
+        18,
+        19,
+        24
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/12-%E5%88%9B%E4%B8%9A%E4%B8%8E%E5%81%9A%E7%94%9F%E6%84%8F.md",
+      "status": "待实践"
+    },
+    {
+      "id": "growth-project",
+      "category": "growth",
+      "title": "把项目功能与维护责任一起考虑",
+      "summary": "开发网站或服务时，先列出实际提供的功能、数据与资金流向，再查看对应的运营责任与维护需求，规则随场景核对。",
+      "reflection": "这个项目新增功能后，会多出哪些长期维护、隐私或合规责任？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/26-%E5%81%9A%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E6%88%96%E5%B9%B3%E5%8F%B0.md",
+      "sourceTitle": "第 26 章｜做一个网站或平台",
+      "sourceSections": [
+        1,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/26-%E5%81%9A%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E6%88%96%E5%B9%B3%E5%8F%B0.md",
+      "status": "待实践"
+    },
+    {
+      "id": "time-focus",
+      "category": "time",
+      "title": "给连续思考留一段完整时间",
+      "summary": "观察通知、消息和任务切换带来的打断，为需要连续思考的事情设置一段受保护的时间，再检查实际效果。",
+      "reflection": "我最常被什么打断？这次能先关掉哪个不必要的入口？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/03-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E7%B2%BE%E5%8A%9B.md",
+      "sourceTitle": "第 3 章｜不要浪费精力",
+      "sourceSections": [
+        1,
+        5,
+        6,
+        7,
+        12
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/03-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E7%B2%BE%E5%8A%9B.md",
+      "status": "待实践"
+    },
+    {
+      "id": "time-action",
+      "category": "time",
+      "title": "把目标改写为下一步行动",
+      "summary": "将抽象目标拆成可开始的小任务，写下触发情境和检查点，用实际执行记录修正计划。",
+      "reflection": "下一次到什么时间、什么地方，我会先做哪一个动作？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "sourceTitle": "第 4 章｜不要浪费时间",
+      "sourceSections": [
+        1,
+        7,
+        8,
+        10
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "status": "待实践"
+    },
+    {
+      "id": "time-exit",
+      "category": "time",
+      "title": "在开始前写好重新判断的条件",
+      "summary": "记录继续、调整和退出的触发信号；到检查点重新比较未来投入与替代方案，不只为过去的付出寻找理由。",
+      "reflection": "如果今天还没开始，知道现在这些信息，我还会选择投入吗？什么新证据会改变判断？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "sourceTitle": "第 4 章｜不要浪费时间",
+      "sourceSections": [
+        2,
+        3
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "status": "待实践"
+    },
+    {
+      "id": "time-estimation",
+      "category": "time",
+      "title": "让实际耗时修正下一次计划",
+      "summary": "把相似任务的实际耗时与原先估计并排记录，也把通勤等日常重复时间计入选择成本。",
+      "reflection": "上次同类事情实际用了多久？这次的估计遗漏了哪些等待、沟通或移动时间？",
+      "sourceURL": "https://github.com/eternity4719/HowToLiveBetter/blob/main/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "sourceTitle": "第 4 章｜不要浪费时间",
+      "sourceSections": [
+        4,
+        7,
+        18
+      ],
+      "sourceSnapshotURL": "https://github.com/eternity4719/HowToLiveBetter/blob/e2605d3e2242bd6216c9255192b8a8957a08c55a/book/04-%E4%B8%8D%E8%A6%81%E6%B5%AA%E8%B4%B9%E6%97%B6%E9%97%B4.md",
+      "status": "待实践"
+    }
+  ]
+}

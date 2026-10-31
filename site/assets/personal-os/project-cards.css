@@ -1,0 +1,157 @@
+.life-projects {
+  position: relative;
+  z-index: 1;
+  margin: 45px 0 40px;
+  color: var(--console-text);
+}
+.life-projects .life-projects-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 23px;
+}
+.life-projects .life-projects-kicker {
+  margin: 0 0 9px;
+  color: var(--console-muted);
+  font: 10px/1.6 ui-monospace, "Cascadia Code", monospace;
+  letter-spacing: .13em;
+}
+.life-projects .life-projects-heading h2 {
+  margin: 0;
+  font-size: clamp(21px, 2.3vw, 28px);
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -.02em;
+}
+.life-projects .life-projects-heading > p {
+  max-width: 25em;
+  margin: 0 0 3px;
+  color: var(--console-muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.life-projects .life-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.life-projects .life-project-card {
+  --life-card-accent: #8463a7;
+  --life-card-tint: #f6f0fc;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 23px 24px 0;
+  border: 1px solid var(--console-line);
+  border-radius: 15px;
+  background: linear-gradient(145deg, #fff, #ffffffb3 45%, var(--life-card-tint));
+  box-shadow: inset 0 1px 0 #fff, 0 9px 30px var(--console-shadow);
+  transition: transform .2s, border-color .2s;
+}
+.life-projects .life-project-card-decision {
+  --life-card-accent: #4f827e;
+  --life-card-tint: #edf6f3;
+}
+.life-projects .life-project-card-checklist {
+  --life-card-accent: #667c9d;
+  --life-card-tint: #f0f4fa;
+}
+.life-projects .life-project-card:hover,
+.life-projects .life-project-card:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--life-card-accent);
+}
+.life-projects .life-project-card:focus-visible {
+  outline: 2px solid var(--life-card-accent);
+  outline-offset: 4px;
+}
+.life-projects .life-project-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 10px;
+  color: var(--console-muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+.life-projects .life-project-card-meta > span:first-child {
+  color: var(--life-card-accent);
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  font-size: 9px;
+  letter-spacing: .035em;
+}
+.life-projects .life-project-card-icon {
+  display: block;
+  width: 62px;
+  height: 62px;
+  margin: 24px 0 17px;
+  color: var(--life-card-accent);
+}
+.life-projects .life-project-card h3 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -.025em;
+}
+.life-projects .life-project-card h3 > span { display: block; }
+.life-projects .life-project-card-description {
+  flex: 1;
+  margin: 17px 0 16px;
+  color: var(--console-muted);
+  font-size: 13px;
+  line-height: 1.85;
+}
+.life-projects .life-project-card-topics {
+  margin: 0 0 21px;
+  color: var(--life-card-accent);
+  font-size: 10px;
+  line-height: 1.8;
+}
+.life-projects .life-project-card-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 54px;
+  border-top: 1px solid var(--console-line);
+  color: var(--life-card-accent);
+  font-size: 11px;
+}
+.life-projects .life-project-card-action > span:last-child { font-size: 21px; }
+:root[data-theme="dark"] .life-projects .life-project-card {
+  --life-card-accent: #c5aadd;
+  background: linear-gradient(145deg, #302737e8, #24212b);
+  box-shadow: inset 0 1px 0 #ffffff0a, 0 9px 30px var(--console-shadow);
+}
+:root[data-theme="dark"] .life-projects .life-project-card-decision {
+  --life-card-accent: #a1c9bf;
+  background: linear-gradient(145deg, #253336e8, #20272c);
+}
+:root[data-theme="dark"] .life-projects .life-project-card-checklist {
+  --life-card-accent: #abc1df;
+  background: linear-gradient(145deg, #28303ee8, #22252d);
+}
+@media (max-width: 1000px) {
+  .life-projects .life-projects-grid { gap: 16px; }
+  .life-projects .life-project-card { padding: 21px 19px 0; }
+  .life-projects .life-project-card h3 { font-size: 21px; }
+  .life-projects .life-project-card-description { font-size: 12px; }
+  .life-projects .life-projects-heading > p { max-width: 19em; }
+}
+@media (max-width: 750px) {
+  .life-projects { margin: 34px 0; }
+  .life-projects .life-projects-heading { display: block; margin-bottom: 20px; }
+  .life-projects .life-projects-heading > p { max-width: none; margin-top: 10px; }
+  .life-projects .life-projects-grid { grid-template-columns: 1fr; gap: 18px; }
+  .life-projects .life-project-card { padding: 22px 24px 0; }
+  .life-projects .life-project-card-icon { margin: 20px 0 16px; width: 56px; height: 56px; }
+  .life-projects .life-project-card h3 { font-size: 23px; }
+  .life-projects .life-project-card-description { margin-top: 14px; font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .life-projects .life-project-card { transition: none; }
+  .life-projects .life-project-card:hover,
+  .life-projects .life-project-card:focus-visible { transform: none; }
+}
