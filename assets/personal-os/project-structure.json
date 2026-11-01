@@ -1,0 +1,1594 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-01",
+  "projects": [
+    {
+      "id": "personal-os",
+      "title": "Personal OS｜人生元系统",
+      "summary": "用领域辨认问题，用认知工具连接材料，再用实践反馈修正系统。",
+      "version": "0.1.0",
+      "guideHref": "personal-os.html?view=guide"
+    },
+    {
+      "id": "decision-model",
+      "title": "个人快速判断与退出模型",
+      "summary": "沿选择前、行动中和复盘后三个阶段，找到当前要使用的判断工具。",
+      "version": "0.4.0",
+      "guideHref": "decision-model.html?view=guide"
+    },
+    {
+      "id": "life-checklist",
+      "title": "人生高性价比清单",
+      "summary": "按七类生活主题查阅资料，把具体问题连接到判断和复盘。",
+      "version": "0.1.0",
+      "guideHref": "life-checklist.html?view=guide"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "os-domains",
+      "projectId": "personal-os",
+      "parentId": null,
+      "title": "人生领域",
+      "summary": "先辨认问题发生在哪些生活领域，再寻找它们共有的底层问题。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这件事同时关联哪些人生领域？",
+        "领域之间有哪些资源或边界冲突？"
+      ],
+      "resources": [
+        {
+          "id": "os-domains-guide",
+          "title": "八个人生领域",
+          "summary": "领域是入口，不把跨领域问题锁在单一文件夹。",
+          "href": "personal-os.html?view=guide#domains",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-society",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "社会",
+      "summary": "社会规则、组织、合作、竞争、权力与责任。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我观察到的规则是什么，哪些只是解释？",
+        "在这个组织中，责任、权力与合作如何分配？"
+      ],
+      "resources": [
+        {
+          "id": "os-society-guide",
+          "title": "社会领域说明",
+          "summary": "社会规则、组织、合作、竞争、权力与责任。",
+          "href": "personal-os.html?view=guide#D01",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-friendship",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "友情",
+      "summary": "信任、互惠、边界、投入与关系维护。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我想维护的友谊需要怎样的真实相处？",
+        "双方的投入、期待和边界是否清楚？"
+      ],
+      "resources": [
+        {
+          "id": "os-friendship-guide",
+          "title": "友情领域说明",
+          "summary": "信任、互惠、边界、投入与关系维护。",
+          "href": "personal-os.html?view=guide#D02",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-relationships-daily"
+      ]
+    },
+    {
+      "id": "os-romance",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "爱情",
+      "summary": "自我认识、真实沟通、相互尊重、适配与关系调整。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "哪些是对方的实际回应，哪些是我的期待？",
+        "关系中的同意、边界与适配如何被确认？"
+      ],
+      "resources": [
+        {
+          "id": "os-romance-guide",
+          "title": "爱情领域说明",
+          "summary": "自我认识、真实沟通、相互尊重、适配与关系调整。",
+          "href": "personal-os.html?view=guide#D03",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-romance-pilot",
+          "title": "爱情模块试点",
+          "summary": "从自我认识、沟通、边界到复盘的样板方向。",
+          "href": "personal-os.html?view=guide#romance",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-relationships-shared"
+      ]
+    },
+    {
+      "id": "os-money",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "金钱",
+      "summary": "消费、储蓄、风险与财务选择权的判断入口。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这笔投入会改变哪些未来选择？",
+        "哪些成本、风险或退出条件尚未弄清？"
+      ],
+      "resources": [
+        {
+          "id": "os-money-guide",
+          "title": "金钱领域说明",
+          "summary": "消费、储蓄、风险与财务选择权的判断入口。",
+          "href": "personal-os.html?view=guide#D04",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-money-daily",
+        "dec-cost-risk"
+      ]
+    },
+    {
+      "id": "os-health",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "健康",
+      "summary": "运动、恢复、睡眠、饮食与身心状态的资料入口。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "什么安排能够在当前生活中持续执行？",
+        "我用什么记录区分真实变化和主观感觉？"
+      ],
+      "resources": [
+        {
+          "id": "os-health-guide",
+          "title": "健康领域说明",
+          "summary": "运动、恢复、睡眠、饮食与身心状态的资料入口。",
+          "href": "personal-os.html?view=guide#D05",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-health-routine",
+        "dec-experiments"
+      ]
+    },
+    {
+      "id": "os-time",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "时间",
+      "summary": "优先级、注意力、精力与机会成本。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "当前安排让哪些重要事情失去了时间？",
+        "实际耗时与预期相差在哪里？"
+      ],
+      "resources": [
+        {
+          "id": "os-time-guide",
+          "title": "时间领域说明",
+          "summary": "优先级、注意力、精力与机会成本。",
+          "href": "personal-os.html?view=guide#D06",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-time-execution"
+      ]
+    },
+    {
+      "id": "os-career",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "职业",
+      "summary": "能力积累、职业环境、选择与发展路径。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这个选择真正改善的是什么？",
+        "薪酬之外，还有哪些日常代价需要验证？"
+      ],
+      "resources": [
+        {
+          "id": "os-career-guide",
+          "title": "职业领域说明",
+          "summary": "能力积累、职业环境、选择与发展路径。",
+          "href": "personal-os.html?view=guide#D07",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-career-transitions"
+      ]
+    },
+    {
+      "id": "os-learning",
+      "projectId": "personal-os",
+      "parentId": "os-domains",
+      "title": "学习",
+      "summary": "学习策略、知识组织、迁移与反馈。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我能否不用材料独立解释或完成任务？",
+        "怎样检验这次学习是否改变了实际能力？"
+      ],
+      "resources": [
+        {
+          "id": "os-learning-guide",
+          "title": "学习领域说明",
+          "summary": "学习策略、知识组织、迁移与反馈。",
+          "href": "personal-os.html?view=guide#D08",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "check-growth-learning"
+      ]
+    },
+    {
+      "id": "os-thinking",
+      "projectId": "personal-os",
+      "parentId": null,
+      "title": "认知工具",
+      "summary": "用母题、原则、模型和来源连接不同领域的材料。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "新资料应该连接哪个已有问题？",
+        "它带来了支持、补充、冲突，还是重复？"
+      ],
+      "resources": [
+        {
+          "id": "os-thinking-guide",
+          "title": "七类知识对象与关联方式",
+          "summary": "",
+          "href": "personal-os.html?view=guide#architecture",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-questions",
+      "projectId": "personal-os",
+      "parentId": "os-thinking",
+      "title": "跨领域母题",
+      "summary": "把反复出现的问题提炼成可以持续追问的连接器。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这个问题是否在其他领域也出现过？",
+        "是需要新增母题，还是补充已有母题的例子？"
+      ],
+      "resources": [
+        {
+          "id": "os-questions-guide",
+          "title": "十二个初始母题",
+          "summary": "",
+          "href": "personal-os.html?view=guide#mother-questions",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-questions-template",
+          "title": "母题模板",
+          "summary": "记录关联领域、常见错误和待解问题。",
+          "href": "assets/personal-os/templates/mother-question.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "dec-target-options"
+      ]
+    },
+    {
+      "id": "os-principles",
+      "projectId": "personal-os",
+      "parentId": "os-thinking",
+      "title": "原则与适用边界",
+      "summary": "保留观点的来源、条件和反例，允许修改、降级与归档。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这个观点成立需要哪些条件？",
+        "什么证据会使我修改或放弃它？"
+      ],
+      "resources": [
+        {
+          "id": "os-principles-guide",
+          "title": "知识状态与反例检验",
+          "summary": "",
+          "href": "personal-os.html?view=guide#knowledge",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-principles-template",
+          "title": "原则模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/principle.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-models",
+      "projectId": "personal-os",
+      "parentId": "os-thinking",
+      "title": "模型与认知卡",
+      "summary": "将解释框架、价值偏好和行动影响分别记录。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我调用的是哪个分析模型？",
+        "模型的简化是否遗漏了当前问题的重要条件？"
+      ],
+      "resources": [
+        {
+          "id": "os-models-guide",
+          "title": "模型在系统中的位置",
+          "summary": "",
+          "href": "personal-os.html?view=guide#architecture",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-models-action",
+          "title": "行动引擎",
+          "summary": "",
+          "href": "personal-os.html?view=guide#action-engine",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-models-template",
+          "title": "认知卡模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/cognition-card.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "dec-reversibility"
+      ]
+    },
+    {
+      "id": "os-sources",
+      "projectId": "personal-os",
+      "parentId": "os-thinking",
+      "title": "来源与知识吸收",
+      "summary": "拆开原始论点、证据、自己的推断和行为建议。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我能否回到作者的原始上下文？",
+        "哪些是事实，哪些是解释或价值偏好？"
+      ],
+      "resources": [
+        {
+          "id": "os-sources-guide",
+          "title": "知识如何进入系统",
+          "summary": "",
+          "href": "personal-os.html?view=guide#knowledge",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-sources-template",
+          "title": "来源笔记模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/source-note.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "check-law-property"
+      ]
+    },
+    {
+      "id": "os-feedback",
+      "projectId": "personal-os",
+      "parentId": null,
+      "title": "实践反馈",
+      "summary": "把判断放回行动、案例与复盘中，让系统随证据修正。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "当前认知是否形成了可执行的下一步？",
+        "行动结果会更新系统的哪一部分？"
+      ],
+      "resources": [
+        {
+          "id": "os-feedback-guide",
+          "title": "从认知到行动的闭环",
+          "summary": "",
+          "href": "personal-os.html?view=guide#action-engine",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-cases",
+      "projectId": "personal-os",
+      "parentId": "os-feedback",
+      "title": "案例组织方法",
+      "summary": "使用结构示例学习如何连接领域和母题；实际案例另行整理。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这个具体问题可以调用哪些共同母题？",
+        "我是否把一次经历误写成普遍规律？"
+      ],
+      "resources": [
+        {
+          "id": "os-cases-guide",
+          "title": "跨领域案例的组织方式",
+          "summary": "",
+          "href": "personal-os.html?view=guide#cross-domain",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-cases-template",
+          "title": "决策记录模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/decision-record.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "os-reviews",
+      "projectId": "personal-os",
+      "parentId": "os-feedback",
+      "title": "复盘与反例",
+      "summary": "对照原判断与实际观察，记录偏差和其他可能解释。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "当时有哪些可靠信息、哪些未知？",
+        "结果会让哪条规则保持、修改或降级？"
+      ],
+      "resources": [
+        {
+          "id": "os-reviews-guide",
+          "title": "知识修正与关系检查",
+          "summary": "",
+          "href": "personal-os.html?view=guide#knowledge",
+          "type": "核心说明"
+        },
+        {
+          "id": "os-reviews-template",
+          "title": "结果复盘模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/review.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "dec-quality"
+      ]
+    },
+    {
+      "id": "os-evolution",
+      "projectId": "personal-os",
+      "parentId": "os-feedback",
+      "title": "系统迭代",
+      "summary": "保留版本和修改原因，用实际判断与行动衡量系统。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "本轮修改解决了什么反复出现的问题？",
+        "哪些旧规则需要留下历史而不是直接覆盖？"
+      ],
+      "resources": [
+        {
+          "id": "os-evolution-guide",
+          "title": "迭代阶段与成功标准",
+          "summary": "",
+          "href": "personal-os.html?view=guide#evolution",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "dec-next-step"
+      ]
+    },
+    {
+      "id": "dec-before",
+      "projectId": "decision-model",
+      "parentId": null,
+      "title": "选择之前",
+      "summary": "先明确目标、现状和约束，再比较真实可选方案。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "我真正要解决的是什么？",
+        "这件事值得投入多少决策精力？"
+      ],
+      "resources": [
+        {
+          "id": "dec-before-guide",
+          "title": "决策模式与使用时机",
+          "summary": "",
+          "href": "decision-model.html?view=guide#when-to-use",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "dec-target-options",
+      "projectId": "decision-model",
+      "parentId": "dec-before",
+      "title": "目标、现状与选项",
+      "summary": "把维持现状、暂缓和其他替代方案纳入比较。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "如果什么都不做，会怎样？",
+        "当前二选一是否漏掉了真实可行的第三个选项？"
+      ],
+      "resources": [
+        {
+          "id": "dec-target-options-guide",
+          "title": "第一象限：目标、现状与选项",
+          "summary": "",
+          "href": "decision-model.html?view=guide#quadrants",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-target-options-flow",
+          "title": "完整判断流程",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "os-questions"
+      ]
+    },
+    {
+      "id": "dec-hard-constraints",
+      "projectId": "decision-model",
+      "parentId": "dec-before",
+      "title": "硬约束与边界",
+      "summary": "不可妥协的要求负责筛选，其余条件再排序。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "哪些要求不能靠其他优点抵消？",
+        "这个约束是真正边界，还是还可验证的假设？"
+      ],
+      "resources": [
+        {
+          "id": "dec-hard-constraints-guide",
+          "title": "硬条件与软条件的区分",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-hard-constraints-quadrant",
+          "title": "第二象限：硬条件、收益与风险",
+          "summary": "",
+          "href": "decision-model.html?view=guide#quadrants",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "dec-cost-risk",
+      "projectId": "decision-model",
+      "parentId": "dec-before",
+      "title": "收益、成本与风险",
+      "summary": "比较钱、时间、注意力、转换成本和机会成本。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "选项真正带来的收益是什么？",
+        "有哪些成本只是在比较时被我忽略了？"
+      ],
+      "resources": [
+        {
+          "id": "dec-cost-risk-guide",
+          "title": "比较五件事，避免只数优点",
+          "summary": "",
+          "href": "decision-model.html?view=guide#comparison",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "os-money"
+      ]
+    },
+    {
+      "id": "dec-reversibility",
+      "projectId": "decision-model",
+      "parentId": "dec-before",
+      "title": "可逆性与损失边界",
+      "summary": "区分能否退出和退出需要付出多大代价。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "错了以后能怎样撤回或调整？",
+        "对他人的影响和未来承诺是否也计入成本？"
+      ],
+      "resources": [
+        {
+          "id": "dec-reversibility-guide",
+          "title": "可逆性不等于零成本",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-reversibility-contract",
+          "title": "最大后续投入与替代方案",
+          "summary": "",
+          "href": "decision-model.html?view=guide#exit-contract",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "os-models"
+      ]
+    },
+    {
+      "id": "dec-during",
+      "projectId": "decision-model",
+      "parentId": null,
+      "title": "行动之中",
+      "summary": "先获取关键新信息，在执行前设好检查点与退出条件。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "下一步会获得什么关键反馈？",
+        "什么时候应重新比较当前选择？"
+      ],
+      "resources": [
+        {
+          "id": "dec-during-guide",
+          "title": "从决定到执行的流程",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "dec-experiments",
+      "projectId": "decision-model",
+      "parentId": "dec-during",
+      "title": "低成本试验",
+      "summary": "把关键假设转成可以实际观察的小实验。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "最小的试验是什么？",
+        "观察到怎样的结果才会改变当前判断？"
+      ],
+      "resources": [
+        {
+          "id": "dec-experiments-guide",
+          "title": "信息价值与低成本试验",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-experiments-example",
+          "title": "健身场所的历史结构示例",
+          "summary": "",
+          "href": "decision-model.html?view=guide#example",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "os-health",
+        "check-growth-projects"
+      ]
+    },
+    {
+      "id": "dec-exit-contract",
+      "projectId": "decision-model",
+      "parentId": "dec-during",
+      "title": "退出合约",
+      "summary": "在开始前写清继续、调整、退出和最大后续投入。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "出现什么信号就应该重新判断？",
+        "退出之后有哪些可以接受的替代方案？"
+      ],
+      "resources": [
+        {
+          "id": "dec-exit-contract-guide",
+          "title": "安妮·杜克式退出机制",
+          "summary": "",
+          "href": "decision-model.html?view=guide#exit-contract",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-exit-contract-template",
+          "title": "四宫格与退出合约记录模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/decision-record.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "check-time-review"
+      ]
+    },
+    {
+      "id": "dec-checkpoints",
+      "projectId": "decision-model",
+      "parentId": "dec-during",
+      "title": "检查点与变化记录",
+      "summary": "到约定时间或触发事件时，重新核对核心假设。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "与行动前相比，哪些信息已经改变？",
+        "检查点应该看结果，还是先看关键假设是否仍成立？"
+      ],
+      "resources": [
+        {
+          "id": "dec-checkpoints-guide",
+          "title": "检查时间、触发事件与重评问题",
+          "summary": "",
+          "href": "decision-model.html?view=guide#exit-contract",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-checkpoints-template",
+          "title": "检查点复盘模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/review.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "dec-after",
+      "projectId": "decision-model",
+      "parentId": null,
+      "title": "复盘之后",
+      "summary": "区分决策过程和运气，再决定继续、调整或退出。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "我是在评价决策过程，还是只看结果好坏？",
+        "下一次应修改哪条判断规则？"
+      ],
+      "resources": [
+        {
+          "id": "dec-after-guide",
+          "title": "复盘的核心问题",
+          "summary": "",
+          "href": "decision-model.html?view=guide#review",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "dec-next-step",
+      "projectId": "decision-model",
+      "parentId": "dec-after",
+      "title": "继续、调整或退出",
+      "summary": "用当前信息重新比较未来投入和替代方案。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "如果今天还没进入，我仍会选择开始吗？",
+        "能否通过更低代价的调整保留仍有价值的部分？"
+      ],
+      "resources": [
+        {
+          "id": "dec-next-step-guide",
+          "title": "重新评价与可迁移结论",
+          "summary": "",
+          "href": "decision-model.html?view=guide#review",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-next-step-flow",
+          "title": "继续、调整与退出三条路径",
+          "summary": "",
+          "href": "decision-model.html?view=guide#decision-flow",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": [
+        "os-evolution"
+      ]
+    },
+    {
+      "id": "dec-quality",
+      "projectId": "decision-model",
+      "parentId": "dec-after",
+      "title": "决策质量与运气",
+      "summary": "保留当时已知信息，避免用事后结果改写原判断。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "当时的决定是否与可得证据相称？",
+        "结果中哪些可能来自运气或其他解释？"
+      ],
+      "resources": [
+        {
+          "id": "dec-quality-guide",
+          "title": "区分决策质量和运气",
+          "summary": "",
+          "href": "decision-model.html?view=guide#review",
+          "type": "核心说明"
+        },
+        {
+          "id": "dec-quality-template",
+          "title": "保留原判断的复盘模板",
+          "summary": "",
+          "href": "assets/personal-os/templates/review.md",
+          "type": "模板"
+        }
+      ],
+      "relatedIds": [
+        "os-reviews"
+      ]
+    },
+    {
+      "id": "dec-nine-questions",
+      "projectId": "decision-model",
+      "parentId": "dec-after",
+      "title": "九问速览",
+      "summary": "用九个问题在需要时快速回到完整判断过程。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "九问中我最容易跳过哪一问？",
+        "这次需要快速版，还是应投入更深入的核对？"
+      ],
+      "resources": [
+        {
+          "id": "dec-nine-questions-guide",
+          "title": "最短可携带版：九问",
+          "summary": "",
+          "href": "decision-model.html?view=guide#nine-questions",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-health",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "健康、运动、睡眠与长寿",
+      "summary": "记录能长期维持的生活习惯，核对健康信息的适用条件。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-health-guide",
+          "title": "健康、运动、睡眠与长寿主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-health",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-health-routine",
+      "projectId": "life-checklist",
+      "parentId": "check-health",
+      "title": "运动与作息",
+      "summary": "把训练、恢复和作息资料放在一起回看。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我能稳定保留的运动安排是什么？两周后用什么记录判断它是否适合我？",
+        "最近哪种安排最容易挤占睡眠？我能先改变哪个环节？"
+      ],
+      "resources": [
+        {
+          "id": "health-movement",
+          "title": "让运动适应日常安排",
+          "summary": "把步行、力量训练和中断久坐一起考虑，先找到自己能持续执行的安排，再记录训练与恢复的实际表现。",
+          "href": "life-checklist.html?view=guide#health-movement",
+          "type": "清单主题"
+        },
+        {
+          "id": "health-sleep",
+          "title": "先记录自己的作息",
+          "summary": "观察入睡、起床和白天状态之间的关系，把规律作息作为可验证的生活调整；长期不适另行寻求专业评估。",
+          "href": "life-checklist.html?view=guide#health-sleep",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-health"
+      ]
+    },
+    {
+      "id": "check-health-basics",
+      "projectId": "life-checklist",
+      "parentId": "check-health",
+      "title": "饮食与日常安全",
+      "summary": "从常见食物与容易遗漏的安全环节开始查阅。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "哪一餐最值得先改善？新的搭配是否好吃、方便，也适合我的身体情况？",
+        "家里和通勤路上，哪一个风险可以通过一次检查或维护先降低？"
+      ],
+      "resources": [
+        {
+          "id": "health-food",
+          "title": "从常吃的食物做调整",
+          "summary": "先查看自己常吃的主食、蔬果与饮料，尝试容易坚持的替换，结合网站的食材记录观察口味、便利性与实际份量。",
+          "href": "life-checklist.html?view=guide#health-food",
+          "type": "清单主题"
+        },
+        {
+          "id": "health-prevention",
+          "title": "检查容易忽略的安全环节",
+          "summary": "以出行和居家环境为入口，盘点安全带、头盔、报警设备及应急用品，把高后果但容易遗漏的事情单独记录。",
+          "href": "life-checklist.html?view=guide#health-prevention",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-money",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "金钱管理、理财与消费",
+      "summary": "看清现金流、实际成本和风险，把消费与未来选择权一起考虑。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-money-guide",
+          "title": "金钱管理、理财与消费主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-money",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-money-daily",
+      "projectId": "life-checklist",
+      "parentId": "check-money",
+      "title": "现金流与消费",
+      "summary": "检查必要支出、缓冲和重复消费。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "如果收入暂时中断，我最先需要支付什么？哪些钱不能承受短期波动？",
+        "过去一个月，哪笔重复支出没有带来相称的使用价值？"
+      ],
+      "resources": [
+        {
+          "id": "money-buffer",
+          "title": "给现金流保留缓冲",
+          "summary": "先看必要支出、收入稳定性和近期承诺，再考虑自己需要多大流动性缓冲；金额随生活阶段重新评估。",
+          "href": "life-checklist.html?view=guide#money-buffer",
+          "type": "清单主题"
+        },
+        {
+          "id": "money-recurring",
+          "title": "复查订阅与冲动购买",
+          "summary": "把自动续费、套餐和大额非必需消费列出来，比较实际使用频率、替代方案和取消条件。",
+          "href": "life-checklist.html?view=guide#money-recurring",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-money"
+      ]
+    },
+    {
+      "id": "check-money-risk",
+      "projectId": "life-checklist",
+      "parentId": "check-money",
+      "title": "借款与风险理解",
+      "summary": "先弄清付款责任和风险，再比较回报。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我清楚总共要还多少、什么时候还吗？这笔支出还有不借钱的替代方案吗？",
+        "我能用自己的话说明这项资产怎么赚钱、可能怎么亏，以及何时需要取钱吗？"
+      ],
+      "resources": [
+        {
+          "id": "money-borrowing",
+          "title": "把借款和分期算清楚",
+          "summary": "比较借款或分期时，把利息、费用、还款节奏与违约后果放在一起看，避免只盯着每期付款额。",
+          "href": "life-checklist.html?view=guide#money-borrowing",
+          "type": "清单主题"
+        },
+        {
+          "id": "money-risk",
+          "title": "先理解风险，再谈回报",
+          "summary": "阅读投资信息时，分别核对风险、费用、流动性和集中程度，记录自己真正理解与尚未理解的部分。",
+          "href": "life-checklist.html?view=guide#money-risk",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-career",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "职业发展、失业与劳动保障",
+      "summary": "把职业机会、现实代价和劳动权益放在同一张图里。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-career-guide",
+          "title": "职业发展、失业与劳动保障主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-career",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-career-transitions",
+      "projectId": "life-checklist",
+      "parentId": "check-career",
+      "title": "职业变化与支持",
+      "summary": "比较换工作的日常代价，并了解工作中断时的查阅入口。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "如果只看实际生活，一份新工作会改变我的哪些日常？最想验证的假设是什么？",
+        "如果工作中断，我知道先联系哪个官方服务吗？哪些材料可以提前整理？"
+      ],
+      "resources": [
+        {
+          "id": "career-change",
+          "title": "换工作时比较完整代价",
+          "summary": "除岗位和薪酬，还把通勤、居住、健康、关系和办事成本放进比较，留下接受或放弃这次变化的依据。",
+          "href": "life-checklist.html?view=guide#career-change",
+          "type": "清单主题"
+        },
+        {
+          "id": "career-unemployment",
+          "title": "提前知道失业时的支持入口",
+          "summary": "把公共就业服务、失业相关保障和培训支持作为查阅入口；是否符合条件、办理材料和标准再向当地部门核实。",
+          "href": "life-checklist.html?view=guide#career-unemployment",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-career"
+      ]
+    },
+    {
+      "id": "check-career-records",
+      "projectId": "life-checklist",
+      "parentId": "check-career",
+      "title": "劳动记录与职业安全",
+      "summary": "把劳动约定、可查记录和岗位健康风险纳入考虑。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我能否快速找到自己的合同和最近的工资、社保记录？还有什么重要约定只有口头说明？",
+        "这份工作有哪些具体的健康或安全风险？我知道防护责任和正式求助渠道吗？"
+      ],
+      "resources": [
+        {
+          "id": "career-records",
+          "title": "给劳动关系留下可查记录",
+          "summary": "把合同、工资、考勤、社保和重要沟通整理为自己的资料索引，遇到疑问时据此核对适用规则与正式渠道。",
+          "href": "life-checklist.html?view=guide#career-records",
+          "type": "清单主题"
+        },
+        {
+          "id": "career-safety",
+          "title": "把职业健康纳入岗位选择",
+          "summary": "了解岗位涉及的危害、防护和报告流程，把身体代价纳入求职与在职记录，而不只比较工资。",
+          "href": "life-checklist.html?view=guide#career-safety",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-relationships",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "友情、恋爱、婚姻与家庭",
+      "summary": "关注真实互动、尊重边界、共同生活与照料分工。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-relationships-guide",
+          "title": "友情、恋爱、婚姻与家庭主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-relationships",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-relationships-daily",
+      "projectId": "life-checklist",
+      "parentId": "check-relationships",
+      "title": "相处与边界",
+      "summary": "关注真实联系、实际回应和清楚的双方边界。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我想继续维护哪些友谊？下一次联系可以从什么具体的小事开始？",
+        "我真正观察到了什么？哪些只是我的期待？双方的边界是否已经说清？"
+      ],
+      "resources": [
+        {
+          "id": "relationships-friendship",
+          "title": "给真实相处留时间",
+          "summary": "把定期见面和保持联系当成生活的一部分，关注相处的质量与双方的现实安排。",
+          "href": "life-checklist.html?view=guide#relationships-friendship",
+          "type": "清单主题"
+        },
+        {
+          "id": "relationships-boundaries",
+          "title": "分清事实、期待与边界",
+          "summary": "观察对方的实际回应，表达自己的意愿，也尊重拒绝和改变主意的权利，不把猜测当成双方已有的共识。",
+          "href": "life-checklist.html?view=guide#relationships-boundaries",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-friendship"
+      ]
+    },
+    {
+      "id": "check-relationships-shared",
+      "projectId": "life-checklist",
+      "parentId": "check-relationships",
+      "title": "沟通与共同生活",
+      "summary": "把分歧、分工和共同承诺拆成可以讨论的问题。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这次分歧要解决的到底是哪件事？双方能否各提出一个愿意尝试的改变？",
+        "这项共同承诺分别占用谁的时间和资源？是否需要留下明确约定并定期重谈？"
+      ],
+      "resources": [
+        {
+          "id": "relationships-communication",
+          "title": "把冲突说成具体问题",
+          "summary": "从具体事件、感受和需求谈起，观察能否形成可执行的调整；持续的关系困扰可以寻求合适的支持。",
+          "href": "life-checklist.html?view=guide#relationships-communication",
+          "type": "清单主题"
+        },
+        {
+          "id": "relationships-family",
+          "title": "把共同生活的分工说清楚",
+          "summary": "将家务、照料、收入安排与重大财务承诺放在一起讨论，区分双方约定和需要核对的法律默认规则。",
+          "href": "life-checklist.html?view=guide#relationships-family",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-romance"
+      ]
+    },
+    {
+      "id": "check-law",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "法律常识与风险规避",
+      "summary": "在签字、转账、发布内容和处理纠纷前，多核实一步。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-law-guide",
+          "title": "法律常识与风险规避主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-law",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-law-responsibility",
+      "projectId": "life-checklist",
+      "parentId": "check-law",
+      "title": "签字责任与信息边界",
+      "summary": "在承担责任、授权账号或提供身份信息前查清条件。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "这份文件中，我承担的是哪一种责任？是否有我看不懂或无法接受的条款？",
+        "如果手机或邮箱失去控制，我知道如何恢复吗？有哪些不再需要的授权？"
+      ],
+      "resources": [
+        {
+          "id": "law-signatures",
+          "title": "先看懂自己将承担什么",
+          "summary": "在签字、借款或担保之前，核对身份、条款、责任范围和空白部分，疑问未解决时不以口头保证代替理解。",
+          "href": "life-checklist.html?view=guide#law-signatures",
+          "type": "清单主题"
+        },
+        {
+          "id": "law-identity",
+          "title": "给账号和身份信息设边界",
+          "summary": "盘点重要账号的验证、授权和找回方式；涉及转账、验证码或身份借用的请求，先通过独立渠道核实。",
+          "href": "life-checklist.html?view=guide#law-identity",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-law-property",
+      "projectId": "life-checklist",
+      "parentId": "check-law",
+      "title": "内容使用与住房约定",
+      "summary": "保留素材许可、付款和住房约定的可查依据。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我准备上传的文字、图片或文件，是否清楚来源和授权范围？",
+        "付款前我核实了哪些信息？押金、维修、退租或交付条件是否留下了明确记录？"
+      ],
+      "resources": [
+        {
+          "id": "law-copyright",
+          "title": "发布内容前核对使用权",
+          "summary": "区分自己的创作、获得授权的素材和仅可阅读的资料，留下出处、许可证和改编说明，按实际使用方式核对权限。",
+          "href": "life-checklist.html?view=guide#law-copyright",
+          "type": "清单主题"
+        },
+        {
+          "id": "law-housing",
+          "title": "把住房交易的约定留下来",
+          "summary": "租住或购房时，以身份、房屋、付款和退还条件为核对入口，把重要承诺写入可查资料；具体规则按当地现状再确认。",
+          "href": "life-checklist.html?view=guide#law-housing",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-sources"
+      ]
+    },
+    {
+      "id": "check-growth",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "创业、个人成长与技能学习",
+      "summary": "用反馈验证方向，用实际产出检验学习。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-growth-guide",
+          "title": "创业、个人成长与技能学习主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-growth",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-growth-learning",
+      "projectId": "life-checklist",
+      "parentId": "check-growth",
+      "title": "学习与技能验证",
+      "summary": "用实际任务、回忆与反馈检验学习和技能投入。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我能在不翻资料的情况下解释或做出来吗？下一次怎样验证自己没有只停留在熟悉感？",
+        "我想用这个技能完成什么任务？能否从真实岗位、从业者或小作品获得反馈？"
+      ],
+      "resources": [
+        {
+          "id": "growth-learning",
+          "title": "用回忆和反馈检验学习",
+          "summary": "读完后尝试不看材料复述或完成小任务，再用反馈找出遗漏，并把复习分散到之后的几次练习。",
+          "href": "life-checklist.html?view=guide#growth-learning",
+          "type": "清单主题"
+        },
+        {
+          "id": "growth-skills",
+          "title": "先核对技能与真实需求",
+          "summary": "学习或考证前，比较目标岗位、实际任务、正规查询渠道与投入成本，避免把宣传中的高收入当作自己的结果。",
+          "href": "life-checklist.html?view=guide#growth-skills",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-learning"
+      ]
+    },
+    {
+      "id": "check-growth-projects",
+      "projectId": "life-checklist",
+      "parentId": "check-growth",
+      "title": "试验与项目维护",
+      "summary": "从小规模验证开始，把后续维护责任一并考虑。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "下一步最小的验证是什么？出现怎样的反馈，我会继续、调整或停止？",
+        "这个项目新增功能后，会多出哪些长期维护、隐私或合规责任？"
+      ],
+      "resources": [
+        {
+          "id": "growth-experiment",
+          "title": "用小规模试验验证想法",
+          "summary": "把需求、目标使用者和关键假设写清楚，先用样品、访谈或小规模交付收集反馈，再决定是否扩大投入。",
+          "href": "life-checklist.html?view=guide#growth-experiment",
+          "type": "清单主题"
+        },
+        {
+          "id": "growth-project",
+          "title": "把项目功能与维护责任一起考虑",
+          "summary": "开发网站或服务时，先列出实际提供的功能、数据与资金流向，再查看对应的运营责任与维护需求，规则随场景核对。",
+          "href": "life-checklist.html?view=guide#growth-project",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "dec-experiments"
+      ]
+    },
+    {
+      "id": "check-time",
+      "projectId": "life-checklist",
+      "parentId": null,
+      "title": "时间管理与生活决策",
+      "summary": "减少打断，把目标写成行动，也给调整与退出留下位置。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个领域里，我当前最需要查清的一个问题是什么？",
+        "阅读资料后，我会怎样判断它是否适合自己的情况？"
+      ],
+      "resources": [
+        {
+          "id": "check-time-guide",
+          "title": "时间管理与生活决策主题清单",
+          "summary": "",
+          "href": "life-checklist.html?view=guide#category-time",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "check-time-execution",
+      "projectId": "life-checklist",
+      "parentId": "check-time",
+      "title": "专注与下一步行动",
+      "summary": "减少打断，把抽象目标转成可以开始的具体动作。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "我最常被什么打断？这次能先关掉哪个不必要的入口？",
+        "下一次到什么时间、什么地方，我会先做哪一个动作？"
+      ],
+      "resources": [
+        {
+          "id": "time-focus",
+          "title": "给连续思考留一段完整时间",
+          "summary": "观察通知、消息和任务切换带来的打断，为需要连续思考的事情设置一段受保护的时间，再检查实际效果。",
+          "href": "life-checklist.html?view=guide#time-focus",
+          "type": "清单主题"
+        },
+        {
+          "id": "time-action",
+          "title": "把目标改写为下一步行动",
+          "summary": "将抽象目标拆成可开始的小任务，写下触发情境和检查点，用实际执行记录修正计划。",
+          "href": "life-checklist.html?view=guide#time-action",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "os-time"
+      ]
+    },
+    {
+      "id": "check-time-review",
+      "projectId": "life-checklist",
+      "parentId": "check-time",
+      "title": "时间记录与重评",
+      "summary": "用实际耗时和预设检查点修正下一次安排。",
+      "kind": "branch",
+      "status": "seed",
+      "prompts": [
+        "如果今天还没开始，知道现在这些信息，我还会选择投入吗？什么新证据会改变判断？",
+        "上次同类事情实际用了多久？这次的估计遗漏了哪些等待、沟通或移动时间？"
+      ],
+      "resources": [
+        {
+          "id": "time-exit",
+          "title": "在开始前写好重新判断的条件",
+          "summary": "记录继续、调整和退出的触发信号；到检查点重新比较未来投入与替代方案，不只为过去的付出寻找理由。",
+          "href": "life-checklist.html?view=guide#time-exit",
+          "type": "清单主题"
+        },
+        {
+          "id": "time-estimation",
+          "title": "让实际耗时修正下一次计划",
+          "summary": "把相似任务的实际耗时与原先估计并排记录，也把通勤等日常重复时间计入选择成本。",
+          "href": "life-checklist.html?view=guide#time-estimation",
+          "type": "清单主题"
+        }
+      ],
+      "relatedIds": [
+        "dec-exit-contract"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "os-health",
+      "target": "check-health-routine",
+      "label": "联系运动与作息",
+      "type": "informs"
+    },
+    {
+      "source": "os-health",
+      "target": "dec-experiments",
+      "label": "用小实验观察安排",
+      "type": "applies"
+    },
+    {
+      "source": "os-money",
+      "target": "check-money-daily",
+      "label": "联系消费与现金流",
+      "type": "informs"
+    },
+    {
+      "source": "os-money",
+      "target": "dec-cost-risk",
+      "label": "比较完整投入代价",
+      "type": "applies"
+    },
+    {
+      "source": "os-time",
+      "target": "check-time-execution",
+      "label": "落实到时间安排",
+      "type": "applies"
+    },
+    {
+      "source": "os-career",
+      "target": "check-career-transitions",
+      "label": "联系职业变化资料",
+      "type": "informs"
+    },
+    {
+      "source": "os-friendship",
+      "target": "check-relationships-daily",
+      "label": "联系相处与边界",
+      "type": "informs"
+    },
+    {
+      "source": "os-romance",
+      "target": "check-relationships-shared",
+      "label": "联系沟通与共同生活",
+      "type": "informs"
+    },
+    {
+      "source": "os-learning",
+      "target": "check-growth-learning",
+      "label": "用反馈检验学习",
+      "type": "applies"
+    },
+    {
+      "source": "os-sources",
+      "target": "check-law-property",
+      "label": "回查引用与授权",
+      "type": "informs"
+    },
+    {
+      "source": "os-questions",
+      "target": "dec-target-options",
+      "label": "把母题落到具体目标",
+      "type": "applies"
+    },
+    {
+      "source": "os-models",
+      "target": "dec-reversibility",
+      "label": "调用可逆性分析",
+      "type": "applies"
+    },
+    {
+      "source": "dec-experiments",
+      "target": "check-growth-projects",
+      "label": "验证项目关键假设",
+      "type": "applies"
+    },
+    {
+      "source": "dec-exit-contract",
+      "target": "check-time-review",
+      "label": "预设重新判断的条件",
+      "type": "applies"
+    },
+    {
+      "source": "dec-quality",
+      "target": "os-reviews",
+      "label": "反馈原判断与证据",
+      "type": "feedback"
+    },
+    {
+      "source": "dec-next-step",
+      "target": "os-evolution",
+      "label": "把结果用于系统修订",
+      "type": "feedback"
+    }
+  ]
+}
