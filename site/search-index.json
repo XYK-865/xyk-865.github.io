@@ -1,5 +1,5 @@
 {
-  "version": "personal-os-20261101",
+  "version": "branches-20261101",
   "items": [
     {
       "title": "个人感悟与摘记 · 第0则",
@@ -5991,6 +5991,370 @@
       "href": "life-checklist.html#time-estimation",
       "category": "项目",
       "text": "把相似任务的实际耗时与原先估计并排记录，也把通勤等日常重复时间计入选择成本。 上次同类事情实际用了多久？这次的估计遗漏了哪些等待、沟通或移动时间？"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "人生领域",
+      "href": "project-branch.html?project=personal-os&branch=os-domains",
+      "category": "项目",
+      "text": "先辨认问题发生在哪些生活领域，再寻找它们共有的底层问题。 这件事同时关联哪些人生领域？ 领域之间有哪些资源或边界冲突？ 八个人生领域"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "社会",
+      "href": "project-branch.html?project=personal-os&branch=os-society",
+      "category": "项目",
+      "text": "社会规则、组织、合作、竞争、权力与责任。 我观察到的规则是什么，哪些只是解释？ 在这个组织中，责任、权力与合作如何分配？ 社会领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "友情",
+      "href": "project-branch.html?project=personal-os&branch=os-friendship",
+      "category": "项目",
+      "text": "信任、互惠、边界、投入与关系维护。 我想维护的友谊需要怎样的真实相处？ 双方的投入、期待和边界是否清楚？ 友情领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "爱情",
+      "href": "project-branch.html?project=personal-os&branch=os-romance",
+      "category": "项目",
+      "text": "自我认识、真实沟通、相互尊重、适配与关系调整。 哪些是对方的实际回应，哪些是我的期待？ 关系中的同意、边界与适配如何被确认？ 爱情领域说明 爱情模块试点"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "金钱",
+      "href": "project-branch.html?project=personal-os&branch=os-money",
+      "category": "项目",
+      "text": "消费、储蓄、风险与财务选择权的判断入口。 这笔投入会改变哪些未来选择？ 哪些成本、风险或退出条件尚未弄清？ 金钱领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "健康",
+      "href": "project-branch.html?project=personal-os&branch=os-health",
+      "category": "项目",
+      "text": "运动、恢复、睡眠、饮食与身心状态的资料入口。 什么安排能够在当前生活中持续执行？ 我用什么记录区分真实变化和主观感觉？ 健康领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "时间",
+      "href": "project-branch.html?project=personal-os&branch=os-time",
+      "category": "项目",
+      "text": "优先级、注意力、精力与机会成本。 当前安排让哪些重要事情失去了时间？ 实际耗时与预期相差在哪里？ 时间领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "职业",
+      "href": "project-branch.html?project=personal-os&branch=os-career",
+      "category": "项目",
+      "text": "能力积累、职业环境、选择与发展路径。 这个选择真正改善的是什么？ 薪酬之外，还有哪些日常代价需要验证？ 职业领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "学习",
+      "href": "project-branch.html?project=personal-os&branch=os-learning",
+      "category": "项目",
+      "text": "学习策略、知识组织、迁移与反馈。 我能否不用材料独立解释或完成任务？ 怎样检验这次学习是否改变了实际能力？ 学习领域说明"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "认知工具",
+      "href": "project-branch.html?project=personal-os&branch=os-thinking",
+      "category": "项目",
+      "text": "用母题、原则、模型和来源连接不同领域的材料。 新资料应该连接哪个已有问题？ 它带来了支持、补充、冲突，还是重复？ 七类知识对象与关联方式"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "跨领域母题",
+      "href": "project-branch.html?project=personal-os&branch=os-questions",
+      "category": "项目",
+      "text": "把反复出现的问题提炼成可以持续追问的连接器。 这个问题是否在其他领域也出现过？ 是需要新增母题，还是补充已有母题的例子？ 十二个初始母题 母题模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "原则与适用边界",
+      "href": "project-branch.html?project=personal-os&branch=os-principles",
+      "category": "项目",
+      "text": "保留观点的来源、条件和反例，允许修改、降级与归档。 这个观点成立需要哪些条件？ 什么证据会使我修改或放弃它？ 知识状态与反例检验 原则模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "模型与认知卡",
+      "href": "project-branch.html?project=personal-os&branch=os-models",
+      "category": "项目",
+      "text": "将解释框架、价值偏好和行动影响分别记录。 我调用的是哪个分析模型？ 模型的简化是否遗漏了当前问题的重要条件？ 模型在系统中的位置 行动引擎 认知卡模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "来源与知识吸收",
+      "href": "project-branch.html?project=personal-os&branch=os-sources",
+      "category": "项目",
+      "text": "拆开原始论点、证据、自己的推断和行为建议。 我能否回到作者的原始上下文？ 哪些是事实，哪些是解释或价值偏好？ 知识如何进入系统 来源笔记模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "实践反馈",
+      "href": "project-branch.html?project=personal-os&branch=os-feedback",
+      "category": "项目",
+      "text": "把判断放回行动、案例与复盘中，让系统随证据修正。 当前认知是否形成了可执行的下一步？ 行动结果会更新系统的哪一部分？ 从认知到行动的闭环"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "案例组织方法",
+      "href": "project-branch.html?project=personal-os&branch=os-cases",
+      "category": "项目",
+      "text": "使用结构示例学习如何连接领域和母题；实际案例另行整理。 这个具体问题可以调用哪些共同母题？ 我是否把一次经历误写成普遍规律？ 跨领域案例的组织方式 决策记录模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "复盘与反例",
+      "href": "project-branch.html?project=personal-os&branch=os-reviews",
+      "category": "项目",
+      "text": "对照原判断与实际观察，记录偏差和其他可能解释。 当时有哪些可靠信息、哪些未知？ 结果会让哪条规则保持、修改或降级？ 知识修正与关系检查 结果复盘模板"
+    },
+    {
+      "title": "Personal OS｜人生元系统",
+      "heading": "系统迭代",
+      "href": "project-branch.html?project=personal-os&branch=os-evolution",
+      "category": "项目",
+      "text": "保留版本和修改原因，用实际判断与行动衡量系统。 本轮修改解决了什么反复出现的问题？ 哪些旧规则需要留下历史而不是直接覆盖？ 迭代阶段与成功标准"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "选择之前",
+      "href": "project-branch.html?project=decision-model&branch=dec-before",
+      "category": "项目",
+      "text": "先明确目标、现状和约束，再比较真实可选方案。 我真正要解决的是什么？ 这件事值得投入多少决策精力？ 决策模式与使用时机"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "目标、现状与选项",
+      "href": "project-branch.html?project=decision-model&branch=dec-target-options",
+      "category": "项目",
+      "text": "把维持现状、暂缓和其他替代方案纳入比较。 如果什么都不做，会怎样？ 当前二选一是否漏掉了真实可行的第三个选项？ 第一象限：目标、现状与选项 完整判断流程"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "硬约束与边界",
+      "href": "project-branch.html?project=decision-model&branch=dec-hard-constraints",
+      "category": "项目",
+      "text": "不可妥协的要求负责筛选，其余条件再排序。 哪些要求不能靠其他优点抵消？ 这个约束是真正边界，还是还可验证的假设？ 硬条件与软条件的区分 第二象限：硬条件、收益与风险"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "收益、成本与风险",
+      "href": "project-branch.html?project=decision-model&branch=dec-cost-risk",
+      "category": "项目",
+      "text": "比较钱、时间、注意力、转换成本和机会成本。 选项真正带来的收益是什么？ 有哪些成本只是在比较时被我忽略了？ 比较五件事，避免只数优点"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "可逆性与损失边界",
+      "href": "project-branch.html?project=decision-model&branch=dec-reversibility",
+      "category": "项目",
+      "text": "区分能否退出和退出需要付出多大代价。 错了以后能怎样撤回或调整？ 对他人的影响和未来承诺是否也计入成本？ 可逆性不等于零成本 最大后续投入与替代方案"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "行动之中",
+      "href": "project-branch.html?project=decision-model&branch=dec-during",
+      "category": "项目",
+      "text": "先获取关键新信息，在执行前设好检查点与退出条件。 下一步会获得什么关键反馈？ 什么时候应重新比较当前选择？ 从决定到执行的流程"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "低成本试验",
+      "href": "project-branch.html?project=decision-model&branch=dec-experiments",
+      "category": "项目",
+      "text": "把关键假设转成可以实际观察的小实验。 最小的试验是什么？ 观察到怎样的结果才会改变当前判断？ 信息价值与低成本试验 健身场所的历史结构示例"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "退出合约",
+      "href": "project-branch.html?project=decision-model&branch=dec-exit-contract",
+      "category": "项目",
+      "text": "在开始前写清继续、调整、退出和最大后续投入。 出现什么信号就应该重新判断？ 退出之后有哪些可以接受的替代方案？ 安妮·杜克式退出机制 四宫格与退出合约记录模板"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "检查点与变化记录",
+      "href": "project-branch.html?project=decision-model&branch=dec-checkpoints",
+      "category": "项目",
+      "text": "到约定时间或触发事件时，重新核对核心假设。 与行动前相比，哪些信息已经改变？ 检查点应该看结果，还是先看关键假设是否仍成立？ 检查时间、触发事件与重评问题 检查点复盘模板"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "复盘之后",
+      "href": "project-branch.html?project=decision-model&branch=dec-after",
+      "category": "项目",
+      "text": "区分决策过程和运气，再决定继续、调整或退出。 我是在评价决策过程，还是只看结果好坏？ 下一次应修改哪条判断规则？ 复盘的核心问题"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "继续、调整或退出",
+      "href": "project-branch.html?project=decision-model&branch=dec-next-step",
+      "category": "项目",
+      "text": "用当前信息重新比较未来投入和替代方案。 如果今天还没进入，我仍会选择开始吗？ 能否通过更低代价的调整保留仍有价值的部分？ 重新评价与可迁移结论 继续、调整与退出三条路径"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "决策质量与运气",
+      "href": "project-branch.html?project=decision-model&branch=dec-quality",
+      "category": "项目",
+      "text": "保留当时已知信息，避免用事后结果改写原判断。 当时的决定是否与可得证据相称？ 结果中哪些可能来自运气或其他解释？ 区分决策质量和运气 保留原判断的复盘模板"
+    },
+    {
+      "title": "个人快速判断与退出模型",
+      "heading": "九问速览",
+      "href": "project-branch.html?project=decision-model&branch=dec-nine-questions",
+      "category": "项目",
+      "text": "用九个问题在需要时快速回到完整判断过程。 九问中我最容易跳过哪一问？ 这次需要快速版，还是应投入更深入的核对？ 最短可携带版：九问"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "健康、运动、睡眠与长寿",
+      "href": "project-branch.html?project=life-checklist&branch=check-health",
+      "category": "项目",
+      "text": "记录能长期维持的生活习惯，核对健康信息的适用条件。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 健康、运动、睡眠与长寿主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "运动与作息",
+      "href": "project-branch.html?project=life-checklist&branch=check-health-routine",
+      "category": "项目",
+      "text": "把训练、恢复和作息资料放在一起回看。 我能稳定保留的运动安排是什么？两周后用什么记录判断它是否适合我？ 最近哪种安排最容易挤占睡眠？我能先改变哪个环节？ 让运动适应日常安排 先记录自己的作息"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "饮食与日常安全",
+      "href": "project-branch.html?project=life-checklist&branch=check-health-basics",
+      "category": "项目",
+      "text": "从常见食物与容易遗漏的安全环节开始查阅。 哪一餐最值得先改善？新的搭配是否好吃、方便，也适合我的身体情况？ 家里和通勤路上，哪一个风险可以通过一次检查或维护先降低？ 从常吃的食物做调整 检查容易忽略的安全环节"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "金钱管理、理财与消费",
+      "href": "project-branch.html?project=life-checklist&branch=check-money",
+      "category": "项目",
+      "text": "看清现金流、实际成本和风险，把消费与未来选择权一起考虑。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 金钱管理、理财与消费主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "现金流与消费",
+      "href": "project-branch.html?project=life-checklist&branch=check-money-daily",
+      "category": "项目",
+      "text": "检查必要支出、缓冲和重复消费。 如果收入暂时中断，我最先需要支付什么？哪些钱不能承受短期波动？ 过去一个月，哪笔重复支出没有带来相称的使用价值？ 给现金流保留缓冲 复查订阅与冲动购买"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "借款与风险理解",
+      "href": "project-branch.html?project=life-checklist&branch=check-money-risk",
+      "category": "项目",
+      "text": "先弄清付款责任和风险，再比较回报。 我清楚总共要还多少、什么时候还吗？这笔支出还有不借钱的替代方案吗？ 我能用自己的话说明这项资产怎么赚钱、可能怎么亏，以及何时需要取钱吗？ 把借款和分期算清楚 先理解风险，再谈回报"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "职业发展、失业与劳动保障",
+      "href": "project-branch.html?project=life-checklist&branch=check-career",
+      "category": "项目",
+      "text": "把职业机会、现实代价和劳动权益放在同一张图里。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 职业发展、失业与劳动保障主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "职业变化与支持",
+      "href": "project-branch.html?project=life-checklist&branch=check-career-transitions",
+      "category": "项目",
+      "text": "比较换工作的日常代价，并了解工作中断时的查阅入口。 如果只看实际生活，一份新工作会改变我的哪些日常？最想验证的假设是什么？ 如果工作中断，我知道先联系哪个官方服务吗？哪些材料可以提前整理？ 换工作时比较完整代价 提前知道失业时的支持入口"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "劳动记录与职业安全",
+      "href": "project-branch.html?project=life-checklist&branch=check-career-records",
+      "category": "项目",
+      "text": "把劳动约定、可查记录和岗位健康风险纳入考虑。 我能否快速找到自己的合同和最近的工资、社保记录？还有什么重要约定只有口头说明？ 这份工作有哪些具体的健康或安全风险？我知道防护责任和正式求助渠道吗？ 给劳动关系留下可查记录 把职业健康纳入岗位选择"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "友情、恋爱、婚姻与家庭",
+      "href": "project-branch.html?project=life-checklist&branch=check-relationships",
+      "category": "项目",
+      "text": "关注真实互动、尊重边界、共同生活与照料分工。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 友情、恋爱、婚姻与家庭主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "相处与边界",
+      "href": "project-branch.html?project=life-checklist&branch=check-relationships-daily",
+      "category": "项目",
+      "text": "关注真实联系、实际回应和清楚的双方边界。 我想继续维护哪些友谊？下一次联系可以从什么具体的小事开始？ 我真正观察到了什么？哪些只是我的期待？双方的边界是否已经说清？ 给真实相处留时间 分清事实、期待与边界"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "沟通与共同生活",
+      "href": "project-branch.html?project=life-checklist&branch=check-relationships-shared",
+      "category": "项目",
+      "text": "把分歧、分工和共同承诺拆成可以讨论的问题。 这次分歧要解决的到底是哪件事？双方能否各提出一个愿意尝试的改变？ 这项共同承诺分别占用谁的时间和资源？是否需要留下明确约定并定期重谈？ 把冲突说成具体问题 把共同生活的分工说清楚"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "法律常识与风险规避",
+      "href": "project-branch.html?project=life-checklist&branch=check-law",
+      "category": "项目",
+      "text": "在签字、转账、发布内容和处理纠纷前，多核实一步。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 法律常识与风险规避主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "签字责任与信息边界",
+      "href": "project-branch.html?project=life-checklist&branch=check-law-responsibility",
+      "category": "项目",
+      "text": "在承担责任、授权账号或提供身份信息前查清条件。 这份文件中，我承担的是哪一种责任？是否有我看不懂或无法接受的条款？ 如果手机或邮箱失去控制，我知道如何恢复吗？有哪些不再需要的授权？ 先看懂自己将承担什么 给账号和身份信息设边界"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "内容使用与住房约定",
+      "href": "project-branch.html?project=life-checklist&branch=check-law-property",
+      "category": "项目",
+      "text": "保留素材许可、付款和住房约定的可查依据。 我准备上传的文字、图片或文件，是否清楚来源和授权范围？ 付款前我核实了哪些信息？押金、维修、退租或交付条件是否留下了明确记录？ 发布内容前核对使用权 把住房交易的约定留下来"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "创业、个人成长与技能学习",
+      "href": "project-branch.html?project=life-checklist&branch=check-growth",
+      "category": "项目",
+      "text": "用反馈验证方向，用实际产出检验学习。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 创业、个人成长与技能学习主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "学习与技能验证",
+      "href": "project-branch.html?project=life-checklist&branch=check-growth-learning",
+      "category": "项目",
+      "text": "用实际任务、回忆与反馈检验学习和技能投入。 我能在不翻资料的情况下解释或做出来吗？下一次怎样验证自己没有只停留在熟悉感？ 我想用这个技能完成什么任务？能否从真实岗位、从业者或小作品获得反馈？ 用回忆和反馈检验学习 先核对技能与真实需求"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "试验与项目维护",
+      "href": "project-branch.html?project=life-checklist&branch=check-growth-projects",
+      "category": "项目",
+      "text": "从小规模验证开始，把后续维护责任一并考虑。 下一步最小的验证是什么？出现怎样的反馈，我会继续、调整或停止？ 这个项目新增功能后，会多出哪些长期维护、隐私或合规责任？ 用小规模试验验证想法 把项目功能与维护责任一起考虑"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "时间管理与生活决策",
+      "href": "project-branch.html?project=life-checklist&branch=check-time",
+      "category": "项目",
+      "text": "减少打断，把目标写成行动，也给调整与退出留下位置。 这个领域里，我当前最需要查清的一个问题是什么？ 阅读资料后，我会怎样判断它是否适合自己的情况？ 时间管理与生活决策主题清单"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "专注与下一步行动",
+      "href": "project-branch.html?project=life-checklist&branch=check-time-execution",
+      "category": "项目",
+      "text": "减少打断，把抽象目标转成可以开始的具体动作。 我最常被什么打断？这次能先关掉哪个不必要的入口？ 下一次到什么时间、什么地方，我会先做哪一个动作？ 给连续思考留一段完整时间 把目标改写为下一步行动"
+    },
+    {
+      "title": "人生高性价比清单",
+      "heading": "时间记录与重评",
+      "href": "project-branch.html?project=life-checklist&branch=check-time-review",
+      "category": "项目",
+      "text": "用实际耗时和预设检查点修正下一次安排。 如果今天还没开始，知道现在这些信息，我还会选择投入吗？什么新证据会改变判断？ 上次同类事情实际用了多久？这次的估计遗漏了哪些等待、沟通或移动时间？ 在开始前写好重新判断的条件 让实际耗时修正下一次计划"
     }
   ]
 }
