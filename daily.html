@@ -1,3 +1,32 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="assets/intro/entry.js?v=cat-smooth-parity-20261028"></script><meta name="theme-color" content="#ffffff"><title>日常 · Spike Hsu</title><link rel="icon" href="favicon.svg?v=2" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028"></head><body class="daily-page"><a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="daily"></header><main id="main" class="page-shell inner-page"><div class="page-intro"><p class="kicker">DAILY LIFE</p><h1>日常生活</h1><p>书桌、咖啡、校园和某个值得记住的普通下午。</p></div><section class="daily-note"><img src="assets/12.jpg" alt="清晨桌面上的一杯热饮"><div><span>生活切片 · 准备中</span><h2>认真生活，也认真保存。</h2><p>这里将放短记录、照片日记和不必写成长文章的念头。</p></div></section></main><footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js?v=cat-smooth-parity-20261028"></script></body></html>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="assets/intro/entry.js?v=cat-smooth-parity-20261028"></script>
+  <meta name="theme-color" content="#ffffff"><title>日常与咖啡 · Spike Hsu</title>
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028"><link rel="stylesheet" href="daily-coffee.css?v=20261101">
+</head><body class="daily-page">
+  <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="daily"></header>
+  <main id="main" class="page-shell inner-page">
+    <div class="page-intro"><p class="kicker">DAILY LIFE</p><h1>日常生活</h1><p>书桌、咖啡、校园和某个值得记住的普通下午。</p></div>
+    <section class="coffee-feature" aria-labelledby="coffee-feature-title">
+      <img src="assets/12.jpg" alt="桌上的绿色咖啡杯" fetchpriority="high">
+      <div class="coffee-feature-copy"><p class="kicker">COFFEE JOURNAL / 咖啡记录</p><h2 id="coffee-feature-title">从一杯咖啡开始</h2><p>把豆子的来处、冲煮的参数和喝完的感受，留在同一页。慢慢找到自己喜欢的味道。</p><a href="#coffee-records" id="coffee-start">记录一杯咖啡 <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section id="coffee-records" class="coffee-records" aria-labelledby="coffee-records-title">
+      <header class="coffee-section-heading"><div><p class="kicker">MY CUPS</p><h2 id="coffee-records-title">我的咖啡记录</h2></div><p id="coffee-count" aria-live="polite">0 杯记录</p></header>
+      <details class="coffee-editor" id="coffee-editor"><summary>＋ 记下一杯</summary>
+        <p class="coffee-storage-note">记录仅保存在当前浏览器，不会自动上传网站。换设备或清理浏览器前，可以导出备份。</p>
+        <form id="coffee-form">
+          <div class="coffee-form-grid"><label>日期<input name="date" type="date" required></label><label>咖啡 / 豆子名称<input name="name" maxlength="100" placeholder="这杯咖啡叫什么" required></label><label>产地 / 庄园<input name="origin" maxlength="120" placeholder="知道多少就记多少"></label><label>烘焙程度<select name="roast"><option value="">未记录</option><option>浅烘</option><option>中浅烘</option><option>中烘</option><option>中深烘</option><option>深烘</option></select></label><label>冲煮方式<select name="method"><option value="">未记录</option><option>手冲</option><option>意式浓缩</option><option>美式</option><option>拿铁</option><option>法压</option><option>冷萃</option><option>其他</option></select></label><div class="coffee-ratio-inputs"><label>咖啡粉 / g<input name="dose" type="number" min="0.1" max="1000" step="0.1" placeholder="可不填"></label><label>注水量 / g<input name="water" type="number" min="1" max="10000" step="1" placeholder="可不填"></label></div></div>
+          <label>风味与感受<textarea name="notes" maxlength="3000" rows="3" placeholder="香气、酸甜、口感，或者下次想调整的地方。"></textarea></label>
+          <div class="coffee-editor-actions"><button type="submit">保存到本机</button><p id="coffee-status" role="status" aria-live="polite"></p></div>
+        </form>
+      </details>
+      <div class="coffee-record-list" id="coffee-record-list"></div>
+      <button id="coffee-export" type="button" hidden>导出咖啡记录</button>
+    </section>
+  </main><footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js?v=cat-smooth-parity-20261028"></script><script type="module" src="daily-coffee.js?v=20261101"></script>
+</body></html>
 
