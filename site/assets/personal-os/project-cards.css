@@ -33,7 +33,7 @@
 }
 .life-projects .life-projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 .life-projects .life-project-card {
@@ -57,6 +57,7 @@
   --life-card-accent: #667c9d;
   --life-card-tint: #f0f4fa;
 }
+.life-projects .life-project-card-mother { --life-card-accent:#987049; --life-card-tint:#fbf3e8; }
 .life-projects .life-project-card:hover,
 .life-projects .life-project-card:focus-visible {
   transform: translateY(-4px);
@@ -133,6 +134,7 @@
   --life-card-accent: #abc1df;
   background: linear-gradient(145deg, #28303ee8, #22252d);
 }
+:root[data-theme="dark"] .life-projects .life-project-card-mother { --life-card-accent:#d5b289; background:linear-gradient(145deg,#342d25e8,#28251f); }
 @media (max-width: 1000px) {
   .life-projects .life-projects-grid { gap: 16px; }
   .life-projects .life-project-card { padding: 21px 19px 0; }

@@ -1,5 +1,5 @@
 const SVG='http://www.w3.org/2000/svg';
-const projectNames={'personal-os':'人生元系统','decision-model':'判断与退出','life-checklist':'人生清单'};
+const projectNames={'personal-os':'人生元系统','decision-model':'判断与退出','life-checklist':'人生清单','mother-questions':'母题'};
 const element=(tag,attrs={},text)=>{const el=document.createElement(tag);for(const [name,value]of Object.entries(attrs))el.setAttribute(name,value);if(text!==undefined)el.textContent=text;return el;};
 const svgElement=(tag,attrs={},text)=>{const el=document.createElementNS(SVG,tag);for(const [name,value]of Object.entries(attrs))el.setAttribute(name,value);if(text!==undefined)el.textContent=text;return el;};
 

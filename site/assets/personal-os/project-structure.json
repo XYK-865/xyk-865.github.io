@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "projects": [
     {
       "id": "personal-os",
       "title": "Personal OS｜人生元系统",
-      "summary": "用领域辨认问题，用认知工具连接材料，再用实践反馈修正系统。",
+      "summary": "围绕八大领域整理资料，观察同一件事在不同生活方面的联系。",
       "version": "0.1.0",
       "guideHref": "personal-os.html?view=guide"
     },
@@ -22,6 +22,13 @@
       "summary": "按七类生活主题查阅资料，把具体问题连接到判断和复盘。",
       "version": "0.1.0",
       "guideHref": "life-checklist.html?view=guide"
+    },
+    {
+      "id": "mother-questions",
+      "title": "母题",
+      "summary": "围绕反复遇到的根本问题，连接认知工具、来源与实验反馈。",
+      "version": "0.1.0",
+      "guideHref": "mother-questions.html?view=guide"
     }
   ],
   "nodes": [
@@ -30,7 +37,7 @@
       "projectId": "personal-os",
       "parentId": null,
       "title": "人生领域",
-      "summary": "先辨认问题发生在哪些生活领域，再寻找它们共有的底层问题。",
+      "summary": "辨认问题关联哪些生活领域，沿领域查看资料与实际生活安排。",
       "kind": "group",
       "status": "seed",
       "prompts": [
@@ -256,8 +263,31 @@
       ]
     },
     {
+      "id": "mq-core",
+      "projectId": "mother-questions",
+      "parentId": null,
+      "title": "核心母题",
+      "summary": "从十二个可以跨领域反复追问的问题开始，持续连接新的来源和案例。",
+      "kind": "group",
+      "status": "seed",
+      "prompts": [
+        "这个问题会在哪些情境中反复出现？",
+        "哪些新证据可能改变我的理解？"
+      ],
+      "resources": [
+        {
+          "id": "mq-core-guide",
+          "title": "十二个跨领域母题",
+          "summary": "问题、编号与常见关联领域。",
+          "href": "mother-questions.html?view=guide#mother-questions",
+          "type": "核心说明"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
       "id": "os-thinking",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": null,
       "title": "认知工具",
       "summary": "用母题、原则、模型和来源连接不同领域的材料。",
@@ -272,16 +302,19 @@
           "id": "os-thinking-guide",
           "title": "七类知识对象与关联方式",
           "summary": "",
-          "href": "personal-os.html?view=guide#architecture",
+          "href": "mother-questions.html?view=guide#architecture",
           "type": "核心说明"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "previousProjectIds": [
+        "personal-os"
+      ]
     },
     {
       "id": "os-questions",
-      "projectId": "personal-os",
-      "parentId": "os-thinking",
+      "projectId": "mother-questions",
+      "parentId": "mq-core",
       "title": "跨领域母题",
       "summary": "把反复出现的问题提炼成可以持续追问的连接器。",
       "kind": "branch",
@@ -295,7 +328,7 @@
           "id": "os-questions-guide",
           "title": "十二个初始母题",
           "summary": "",
-          "href": "personal-os.html?view=guide#mother-questions",
+          "href": "mother-questions.html?view=guide#mother-questions",
           "type": "核心说明"
         },
         {
@@ -308,11 +341,14 @@
       ],
       "relatedIds": [
         "dec-target-options"
+      ],
+      "previousProjectIds": [
+        "personal-os"
       ]
     },
     {
       "id": "os-principles",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-thinking",
       "title": "原则与适用边界",
       "summary": "保留观点的来源、条件和反例，允许修改、降级与归档。",
@@ -327,7 +363,7 @@
           "id": "os-principles-guide",
           "title": "知识状态与反例检验",
           "summary": "",
-          "href": "personal-os.html?view=guide#knowledge",
+          "href": "mother-questions.html?view=guide#knowledge",
           "type": "核心说明"
         },
         {
@@ -338,11 +374,14 @@
           "type": "模板"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "previousProjectIds": [
+        "personal-os"
+      ]
     },
     {
       "id": "os-models",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-thinking",
       "title": "模型与认知卡",
       "summary": "将解释框架、价值偏好和行动影响分别记录。",
@@ -357,14 +396,14 @@
           "id": "os-models-guide",
           "title": "模型在系统中的位置",
           "summary": "",
-          "href": "personal-os.html?view=guide#architecture",
+          "href": "mother-questions.html?view=guide#architecture",
           "type": "核心说明"
         },
         {
           "id": "os-models-action",
           "title": "行动引擎",
           "summary": "",
-          "href": "personal-os.html?view=guide#action-engine",
+          "href": "mother-questions.html?view=guide#action-engine",
           "type": "核心说明"
         },
         {
@@ -377,11 +416,14 @@
       ],
       "relatedIds": [
         "dec-reversibility"
+      ],
+      "previousProjectIds": [
+        "personal-os"
       ]
     },
     {
       "id": "os-sources",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-thinking",
       "title": "来源与知识吸收",
       "summary": "拆开原始论点、证据、自己的推断和行为建议。",
@@ -396,7 +438,7 @@
           "id": "os-sources-guide",
           "title": "知识如何进入系统",
           "summary": "",
-          "href": "personal-os.html?view=guide#knowledge",
+          "href": "mother-questions.html?view=guide#knowledge",
           "type": "核心说明"
         },
         {
@@ -409,13 +451,16 @@
       ],
       "relatedIds": [
         "check-law-property"
+      ],
+      "previousProjectIds": [
+        "personal-os"
       ]
     },
     {
       "id": "os-feedback",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": null,
-      "title": "实践反馈",
+      "title": "实验反馈",
       "summary": "把判断放回行动、案例与复盘中，让系统随证据修正。",
       "kind": "group",
       "status": "seed",
@@ -428,15 +473,18 @@
           "id": "os-feedback-guide",
           "title": "从认知到行动的闭环",
           "summary": "",
-          "href": "personal-os.html?view=guide#action-engine",
+          "href": "mother-questions.html?view=guide#action-engine",
           "type": "核心说明"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "previousProjectIds": [
+        "personal-os"
+      ]
     },
     {
       "id": "os-cases",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-feedback",
       "title": "案例组织方法",
       "summary": "使用结构示例学习如何连接领域和母题；实际案例另行整理。",
@@ -451,7 +499,7 @@
           "id": "os-cases-guide",
           "title": "跨领域案例的组织方式",
           "summary": "",
-          "href": "personal-os.html?view=guide#cross-domain",
+          "href": "mother-questions.html?view=guide#cross-domain",
           "type": "核心说明"
         },
         {
@@ -462,11 +510,14 @@
           "type": "模板"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "previousProjectIds": [
+        "personal-os"
+      ]
     },
     {
       "id": "os-reviews",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-feedback",
       "title": "复盘与反例",
       "summary": "对照原判断与实际观察，记录偏差和其他可能解释。",
@@ -481,7 +532,7 @@
           "id": "os-reviews-guide",
           "title": "知识修正与关系检查",
           "summary": "",
-          "href": "personal-os.html?view=guide#knowledge",
+          "href": "mother-questions.html?view=guide#knowledge",
           "type": "核心说明"
         },
         {
@@ -494,11 +545,14 @@
       ],
       "relatedIds": [
         "dec-quality"
+      ],
+      "previousProjectIds": [
+        "personal-os"
       ]
     },
     {
       "id": "os-evolution",
-      "projectId": "personal-os",
+      "projectId": "mother-questions",
       "parentId": "os-feedback",
       "title": "系统迭代",
       "summary": "保留版本和修改原因，用实际判断与行动衡量系统。",
@@ -513,12 +567,15 @@
           "id": "os-evolution-guide",
           "title": "迭代阶段与成功标准",
           "summary": "",
-          "href": "personal-os.html?view=guide#evolution",
+          "href": "mother-questions.html?view=guide#evolution",
           "type": "核心说明"
         }
       ],
       "relatedIds": [
         "dec-next-step"
+      ],
+      "previousProjectIds": [
+        "personal-os"
       ]
     },
     {

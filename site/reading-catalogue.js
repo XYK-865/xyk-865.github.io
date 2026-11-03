@@ -88,3 +88,13 @@ export async function loadCatalogue(){
  return [...fileCatalogue,...catalogue];
 }
 
+// Blog entries are loaded separately so they do not fill the personal bookshelves.
+export async function loadBlogArticle(id){
+ const slug=id.slice(5);
+ if(slug==='reflections')return{id,title:'个人感悟与摘记',kind:'article',type:'文章',label:'感悟 · 阅读与批注',source:'reflections.html',selector:'article[aria-label="个人感悟与摘记正文"]'};
+ const response=await fetch('blog-articles/catalogue.json');if(!response.ok)throw Error('文章目录暂时无法加载。');
+ const post=(await response.json()).find(post=>post.id===slug&&post.status==='published');
+ if(!post||!/^blog-articles\/[a-zA-Z0-9_-]+\.html$/.test(post.href))return null;
+ return{id,title:post.title,kind:'article',type:'文章',label:(post.category==='zhihu'?'知乎摘录':'博客文章')+' · 阅读与批注',source:post.href,selector:'.blog-reading-content'};
+}
+

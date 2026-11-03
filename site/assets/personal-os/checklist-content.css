@@ -1,0 +1,38 @@
+.project-life-checklist .branch-card-grid{align-items:start;grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-life-checklist .life-check-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+.checklist-portal-credit{font-size:11px;line-height:1.9;color:var(--muted);margin:16px 0 0}
+.checklist-portal-credit a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.project-life-checklist .branch-card.checklist-preview-card{display:block;min-height:0}
+.checklist-card-preview{margin:20px 0 18px;display:grid;gap:20px}
+.checklist-card-preview>div+div{border-top:1px solid var(--line);padding-top:18px}
+.checklist-card-preview strong{font-size:15px;line-height:1.7;color:var(--text)}
+.checklist-card-preview p{font-size:13px!important;line-height:1.9!important;margin:8px 0!important;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.checklist-card-preview small{display:block;font-size:12px;line-height:1.85;color:var(--muted)}
+.checklist-card-preview small b{display:block;font-size:10px;letter-spacing:.1em;color:var(--accent);margin-bottom:2px}
+.checklist-reading-note{color:var(--muted);line-height:1.9}
+.checklist-detail-items{display:grid;gap:28px;margin-top:24px}
+.checklist-content-item{border:1px solid var(--line);border-radius:18px;padding:28px;background:var(--bg);scroll-margin-top:100px;overflow-wrap:anywhere}
+.checklist-content-item header>span{font-size:11px;letter-spacing:.1em;color:var(--accent)}
+.checklist-content-item h3{font-size:23px;line-height:1.5;margin:10px 0 24px}
+.checklist-content-item h4{font-size:12px;color:var(--accent);letter-spacing:.1em;margin:22px 0 8px}
+.checklist-content-item p,.checklist-content-item li{font-size:14px;line-height:1.95}
+.checklist-content-item p{margin:8px 0}
+.checklist-content-item ol{margin:8px 0;padding-left:24px}
+.checklist-content-item li+li{margin-top:9px}
+.checklist-core p{font-size:15px;line-height:2;color:var(--text)}
+.checklist-scope{border-left:2px solid var(--line);padding:1px 0 1px 16px;margin-top:20px}
+.checklist-scope h4{margin-top:8px}
+.checklist-scope p{color:var(--muted);font-size:13px}
+.checklist-sources{margin-top:22px;border-top:1px solid var(--line);padding-top:2px}
+.checklist-sources a,.checklist-content-credit a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.checklist-sources span,.checklist-sources small{font-size:11px;color:var(--muted)}
+.checklist-sources small{display:block;margin-top:4px}
+.checklist-sources summary,.checklist-reflection summary{font-size:12px;cursor:pointer;line-height:1.8;color:var(--muted);padding:10px 0}
+.checklist-sources ul{padding-left:18px;margin:10px 0}
+.checklist-sources details>p{font-size:12px;color:var(--muted)}
+.checklist-reflection{margin-top:14px;border-top:1px solid var(--line)}
+.checklist-reflection p{font-size:13px;color:var(--muted)}
+.checklist-reflection>a{font-size:12px;color:var(--accent)}
+.checklist-content-credit{margin-top:28px;padding:20px;border-radius:12px;background:var(--panel);color:var(--muted);font-size:12px;line-height:1.9}
+.checklist-content-credit p{margin:0 0 8px}
+@media(max-width:760px){.project-life-checklist .branch-card-grid,.project-life-checklist .life-check-grid{grid-template-columns:1fr}.checklist-content-item{padding:20px 18px;border-radius:14px}.checklist-content-item h3{font-size:21px}.checklist-content-item p,.checklist-content-item li{font-size:13px}.checklist-core p{font-size:14px}.checklist-content-credit{padding:16px}.checklist-card-preview{gap:16px}}

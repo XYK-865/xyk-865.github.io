@@ -2973,5 +2973,198 @@
         "label": "正文"
       }
     ]
+  },
+  {
+    "id": "zhihu-moving-up",
+    "title": "穷人翻身的唯一途径是什么？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-moving-up.html",
+    "summary": "关于价值输出、资源整合、自控能力和健康习惯的一篇知乎摘录。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "sourceType": "provided-text",
+    "author": "实践出真知",
+    "sourceURL": "https://www.zhihu.com/question/650527268/answer/2079690661343786080",
+    "authorURL": "https://www.zhihu.com/people/198805266911",
+    "versions": [
+      {
+        "id": "provided",
+        "label": "知乎摘录",
+        "source": "blog-articles/content/zhihu-moving-up.md"
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "zhihu-moving-up-section-1",
+        "text": "一、明确大方向：输出价值与整合资源",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-moving-up-section-2",
+        "text": "二、锻炼自控能力：认真对待选择",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-moving-up-section-3",
+        "text": "事业与伴侣",
+        "level": 3,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-moving-up-section-4",
+        "text": "人际纷争中的自控力",
+        "level": 3,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-moving-up-section-5",
+        "text": "三、重视健康：精力、状态与习惯",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-moving-up-section-6",
+        "text": "四、学习、克制与意识",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      }
+    ]
+  },
+  {
+    "id": "zhihu-no-temporary-life",
+    "title": "你们有哪些极简的人生建议？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-no-temporary-life.html",
+    "summary": "围绕“过临时生活”展开：今天对生活、工作和关系的态度，如何塑造未来的自己。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "sourceType": "provided-text",
+    "author": "奇迹年",
+    "sourceURL": "https://www.zhihu.com/question/411884459/answer/2093248484812104471",
+    "authorURL": "https://www.zhihu.com/people/qijinian",
+    "versions": [
+      {
+        "id": "provided",
+        "label": "知乎摘录",
+        "source": "blog-articles/content/zhihu-no-temporary-life.md"
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "zhihu-no-temporary-life-section-1",
+        "text": "一、不要把未来的承诺当成今天的豁免",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-no-temporary-life-section-2",
+        "text": "二、减肥计划，如何变成放纵的理由",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-no-temporary-life-section-3",
+        "text": "三、你怎样对待当下，就怎样塑造未来",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-no-temporary-life-section-4",
+        "text": "四、理想中的自己，从今天的相处方式开始",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      }
+    ]
+  },
+  {
+    "id": "zhihu-graduate-value",
+    "title": "谁把大学生搞得这么廉价？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-graduate-value.html",
+    "summary": "沐霖关于就业、行业选择、经济价值密度与长期积累的回答摘录。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "sourceType": "provided-text",
+    "author": "沐霖",
+    "sourceURL": "https://www.zhihu.com/question/2071979569087877750/answer/2096624280452843133",
+    "authorURL": null,
+    "versions": [
+      {
+        "id": "provided",
+        "label": "知乎摘录",
+        "source": "blog-articles/content/zhihu-graduate-value.md"
+      }
+    ],
+    "aliases": [],
+    "headings": [
+      {
+        "id": "zhihu-graduate-value-section-1",
+        "text": "一、经济价值增长，不一定带来同比例的就业增长",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-graduate-value-section-2",
+        "text": "二、年轻人首先要想办法进入钱集中的地方",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-graduate-value-section-3",
+        "text": "三、好行业竞争太激烈，进不去怎么办？",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-graduate-value-section-4",
+        "text": "四、比进入好行业更进一步，是发现钱正在往哪里流动",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-graduate-value-section-5",
+        "text": "五、年轻时努力搞钱，然后让钱替你工作",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      },
+      {
+        "id": "zhihu-graduate-value-section-6",
+        "text": "六、给刚毕业大学生的五点建议",
+        "level": 2,
+        "version": "provided",
+        "label": "知乎摘录"
+      }
+    ]
   }
 ]

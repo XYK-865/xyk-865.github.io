@@ -140,3 +140,5 @@ document.querySelector('.theme-toggle')?.addEventListener('click',()=>{const dar
   });
   document.addEventListener('keydown',event=>{if((event.ctrlKey||event.metaKey)&&event.key.toLowerCase()==='k'){event.preventDefault();openSearch();}if(event.key==='Escape'&&dialog.open)dialog.close();});
 })();
+
+if(document.querySelector('.blog-reading-header,.reflection-header'))import('./blog-reading-entry.js?v=20261103');

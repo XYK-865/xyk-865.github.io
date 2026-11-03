@@ -5,6 +5,14 @@ window.SPIKE_BLOG_CATEGORIES=[
     "label": "全部"
   },
   {
+    "id": "people",
+    "label": "人物"
+  },
+  {
+    "id": "zhihu",
+    "label": "知乎"
+  },
+  {
     "id": "product",
     "label": "产品与设计"
   },
@@ -113,6 +121,9 @@ window.SPIKE_POSTS=[
     "status": "published",
     "category": "finance",
     "href": "blog-articles/dalio-interview.html",
+    "peopleIds": [
+      "ray-dalio"
+    ],
     "summary": "按访谈问题整理大周期、风险与决策观点，并区分后续面向年轻人的个人启发。",
     "tags": [
       "访谈笔记",
@@ -126,6 +137,10 @@ window.SPIKE_POSTS=[
     "status": "published",
     "category": "finance",
     "href": "blog-articles/dalio-zhou-cycles.html",
+    "peopleIds": [
+      "ray-dalio",
+      "zhou-jintao"
+    ],
     "summary": "对照全球宏观周期与康波框架，记录共同点、差异、风险修正，以及原稿提出的行动清单。",
     "tags": [
       "周期理论",
@@ -139,6 +154,9 @@ window.SPIKE_POSTS=[
     "status": "published",
     "category": "society",
     "href": "blog-articles/population-crisis.html",
+    "peopleIds": [
+      "yi-fuxian"
+    ],
     "summary": "梳理人口预警的论证链条、生育与老龄化议题，以及原稿中的数据对照和长期思考。",
     "tags": [
       "人口结构",
@@ -171,6 +189,65 @@ window.SPIKE_POSTS=[
       "政务服务",
       "北京",
       "便民工具"
+    ]
+  },
+  {
+    "title": "穷人翻身的唯一途径是什么？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-moving-up.html",
+    "summary": "关于价值输出、资源整合、自控能力和健康习惯的一篇知乎摘录。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "author": "实践出真知",
+    "authorURL": "https://www.zhihu.com/people/198805266911",
+    "sourceURL": "https://www.zhihu.com/question/650527268/answer/2079690661343786080"
+  },
+  {
+    "title": "你们有哪些极简的人生建议？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-no-temporary-life.html",
+    "summary": "围绕“过临时生活”展开：今天对生活、工作和关系的态度，如何塑造未来的自己。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "author": "奇迹年",
+    "authorURL": "https://www.zhihu.com/people/qijinian",
+    "sourceURL": "https://www.zhihu.com/question/411884459/answer/2093248484812104471"
+  },
+  {
+    "title": "谁把大学生搞得这么廉价？",
+    "date": "2026-11-02",
+    "status": "published",
+    "category": "zhihu",
+    "href": "blog-articles/zhihu-graduate-value.html",
+    "summary": "沐霖关于就业、行业选择、经济价值密度与长期积累的回答摘录。",
+    "tags": [],
+    "folderIds": [
+      "favorites"
+    ],
+    "author": "沐霖",
+    "authorURL": null,
+    "sourceURL": "https://www.zhihu.com/question/2071979569087877750/answer/2096624280452843133"
+  },
+  {
+    "title": "美国精神病人｜观影笔记",
+    "date": "准备中",
+    "status": "draft",
+    "category": "films",
+    "href": "american-psycho.html",
+    "cover": "assets/films/american-psycho.webp",
+    "summary": "封面与影片资料已收录，观后文章待补充。",
+    "tags": [
+      "玛丽·哈伦",
+      "加拿大",
+      "黑色幽默"
     ]
   },
   {

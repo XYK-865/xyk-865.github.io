@@ -1,0 +1,32 @@
+/* The selected wide snow scene is the default; previous comparison links remain available. */
+.personal-bookshelf-page{--shelf-paper:#f1f4f5;--shelf-ink:#283237;--shelf-muted:#626f78;--shelf-line:#dfe5e8;--shelf-accent:#607b87}
+.personal-shelf-hero--photo{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);gap:0;min-height:0;padding:0;background:var(--bg);color:var(--shelf-ink);border-color:var(--line)}
+.personal-shelf-background{position:relative;inset:auto;grid-column:2;grid-row:1;display:block;z-index:auto;width:100%;height:auto;aspect-ratio:1;object-fit:contain;object-position:center}
+.personal-shelf-hero--photo:after{content:none}
+.personal-shelf-hero--photo .personal-shelf-heading{grid-column:1;grid-row:1;box-sizing:border-box;max-width:none;width:100%;padding:clamp(1.5rem,3vw,2.8rem)}
+.personal-shelf-hero--photo .personal-shelf-heading .kicker{color:#536c79;font-size:.58rem;letter-spacing:.15em}
+.personal-shelf-hero--photo .personal-shelf-heading h1{font-size:clamp(2.3rem,4.2vw,3.5rem)}
+.personal-shelf-hero--photo .personal-shelf-subtitle{font-size:1rem}
+.personal-shelf-hero--photo .personal-shelf-description{max-width:28em;color:var(--shelf-muted);font-size:.8rem}
+.personal-shelf-hero--photo .personal-shelf-meta{color:var(--shelf-muted);font-size:.7rem}
+.personal-shelf-hero--photo .personal-shelf-meta>span:first-child,.personal-shelf-hero--photo .personal-shelf-hero-link{color:var(--shelf-accent)}
+.personal-shelf-hero--photo .personal-shelf-hero-link{border-color:var(--shelf-line)}
+.personal-bookshelf-page .personal-shelf-section-heading .kicker{color:var(--shelf-accent)}
+.personal-shelf-hero--photo.shelf-layout-wide{display:grid;grid-template-columns:1fr;isolation:isolate;background:#eff1f2}
+.shelf-layout-wide .personal-shelf-background{grid-column:1;grid-row:1;aspect-ratio:3;object-fit:contain;align-self:center}
+.personal-shelf-hero--photo.shelf-layout-wide .personal-shelf-heading{grid-column:1;grid-row:1;width:51%;padding:2rem 2.5rem;z-index:1;align-self:stretch;background:linear-gradient(90deg,#f4f6f7f2 0%,#f4f6f7cf 75%,#f4f6f700 100%)}
+.shelf-layout-wide .personal-shelf-heading h1{margin-top:1rem;margin-bottom:1rem}
+.shelf-layout-wide .personal-shelf-description{max-width:26em}
+.shelf-layout-wide .personal-shelf-meta{margin-top:1rem}
+.personal-shelf-hero--photo.shelf-layout-compact{width:66.6667%;margin-left:auto;margin-right:auto;grid-template-columns:minmax(0,.9fr) minmax(0,1fr)}
+.personal-shelf-hero--photo.shelf-layout-compact .personal-shelf-heading{padding:1.7rem}
+.shelf-layout-compact .personal-shelf-heading h1{font-size:2.5rem}
+.shelf-layout-compact .personal-shelf-subtitle{font-size:.9rem}
+@media(max-width:700px){.personal-shelf-hero--photo.shelf-layout-wide,.personal-shelf-hero--photo.shelf-layout-compact{width:100%;grid-template-columns:1fr}.personal-shelf-hero--photo.shelf-layout-wide .personal-shelf-heading{grid-column:1;grid-row:1;width:100%;background:var(--bg);padding:1.8rem 1.4rem}.shelf-layout-wide .personal-shelf-background{grid-column:1;grid-row:2;aspect-ratio:3}.personal-shelf-hero--photo.shelf-layout-compact .personal-shelf-heading{grid-row:1}.shelf-layout-compact .personal-shelf-background{grid-column:1;grid-row:2}}
+.personal-bookshelf-page .shelf-book:before{background:linear-gradient(#c6cfce,#9caaa9);box-shadow:0 8px 15px #495d631a}
+:root[data-theme=dark] .personal-bookshelf-page{--shelf-paper:#252c30;--shelf-ink:#eef1f3;--shelf-muted:#acb9bf;--shelf-line:#3f4a50;--shelf-accent:#a5c2cd}
+:root[data-theme=dark] .personal-shelf-hero--photo{background:var(--bg);color:var(--shelf-ink)}
+:root[data-theme=dark] .personal-shelf-hero--photo .personal-shelf-heading .kicker{color:#c6d4db}
+:root[data-theme=dark] .personal-bookshelf-page .shelf-book:before{background:linear-gradient(#657777,#425356)}
+@media(min-width:701px){:root[data-theme=dark] .shelf-layout-wide .personal-shelf-heading{--shelf-ink:#283237;--shelf-muted:#626f78;--shelf-accent:#607b87;color:var(--shelf-ink)}:root[data-theme=dark] .personal-shelf-hero--photo.shelf-layout-wide .personal-shelf-heading .kicker{color:#536c79}}
+@media(max-width:700px){.personal-shelf-hero--photo{display:grid;grid-template-columns:1fr;min-height:0;padding:0}.personal-shelf-background{grid-column:1;grid-row:2;width:100%;height:auto;aspect-ratio:1}.personal-shelf-hero--photo .personal-shelf-heading{grid-column:1;grid-row:1;padding:1.8rem 1.4rem}.personal-shelf-hero--photo .personal-shelf-heading h1{font-size:2.7rem}.personal-shelf-hero--photo .personal-shelf-subtitle{font-size:.95rem}}
