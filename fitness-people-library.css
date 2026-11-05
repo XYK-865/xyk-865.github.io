@@ -1,0 +1,104 @@
+/* Library-specific styles; the existing reference heroes retain fitness-people.css. */
+[data-people-app] [hidden], [data-philosophy-graph] [hidden] { display:none !important; }
+[data-people-app] { min-width:0; }
+[data-people-app] button,[data-people-app] input,[data-people-app] select { font:inherit; }
+[data-people-app] button,[data-people-app] select { cursor:pointer; }
+[data-people-app] :focus-visible { outline:3px solid var(--accent);outline-offset:4px; }
+.people-tabs { display:flex;gap:2rem;border-bottom:1px solid var(--line);margin:2.5rem 0 2rem; }
+.people-tabs button { padding:1rem 0;border:0;border-bottom:3px solid transparent;background:transparent;color:var(--muted);font-weight:600; }
+.people-tabs button[aria-selected=true] { color:var(--text);border-bottom-color:var(--accent); }
+.people-heading { display:flex;justify-content:space-between;align-items:end;gap:1.5rem;margin:2rem 0 1.6rem; }
+.people-heading h2 { margin:0;font-size:1.65rem; }
+.people-heading .kicker { margin:0 0 .8rem;font-size:.65rem; }
+.people-heading>p,.people-heading>span { color:var(--muted);font-size:.8rem;margin:0; }
+.people-filters { display:flex;flex-wrap:wrap;gap:1rem;align-items:end;margin:1.5rem 0 2rem; }
+.people-filters label { display:flex;flex-direction:column;gap:.5rem;font-size:.72rem;color:var(--muted); }
+.people-filters input,.people-filters select { color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:.8rem 1rem;min-height:44px;max-width:100%; }
+.people-filters input { width:300px; }
+.people-filters>p { margin:0 0 .8rem auto;font-size:.75rem;color:var(--muted); }
+.people-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.3rem; }
+.people-grid .creator-photo { height:250px; }
+.person-image { display:block;width:100%;height:100%;overflow:hidden;background:var(--panel); }
+.person-image>img { display:block;width:100%;height:100%;object-fit:cover;object-position:center 24%; }
+.person-image--contain>img { object-fit:contain;object-position:center;background:color-mix(in srgb,var(--panel) 80%,#d7d2c8); }
+.video-note-links { display:flex;flex-wrap:wrap;gap:.8rem 1.3rem;margin-top:1.4rem;font-size:.78rem; }
+.video-note-links>a:first-child { font-weight:600; }
+.people-reading-header { padding:2.3rem 0;border-bottom:1px solid var(--line);max-width:1000px; }
+.people-reading-header h1 { font-size:clamp(2rem,4vw,3.3rem);line-height:1.35;letter-spacing:-.035em;margin:1rem 0; }
+.people-reading-header>p { line-height:1.9;font-size:.93rem; }
+.people-reading-header .kicker { font-size:.65rem; }
+.people-reading-header .people-english { font-size:.8rem; }
+.people-reading-meta { display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.75rem;color:var(--muted); }
+.people-reading-basis { padding:1.5rem 1.8rem;border-left:3px solid var(--accent);background:var(--panel);margin:2rem 0;border-radius:0 12px 12px 0; }
+.people-reading-basis p { font-size:.85rem;line-height:1.9; }
+.people-reading-basis small { font-size:.7rem;color:var(--muted); }
+.people-reading-layout { display:grid;grid-template-columns:220px minmax(0,1fr);gap:3rem;align-items:start; }
+.people-reading-outline { position:sticky;top:100px;padding:1rem 0;max-height:calc(100vh - 120px);overflow:auto; }
+.people-reading-outline nav { display:flex;flex-direction:column;gap:1rem; }
+.people-reading-outline a { display:block;font-size:.8rem;line-height:1.8; }
+.people-reading-outline nav small { color:var(--muted);margin-right:.6rem; }
+.people-reading-outline h3 { margin:2rem 0 1rem;font-size:.85rem; }
+.people-reading-outline>div { margin:.8rem 0; }
+.people-reading-body { min-width:0;max-width:780px; }
+.people-reading-body>section { padding:2rem 0;scroll-margin-top:100px;border-bottom:1px solid var(--line); }
+.people-reading-body h2 { font-size:1.5rem;line-height:1.6;margin:.5rem 0 1.3rem; }
+.people-reading-body>section>p { font-size:1rem;line-height:2.15; }
+.people-reading-kind { color:var(--muted);font-size:.7rem;letter-spacing:.06em; }
+@media(max-width:700px){.people-reading-layout{grid-template-columns:1fr;gap:0}.people-reading-outline{position:static;max-height:none;border-bottom:1px solid var(--line)}.people-reading-header{padding:1.5rem 0}.people-reading-basis{padding:1.2rem}.people-reading-body h2{font-size:1.25rem}.people-reading-body>section>p{font-size:.95rem}}
+.person-image-fallback { display:flex;height:100%;align-items:center;justify-content:center;flex-direction:column;gap:1rem;color:var(--muted); }
+.person-image-fallback small { font-size:.7rem; }
+.creator-card-copy .people-english { margin:.2rem 0 .9rem;min-height:0;font-size:.82rem;letter-spacing:.025em; }
+.people-card-foot { border-top:1px solid var(--line);margin-top:1.2rem;padding-top:1rem;display:flex;justify-content:space-between;gap:.6rem;flex-wrap:wrap;font-size:.65rem; }
+.people-card-foot>span { color:var(--muted); }
+.people-note-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem; }
+.people-note { padding:1.6rem;border:1px solid var(--line);border-radius:14px;min-width:0;background:var(--bg); }
+.people-note h3 { margin:.6rem 0;font-size:1.1rem;line-height:1.5; }
+.people-note p,.people-note li { font-size:.85rem;line-height:1.95; }
+.people-note small { color:var(--muted);font-size:.68rem; }
+.people-note .people-english,.people-english { color:var(--muted);font-family:var(--sans);overflow-wrap:anywhere; }
+.people-sources-inline { display:flex;gap:.65rem;flex-direction:column;margin:1rem 0;font-size:.68rem;color:var(--muted);line-height:1.7;overflow-wrap:anywhere; }
+.people-context { border-left:2px solid var(--line);padding-left:1rem;color:var(--muted); }
+.people-muted { color:var(--muted);font-size:.8rem;line-height:1.9; }
+.people-state { padding:1.8rem;background:var(--panel);border-radius:14px;margin:1rem 0;line-height:1.9; }
+.people-state button,.people-action,.people-graph-tools button { border:1px solid var(--line);padding:.6rem .9rem;background:var(--bg);color:var(--text);border-radius:8px;min-height:42px;font-size:.75rem; }
+.people-legacy { border-top:1px solid var(--line);padding:1rem 0; }
+.people-legacy summary { cursor:pointer; }
+.people-legacy a { display:block;margin:1rem 0; }
+.people-profile { margin:2rem 0;padding:2.5rem;background:var(--panel);border-radius:20px;grid-template-columns:minmax(0,1fr) 310px; }
+.people-profile h1 { font-size:clamp(2rem,3.3vw,3.2rem);line-height:1.3;margin:.8rem 0; }
+.people-profile p { font-size:.85rem;line-height:1.9; }
+.people-profile .people-english { font-size:1.2rem; }
+.people-profile>figure { overflow:visible;height:auto; }
+.people-profile .person-image { height:310px;border-radius:12px; }
+.people-profile figcaption { font-size:.6rem;color:var(--muted);line-height:1.7;margin-top:.7rem; }
+.people-section-nav { display:flex;flex-wrap:wrap;gap:1.5rem;padding:1rem 0;border-bottom:1px solid var(--line);font-size:.85rem; }
+.people-source-list { padding-left:1.3rem; }
+.people-source-list li { padding:1rem 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere; }
+.people-source-list p { color:var(--muted);font-size:.75rem;line-height:1.8; }
+[id^=person-],[id^=view-] { scroll-margin-top:110px; }
+.graph-filters label { flex:1;min-width:160px; }
+.graph-filters input { width:100%; }
+.people-graph-tools { display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap; }
+.people-graph-tools>div { display:flex;gap:.4rem; }
+.people-graph-tools [aria-pressed=true] { background:var(--text);color:var(--bg); }
+.people-legend { display:flex;flex-wrap:wrap;gap:.7rem 1.3rem;margin:1.3rem 0;font-size:.7rem; }
+.people-legend i { display:inline-block;width:18px;height:3px;background:var(--relation);vertical-align:middle;margin-right:.4rem; }
+[data-graph-status] { color:var(--muted);font-size:.7rem; }
+.people-graph-workspace { display:grid;grid-template-columns:minmax(0,1fr) 300px;border:1px solid var(--line);border-radius:16px;overflow:hidden; }
+.people-graph-workspace>div { min-width:0; }
+.people-graph-canvas { height:620px;background:radial-gradient(circle at 35% 40%,color-mix(in srgb,var(--panel) 65%,transparent),var(--bg)); }
+.people-graph-canvas svg { min-height:0 !important; }
+.people-graph-canvas [role=button]:focus { outline:none;filter:drop-shadow(0 0 4px color-mix(in srgb,var(--accent) 35%,transparent)); }
+.people-graph-detail { padding:1.6rem;border-left:1px solid var(--line);max-height:660px;overflow:auto;background:var(--panel); }
+.people-graph-detail small { color:var(--muted);font-size:.65rem; }
+.people-graph-detail h3 { font-size:1.2rem; }
+.people-graph-detail h4 { margin:1.5rem 0 .5rem; }
+.people-graph-detail p { font-size:.8rem;line-height:1.9; }
+.people-graph-help { font-size:.65rem;line-height:1.7;color:var(--muted);padding:.8rem 1rem;margin:0; }
+.people-graph-list { padding:1rem; }
+.people-graph-list h3 { color:var(--muted);font-size:.75rem;margin:1.5rem 0 .7rem; }
+.people-graph-list button { width:100%;display:flex;align-items:start;flex-direction:column;gap:.45rem;text-align:left;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--text);padding:1rem;margin:.5rem 0; }
+.people-graph-list button small,.people-graph-list button span { color:var(--muted);font-size:.7rem; }
+.people-graph-list button[aria-pressed=true] { border-color:var(--accent); }
+@media(max-width:1000px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.people-graph-workspace{grid-template-columns:minmax(0,1fr) 250px}.people-profile{grid-template-columns:1fr 250px;padding:1.8rem}}
+@media(max-width:700px){.people-grid,.people-note-grid,.people-profile,.people-graph-workspace{grid-template-columns:1fr}.people-profile{padding:1.3rem}.people-profile>figure{grid-row:1}.people-grid .creator-photo{height:280px}.people-heading{align-items:start;flex-direction:column;gap:.7rem}.people-filters{align-items:stretch}.people-filters label,.people-filters input{width:100%;min-width:0}.people-filters label{flex:1 1 100%}.people-filters>p{margin:0}.people-tabs{gap:1.5rem}.people-tabs button{font-size:.9rem}.people-note{padding:1.2rem}.people-graph-canvas{height:480px}.people-graph-detail{border-left:0;border-top:1px solid var(--line);max-height:none}.people-graph-tools button{font-size:.7rem}.people-profile .person-image{height:320px}}

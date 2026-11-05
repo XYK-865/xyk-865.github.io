@@ -1,0 +1,2488 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-06",
+  "people": [
+    {
+      "id": "jeff-nippard",
+      "nameZh": "杰夫·尼帕德",
+      "nameEn": "Jeff Nippard",
+      "aliases": [
+        "杰夫尼帕德",
+        "Jeff"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "自然健美运动员 · 健身教育创作者",
+      "bio": "具有生物化学学士背景，将研究阅读和训练经验结合制作健身教育内容。",
+      "directions": [
+        "循证增肌",
+        "动作选择",
+        "力量与形体"
+      ],
+      "sourceIds": [
+        "jeff-bio"
+      ],
+      "image": "assets/creators/jeff-nippard.jpg",
+      "photoSourceId": "jeff-bio",
+      "photoNote": "来源页人物照片",
+      "level": "focus",
+      "channels": [
+        {
+          "label": "前往 YouTube 官方频道",
+          "url": "https://www.youtube.com/@JeffNippard"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jeffnippard/"
+        },
+        {
+          "label": "杰夫·尼帕德播客 / The Jeff Nippard Podcast · Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/the-jeff-nippard-podcast/id905054765"
+        },
+        {
+          "label": "杰夫·尼帕德播客 / The Jeff Nippard Podcast · Spotify",
+          "url": "https://open.spotify.com/show/5TkwWmQEiYHx8vkYjisIQo"
+        }
+      ],
+      "photoOriginalUrl": "https://jeffnippard.com/cdn/shop/files/Frame_434.jpg?v=1783101296&width=800"
+    },
+    {
+      "id": "mike-israetel",
+      "nameZh": "迈克·伊斯雷特尔",
+      "nameEn": "Mike Israetel",
+      "aliases": [
+        "迈克·伊斯拉特尔",
+        "Dr Mike",
+        "Michael Israetel"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "运动生理学博士 · RP 联合创始人",
+      "bio": "RP Strength 联合创始人，公开内容涵盖增肌训练、运动营养与训练安排；本人亦有竞技健美经历。",
+      "directions": [
+        "训练量",
+        "疲劳与恢复",
+        "动作技术"
+      ],
+      "sourceIds": [
+        "mike-bio"
+      ],
+      "image": "assets/creators/mike-israetel.webp",
+      "photoSourceId": "mike-bio",
+      "photoNote": "来源页人物照片",
+      "level": "focus",
+      "channels": [
+        {
+          "label": "前往 YouTube 官方频道",
+          "url": "https://www.youtube.com/@RenaissancePeriodization"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/drmikeisraetel/"
+        },
+        {
+          "label": "RP 力量播客 / RP Strength Podcast · Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/rp-strength-podcast/id1486210336"
+        },
+        {
+          "label": "RP 力量播客 / RP Strength Podcast · Spotify",
+          "url": "https://open.spotify.com/show/3ki8HgoQms5LXkbYs55fZg"
+        }
+      ],
+      "photoOriginalUrl": "https://rpstrength.com/cdn/shop/files/mike-israetel_bio_hero.webp?v=1729105837&width=800"
+    },
+    {
+      "id": "eric-helms",
+      "nameZh": "埃里克·赫尔姆斯",
+      "nameEn": "Eric Helms",
+      "aliases": [
+        "艾瑞克·赫尔姆斯",
+        "Eric"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "3DMJ 首席科学官 · 自然健美运动员",
+      "bio": "3DMJ 教练与研究者，研究和写作涉及力量训练、营养及运动心理。",
+      "directions": [
+        "自然健美",
+        "自我调节",
+        "长期规划"
+      ],
+      "sourceIds": [
+        "eric-bio"
+      ],
+      "image": "assets/creators/eric-helms.png",
+      "photoSourceId": "eric-bio",
+      "photoNote": "来源页人物照片",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "前往 YouTube 官方频道",
+          "url": "https://www.youtube.com/@Team3DMJ"
+        },
+        {
+          "label": "YouTube 频道",
+          "url": "https://www.youtube.com/team3dmj"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/helms3dmj/"
+        },
+        {
+          "label": "三维肌肉之旅 / 3D Muscle Journey · Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/3d-muscle-journey/id1115048476"
+        },
+        {
+          "label": "三维肌肉之旅 / 3D Muscle Journey · Spotify",
+          "url": "https://open.spotify.com/show/4E61iRCD1qSZUTRactySTj"
+        },
+        {
+          "label": "钢铁文化 / Iron Culture · Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/iron-culture-presented-by-mass/id1452114380"
+        }
+      ],
+      "photoOriginalUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2159583931/settings_images/13730c8-67f3-1cf-4364-df7ae427ea80_ERIC_HELMS_CHIEF_SCIENCE_OFFICER_COACH.png"
+    },
+    {
+      "id": "nick-walker",
+      "nameZh": "尼克·沃克",
+      "nameEn": "Nick Walker",
+      "aliases": [
+        "尼克沃克"
+      ],
+      "roles": [
+        "athlete"
+      ],
+      "identity": "职业健美运动员",
+      "bio": "NPC News Online 的 2021 年赛事报道记录了他赢得当年纽约职业赛与阿诺德经典赛。",
+      "directions": [
+        "公开组健美",
+        "训练影像"
+      ],
+      "sourceIds": [
+        "nick-bio"
+      ],
+      "image": "assets/creators/nick-walker.jpg",
+      "photoSourceId": "nick-bio",
+      "photoNote": "NPC News Online：Nick Walker 摆姿练习，2021 年。",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://www.instagram.com/nick_walker39/"
+        }
+      ],
+      "photoOriginalUrl": "https://dm6gyisv608l1.cloudfront.net/wp-content/uploads/2021/10/walker-1.jpg"
+    },
+    {
+      "id": "dexter-jackson",
+      "nameZh": "德克斯特·杰克逊",
+      "nameEn": "Dexter Jackson",
+      "aliases": [
+        "德克斯特杰克逊",
+        "The Blade"
+      ],
+      "roles": [
+        "athlete"
+      ],
+      "identity": "2008 年奥林匹亚先生 · The Blade",
+      "bio": "本人品牌资料记录其 2008 年奥赛冠军经历；2004 年本人访谈确认 The Blade 这一昵称。",
+      "directions": [
+        "职业健美",
+        "长期参赛经历"
+      ],
+      "sourceIds": [
+        "dexter-bio",
+        "dexter-interview"
+      ],
+      "image": "assets/creators/dexter-jackson.jpg",
+      "photoSourceId": "dexter-interview",
+      "photoNote": "Getbig：2003 年奥赛照片，见昵称访谈页面。",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://dextersupplements.com/"
+        }
+      ],
+      "photoOriginalUrl": "https://www.getbig.com/pics/olympia/2003/mensfinals/dexter02.jpg"
+    },
+    {
+      "id": "frank-zane",
+      "nameZh": "弗兰克·赞恩",
+      "nameEn": "Frank Zane",
+      "aliases": [
+        "弗兰克·赞",
+        "弗兰克赞恩",
+        "Frank"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "三届奥林匹亚先生 · 教练与作者",
+      "bio": "1977、1978、1979 年奥赛冠军。官网持续整理其身体比例、训练方法及不同时期的回顾。",
+      "directions": [
+        "身体比例",
+        "动作控制",
+        "训练与恢复"
+      ],
+      "sourceIds": [
+        "frank-bio"
+      ],
+      "image": "assets/creators/frank-zane.webp",
+      "photoSourceId": "frank-bio",
+      "photoNote": "来源页人物照片",
+      "level": "focus",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://frankzane.com/"
+        }
+      ],
+      "photoOriginalUrl": "https://frankzane.com/img/brand/zane-hero.webp"
+    },
+    {
+      "id": "chris-bumstead",
+      "nameZh": "克里斯·布姆斯特德",
+      "nameEn": "Chris Bumstead",
+      "aliases": [
+        "克里斯·布姆斯泰德",
+        "CBum",
+        "Cbum"
+      ],
+      "roles": [
+        "athlete"
+      ],
+      "identity": "古典健美运动员",
+      "bio": "Gymshark 2021 年训练专题记录了他与 Noah Ohlsen 的训练交流，涵盖训练与摆姿。首版不据此补写当前比赛状态。",
+      "directions": [
+        "古典健美",
+        "训练与摆姿"
+      ],
+      "sourceIds": [
+        "chris-bio"
+      ],
+      "image": "assets/creators/chris-bumstead.jpg",
+      "photoSourceId": "chris-bio",
+      "photoNote": "Gymshark 训练专题：画面右侧为 Chris Bumstead，左侧为 Noah Ohlsen。",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://www.youtube.com/@ChrisBumstead"
+        }
+      ],
+      "photoOriginalUrl": "https://images.ctfassets.net/8urtyqugdt2l/1r6VNTGYn8aUS4UeQuu5kR/18233f8974dfe631697631cd29a3e809/mobile-cbum-noah-olsen.jpg"
+    },
+    {
+      "id": "tom-platz",
+      "nameZh": "汤姆·普拉茨",
+      "nameEn": "Tom Platz",
+      "aliases": [
+        "汤姆·普拉兹",
+        "汤姆普拉茨",
+        "Quadfather"
+      ],
+      "roles": [
+        "athlete"
+      ],
+      "identity": "健美运动员 · The Quadfather",
+      "bio": "以腿部发展与深蹲影像闻名；BarBend 的历史回顾记录了他的训练与力量背景。",
+      "directions": [
+        "腿部训练",
+        "深蹲历史"
+      ],
+      "sourceIds": [
+        "tom-bio"
+      ],
+      "image": "assets/creators/tom-platz.webp",
+      "photoSourceId": "tom-bio",
+      "photoNote": "来源页人物照片",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://www.tomplatz.com/"
+        }
+      ],
+      "photoOriginalUrl": "https://i.barbend.com/396/345/765/1/How-Strong-was-Tom-Platz-1-1.webp"
+    },
+    {
+      "id": "lee-haney",
+      "nameZh": "李·哈尼",
+      "nameEn": "Lee Haney",
+      "aliases": [
+        "李哈尼",
+        "Lee"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "八届奥林匹亚先生",
+      "bio": "本人官网记录了八次奥赛冠军经历，并提供训练咨询与健身教育内容。",
+      "directions": [
+        "健美历史",
+        "长期健康"
+      ],
+      "sourceIds": [
+        "lee-bio"
+      ],
+      "image": "assets/creators/lee-haney-full.jpg",
+      "photoSourceId": "haney-photo",
+      "photoNote": "ge / Globo 人物专题全身照",
+      "level": "baseline",
+      "channels": [
+        {
+          "label": "本人官网／公开渠道",
+          "url": "https://leehaney.com/"
+        }
+      ],
+      "photoOriginalUrl": "https://s2-ge.glbimg.com/T18Awe1xhWVz6P_9IUL2VSiFO9g%3D/0x0%3A548x800/984x0/smart/filters%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/S/r/V7yI7IQlSvbORgT8SLdQ/wad.png",
+      "photoFit": "contain"
+    },
+    {
+      "id": "lee-priest",
+      "nameZh": "李·普瑞斯特",
+      "nameEn": "Lee Priest",
+      "aliases": [
+        "李·普雷斯特",
+        "李普瑞斯特",
+        "李普雷斯特"
+      ],
+      "roles": [
+        "athlete"
+      ],
+      "identity": "职业健美运动员 · 训练访谈",
+      "bio": "澳大利亚职业健美运动员。这里保留他在历史采访中对基础训练与个人试错的回顾。",
+      "directions": [
+        "基础动作",
+        "个人试错",
+        "长期积累"
+      ],
+      "sourceIds": [
+        "priest-interview"
+      ],
+      "image": "assets/creators/lee-priest.jpg",
+      "photoSourceId": "priest-interview",
+      "photoNote": "来源页人物照片",
+      "level": "researched",
+      "channels": [
+        {
+          "label": "训练经历访谈",
+          "url": "https://thebarbell.com/lee-priest-interview/"
+        }
+      ],
+      "photoOriginalUrl": "https://thebarbell.com/wp-content/uploads/2023/08/Lee-Priest-bodybuilder.jpg",
+      "photoAlign": "top"
+    },
+    {
+      "id": "greg-nuckols",
+      "nameZh": "格雷格·纳科尔斯",
+      "nameEn": "Greg Nuckols",
+      "aliases": [],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "力量举运动员 · 训练科普作者",
+      "bio": "Stronger By Science 内容作者，具有运动与体育科学硕士背景，长期撰写力量训练资料。",
+      "directions": [
+        "力量训练",
+        "技术学习",
+        "研究解读"
+      ],
+      "sourceIds": [
+        "greg-bio"
+      ],
+      "image": "assets/creators/greg-nuckols.jpg",
+      "photoSourceId": "greg-portrait",
+      "photoNote": "来源页人物照片",
+      "level": "researched",
+      "channels": [
+        {
+          "label": "Stronger By Science 文章",
+          "url": "https://www.strongerbyscience.com/"
+        },
+        {
+          "label": "个人博客",
+          "url": "https://gregnuckols.com/"
+        },
+        {
+          "label": "官方社交入口",
+          "url": "https://linktr.ee/gregnuckols"
+        }
+      ],
+      "photoOriginalUrl": "https://feastgood.com/wp-content/uploads/2023/06/Greg-Nuckols.jpg"
+    },
+    {
+      "id": "brad-schoenfeld",
+      "nameZh": "布拉德·舍恩费尔德",
+      "nameEn": "Brad Schoenfeld",
+      "aliases": [],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "肌肥大研究者 · 健身作者",
+      "bio": "运动科学研究者与健身作者，关注肌肥大、抗阻训练和研究证据的实际应用。",
+      "directions": [
+        "肌肥大研究",
+        "力竭与训练量",
+        "证据解读"
+      ],
+      "sourceIds": [
+        "brad-bio"
+      ],
+      "image": "assets/creators/brad-schoenfeld.png",
+      "photoSourceId": "brad-photo",
+      "photoNote": "来源页人物照片",
+      "level": "researched",
+      "channels": [
+        {
+          "label": "本人博客",
+          "url": "https://www.lookgreatnaked.com/blog/"
+        },
+        {
+          "label": "研究与著作介绍",
+          "url": "https://www.lookgreatnaked.com/blog/about/"
+        }
+      ],
+      "photoOriginalUrl": "https://www.lehman.edu/media/Lehman-College-Website/Site-Assets/Images/News/2018/Lehman-Professors-Weight-Training-Study-Finds-Less-Will-Do.jpg"
+    },
+    {
+      "id": "andy-morgan",
+      "nameZh": "安迪·摩根",
+      "nameEn": "Andy Morgan",
+      "aliases": [],
+      "roles": [
+        "educator"
+      ],
+      "identity": "Ripped Body 创始人 · 训练与营养作者",
+      "bio": "Ripped Body 创始人，《肌肉与力量金字塔》共同作者，公开资料涵盖训练计划与饮食安排。",
+      "directions": [
+        "可执行的计划",
+        "RPE 与 RIR",
+        "训练与营养"
+      ],
+      "sourceIds": [
+        "andy-bio"
+      ],
+      "image": "assets/creators/andy-morgan.jpg",
+      "photoSourceId": "andy-podcast",
+      "photoNote": "来源页人物照片",
+      "level": "researched",
+      "channels": [
+        {
+          "label": "训练与营养文章",
+          "url": "https://rippedbody.com/"
+        },
+        {
+          "label": "本人播客",
+          "url": "https://podcast.rippedbody.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/andy_rippedbody/"
+        }
+      ],
+      "photoOriginalUrl": "https://podcast.rippedbody.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA5MTQ2NDgsInB1ciI6ImJsb2JfaWQifX0=--843e72986ca31a034d915a54ec97c411a69bbc6a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOlsxMDgwLDE0NDAseyJjcm9wIjoiY2VudHJlIn1dLCJzYXZlciI6eyJxdWFsaXR5Ijo2MH0sImNvbG91cnNwYWNlIjoic3JnYiJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--355526e0ad8d751b2d7838e573060e1c9e6162cc/Andy-Morgan-Profile-Paisley-Shirt-820x1024.jpeg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "jeff-bio",
+      "title": "About Jeff Nippard",
+      "publisher": "Jeff Nippard",
+      "url": "https://jeffnippard.com/pages/about",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "mike-bio",
+      "title": "Dr. Michael Israetel",
+      "publisher": "RP Strength",
+      "url": "https://rpstrength.com/pages/team/michael-israetel",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "eric-bio",
+      "title": "Meet Team 3DMJ · Eric Helms",
+      "publisher": "3D Muscle Journey",
+      "url": "https://www.3dmusclejourney.com/about",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "frank-bio",
+      "title": "Frank Zane · Official Site",
+      "publisher": "Frank Zane",
+      "url": "https://frankzane.com/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "nick-bio",
+      "title": "2021 Road to the Olympia · Nick Walker Posing Practice",
+      "publisher": "NPC News Online",
+      "url": "https://old-site-2020.npcnewsonline.com/npc-news-online-2021-road-to-the-olympia-2021-ifbb-pro-arnold-classic-champion-nick-walker-posing-practice/725104/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "核实 2021 年成绩；不推断最新比赛状态。"
+    },
+    {
+      "id": "dexter-bio",
+      "title": "Dexter Jackson · 2008 Mr. Olympia",
+      "publisher": "Dexter Supplements",
+      "url": "https://dextersupplements.com/blogs/news/dexter-jackson-2008-mr-olympia",
+      "publishedAt": "2021-07-02",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "dexter-interview",
+      "title": "Getbig Interview: Dexter Jackson",
+      "publisher": "Ron Avidan / Getbig",
+      "url": "https://www.getbig.com/iview/jackson040205.htm",
+      "publishedAt": "2004-02-05",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "本人访谈中自称 The Blade 和 Action Jackson；没有采用「神龟」别名。"
+    },
+    {
+      "id": "chris-bio",
+      "title": "WATCH: Chris Bumstead X Noah Ohlsen",
+      "publisher": "Gymshark",
+      "url": "https://row.gymshark.com/blog/article/chris-bumstead-x-noah-ohlsen",
+      "publishedAt": "2021-10-07",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "使用 2021 年的身份和情境，不据此推断当前状态。"
+    },
+    {
+      "id": "tom-bio",
+      "title": "How Strong Was Tom Platz?",
+      "publisher": "Conor Heffernan / BarBend",
+      "url": "https://barbend.com/how-strong-was-tom-platz/",
+      "publishedAt": "2024-10-21",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "页面更新日期；图片原始署名 @TomPlatz / Instagram。"
+    },
+    {
+      "id": "lee-bio",
+      "title": "About Lee Haney",
+      "publisher": "Lee Haney",
+      "url": "https://leehaney.com/about-lee/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "jeff-levels",
+      "title": "How To Build Muscle (Explained In 5 Levels)",
+      "publisher": "Jeff Nippard",
+      "url": "https://jeffnippard.com/blogs/news/how-to-build-muscle-explained-in-5-levels",
+      "publishedAt": "2023-07-09",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "jeff-return",
+      "title": "How To Get Your Gains Back After A Training Break",
+      "publisher": "Jeff Nippard",
+      "url": "https://jeffnippard.com/blogs/news/how-to-get-your-gains-back-after-a-training-break",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "官网复训教学文章；发布日期未核实。"
+    },
+    {
+      "id": "jeff-plan",
+      "title": "The Powerbuilding System",
+      "publisher": "Jeff Nippard",
+      "url": "https://jeffnippard.com/products/the-powerbuilding-system",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "仅使用公开介绍，不转载付费计划。"
+    },
+    {
+      "id": "jeff-protein",
+      "title": "The Smartest Way To Use Protein To Build Muscle",
+      "publisher": "Jeff Nippard",
+      "url": "https://jeffnippard.com/blogs/news/the-smartest-way-to-use-protein-to-build-muscle-science-explained",
+      "publishedAt": "2023-04-09",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "id": "mike-split",
+      "title": "Dr. Mike’s Exact Training Split to Get to 6% Body Fat",
+      "publisher": "RP Strength",
+      "url": "https://rpstrength.com/blogs/video-guides/dr-mikes-exact-training-split-to-get-to-6-body-fat",
+      "publishedAt": "2026-02-16",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "官方视频导读的发布日期，不等同于原视频上传日期；减脂阶段个案。"
+    },
+    {
+      "id": "mike-diet",
+      "title": "Early Nutrition Lessons Dr. Mike Learned That Still Hold Up",
+      "publisher": "RP Strength",
+      "url": "https://rpstrength.com/blogs/videos/early-nutrition-lessons-dr-mike-learned-that-still-hold-up",
+      "publishedAt": "2025-03-20",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "官方视频导读；回顾早期经历，不代表当前食谱。"
+    },
+    {
+      "id": "frank-growth",
+      "title": "The Growth Program, Then and Now",
+      "publisher": "Frank Zane",
+      "url": "https://frankzane.com/the-growth-program-then-and-now-frank-zane/",
+      "publishedAt": "2021-02-12",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "回顾 1976–1983 年训练，并说明后来会怎样调整。"
+    },
+    {
+      "id": "frank-interview",
+      "title": "Interview with 3 x Mr Olympia — Frank Zane",
+      "publisher": "Keep Fit Kingdom / Frank Zane 官网转载",
+      "url": "https://frankzane.com/https-keepfitkingdom-com-sfrankzanepost_typepost/",
+      "publishedAt": "2021-03-24",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "官网归档日期；访谈中本人自述 78 岁。"
+    },
+    {
+      "id": "frank-video",
+      "title": "Inside the Mind of Frank Zane the Bodybuilding Legend!",
+      "publisher": "StagStrength / Ashley Hawksworth",
+      "url": "https://frankzane.com/youtube-interview-with-frank-zane-by-ashley-hawksworth/",
+      "publishedAt": "2023-07-03",
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "官网收录日期，具体视频由该页面直接链接。"
+    },
+    {
+      "id": "jeff-volume-video",
+      "title": "TRAINING VOLUME & HYPERTROPHY: How Much Do You Need? ft. Dr. Mike Israetel",
+      "publisher": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=2kwl5LiuCs4",
+      "publishedAt": "2018-06-17",
+      "verifiedAt": "2026-11-06",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；参与者姓名见标题；未核实上传日期和时间点。"
+    },
+    {
+      "id": "mike-junk-video",
+      "title": "When More Sets Become Junk Volume",
+      "publisher": "Renaissance Periodization",
+      "url": "https://www.youtube.com/watch?v=x5p9trMGCnU",
+      "publishedAt": "2026-04-13",
+      "verifiedAt": "2026-11-06",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题和频道；未确认出镜者，不据频道名推断。"
+    },
+    {
+      "id": "youtube-jeff-five-levels",
+      "title": "How To Build Muscle (Explained In 5 Levels)",
+      "publisher": "Jeff Nippard",
+      "url": "https://www.youtube.com/watch?v=lu_BObG6dj8",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；未核实上传日期、完整出镜名单和时间点。"
+    },
+    {
+      "id": "youtube-mike-floating",
+      "title": "How I Trained During My Diet Down to 6% Body Fat",
+      "publisher": "Renaissance Periodization",
+      "url": "https://www.youtube.com/watch?v=d7RjjYgxnJE",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；未核实上传日期、完整出镜名单和时间点。"
+    },
+    {
+      "id": "youtube-mike-early-diet",
+      "title": "5 Nutrition Lessons I Mastered Early- You Should Too!",
+      "publisher": "Renaissance Periodization",
+      "url": "https://www.youtube.com/watch?v=2bAjfXcj5Fs",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；未核实上传日期、完整出镜名单和时间点。"
+    },
+    {
+      "id": "youtube-frank-mind",
+      "title": "Inside the Mind of Frank Zane the Bodybuilding Legend!",
+      "publisher": "Things I Can Try",
+      "url": "https://www.youtube.com/watch?v=gCOnNOt_8Is",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；未核实上传日期、完整出镜名单和时间点。"
+    },
+    {
+      "id": "youtube-chris-noah",
+      "title": "24 HOURS WITH CHRIS BUMSTEAD aka MR OLYMPIA | ft. Noah Ohlsen",
+      "publisher": "Gymshark",
+      "url": "https://www.youtube.com/watch?v=pUeC0CmLstc",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-05",
+      "status": "verified",
+      "note": "YouTube oEmbed 核对标题与发布频道；未核实上传日期、完整出镜名单和时间点。"
+    },
+    {
+      "id": "priest-interview",
+      "title": "Lee Priest Interview: Building a Bodybuilding Legend",
+      "publisher": "The Barbell · Greg Merritt",
+      "url": "https://thebarbell.com/lee-priest-interview/",
+      "publishedAt": "2024-10-09",
+      "verifiedAt": "2026-11-06",
+      "note": "2003 年采访的重新刊载，回顾其早期职业经历。"
+    },
+    {
+      "id": "dexter-keys",
+      "title": "Dexter Jackson’s 7 Keys to Building Quality Muscle",
+      "publisher": "Muscle & Fitness / FLEX",
+      "url": "https://www.muscleandfitness.com/flexonline/training/dexter-jacksons-7-keys-building-quality-muscle/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "含本人引述；发表日期未可靠核实。"
+    },
+    {
+      "id": "haney-photo",
+      "title": "Lee Haney: altura, idade, peso, títulos e história",
+      "publisher": "ge / Globo",
+      "url": "https://ge.globo.com/fisiculturismo/guia/2025/04/27/c-lee-haney-altura-idade-peso-titulos-e-historia.ghtml",
+      "publishedAt": "2025-04-27",
+      "verifiedAt": "2026-11-06",
+      "note": "人物专题中的全身比赛造型照片。"
+    },
+    {
+      "id": "haney-rule",
+      "title": "Hall of Fame Induction 2014",
+      "publisher": "Lee Haney 官方网站",
+      "url": "https://leehaney.com/about-lee/hall-of-fame-induction-2014/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "官网收录的训练格言。"
+    },
+    {
+      "id": "haney-podcast",
+      "title": "Lee Haney Interview — Escape Your Limits",
+      "publisher": "Matthew Januszek / Escape Your Limits",
+      "url": "https://matthewjanuszek.com/lee-haney-interview-escape-limits-podcast/",
+      "publishedAt": "2026-02-19",
+      "verifiedAt": "2026-11-06",
+      "note": "按主持人公开节目导读整理，未逐段转录音视频。"
+    },
+    {
+      "id": "haney-books",
+      "title": "Lee Haney — Books",
+      "publisher": "Lee Haney 官方网站",
+      "url": "https://leehaney.com/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "greg-bio",
+      "title": "About Stronger By Science",
+      "publisher": "Stronger By Science",
+      "url": "https://www.strongerbyscience.com/about/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "greg-guide",
+      "title": "The Complete Strength Training Guide",
+      "publisher": "Greg Nuckols / Stronger By Science",
+      "url": "https://www.strongerbyscience.com/complete-strength-training-guide/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "greg-books",
+      "title": "The Art & Science of Lifting",
+      "publisher": "Stronger By Science",
+      "url": "https://www.strongerbyscience.com/art-and-science/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "greg-authors",
+      "title": "You’ve Been Set Up to Fail",
+      "publisher": "Greg Nuckols / Stronger By Science",
+      "url": "https://www.strongerbyscience.com/youve-been-set-up-to-fail/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "作者说明与 Omar Isuf 合著两本书。"
+    },
+    {
+      "id": "brad-bio",
+      "title": "About Brad",
+      "publisher": "Brad Schoenfeld 官方网站",
+      "url": "https://www.lookgreatnaked.com/blog/about/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "brad-failure",
+      "title": "Do You Need to Train to Failure: Insights From Our New Meta-Analysis",
+      "publisher": "Brad Schoenfeld",
+      "url": "https://www.lookgreatnaked.com/blog/do-you-need-to-train-to-failure-insights-from-our-new-meta-analysis/",
+      "publishedAt": "2021-01-23",
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "brad-volume",
+      "title": "Should You Cut Volume During Dieting?",
+      "publisher": "Brad Schoenfeld",
+      "url": "https://www.lookgreatnaked.com/blog/should-you-cut-volume-during-dieting/",
+      "publishedAt": "2022-02-21",
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "brad-book",
+      "title": "Science and Development of Muscle Hypertrophy, 2nd Edition",
+      "publisher": "Human Kinetics",
+      "url": "https://us.humankinetics.com/products/science-and-development-of-muscle-hypertrophy-2nd-edition-epub",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "andy-bio",
+      "title": "Meet The Ripped Body Team",
+      "publisher": "Ripped Body",
+      "url": "https://rippedbody.com/team/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "pyramid-rpe",
+      "title": "A Guide To Using RPE and RIR In Your Training",
+      "publisher": "Eric Helms, Andy Morgan & Andrea Valdez / Ripped Body",
+      "url": "https://rippedbody.com/rpe/",
+      "publishedAt": "2025-12-28",
+      "verifiedAt": "2026-11-06",
+      "note": "三位共同作者，不归为某一人的独立发言。"
+    },
+    {
+      "id": "pyramid-plan",
+      "title": "Guide To Program Building For Bodybuilding and Powerlifting",
+      "publisher": "Eric Helms, Andy Morgan & Andrea Valdez / Ripped Body",
+      "url": "https://rippedbody.com/how-to-build-training-programs/",
+      "publishedAt": "2025-12-28",
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "pyramid-books",
+      "title": "The Muscle and Strength Pyramid Books",
+      "publisher": "Eric Helms, Andy Morgan & Andrea Valdez",
+      "url": "https://muscleandstrengthpyramids.com/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "andy-podcast",
+      "title": "Dr. Eric Helms and Andy Morgan on The Muscle and Strength Pyramid Books (3rd Editions)",
+      "publisher": "Ripped Body Podcast",
+      "url": "https://podcast.rippedbody.com/1969113/episodes/18411036-dr-eric-helms-and-andy-morgan-on-the-muscle-and-strength-pyramid-books-3rd-editions",
+      "publishedAt": "2025-12-30",
+      "verifiedAt": "2026-11-06",
+      "note": "节目页面提供参与者、日期与章节；按公开导读整理。"
+    },
+    {
+      "id": "nick-back",
+      "title": "Nick Walker’s Controlled Back & Arms Workout Used To Build Muscle Density",
+      "publisher": "Generation Iron",
+      "url": "https://generationiron.com/nick-walker-controlled-back-arms-workout-muscle-density/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "媒体对一次公开视频的动作观察，不据此判断其一贯训练体系。"
+    },
+    {
+      "id": "tom-hard",
+      "title": "Rated Hardcore",
+      "publisher": "Muscle & Fitness / FLEX",
+      "url": "https://www.muscleandfitness.com/flexonline/training/rated-hardcore/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "含汤姆·普拉茨本人引述，属于职业训练情境。"
+    },
+    {
+      "id": "chris-interview",
+      "title": "Chris Bumstead Had to Travel Across Canada to Train for This Year’s O",
+      "publisher": "Muscle & Fitness / The Menace Podcast",
+      "url": "https://www.muscleandfitness.com/athletes-celebrities/interviews/chris-bumstead-had-to-travel-across-canada-to-train-for-this-years-o/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "回顾疫情时期与 2020 年奥赛准备。"
+    },
+    {
+      "id": "rp-landmarks",
+      "title": "Training Volume Landmarks for Muscle Growth",
+      "publisher": "RP Strength · Mike Israetel",
+      "url": "https://rpstrength.com/blogs/articles/training-volume-landmarks-muscle-growth",
+      "publishedAt": "2017-01-04",
+      "verifiedAt": "2026-11-06",
+      "note": ""
+    },
+    {
+      "id": "rp-exercises",
+      "title": "How Many Exercises Per Workout? Dr. Mike’s Guide",
+      "publisher": "RP Strength",
+      "url": "https://rpstrength.com/blogs/videos/how-many-exercises-per-workout-dr-mikes-guide",
+      "publishedAt": "2026-02-16",
+      "verifiedAt": "2026-11-06",
+      "note": "独立配套阅读，不是无效训练量视频的逐字内容。"
+    },
+    {
+      "id": "brad-photo",
+      "title": "Fitness or Fad? Professor Brad Schoenfeld Explains it All",
+      "publisher": "Lehman College",
+      "url": "https://www.lehman.edu/news/2026/Fitness-or-Fad-Professor-Brad-Schoenfeld-Explains-it-All.php",
+      "publishedAt": "2026-01-28",
+      "verifiedAt": "2026-11-06"
+    },
+    {
+      "id": "greg-portrait",
+      "title": "Greg Nuckols: The Accidental Entrepreneur Who Grew A Nutrition App",
+      "publisher": "FeastGood · 专访",
+      "url": "https://feastgood.com/macrofactor-brand-story/",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06"
+    }
+  ],
+  "topics": [
+    {
+      "id": "technique",
+      "label": "动作技术",
+      "description": "比较动作执行与控制；相同主题不等于相同技术细节。"
+    },
+    {
+      "id": "recovery",
+      "label": "训练量与恢复",
+      "description": "训练安排与恢复状态如何相互调整。"
+    },
+    {
+      "id": "progression",
+      "label": "渐进与长期规划",
+      "description": "负重、次数、技术和阶段目标的推进方式。"
+    },
+    {
+      "id": "nutrition",
+      "label": "饮食与营养",
+      "description": "人物公开经历和教学观点；保留阶段与适用范围。"
+    }
+  ],
+  "views": [
+    {
+      "id": "controlled-reps",
+      "label": "关注可控的动作执行",
+      "topicIds": [
+        "technique"
+      ],
+      "description": "整理者归纳：关注动作完成质量；可控下放、肌肉感受与技术练习各有具体情境，不等于采用同一种节奏。",
+      "aliases": [
+        "动作控制",
+        "离心控制",
+        "下放控制"
+      ]
+    },
+    {
+      "id": "recoverable",
+      "label": "安排应给恢复留空间",
+      "topicIds": [
+        "recovery",
+        "progression"
+      ],
+      "description": "整理者归纳：训练量与间隔需要结合恢复，具体实现各不相同。"
+    },
+    {
+      "id": "small-progress",
+      "label": "用小幅进步推进训练",
+      "topicIds": [
+        "progression"
+      ],
+      "description": "整理者归纳：既可从次数与负荷入手，也可观察动作完成质量。"
+    },
+    {
+      "id": "protein-first",
+      "label": "先建立蛋白质摄入基础",
+      "topicIds": [
+        "nutrition"
+      ],
+      "description": "整理者归纳：两份资料都关注蛋白质，但一份是教学指南，另一份是个人早期经历。"
+    },
+    {
+      "id": "zane-old-split",
+      "label": "备赛时期的三练一休",
+      "topicIds": [
+        "recovery"
+      ],
+      "description": "赞恩对较早备赛安排的回顾，不是其所有时期的固定训练法。"
+    },
+    {
+      "id": "zane-maintenance",
+      "label": "晚年以保持状态为目标",
+      "topicIds": [
+        "progression",
+        "nutrition"
+      ],
+      "description": "访谈时的个人目标与饮食情境。"
+    },
+    {
+      "id": "stage-adjustment",
+      "label": "随阶段调整训练方式",
+      "topicIds": [
+        "recovery",
+        "progression"
+      ],
+      "description": "比较职业经历中的器械、负荷与阶段目标，不把单次调整当作固定处方。"
+    },
+    {
+      "id": "basic-practice",
+      "label": "基础动作与技术积累",
+      "topicIds": [
+        "technique",
+        "progression"
+      ],
+      "description": "从基础动作及技术练习出发，具体目的和训练人群不同。"
+    },
+    {
+      "id": "adherence",
+      "label": "先选择能够坚持的安排",
+      "topicIds": [
+        "progression"
+      ],
+      "description": "以现实生活安排为计划起点；共同著作与个人回顾分开标明。"
+    },
+    {
+      "id": "rir-calibration",
+      "label": "用 RPE / RIR 理解训练努力程度",
+      "topicIds": [
+        "recovery"
+      ],
+      "description": "RIR 指距离力竭尚余的次数，需要练习判断。"
+    },
+    {
+      "id": "failure-context",
+      "label": "力竭训练需要看情境",
+      "topicIds": [
+        "recovery"
+      ],
+      "description": "研究综述中的结论不等于每组都必须或绝不能力竭。"
+    },
+    {
+      "id": "diet-volume",
+      "label": "减脂期间训练量不应机械套用",
+      "topicIds": [
+        "recovery"
+      ],
+      "description": "对减脂与训练量证据的重新评估。"
+    },
+    {
+      "id": "platz-effort",
+      "label": "职业训练中的高度投入",
+      "topicIds": [
+        "progression"
+      ],
+      "description": "职业健美运动员的历史训练体验，不作为普通训练者的直接处方。"
+    }
+  ],
+  "personViews": [
+    {
+      "id": "jeff-control",
+      "personId": "jeff-nippard",
+      "viewId": "controlled-reps",
+      "claim": "他把更好地控制下放、感受目标肌肉，列为负重或次数暂时停滞时可关注的进步方式。",
+      "sourceIds": [
+        "jeff-levels"
+      ],
+      "period": "2023 年公开教学",
+      "context": "增肌教学；没有给所有动作规定统一慢速节奏。",
+      "organizerSummary": true
+    },
+    {
+      "id": "frank-control",
+      "personId": "frank-zane",
+      "viewId": "controlled-reps",
+      "claim": "回顾备赛训练时，他描述了深蹲和卧推中较慢的下放；卧推还采用肩宽握距、不完全锁定。",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "period": "回顾 1976–1983 年备赛",
+      "context": "本人历史经验；不是普通训练者必须照搬的处方。",
+      "organizerSummary": true
+    },
+    {
+      "id": "jeff-recovery",
+      "personId": "jeff-nippard",
+      "viewId": "recoverable",
+      "claim": "训练量并非越多越好；他建议寻找自身增肌收益与恢复之间的平衡。",
+      "sourceIds": [
+        "jeff-levels"
+      ],
+      "period": "2023 年公开教学",
+      "context": "个人训练量实验与复盘。",
+      "organizerSummary": true
+    },
+    {
+      "id": "mike-recovery",
+      "personId": "mike-israetel",
+      "viewId": "recoverable",
+      "claim": "在所述减脂阶段，按拉、腿、推的顺序推进，恢复需要时休息，而非强行绑定星期。",
+      "sourceIds": [
+        "mike-split"
+      ],
+      "period": "2026 年官网导读所述减脂期",
+      "context": "职业健美个案；不能把其训练频率直接推广给普通人。",
+      "organizerSummary": true
+    },
+    {
+      "id": "frank-recovery",
+      "personId": "frank-zane",
+      "viewId": "recoverable",
+      "claim": "回顾早期三练一休后，他说明后来会在训练间留更多休息，而不是一直挤在连续三天。",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "period": "2021 年回顾：How I’d Do It Now",
+      "context": "与早期备赛安排比较；属于本人阶段调整。",
+      "organizerSummary": true
+    },
+    {
+      "id": "jeff-progress",
+      "personId": "jeff-nippard",
+      "viewId": "small-progress",
+      "claim": "初期可逐渐增加次数和负荷；随后也可从动作控制等维度观察进步。",
+      "sourceIds": [
+        "jeff-levels"
+      ],
+      "period": "2023 年公开教学",
+      "context": "按训练水平逐层解释增肌。",
+      "organizerSummary": true
+    },
+    {
+      "id": "mike-progress",
+      "personId": "mike-israetel",
+      "viewId": "small-progress",
+      "claim": "该减脂期导读强调小幅增加次数或负重，而非要求每次出现很大进步。",
+      "sourceIds": [
+        "mike-split"
+      ],
+      "period": "所述减脂阶段",
+      "context": "维护训练表现的个案。",
+      "organizerSummary": true
+    },
+    {
+      "id": "jeff-protein-record",
+      "personId": "jeff-nippard",
+      "viewId": "protein-first",
+      "claim": "其蛋白质教学把全天总摄入放在精细的进食时机之前。",
+      "sourceIds": [
+        "jeff-protein"
+      ],
+      "period": "2023 年公开教学",
+      "context": "一般增肌营养讲解，不是他某一天的食谱。",
+      "organizerSummary": true
+    },
+    {
+      "id": "mike-protein-record",
+      "personId": "mike-israetel",
+      "viewId": "protein-first",
+      "claim": "早期经历导读中，他回顾以蛋白质为每餐基础，并用方便的食物维持执行。",
+      "sourceIds": [
+        "mike-diet"
+      ],
+      "period": "回顾早期训练生活；2025 年导读",
+      "context": "个人经历，不将餐次变成统一要求。",
+      "organizerSummary": true
+    },
+    {
+      "id": "frank-old",
+      "personId": "frank-zane",
+      "viewId": "zane-old-split",
+      "claim": "回顾 1979、1982 年备赛时使用三练一休，并写到连续训练使他容易疲劳。",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "period": "1979、1982 年备赛回顾",
+      "context": "历史安排。",
+      "organizerSummary": true
+    },
+    {
+      "id": "frank-maintain",
+      "personId": "frank-zane",
+      "viewId": "zane-maintenance",
+      "claim": "访谈时自述不再追求继续增加体量，主要希望保持状态。",
+      "sourceIds": [
+        "frank-interview"
+      ],
+      "period": "访谈中本人自述 78 岁",
+      "context": "晚年日常，与早期备赛目标不同。",
+      "organizerSummary": true
+    },
+    {
+      "id": "dexter-control",
+      "personId": "dexter-jackson",
+      "viewId": "controlled-reps",
+      "claim": "在本人引述中，他强调每次重复都感受目标肌肉工作，把注意力放回肌肉而不是只看重量。",
+      "sourceIds": [
+        "dexter-keys"
+      ],
+      "period": "职业训练经历回顾；文章日期未核实",
+      "context": "中文归纳；不是统一节奏要求。",
+      "organizerSummary": true
+    },
+    {
+      "id": "dexter-adapt",
+      "personId": "dexter-jackson",
+      "viewId": "stage-adjustment",
+      "claim": "他描述随着年龄变化调整训练，增加器械和孤立动作，同时继续重视动作规范。",
+      "sourceIds": [
+        "dexter-keys"
+      ],
+      "period": "中后期职业经历回顾",
+      "context": "个人阶段性调整，不代表自由重量无效。",
+      "organizerSummary": true
+    },
+    {
+      "id": "priest-basic",
+      "personId": "lee-priest",
+      "viewId": "basic-practice",
+      "claim": "他回顾早期训练时强调基础自由重量动作，也通过尝试判断什么对自己有效。",
+      "sourceIds": [
+        "priest-interview"
+      ],
+      "period": "2003 年采访回顾早期训练，2024 年重刊",
+      "context": "历史个人经验。",
+      "organizerSummary": true
+    },
+    {
+      "id": "priest-consistency",
+      "personId": "lee-priest",
+      "viewId": "adherence",
+      "claim": "他把多年持续训练与睡眠、饮食一并谈及，而不是期待迅速得到完整体格。",
+      "sourceIds": [
+        "priest-interview"
+      ],
+      "period": "2003 年采访",
+      "context": "个人回顾；文中高训练量不作为普遍建议。",
+      "organizerSummary": true
+    },
+    {
+      "id": "haney-recovery",
+      "personId": "lee-haney",
+      "viewId": "recoverable",
+      "claim": "官网收录他的训练格言：追求刺激而不是把自己彻底摧毁。这里据此归纳为关注可恢复的训练刺激。",
+      "sourceIds": [
+        "haney-rule"
+      ],
+      "period": "官网收录的职业训练格言",
+      "context": "格言没有提供人人适用的组数或强度。",
+      "organizerSummary": true
+    },
+    {
+      "id": "greg-basics",
+      "personId": "greg-nuckols",
+      "viewId": "basic-practice",
+      "claim": "力量训练指南把技术练习作为新手的重要任务，建议用能够保持动作质量的负荷练习。",
+      "sourceIds": [
+        "greg-guide"
+      ],
+      "period": "力量训练指南；具体修订日期未核实",
+      "context": "力量举技术学习的教学情境。",
+      "organizerSummary": true
+    },
+    {
+      "id": "greg-control",
+      "personId": "greg-nuckols",
+      "viewId": "controlled-reps",
+      "claim": "指南关注疲劳前的有效技术练习，而不是反复在技术变形中累积重复次数。",
+      "sourceIds": [
+        "greg-guide"
+      ],
+      "period": "力量训练指南",
+      "context": "与健美中的肌肉感受不是同一种技术指标。",
+      "organizerSummary": true
+    },
+    {
+      "id": "brad-failure",
+      "personId": "brad-schoenfeld",
+      "viewId": "failure-context",
+      "claim": "他对自己参与的综述作解读：总体结果不支持为了力量或增肌而要求所有组都练到力竭；训练经验和训练量等条件仍需分开看。",
+      "sourceIds": [
+        "brad-failure"
+      ],
+      "period": "2021 年文章",
+      "context": "研究解读，不是个人训练日志，也不代表此后所有证据。",
+      "organizerSummary": true
+    },
+    {
+      "id": "brad-volume",
+      "personId": "brad-schoenfeld",
+      "viewId": "diet-volume",
+      "claim": "他说明自己曾建议减脂时减少组数，随后因综述结果重新考虑这一建议，不再把统一减量视为已得到充分支持的规则。",
+      "sourceIds": [
+        "brad-volume"
+      ],
+      "period": "2022 年文章中的观点修正",
+      "context": "当前记录是作者回顾；未把其他人的不同情境强行标成分歧。",
+      "organizerSummary": true
+    },
+    {
+      "id": "andy-morgan-adherence",
+      "personId": "andy-morgan",
+      "viewId": "adherence",
+      "claim": "共同著作节选先选择现实生活中能执行的训练频率，再讨论训练量、强度、频率和后续进阶。",
+      "sourceIds": [
+        "pyramid-plan"
+      ],
+      "period": "2025 年第 3 版公开节选",
+      "context": "Eric Helms、Andy Morgan、Andrea Valdez 共同署名，非单人原话。",
+      "organizerSummary": true
+    },
+    {
+      "id": "andy-morgan-rir",
+      "personId": "andy-morgan",
+      "viewId": "rir-calibration",
+      "claim": "共同署名指南区分相对负荷与接近力竭程度，使用 RPE / RIR 描述努力程度，并强调判断需要练习。",
+      "sourceIds": [
+        "pyramid-rpe"
+      ],
+      "period": "2025 年第 3 版公开节选",
+      "context": "共同作者观点；不是仅凭酸痛或主观辛苦判断强度。",
+      "organizerSummary": true
+    },
+    {
+      "id": "eric-helms-adherence",
+      "personId": "eric-helms",
+      "viewId": "adherence",
+      "claim": "共同著作节选先选择现实生活中能执行的训练频率，再讨论训练量、强度、频率和后续进阶。",
+      "sourceIds": [
+        "pyramid-plan"
+      ],
+      "period": "2025 年第 3 版公开节选",
+      "context": "Eric Helms、Andy Morgan、Andrea Valdez 共同署名，非单人原话。",
+      "organizerSummary": true
+    },
+    {
+      "id": "eric-helms-rir",
+      "personId": "eric-helms",
+      "viewId": "rir-calibration",
+      "claim": "共同署名指南区分相对负荷与接近力竭程度，使用 RPE / RIR 描述努力程度，并强调判断需要练习。",
+      "sourceIds": [
+        "pyramid-rpe"
+      ],
+      "period": "2025 年第 3 版公开节选",
+      "context": "共同作者观点；不是仅凭酸痛或主观辛苦判断强度。",
+      "organizerSummary": true
+    },
+    {
+      "id": "nick-control",
+      "personId": "nick-walker",
+      "viewId": "controlled-reps",
+      "claim": "这篇训练报道把他在一次背部与手臂训练中的动作记录为强调控制与执行质量。",
+      "sourceIds": [
+        "nick-back"
+      ],
+      "period": "来源记录的一次公开视频",
+      "context": "媒体的动作观察，不据此推断长期训练信条；本人完整解释待补充。",
+      "organizerSummary": true
+    },
+    {
+      "id": "chris-control",
+      "personId": "chris-bumstead",
+      "viewId": "controlled-reps",
+      "claim": "正式访谈的本人引述提到，备赛准备中他曾降低重量、调整动作，并通过摆姿改善肌肉感受。",
+      "sourceIds": [
+        "chris-interview"
+      ],
+      "period": "回顾 2020 年奥赛准备及疫情时期训练",
+      "context": "阶段性做法，不推广为所有人的训练体系。",
+      "organizerSummary": true
+    },
+    {
+      "id": "platz-intensity",
+      "personId": "tom-platz",
+      "viewId": "platz-effort",
+      "claim": "本人引述描述了腿部训练中的专注与强烈投入，以及对舒适边界的挑战。",
+      "sourceIds": [
+        "tom-hard"
+      ],
+      "period": "职业训练历史回顾；文章日期未核实",
+      "context": "极端职业经历，不建议据此照搬强迫次数或疲劳极限。",
+      "organizerSummary": true
+    }
+  ],
+  "movements": [
+    {
+      "id": "jeff-bench",
+      "personId": "jeff-nippard",
+      "nameZh": "杠铃卧推",
+      "nameEn": "Barbell bench press",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "type": "水平推",
+      "sourceIds": [
+        "jeff-plan"
+      ],
+      "match": "exact",
+      "movementId": "pair-01",
+      "difference": "",
+      "evidence": "公开计划介绍采用",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "jeff-squat",
+      "personId": "jeff-nippard",
+      "nameZh": "杠铃深蹲",
+      "nameEn": "Barbell squat",
+      "muscles": [
+        "股四头肌",
+        "臀肌"
+      ],
+      "type": "蹲",
+      "sourceIds": [
+        "jeff-plan"
+      ],
+      "match": "exact",
+      "movementId": "trilegs-17",
+      "difference": "",
+      "evidence": "公开计划介绍采用",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "mike-bench",
+      "personId": "mike-israetel",
+      "nameZh": "平板卧推",
+      "nameEn": "Flat bench press",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "type": "水平推",
+      "sourceIds": [
+        "mike-split"
+      ],
+      "match": "exact",
+      "movementId": "pair-01",
+      "difference": "",
+      "evidence": "公开记录采用（该减脂阶段）",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "mike-lateral",
+      "personId": "mike-israetel",
+      "nameZh": "坐姿哑铃侧平举",
+      "nameEn": "Dumbbell seated lateral raise",
+      "muscles": [
+        "三角肌中束"
+      ],
+      "type": "肩外展",
+      "sourceIds": [
+        "mike-split"
+      ],
+      "match": "similar",
+      "movementId": "shoulder-01",
+      "difference": "来源明确为坐姿；现有侧平举条目未标明坐姿，不能把两种体位直接等同。",
+      "evidence": "公开记录采用（该减脂阶段）",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "mike-pullup",
+      "personId": "mike-israetel",
+      "nameZh": "负重对握引体向上",
+      "nameEn": "Weighted parallel pull-up",
+      "muscles": [
+        "背阔肌",
+        "肱二头肌"
+      ],
+      "type": "垂直拉",
+      "sourceIds": [
+        "mike-split"
+      ],
+      "match": "unmatched",
+      "movementId": null,
+      "difference": "",
+      "evidence": "公开记录采用（该减脂阶段）",
+      "period": "来源所述时期",
+      "suggestedCategory": "背部 / 引体向上 / 对握负重"
+    },
+    {
+      "id": "frank-bench",
+      "personId": "frank-zane",
+      "nameZh": "肩宽握距、不完全锁定卧推",
+      "nameEn": "Shoulder-width bench press without full lockout",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "type": "水平推",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "match": "similar",
+      "movementId": "pair-01",
+      "difference": "赞恩描述肩宽握距、慢速下放、不完全锁定；库中标准卧推不是这个具体执行版本。",
+      "evidence": "历史记录采用（1976–1983 年）",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "frank-squat",
+      "personId": "frank-zane",
+      "nameZh": "杠铃深蹲",
+      "nameEn": "Barbell squat",
+      "muscles": [
+        "股四头肌",
+        "臀肌"
+      ],
+      "type": "蹲",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "match": "exact",
+      "movementId": "trilegs-17",
+      "difference": "同一基础动作；来源另描述低于平行、下放较慢，不覆盖库中既有技术说明。",
+      "evidence": "历史记录采用（1976–1983 年）",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "frank-pullover",
+      "personId": "frank-zane",
+      "nameZh": "横凳哑铃上拉",
+      "nameEn": "Dumbbell pullover lying across a bench",
+      "muscles": [
+        "胸背部参与，依技术而异"
+      ],
+      "type": "肩伸展",
+      "sourceIds": [
+        "frank-growth"
+      ],
+      "match": "unmatched",
+      "movementId": null,
+      "difference": "",
+      "evidence": "历史记录采用（1976–1983 年）",
+      "period": "来源所述时期",
+      "suggestedCategory": "胸背辅助 / 哑铃上拉；需独立核对肌群与技术"
+    },
+    {
+      "id": "priest-row",
+      "personId": "lee-priest",
+      "nameZh": "俯身杠铃划船",
+      "nameEn": "Barbell row",
+      "muscles": [
+        "背阔肌",
+        "中背"
+      ],
+      "type": "水平拉",
+      "sourceIds": [
+        "priest-interview"
+      ],
+      "match": "exact",
+      "movementId": "back-23",
+      "difference": "",
+      "evidence": "来源训练回顾中列出采用",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "priest-bench",
+      "personId": "lee-priest",
+      "nameZh": "杠铃卧推",
+      "nameEn": "Bench press",
+      "muscles": [
+        "胸大肌",
+        "肱三头肌"
+      ],
+      "type": "水平推",
+      "sourceIds": [
+        "priest-interview"
+      ],
+      "match": "exact",
+      "movementId": "pair-01",
+      "difference": "",
+      "evidence": "来源训练回顾中列出采用",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    },
+    {
+      "id": "dexter-press",
+      "personId": "dexter-jackson",
+      "nameZh": "坐姿哑铃推肩",
+      "nameEn": "Seated dumbbell press",
+      "muscles": [
+        "三角肌"
+      ],
+      "type": "垂直推",
+      "sourceIds": [
+        "dexter-keys"
+      ],
+      "match": "exact",
+      "movementId": "shoulder-03",
+      "difference": "",
+      "evidence": "来源训练回顾中列出采用",
+      "period": "来源所述时期",
+      "suggestedCategory": ""
+    }
+  ],
+  "videos": [
+    {
+      "id": "volume-original",
+      "personIds": [
+        "jeff-nippard",
+        "mike-israetel"
+      ],
+      "titleZh": "训练量与增肌：究竟需要多少？",
+      "titleOriginal": "TRAINING VOLUME & HYPERTROPHY: How Much Do You Need? ft. Dr. Mike Israetel",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=2kwl5LiuCs4",
+      "platform": "YouTube",
+      "publisher": "Jeff Nippard",
+      "sourceIds": [
+        "jeff-volume-video"
+      ],
+      "summary": "从训练量的衡量、个体差异到训练量地标：按作者公开章节阅读这场访谈。",
+      "publishedAt": "2018-06-17",
+      "dateNote": "",
+      "keyMoments": [
+        {
+          "seconds": 818,
+          "label": "如何衡量训练量"
+        },
+        {
+          "seconds": 1072,
+          "label": "哪些训练组应计入"
+        },
+        {
+          "seconds": 1235,
+          "label": "个体差异与模板计划"
+        },
+        {
+          "seconds": 1591,
+          "label": "努力程度"
+        },
+        {
+          "seconds": 1758,
+          "label": "力竭与更多训练量的讨论"
+        },
+        {
+          "seconds": 3150,
+          "label": "MV、MEV、MAV、MRV"
+        },
+        {
+          "seconds": 3523,
+          "label": "中周期中的应用"
+        }
+      ],
+      "status": "verified-link",
+      "contentReview": "依据作者公开章节说明与配套文章，非逐字转录。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "volume-original"
+    },
+    {
+      "id": "junk-original",
+      "personIds": [
+        "mike-israetel"
+      ],
+      "titleZh": "什么时候增加组数变成无效训练量？",
+      "titleOriginal": "When More Sets Become Junk Volume",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=x5p9trMGCnU",
+      "platform": "YouTube",
+      "publisher": "Renaissance Periodization",
+      "sourceIds": [
+        "mike-junk-video"
+      ],
+      "summary": "核实迈克参与及原视频信息；用 RP 的训练量文章补充阅读，区分收益与恢复成本。",
+      "publishedAt": "2026-04-13",
+      "dateNote": "",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "原视频简介明确列出 Dr. Mike Israetel。未取得完整字幕；核心概念按另行注明的 RP 文章整理。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "junk-original"
+    },
+    {
+      "id": "jeff-five-levels",
+      "personIds": [
+        "jeff-nippard"
+      ],
+      "titleZh": "从五个层次理解如何增肌",
+      "titleOriginal": "How To Build Muscle (Explained In 5 Levels)",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=lu_BObG6dj8",
+      "platform": "YouTube",
+      "publisher": "Jeff Nippard",
+      "sourceIds": [
+        "jeff-levels",
+        "youtube-jeff-five-levels"
+      ],
+      "summary": "官网文章直接嵌入的视频；从基础训练到肌肥大机制。",
+      "publishedAt": null,
+      "dateNote": "官网配套文章：2023-07-09；视频上传日期待补充",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "未完成逐段观看；不虚构时间点。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "jeff-five-levels"
+    },
+    {
+      "id": "mike-floating",
+      "personIds": [
+        "mike-israetel"
+      ],
+      "titleZh": "减脂到低体脂期间，我如何训练",
+      "titleOriginal": "How I Trained During My Diet Down to 6% Body Fat",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=d7RjjYgxnJE",
+      "platform": "YouTube",
+      "publisher": "Renaissance Periodization",
+      "sourceIds": [
+        "mike-split",
+        "youtube-mike-floating"
+      ],
+      "summary": "特定减脂阶段的训练记录；配套导读介绍浮动分化与恢复。",
+      "publishedAt": null,
+      "dateNote": "官网导读：2026-02-16；视频上传日期待补充",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "未完成逐段观看；不虚构时间点。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "mike-floating"
+    },
+    {
+      "id": "mike-early-diet",
+      "personIds": [
+        "mike-israetel"
+      ],
+      "titleZh": "迈克早期学到的营养习惯",
+      "titleOriginal": "5 Nutrition Lessons I Mastered Early- You Should Too!",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=2bAjfXcj5Fs",
+      "platform": "YouTube",
+      "publisher": "Renaissance Periodization",
+      "sourceIds": [
+        "mike-diet",
+        "youtube-mike-early-diet"
+      ],
+      "summary": "官网营养回顾条目的嵌入视频；原文视频标题与发布频道已核对。",
+      "publishedAt": null,
+      "dateNote": "官网导读：2025-03-20；视频上传日期待补充",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "未完成逐段观看；不虚构时间点。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "mike-early-diet"
+    },
+    {
+      "id": "frank-mind",
+      "personIds": [
+        "frank-zane"
+      ],
+      "titleZh": "走进弗兰克·赞恩的健美思考",
+      "titleOriginal": "Inside the Mind of Frank Zane the Bodybuilding Legend!",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=gCOnNOt_8Is",
+      "platform": "YouTube",
+      "publisher": "Things I Can Try",
+      "sourceIds": [
+        "frank-video",
+        "youtube-frank-mind"
+      ],
+      "summary": "本人官网收录的正式访谈；未把未观看段落归纳为训练体系。",
+      "publishedAt": null,
+      "dateNote": "官网收录：2023-07-03；上传日期待补充",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "未完成逐段观看；不虚构时间点。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "frank-mind"
+    },
+    {
+      "id": "chris-noah",
+      "personIds": [
+        "chris-bumstead"
+      ],
+      "titleZh": "布姆斯特德与诺亚·奥尔森一起训练",
+      "titleOriginal": "24 HOURS WITH CHRIS BUMSTEAD aka MR OLYMPIA | ft. Noah Ohlsen",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=pUeC0CmLstc",
+      "platform": "YouTube",
+      "publisher": "Gymshark",
+      "sourceIds": [
+        "chris-bio",
+        "youtube-chris-noah"
+      ],
+      "summary": "2021 年奥赛前的训练交流；原文视频标题与发布频道已核对。",
+      "publishedAt": null,
+      "dateNote": "官网专题：2021-10-07；视频上传日期待补充",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "未完成逐段观看；不虚构时间点。",
+      "metadataVerifiedAt": "2026-11-06",
+      "articleId": "chris-noah"
+    },
+    {
+      "id": "andy-eric-books",
+      "personIds": [
+        "andy-morgan",
+        "eric-helms"
+      ],
+      "titleZh": "赫尔姆斯与摩根谈《肌肉与力量金字塔》第 3 版",
+      "titleOriginal": "Dr. Eric Helms and Andy Morgan on The Muscle and Strength Pyramid Books (3rd Editions)",
+      "translated": true,
+      "url": "https://podcast.rippedbody.com/1969113/episodes/18411036-dr-eric-helms-and-andy-morgan-on-the-muscle-and-strength-pyramid-books-3rd-editions",
+      "platform": "播客",
+      "publisher": "Ripped Body Podcast / Andy Morgan",
+      "sourceIds": [
+        "andy-podcast"
+      ],
+      "summary": "从共同作者对话出发阅读训练与营养框架；附公开节选与著作入口。",
+      "publishedAt": "2025-12-30",
+      "dateNote": "",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "依据主持人节目页与共同作者公开节选；未完成逐段收听。",
+      "articleId": "andy-eric-books",
+      "metadataVerifiedAt": "2026-11-06"
+    },
+    {
+      "id": "haney-long-term",
+      "personIds": [
+        "lee-haney"
+      ],
+      "titleZh": "李·哈尼：把健身放进长期生活",
+      "titleOriginal": "Lee Haney Interview — Escape Your Limits",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=p3wPtgxjs7A",
+      "platform": "YouTube",
+      "publisher": "Escape Your Limits / Matthew Januszek",
+      "sourceIds": [
+        "haney-podcast"
+      ],
+      "summary": "主持人导读中的长期健康视角，与本人官网训练格言配合阅读。",
+      "publishedAt": null,
+      "dateNote": "主持人导读：2026-02-19；视频上传日期未核实",
+      "keyMoments": [],
+      "status": "verified-link",
+      "contentReview": "依据主持人公开导读，不声称已逐段观看。",
+      "articleId": "haney-long-term",
+      "metadataVerifiedAt": "2026-11-06"
+    }
+  ],
+  "diets": [
+    {
+      "id": "jeff-diet",
+      "personId": "jeff-nippard",
+      "phase": "增肌 · 教学情境",
+      "period": "2023 年公开文章",
+      "summary": "教学文章优先讨论全天蛋白质摄入，再讨论餐次分配和进食时机。不是本人日常食谱或某一备赛日记录。",
+      "meals": [],
+      "sourceIds": [
+        "jeff-protein"
+      ],
+      "recordType": "教学观点",
+      "application": "可用来理解考虑顺序；具体摄入需要个人化评估。"
+    },
+    {
+      "id": "mike-diet-record",
+      "personId": "mike-israetel",
+      "phase": "日常 · 早期经历回顾",
+      "period": "2025 年官网导读，回顾大学及早期训练生活",
+      "summary": "以蛋白质作为每餐的组织基础，选择方便且容易执行的食物，再随训练目标逐步增加饮食结构。",
+      "meals": [
+        "导读中的例子：火鸡三明治、苹果与蔬菜。没有足够数据计算这一餐的热量。"
+      ],
+      "sourceIds": [
+        "mike-diet"
+      ],
+      "recordType": "本人经历的官方导读",
+      "application": "方便执行是一条整理线索；餐次和份量不作为面向所有人的要求。"
+    },
+    {
+      "id": "frank-diet",
+      "personId": "frank-zane",
+      "phase": "日常 · 晚年保持",
+      "period": "官网 2021 年归档访谈，本人自述 78 岁",
+      "summary": "访谈时以保持状态为目标，描述了以鸡蛋、鱼和禽肉为主的餐食示例。没有把这份饮食写成他的早期备赛食谱。",
+      "meals": [
+        "早餐提及鸡蛋；午餐为鱼配全谷物吐司；晚餐为鱼或禽肉。"
+      ],
+      "sourceIds": [
+        "frank-interview"
+      ],
+      "recordType": "本人访谈",
+      "application": "仅保存个人经历，不将其热量或补剂习惯当作普通人的处方。"
+    },
+    {
+      "id": "dexter-diet",
+      "personId": "dexter-jackson",
+      "phase": "非赛季与备赛 · 经历对比",
+      "period": "职业经历回顾；具体年份未核实",
+      "summary": "文章中的本人引述区分非赛季较丰富的食物选择，与备赛时更受限制的饮食。这里只保留阶段对比，不推算热量或营养素。",
+      "meals": [
+        "备赛引述提到罗非鱼、鸡胸肉和少调味的牛排，份量未核实。"
+      ],
+      "sourceIds": [
+        "dexter-keys"
+      ],
+      "recordType": "本人引述的中文归纳",
+      "application": "用于理解运动员的阶段差异，不作为普通读者的备赛食谱。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "frank-period-change",
+      "source": "frank-old",
+      "target": "frank-recovery",
+      "kind": "change",
+      "label": "回顾后的调整",
+      "explanation": "同一篇回顾先说明备赛时期三练一休，再在 How I’d Do It Now 中提出更多恢复间隔。此处记录本人时期变化，不构造人与人的反对关系。",
+      "sourceIds": [
+        "frank-growth"
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "art-lifting",
+      "title": "The Art of Lifting",
+      "authors": [
+        "Greg Nuckols",
+        "Omar Isuf"
+      ],
+      "personIds": [
+        "greg-nuckols"
+      ],
+      "summary": "力量训练基础与重要事项的入门读物。",
+      "sourceIds": [
+        "greg-books",
+        "greg-authors"
+      ],
+      "url": "https://www.strongerbyscience.com/art-and-science/"
+    },
+    {
+      "id": "science-lifting",
+      "title": "The Science of Lifting",
+      "authors": [
+        "Greg Nuckols",
+        "Omar Isuf"
+      ],
+      "personIds": [
+        "greg-nuckols"
+      ],
+      "summary": "训练、营养与生活条件如何协同调整。",
+      "sourceIds": [
+        "greg-books",
+        "greg-authors"
+      ],
+      "url": "https://www.strongerbyscience.com/art-and-science/"
+    },
+    {
+      "id": "hypertrophy-science",
+      "title": "Science and Development of Muscle Hypertrophy · 第 2 版",
+      "authors": [
+        "Brad Schoenfeld"
+      ],
+      "personIds": [
+        "brad-schoenfeld"
+      ],
+      "summary": "肌肥大机制及抗阻训练研究。",
+      "sourceIds": [
+        "brad-book"
+      ],
+      "url": "https://us.humankinetics.com/products/science-and-development-of-muscle-hypertrophy-2nd-edition-epub"
+    },
+    {
+      "id": "pyramid-training",
+      "title": "The Muscle and Strength Pyramid: Training",
+      "authors": [
+        "Eric Helms",
+        "Andy Morgan",
+        "Andrea Valdez"
+      ],
+      "personIds": [
+        "eric-helms",
+        "andy-morgan"
+      ],
+      "summary": "从可坚持的安排到训练变量的分层计划框架。",
+      "sourceIds": [
+        "pyramid-books"
+      ],
+      "url": "https://muscleandstrengthpyramids.com/"
+    },
+    {
+      "id": "pyramid-nutrition",
+      "title": "The Muscle and Strength Pyramid: Nutrition",
+      "authors": [
+        "Eric Helms",
+        "Andy Morgan",
+        "Andrea Valdez"
+      ],
+      "personIds": [
+        "eric-helms",
+        "andy-morgan"
+      ],
+      "summary": "营养优先级与饮食安排的配套著作。",
+      "sourceIds": [
+        "pyramid-books"
+      ],
+      "url": "https://muscleandstrengthpyramids.com/"
+    },
+    {
+      "id": "haney-fit",
+      "title": "Fit At Any Age",
+      "authors": [
+        "Lee Haney"
+      ],
+      "personIds": [
+        "lee-haney"
+      ],
+      "summary": "本人官网列出的健康与健身著作；当前只收录官方入口。",
+      "sourceIds": [
+        "haney-books"
+      ],
+      "url": "https://leehaney.com/"
+    },
+    {
+      "id": "haney-pump",
+      "title": "Beyond The Pump",
+      "authors": [
+        "Lee Haney"
+      ],
+      "personIds": [
+        "lee-haney"
+      ],
+      "summary": "本人官网列出的著作；完整阅读笔记待补充。",
+      "sourceIds": [
+        "haney-books"
+      ],
+      "url": "https://leehaney.com/"
+    }
+  ],
+  "articles": [
+    {
+      "id": "volume-original",
+      "videoId": "volume-original",
+      "title": "训练量与增肌：究竟需要多少？",
+      "author": "本站资料整理",
+      "participants": [
+        "jeff-nippard",
+        "mike-israetel"
+      ],
+      "basis": "依据作者公开章节说明与配套文章，非逐字转录。",
+      "sections": [
+        {
+          "title": "先统一“训练量”的含义",
+          "text": "访谈的公开章节先讨论如何衡量训练量，以及哪些训练组应该计入。阅读时应先弄清衡量口径，再比较两个计划的数字；不同动作、努力程度和训练组不能只凭总次数直接等同。",
+          "sourceIds": [
+            "jeff-volume-video"
+          ],
+          "kind": "作者章节说明 · 整理者阅读提示"
+        },
+        {
+          "title": "从单一答案，转向个人范围",
+          "text": "章节安排把个体训练量与模板计划放在一起讨论，并专门讨论努力程度与力竭。这里能确认讨论的议题，不能仅凭章节标题断言两位参与者在每一点上达成一致。",
+          "sourceIds": [
+            "jeff-volume-video"
+          ],
+          "kind": "作者章节说明"
+        },
+        {
+          "title": "理解训练量地标",
+          "text": "RP 配套文章用 MV 表示维持所需训练量、MEV 表示最低有效训练量、MAV 表示适应较好的范围、MRV 表示可恢复训练量上限。这些是帮助组织观察的概念，会受个人、肌群和阶段影响，不是一张永远固定的组数表。",
+          "sourceIds": [
+            "rp-landmarks"
+          ],
+          "kind": "配套阅读"
+        },
+        {
+          "title": "带着问题回到自己的记录",
+          "text": "整理者建议把动作、有效工作组、努力程度与恢复表现放在同一份日志中比较。先确认训练完成质量与后续表现，再判断是否需要加组。这个记录方式是阅读后的应用思路，并非访谈中核实的逐字训练处方。",
+          "sourceIds": [
+            "jeff-volume-video",
+            "rp-landmarks"
+          ],
+          "kind": "整理者应用笔记"
+        }
+      ],
+      "sourceIds": [
+        "jeff-volume-video",
+        "rp-landmarks"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "junk-original",
+      "videoId": "junk-original",
+      "title": "什么时候增加组数变成无效训练量？",
+      "author": "本站资料整理",
+      "participants": [
+        "mike-israetel"
+      ],
+      "basis": "原视频简介明确列出 Dr. Mike Israetel。未取得完整字幕；核心概念按另行注明的 RP 文章整理。",
+      "sections": [
+        {
+          "title": "这条视频已经确认什么",
+          "text": "原视频标题讨论“更多组数何时变成无效训练量”，发布频道为 Renaissance Periodization，简介明确标出 Dr. Mike Israetel 参与。完整字幕暂未取得，因此本页不把未观看段落补写成视频结论。",
+          "sourceIds": [
+            "mike-junk-video"
+          ],
+          "kind": "已核实的视频信息"
+        },
+        {
+          "title": "配套理解：训练量不是越多越好",
+          "text": "RP 的训练量地标文章把有效刺激和恢复上限放在同一框架下。增加训练组数需要同时考虑适应与恢复；不能只用“训练很累”证明更有价值，也不能仅因酸痛少便判定没有刺激。",
+          "sourceIds": [
+            "rp-landmarks"
+          ],
+          "kind": "配套阅读"
+        },
+        {
+          "title": "另一篇官方导读补充了什么",
+          "text": "RP 关于每次训练动作数量的独立导读，强调动作选择与有效训练质量的关系。它是另一份资料，用来辅助思考堆叠动作和组数的成本；这里没有把它冒充成本视频的内容。",
+          "sourceIds": [
+            "rp-exercises"
+          ],
+          "kind": "配套阅读"
+        },
+        {
+          "title": "阅读后的检查问题",
+          "text": "比较加组前后：目标动作表现如何？后续训练是否被拖累？同样的时间能否换来更好的完成质量？这些是整理者提出的观察问题，具体视频中的论证与时间点仍待补充。",
+          "sourceIds": [
+            "mike-junk-video",
+            "rp-landmarks"
+          ],
+          "kind": "整理者问题清单"
+        }
+      ],
+      "sourceIds": [
+        "mike-junk-video",
+        "rp-landmarks",
+        "rp-exercises"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "jeff-five-levels",
+      "videoId": "jeff-five-levels",
+      "title": "从五个层次理解如何增肌",
+      "author": "本站资料整理",
+      "participants": [
+        "jeff-nippard"
+      ],
+      "basis": "未完成逐段观看；不虚构时间点。",
+      "sections": [
+        {
+          "title": "视频与原始资料",
+          "text": "本页保留原文标题、发布者和原始入口。未完成逐段观看；不虚构时间点。",
+          "sourceIds": [
+            "jeff-levels",
+            "youtube-jeff-five-levels"
+          ],
+          "kind": "收录说明"
+        },
+        {
+          "title": "关注可控的动作执行",
+          "text": "他把更好地控制下放、感受目标肌肉，列为负重或次数暂时停滞时可关注的进步方式。 2023 年公开教学；增肌教学；没有给所有动作规定统一慢速节奏。",
+          "sourceIds": [
+            "jeff-levels"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        },
+        {
+          "title": "安排应给恢复留空间",
+          "text": "训练量并非越多越好；他建议寻找自身增肌收益与恢复之间的平衡。 2023 年公开教学；个人训练量实验与复盘。",
+          "sourceIds": [
+            "jeff-levels"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        },
+        {
+          "title": "用小幅进步推进训练",
+          "text": "初期可逐渐增加次数和负荷；随后也可从动作控制等维度观察进步。 2023 年公开教学；按训练水平逐层解释增肌。",
+          "sourceIds": [
+            "jeff-levels"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        }
+      ],
+      "sourceIds": [
+        "jeff-levels",
+        "youtube-jeff-five-levels"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "mike-floating",
+      "videoId": "mike-floating",
+      "title": "减脂到低体脂期间，我如何训练",
+      "author": "本站资料整理",
+      "participants": [
+        "mike-israetel"
+      ],
+      "basis": "未完成逐段观看；不虚构时间点。",
+      "sections": [
+        {
+          "title": "视频与原始资料",
+          "text": "本页保留原文标题、发布者和原始入口。未完成逐段观看；不虚构时间点。",
+          "sourceIds": [
+            "mike-split",
+            "youtube-mike-floating"
+          ],
+          "kind": "收录说明"
+        },
+        {
+          "title": "安排应给恢复留空间",
+          "text": "在所述减脂阶段，按拉、腿、推的顺序推进，恢复需要时休息，而非强行绑定星期。 2026 年官网导读所述减脂期；职业健美个案；不能把其训练频率直接推广给普通人。",
+          "sourceIds": [
+            "mike-split"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        },
+        {
+          "title": "用小幅进步推进训练",
+          "text": "该减脂期导读强调小幅增加次数或负重，而非要求每次出现很大进步。 所述减脂阶段；维护训练表现的个案。",
+          "sourceIds": [
+            "mike-split"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        }
+      ],
+      "sourceIds": [
+        "mike-split",
+        "youtube-mike-floating"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "mike-early-diet",
+      "videoId": "mike-early-diet",
+      "title": "迈克早期学到的营养习惯",
+      "author": "本站资料整理",
+      "participants": [
+        "mike-israetel"
+      ],
+      "basis": "未完成逐段观看；不虚构时间点。",
+      "sections": [
+        {
+          "title": "视频与原始资料",
+          "text": "本页保留原文标题、发布者和原始入口。未完成逐段观看；不虚构时间点。",
+          "sourceIds": [
+            "mike-diet",
+            "youtube-mike-early-diet"
+          ],
+          "kind": "收录说明"
+        },
+        {
+          "title": "先建立蛋白质摄入基础",
+          "text": "早期经历导读中，他回顾以蛋白质为每餐基础，并用方便的食物维持执行。 回顾早期训练生活；2025 年导读；个人经历，不将餐次变成统一要求。",
+          "sourceIds": [
+            "mike-diet"
+          ],
+          "kind": "官网配套资料的中文归纳"
+        }
+      ],
+      "sourceIds": [
+        "mike-diet",
+        "youtube-mike-early-diet"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "frank-mind",
+      "videoId": "frank-mind",
+      "title": "走进弗兰克·赞恩的健美思考",
+      "author": "本站资料整理",
+      "participants": [
+        "frank-zane"
+      ],
+      "basis": "未完成逐段观看；不虚构时间点。",
+      "sections": [
+        {
+          "title": "视频与原始资料",
+          "text": "本页保留原文标题、发布者和原始入口。未完成逐段观看；不虚构时间点。",
+          "sourceIds": [
+            "frank-video",
+            "youtube-frank-mind"
+          ],
+          "kind": "收录说明"
+        },
+        {
+          "title": "内容整理进度",
+          "text": "当前已核实原始入口，核心讨论与具体时间点仍待补充。未用人物的其他训练经历替代这一次视频的内容。",
+          "sourceIds": [
+            "frank-video",
+            "youtube-frank-mind"
+          ],
+          "kind": "待补充"
+        }
+      ],
+      "sourceIds": [
+        "frank-video",
+        "youtube-frank-mind"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "chris-noah",
+      "videoId": "chris-noah",
+      "title": "布姆斯特德与诺亚·奥尔森一起训练",
+      "author": "本站资料整理",
+      "participants": [
+        "chris-bumstead"
+      ],
+      "basis": "未完成逐段观看；不虚构时间点。",
+      "sections": [
+        {
+          "title": "视频与原始资料",
+          "text": "本页保留原文标题、发布者和原始入口。未完成逐段观看；不虚构时间点。",
+          "sourceIds": [
+            "chris-bio",
+            "youtube-chris-noah"
+          ],
+          "kind": "收录说明"
+        },
+        {
+          "title": "内容整理进度",
+          "text": "当前已核实原始入口，核心讨论与具体时间点仍待补充。未用人物的其他训练经历替代这一次视频的内容。",
+          "sourceIds": [
+            "chris-bio",
+            "youtube-chris-noah"
+          ],
+          "kind": "待补充"
+        }
+      ],
+      "sourceIds": [
+        "chris-bio",
+        "youtube-chris-noah"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "andy-eric-books",
+      "videoId": "andy-eric-books",
+      "title": "赫尔姆斯与摩根谈《肌肉与力量金字塔》第 3 版",
+      "author": "本站资料整理",
+      "participants": [
+        "andy-morgan",
+        "eric-helms"
+      ],
+      "basis": "依据主持人节目页与共同作者公开节选；未完成逐段收听。",
+      "sections": [
+        {
+          "title": "一本共同著作背后的对话",
+          "text": "这期节目由 Andy Morgan 主持，与 Eric Helms 讨论《肌肉与力量金字塔》第 3 版。著作共同作者还包括 Andrea Valdez；她的署名不表示她在这期节目中出席。",
+          "sourceIds": [
+            "andy-podcast",
+            "pyramid-books"
+          ],
+          "kind": "节目公开导读"
+        },
+        {
+          "title": "从可坚持的安排开始",
+          "text": "对应训练书的公开节选，先处理生活中实际可执行的训练安排，再逐层讨论训练变量。对于计划设计，日程是否做得到本身就是需要先解决的问题。",
+          "sourceIds": [
+            "pyramid-plan"
+          ],
+          "kind": "配套阅读"
+        },
+        {
+          "title": "把“很辛苦”变成更具体的描述",
+          "text": "RPE / RIR 节选区分重量相对大小与距离力竭的程度。理解两者有助于阅读计划，也提醒读者这些判断需要练习，不能用汗量、酸痛或情绪替代。",
+          "sourceIds": [
+            "pyramid-rpe"
+          ],
+          "kind": "配套阅读"
+        }
+      ],
+      "sourceIds": [
+        "andy-podcast",
+        "pyramid-books",
+        "pyramid-plan",
+        "pyramid-rpe"
+      ],
+      "updatedAt": "2026-11-06"
+    },
+    {
+      "id": "haney-long-term",
+      "videoId": "haney-long-term",
+      "title": "李·哈尼：把健身放进长期生活",
+      "author": "本站资料整理",
+      "participants": [
+        "lee-haney"
+      ],
+      "basis": "依据主持人公开导读，不声称已逐段观看。",
+      "sections": [
+        {
+          "title": "从竞赛成绩走向长期健康",
+          "text": "主持人节目导读把长期健康、持续性和训练习惯列为这次访谈的线索。这是导读概述，尚不是逐段核验后的全片总结。",
+          "sourceIds": [
+            "haney-podcast"
+          ],
+          "kind": "主持人公开导读"
+        },
+        {
+          "title": "刺激，而非摧毁",
+          "text": "哈尼官网收录的训练格言给出另一条阅读线索：追求训练刺激，同时给恢复保留空间。格言提供方向，不足以单独推导适合每个人的训练量。",
+          "sourceIds": [
+            "haney-rule"
+          ],
+          "kind": "配套阅读"
+        }
+      ],
+      "sourceIds": [
+        "haney-podcast",
+        "haney-rule"
+      ],
+      "updatedAt": "2026-11-06"
+    }
+  ]
+}
