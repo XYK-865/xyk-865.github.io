@@ -21,13 +21,14 @@ function parallelLanes(edges){
 }
 
 /** Native SVG renderer. Coordinates are normalized, and all navigation stays inside this view. */
-export function createGraph2D(container,{onNode=()=>{},onEdge=()=>{}}={}){
+export function createGraph2D(container,{onNode=()=>{},onEdge=()=>{},kinds=KINDS}={}){
  const uid='science-'+Math.random().toString(36).slice(2),defaultView=container.clientWidth<600?{x:380,y:0,w:900,h:1050}:{x:0,y:0,w:1600,h:1000};
  let view={...defaultView},graph={nodes:[],edges:[]},drag=null,destroyed=false;
  const svg=element('svg',{viewBox:'0 0 1600 1000',width:'100%',height:'100%',tabindex:'0',role:'group','aria-label':'二维知识图谱；拖动空白处平移，滚轮缩放，也可使用键盘加减号与方向键'});
  svg.style.cssText='display:block;min-height:380px;touch-action:none;user-select:none;';
  const defs=element('defs'),edgeLayer=element('g'),nodeLayer=element('g');
- for(const [kind,info] of Object.entries(KINDS))for(const reverse of [false,true]){
+ const fallbackKind='definition' in kinds?'definition':Object.keys(kinds)[0];
+ for(const [kind,info] of Object.entries(kinds))for(const reverse of [false,true]){
   const id=uid+'-'+kind+(reverse?'-start':'-end'),marker=element('marker',{id,viewBox:'0 0 10 10',refX:reverse?1:9,refY:5,markerWidth:6,markerHeight:6,orient:'auto-start-reverse',markerUnits:'strokeWidth'});
   marker.append(element('path',{d:'M 0 0 L 10 5 L 0 10 z',fill:info.color}));defs.append(marker);
  }
@@ -43,7 +44,7 @@ export function createGraph2D(container,{onNode=()=>{},onEdge=()=>{}}={}){
   const positions=new Map(graph.nodes.map(n=>[n.id,{x:80+n.x*1440,y:90+n.y*760,node:n}])),lanes=parallelLanes(graph.edges);
   for(const e of graph.edges){
    const a=positions.get(e.source),b=positions.get(e.target);if(!a||!b)continue;
-   const info=KINDS[e.kind]||KINDS.definition,dx=b.x-a.x,dy=b.y-a.y,length=Math.hypot(dx,dy)||1;
+   const kind=e.kind in kinds?e.kind:fallbackKind,info=kinds[kind],dx=b.x-a.x,dy=b.y-a.y,length=Math.hypot(dx,dy)||1;
    const canonical=e.source<e.target?1:-1,offset=lanes.get(e.id)*96;
    const qx=(a.x+b.x)/2-dy/length*canonical*offset,qy=(a.y+b.y)/2+dx/length*canonical*offset;
    const startLength=Math.hypot(qx-a.x,qy-a.y)||1,endLength=Math.hypot(b.x-qx,b.y-qy)||1;
@@ -52,9 +53,9 @@ export function createGraph2D(container,{onNode=()=>{},onEdge=()=>{}}={}){
    const d=`M ${x1} ${y1} Q ${qx} ${qy} ${x2} ${y2}`;
    const label=`${a.node.label} ${e.direction==='bidirectional'?'↔':'→'} ${b.node.label}：${e.label}（${info.label}）`;
    const group=element('g',{tabindex:0,role:'button','aria-label':label,'data-graph-edge':e.id,style:'cursor:pointer;outline:none'});
-   const visible=element('path',{d,fill:'none',stroke:info.color,'stroke-width':selected?5:related?3:2,'stroke-opacity':graph.selectedId&&!related?.32:.8,'marker-end':`url(#${uid}-${e.kind in KINDS?e.kind:'definition'}-end)`});
-   if(e.kind==='hypothesis')visible.setAttribute('stroke-dasharray','8 6');
-   if(e.direction==='bidirectional')visible.setAttribute('marker-start',`url(#${uid}-${e.kind in KINDS?e.kind:'definition'}-start)`);
+   const visible=element('path',{d,fill:'none',stroke:info.color,'stroke-width':selected?5:related?3:2,'stroke-opacity':graph.selectedId&&!related?.32:.8,'marker-end':`url(#${uid}-${kind}-end)`});
+   if(e.kind==='hypothesis'||info.dashed)visible.setAttribute('stroke-dasharray','8 6');
+   if(e.direction==='bidirectional')visible.setAttribute('marker-start',`url(#${uid}-${kind}-start)`);
    const hit=element('path',{d,fill:'none',stroke:'transparent','stroke-width':20});
    const caption=element('g',{'aria-hidden':'true',opacity:0,'pointer-events':'none'}),width=Math.max(60,[...e.label].length*14+20),cx=(x1+2*qx+x2)/4,cy=(y1+2*qy+y2)/4;
    caption.append(element('rect',{x:cx-width/2,y:cy-14,width,height:28,rx:6,fill:'var(--bg, #fff)',stroke:info.color}),element('text',{x:cx,y:cy+5,'text-anchor':'middle',fill:'var(--text, #202622)','font-size':14},e.label));
