@@ -1,0 +1,30 @@
+.cosmetic-history .cosmetic-hero--cover { margin-bottom: clamp(2.8rem, 6vw, 5rem); }
+.cosmetic-history-intro { max-width: 30rem; }
+.cosmetic-history-intro h1 {
+  margin: 0 0 .28em;
+  font: 400 clamp(3.25rem, 7vw, 6rem)/.98 Georgia, "Times New Roman", serif;
+  letter-spacing: -.055em;
+}
+.cosmetic-history-intro > p { max-width: 24rem; margin: 0; line-height: 1.8; }
+.cosmetic-history-intro nav { max-width: 30rem; gap: .42rem; }
+.cosmetic-history-article {
+  width: min(100%, 44rem);
+  margin-inline: auto;
+  line-height: 1.95;
+  font-size: clamp(1rem, 1.7vw, 1.12rem);
+}
+.cosmetic-history-title { margin-bottom: 2rem; padding-bottom: 1.4rem; border-bottom: 1px solid var(--line); }
+.cosmetic-history-title h2 { margin: 0; font: 600 clamp(2.1rem, 5vw, 3.4rem)/1.2 var(--serif); scroll-margin-top: 6rem; }
+.cosmetic-history-title > p:last-child { margin: .7rem 0 0; color: var(--muted); }
+.cosmetic-history-article h3 { margin: 2.1rem 0 .45rem; font-family: var(--serif); font-size: 1.5rem; }
+.cosmetic-history-article a { text-decoration: underline; text-underline-offset: .18em; }
+.cosmetic-history-article figure { margin: 1.5rem 0 2rem; }
+.cosmetic-history-article figure img {
+  width: 100%;
+  height: clamp(16rem, 41vw, 29rem);
+  object-fit: contain;
+  background: #f4f0e8;
+  border-radius: .9rem;
+}
+.cosmetic-history-article figcaption { margin-top: .55rem; color: var(--muted); font-size: .83rem; }
+.cosmetic-history-ending { border-top: 1px solid var(--line); margin-top: 2.4rem; padding-top: 1.25rem; }

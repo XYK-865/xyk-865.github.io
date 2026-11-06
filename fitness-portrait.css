@@ -1,0 +1,51 @@
+.fitness-hero--portrait {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0;
+  min-height: 350px;
+  max-width: none;
+  padding: clamp(1.75rem, 4vw, 3rem);
+  overflow: hidden;
+  border-radius: 20px;
+  background:
+    radial-gradient(ellipse 12rem 4rem at right bottom, #111 66%, transparent),
+    linear-gradient(90deg, #111 39%, #111 49%, transparent 69%),
+    #111 url("assets/fitness/training-portrait.webp") right center / auto 100% no-repeat;
+  color: #f7f6f4;
+}
+
+.fitness-hero--portrait > * { width: 58%; }
+.fitness-hero--portrait h1 {
+  font-family: var(--sans);
+  font-size: clamp(2.3rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -.045em;
+  margin: .6rem 0 1.2rem;
+}
+
+.fitness-hero--portrait p:not(.kicker),
+.fitness-hero--portrait .fitness-article-meta,
+.fitness-hero--portrait .science-stats span { color: #e0dfdc; }
+.fitness-hero--portrait .fitness-version { color: #f6cdf0; }
+.fitness-hero--portrait .fitness-badge { color: #f7f6f4; background: #ffffff21; }
+.fitness-hero--portrait .fitness-header-links a { border-color: #ffffff60; }
+.fitness-hero--portrait .fitness-header-links a:hover { color: #f6cdf0; }
+.fitness-hero--portrait .science-stats { margin-top: .7rem; flex-wrap: wrap; }
+.fitness-hero--portrait .science-stats b { color: #fff; }
+
+@media (max-width: 720px) {
+  .fitness-hero--portrait {
+    min-height: 0;
+    padding: 12rem 1.4rem 1.6rem;
+    background:
+      linear-gradient(180deg, transparent 5rem, #111 13.75rem),
+      #111 url("assets/fitness/training-portrait.webp") center top / auto 15rem no-repeat;
+  }
+  .fitness-hero--portrait > * { width: 100%; }
+  .fitness-hero--portrait h1 { font-size: 2.2rem; }
+  .fitness-hero--portrait .science-stats { margin-top: 0; }
+}

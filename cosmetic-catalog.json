@@ -1,0 +1,1755 @@
+{
+  "groups": [
+    {
+      "id": "proya",
+      "name": "珀莱雅股份",
+      "nameEn": "Proya Cosmetics",
+      "country": "中国",
+      "headquarters": "浙江杭州",
+      "founded": 2003,
+      "description": "以护肤和彩妆为主的中国美妆集团，图鉴从主品牌珀莱雅和彩棠两条产品线开始。",
+      "website": "https://www.proya-group.com",
+      "brandIds": [
+        "proya-brand",
+        "timage"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/about",
+          "label": "集团官方资料"
+        }
+      ],
+      "logo": {
+        "src": "https://www.proya-group.com/local_upload/20231023/1716397924496252928.svg",
+        "alt": "珀莱雅股份标识",
+        "sourceUrl": "https://www.proya-group.com/news-info/2042"
+      }
+    },
+    {
+      "id": "loreal",
+      "name": "欧莱雅集团",
+      "nameEn": "L’Oréal Groupe",
+      "country": "法国",
+      "headquarters": "法国克利希",
+      "founded": 1909,
+      "description": "业务涵盖大众美妆、高档化妆品、专业美发和皮肤科学美容。图鉴先收录理肤泉和适乐肤。",
+      "website": "https://www.loreal.com",
+      "brandIds": [
+        "laroche-posay",
+        "cerave"
+      ],
+      "sources": [
+        {
+          "url": "https://www.loreal.com/en/culture-and-heritage/l-oreal-history/",
+          "label": "集团官方资料"
+        },
+        {
+          "url": "https://www.loreal.com/en/groupe/global-terms-of-use/",
+          "label": "集团法定信息"
+        },
+        {
+          "url": "https://www.loreal.com/lorealusa/brand",
+          "label": "官方品牌组合"
+        }
+      ]
+    },
+    {
+      "id": "shiseido",
+      "name": "资生堂集团",
+      "nameEn": "Shiseido Company",
+      "country": "日本",
+      "headquarters": "日本东京",
+      "founded": 1872,
+      "description": "日本美妆集团，涵盖护肤、彩妆与香氛。",
+      "website": "https://corp.shiseido.com/en/",
+      "brandIds": [
+        "shiseido-brand"
+      ],
+      "sources": [
+        {
+          "url": "https://corp.shiseido.com/en/company/history/",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "amorepacific",
+      "name": "爱茉莉太平洋集团",
+      "nameEn": "Amorepacific Group",
+      "country": "韩国",
+      "headquarters": "韩国首尔",
+      "founded": null,
+      "description": "韩国美妆集团。图鉴从兰芝与雪花秀的代表护肤线开始。",
+      "website": "https://www.apgroup.com/int/en/",
+      "brandIds": [
+        "laneige",
+        "sulwhasoo"
+      ],
+      "sources": [
+        {
+          "url": "https://www.apgroup.com/int/en/brands/brands.html",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "lvmh",
+      "name": "LVMH 集团",
+      "nameEn": "LVMH",
+      "country": "法国",
+      "headquarters": "法国巴黎",
+      "founded": null,
+      "description": "奢侈品集团。香水与化妆品业务覆盖香氛、护肤和彩妆品牌。",
+      "website": "https://www.lvmh.com/",
+      "brandIds": [
+        "dior-beauty",
+        "guerlain"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lvmh.com/our-maisons/perfumes-cosmetics",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "beiersdorf",
+      "name": "拜尔斯道夫",
+      "nameEn": "Beiersdorf",
+      "country": "德国",
+      "headquarters": "德国汉堡",
+      "founded": 1882,
+      "description": "德国皮肤护理集团，收录妮维雅与优色林的保湿护理案例。",
+      "website": "https://www.beiersdorf.com/",
+      "brandIds": [
+        "nivea",
+        "eucerin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.beiersdorf.com/meta-pages/faq/company",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "unilever",
+      "name": "联合利华",
+      "nameEn": "Unilever",
+      "country": "英国",
+      "headquarters": "英国伦敦",
+      "founded": null,
+      "description": "消费品集团。个护与美容业务下收录多芬和宝拉珍选。",
+      "website": "https://www.unilever.com/",
+      "brandIds": [
+        "dove",
+        "paulas-choice"
+      ],
+      "sources": [
+        {
+          "url": "https://www.unilever.com/brands/beauty-wellbeing/",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "puig",
+      "name": "Puig 集团",
+      "nameEn": "Puig",
+      "country": "西班牙",
+      "headquarters": "西班牙巴塞罗那",
+      "founded": 1914,
+      "description": "西班牙美妆与香氛集团。旗下品牌的创立地与集团所在地可能不同。",
+      "website": "https://www.puig.com/en/",
+      "brandIds": [
+        "charlotte-tilbury",
+        "rabanne"
+      ],
+      "sources": [
+        {
+          "url": "https://www.puig.com/en/history/",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "elc",
+      "name": "雅诗兰黛集团",
+      "nameEn": "The Estée Lauder Companies",
+      "country": "美国",
+      "headquarters": "美国纽约",
+      "founded": 1946,
+      "description": "以高端美妆为核心，产品涵盖护肤、彩妆、香氛和头发护理。",
+      "website": "https://www.elcompanies.com/en",
+      "brandIds": [
+        "estee-lauder"
+      ],
+      "sources": [
+        {
+          "url": "https://www.elcompanies.com/en/our-brands/estee-lauder",
+          "label": "集团官方资料"
+        }
+      ]
+    },
+    {
+      "id": "natura",
+      "name": "Natura Cosméticos",
+      "nameEn": "Natura Cosméticos",
+      "country": "巴西",
+      "headquarters": "巴西圣保罗州",
+      "founded": 1969,
+      "description": "巴西美妆与个人护理企业。先从 Natura 的 Ekos 身体护理产品入手。",
+      "website": "https://www.natura.com.br/",
+      "brandIds": [
+        "natura-brand"
+      ],
+      "sources": [
+        {
+          "url": "https://ri.natura.com.br/a-companhia/quem-somos/",
+          "label": "集团官方资料"
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "loreal-usa",
+      "name": "L’Oréal USA",
+      "parentGroupId": "loreal",
+      "country": "美国",
+      "website": "https://www.loreal.com/en/usa/",
+      "sources": [
+        {
+          "url": "https://www.loreal.com/en/usa/pages/groupe/socioeconomic-impact-in-the-united-states/",
+          "label": "美国业务与总部"
+        }
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": "proya-brand",
+      "groupId": "proya",
+      "name": "珀莱雅",
+      "nameEn": "PROYA",
+      "originCountry": "中国",
+      "founded": 2003,
+      "positioning": "功效护肤",
+      "description": "集团同名护肤品牌，旗下红宝石系列围绕紧致与抗皱诉求。",
+      "website": "https://www.proya.com/",
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/brand",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "护肤精华",
+        "面霜",
+        "眼部护理"
+      ],
+      "heroImage": {
+        "src": "https://www.proya-group.com/local_upload/20231107/1721777746198228992.jpg",
+        "alt": "珀莱雅品牌官方展示",
+        "sourceUrl": "https://www.proya-group.com/"
+      }
+    },
+    {
+      "id": "timage",
+      "groupId": "proya",
+      "name": "彩棠",
+      "nameEn": "TIMAGE",
+      "originCountry": "中国",
+      "founded": 2014,
+      "positioning": "专业彩妆",
+      "description": "以中式审美和中国面孔的底妆、轮廓塑造需求为切入点。",
+      "website": "https://www.proya-group.com/en/news-info/1459",
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/brand",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "修容"
+      ],
+      "heroImage": {
+        "src": "https://www.proya-group.com/local_upload/20250826/1960225127036313600.jpg",
+        "alt": "彩棠品牌官方展示",
+        "sourceUrl": "https://www.proya-group.com/"
+      }
+    },
+    {
+      "id": "laroche-posay",
+      "groupId": "loreal",
+      "name": "理肤泉",
+      "nameEn": "La Roche-Posay",
+      "originCountry": "法国",
+      "founded": null,
+      "positioning": "皮肤科学护肤",
+      "description": "以皮肤科学护肤为定位。特安系列包含面部清洁与保湿，本库选取美国市场的两款保湿剂。",
+      "website": "https://www.laroche-posay.us",
+      "sources": [
+        {
+          "url": "https://www.loreal.com/en/dermatological-beauty-division/la-roche-posay/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "保湿乳"
+      ]
+    },
+    {
+      "id": "cerave",
+      "groupId": "loreal",
+      "name": "适乐肤",
+      "nameEn": "CeraVe",
+      "originCountry": "美国",
+      "founded": 2005,
+      "positioning": "皮肤科学护肤",
+      "description": "美国起家的皮肤科学护肤品牌，关注神经酰胺与皮肤屏障护理。",
+      "website": "https://www.cerave.com",
+      "sources": [
+        {
+          "url": "https://www.loreal.com/en/dermatological-beauty-division/cerave/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "面霜",
+        "保湿乳"
+      ]
+    },
+    {
+      "id": "shiseido-brand",
+      "groupId": "shiseido",
+      "name": "资生堂",
+      "nameEn": "SHISEIDO",
+      "originCountry": "日本",
+      "founded": null,
+      "positioning": "高端护肤",
+      "description": "资生堂在图鉴中的定位为高端护肤。从已收录系列了解该品牌的产品。",
+      "website": "https://www.shiseido.com/us/en/",
+      "sources": [
+        {
+          "url": "https://corp.shiseido.com/en/brands/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "精华水",
+        "护肤精华"
+      ]
+    },
+    {
+      "id": "laneige",
+      "groupId": "amorepacific",
+      "name": "兰芝",
+      "nameEn": "LANEIGE",
+      "originCountry": "韩国",
+      "founded": null,
+      "positioning": "护肤与彩妆",
+      "description": "兰芝在图鉴中的定位为护肤与彩妆。从已收录系列了解该品牌的产品。",
+      "website": "https://us.laneige.com/",
+      "sources": [
+        {
+          "url": "https://www.apgroup.com/int/en/brands/brands.html",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "睡眠面膜"
+      ]
+    },
+    {
+      "id": "sulwhasoo",
+      "groupId": "amorepacific",
+      "name": "雪花秀",
+      "nameEn": "Sulwhasoo",
+      "originCountry": "韩国",
+      "founded": null,
+      "positioning": "高端护肤",
+      "description": "雪花秀在图鉴中的定位为高端护肤。从已收录系列了解该品牌的产品。",
+      "website": "https://int.sulwhasoo.com/",
+      "sources": [
+        {
+          "url": "https://www.apgroup.com/int/en/brands/brands.html",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "护肤精华"
+      ]
+    },
+    {
+      "id": "dior-beauty",
+      "groupId": "lvmh",
+      "name": "迪奥美妆",
+      "nameEn": "Dior Beauty",
+      "originCountry": "法国",
+      "founded": null,
+      "positioning": "高端彩妆",
+      "description": "迪奥美妆在图鉴中的定位为高端彩妆。从已收录系列了解该品牌的产品。",
+      "website": "https://www.dior.com/en_us/beauty",
+      "sources": [
+        {
+          "url": "https://www.lvmh.com/our-maisons/perfumes-cosmetics",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "粉底"
+      ]
+    },
+    {
+      "id": "guerlain",
+      "groupId": "lvmh",
+      "name": "娇兰",
+      "nameEn": "Guerlain",
+      "originCountry": "法国",
+      "founded": null,
+      "positioning": "高端彩妆与香氛",
+      "description": "娇兰在图鉴中的定位为高端彩妆与香氛。从已收录系列了解该品牌的产品。",
+      "website": "https://www.guerlain.com/us/en-us/",
+      "sources": [
+        {
+          "url": "https://www.lvmh.com/our-maisons/perfumes-cosmetics",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "暖肤粉"
+      ]
+    },
+    {
+      "id": "nivea",
+      "groupId": "beiersdorf",
+      "name": "妮维雅",
+      "nameEn": "NIVEA",
+      "originCountry": "德国",
+      "founded": null,
+      "positioning": "大众护理",
+      "description": "妮维雅在图鉴中的定位为大众护理。从已收录系列了解该品牌的产品。",
+      "website": "https://www.niveausa.com/",
+      "sources": [
+        {
+          "url": "https://www.beiersdorf.com/brands/nivea",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "润肤霜"
+      ]
+    },
+    {
+      "id": "eucerin",
+      "groupId": "beiersdorf",
+      "name": "优色林",
+      "nameEn": "Eucerin",
+      "originCountry": "德国",
+      "founded": null,
+      "positioning": "皮肤科学护肤",
+      "description": "优色林在图鉴中的定位为皮肤科学护肤。从已收录系列了解该品牌的产品。",
+      "website": "https://www.eucerinus.com/",
+      "sources": [
+        {
+          "url": "https://www.beiersdorf.com/brands/eucerin",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "身体乳"
+      ]
+    },
+    {
+      "id": "dove",
+      "groupId": "unilever",
+      "name": "多芬",
+      "nameEn": "Dove",
+      "originCountry": "美国",
+      "founded": null,
+      "positioning": "大众个人护理",
+      "description": "多芬在图鉴中的定位为大众个人护理。从已收录系列了解该品牌的产品。",
+      "website": "https://www.dove.com/uk/",
+      "sources": [
+        {
+          "url": "https://www.unilever.com/brands/personal-care/dove/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "身体清洁"
+      ]
+    },
+    {
+      "id": "paulas-choice",
+      "groupId": "unilever",
+      "name": "宝拉珍选",
+      "nameEn": "Paula’s Choice",
+      "originCountry": "美国",
+      "founded": null,
+      "positioning": "功效护肤",
+      "description": "宝拉珍选在图鉴中的定位为功效护肤。从已收录系列了解该品牌的产品。",
+      "website": "https://www.paulaschoice.com/",
+      "sources": [
+        {
+          "url": "https://www.unilever.com/brands/beauty-wellbeing/paulas-choice/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "去角质液"
+      ]
+    },
+    {
+      "id": "charlotte-tilbury",
+      "groupId": "puig",
+      "name": "Charlotte Tilbury",
+      "nameEn": "Charlotte Tilbury",
+      "originCountry": "英国",
+      "founded": null,
+      "positioning": "高端彩妆",
+      "description": "Charlotte Tilbury在图鉴中的定位为高端彩妆。从已收录系列了解该品牌的产品。",
+      "website": "https://www.charlottetilbury.com/us",
+      "sources": [
+        {
+          "url": "https://www.puig.com/en/brands/charlotte-tilbury/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "口红"
+      ]
+    },
+    {
+      "id": "rabanne",
+      "groupId": "puig",
+      "name": "Rabanne",
+      "nameEn": "Rabanne",
+      "originCountry": "法国",
+      "founded": null,
+      "positioning": "高端香氛",
+      "description": "Rabanne在图鉴中的定位为高端香氛。从已收录系列了解该品牌的产品。",
+      "website": "https://www.rabanne.com/us/en_US/",
+      "sources": [
+        {
+          "url": "https://www.puig.com/en/brands/rabanne/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "淡香水"
+      ]
+    },
+    {
+      "id": "estee-lauder",
+      "groupId": "elc",
+      "name": "雅诗兰黛",
+      "nameEn": "Estée Lauder",
+      "originCountry": "美国",
+      "founded": null,
+      "positioning": "高端护肤与彩妆",
+      "description": "雅诗兰黛在图鉴中的定位为高端护肤与彩妆。从已收录系列了解该品牌的产品。",
+      "website": "https://www.esteelauder.com/",
+      "sources": [
+        {
+          "url": "https://www.elcompanies.com/en/our-brands/estee-lauder",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "护肤精华",
+        "粉底"
+      ]
+    },
+    {
+      "id": "natura-brand",
+      "groupId": "natura",
+      "name": "Natura",
+      "nameEn": "Natura",
+      "originCountry": "巴西",
+      "founded": null,
+      "positioning": "个人护理与香氛",
+      "description": "Natura在图鉴中的定位为个人护理与香氛。从已收录系列了解该品牌的产品。",
+      "website": "https://www.natura.com.br/",
+      "sources": [
+        {
+          "url": "https://ri.natura.com.br/a-companhia/quem-somos/",
+          "label": "品牌与归属资料"
+        }
+      ],
+      "categories": [
+        "护手霜"
+      ]
+    }
+  ],
+  "series": [
+    {
+      "id": "red-ruby",
+      "brandId": "proya-brand",
+      "name": "红宝石系列",
+      "nameEn": "",
+      "category": "面部护肤",
+      "description": "集团品牌手册列有精华、面霜和眼霜等不同剂型。此处按剂型与有来源的版本整理。",
+      "audience": "关注紧致、细纹的人",
+      "productIds": [
+        "ruby-serum",
+        "ruby-cream-4",
+        "ruby-eye"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/local_upload/20250507/1920002941906542592.pdf",
+          "label": "珀莱雅官方品牌手册"
+        }
+      ]
+    },
+    {
+      "id": "timage-sculpt",
+      "brandId": "timage",
+      "name": "浮光掠影",
+      "nameEn": "",
+      "category": "面部彩妆",
+      "description": "以高光和阴影修饰面部轮廓。",
+      "audience": "想比较自然轮廓妆效的人",
+      "productIds": [
+        "timage-contour"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/en/news-info/1459",
+          "label": "官方系列或品牌资料"
+        }
+      ]
+    },
+    {
+      "id": "toleriane",
+      "brandId": "laroche-posay",
+      "name": "特安系列",
+      "nameEn": "Toleriane",
+      "category": "面部护肤",
+      "description": "特安系列收录偏日常保湿的 Double Repair 与偏哑光的 Matte 版本。",
+      "audience": "在意面部保湿、想比较肤感的人",
+      "productIds": [
+        "toleriane-double-repair",
+        "toleriane-double-repair-matte"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laroche-posay.us/our-products/face/face-moisturizer",
+          "label": "官方系列或品牌资料"
+        }
+      ]
+    },
+    {
+      "id": "cerave-body-moisturizers",
+      "brandId": "cerave",
+      "name": "身体保湿产品线",
+      "nameEn": "Body Moisturizers",
+      "category": "身体护理",
+      "description": "按 CeraVe 美国官网身体保湿目录建立。该目录将不同质地的乳液、面霜和软膏并列。",
+      "audience": "想比较乳液和面霜的人",
+      "productIds": [
+        "cerave-moisturizing-cream",
+        "cerave-daily-lotion"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cerave.com/skincare/moisturizers/body-moisturizers",
+          "label": "官方目录分类"
+        }
+      ]
+    },
+    {
+      "id": "eudermine",
+      "brandId": "shiseido-brand",
+      "name": "Eudermine",
+      "nameEn": "Eudermine",
+      "category": "面部护肤",
+      "description": "Eudermine 的产品资料，从已收录的 精华水 开始。",
+      "audience": "想了解保湿的人",
+      "productIds": [
+        "eudermine-essence"
+      ],
+      "sources": [
+        {
+          "url": "https://www.shiseido.com/us/en/eudermine-activating-essence-9990000000221.html",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "ultimune",
+      "brandId": "shiseido-brand",
+      "name": "ULTIMUNE",
+      "nameEn": "ULTIMUNE",
+      "category": "面部护肤",
+      "description": "ULTIMUNE 的产品资料，从已收录的 护肤精华 开始。",
+      "audience": "想了解日常精华护理的人",
+      "productIds": [
+        "ultimune-serum"
+      ],
+      "sources": [
+        {
+          "url": "https://corp.shiseido.com/en/newsimg/3953_d3b90_en.pdf",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "laneige-sleeping-mask",
+      "brandId": "laneige",
+      "name": "Sleeping Mask",
+      "nameEn": "Sleeping Mask",
+      "category": "面部护肤",
+      "description": "Sleeping Mask 的产品资料，从已收录的 睡眠面膜 开始。",
+      "audience": "想了解保湿的人",
+      "productIds": [
+        "water-sleeping-mask"
+      ],
+      "sources": [
+        {
+          "url": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "sulwhasoo-first-care",
+      "brandId": "sulwhasoo",
+      "name": "First Care",
+      "nameEn": "First Care",
+      "category": "面部护肤",
+      "description": "First Care 的产品资料，从已收录的 护肤精华 开始。",
+      "audience": "想了解洁面后精华护理的人",
+      "productIds": [
+        "first-care-activating-serum"
+      ],
+      "sources": [
+        {
+          "url": "https://int.sulwhasoo.com/products/first-care-activating-serum-vi",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "dior-backstage",
+      "brandId": "dior-beauty",
+      "name": "Dior Backstage",
+      "nameEn": "Dior Backstage",
+      "category": "面部彩妆",
+      "description": "Dior Backstage 的产品资料，从已收录的 粉底 开始。",
+      "audience": "想了解均匀肤色与分层遮瑕的人",
+      "productIds": [
+        "dior-face-body"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dior.com/en_us/beauty/products/dior-backstage-face-and-body-foundation-C033000012.html",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "guerlain-terracotta",
+      "brandId": "guerlain",
+      "name": "Terracotta",
+      "nameEn": "Terracotta",
+      "category": "面部彩妆",
+      "description": "Terracotta 的产品资料，从已收录的 暖肤粉 开始。",
+      "audience": "想了解暖肤修饰的人",
+      "productIds": [
+        "terracotta-bronzing"
+      ],
+      "sources": [
+        {
+          "url": "https://www.guerlain.com/us/en-us/p/terracotta-the-bronzing-powder---96-naturally-derived-ingredients-P044077.html",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "nivea-creme",
+      "brandId": "nivea",
+      "name": "NIVEA Creme",
+      "nameEn": "NIVEA Creme",
+      "category": "身体护理",
+      "description": "NIVEA Creme 的产品资料，从已收录的 润肤霜 开始。",
+      "audience": "想了解保湿的人",
+      "productIds": [
+        "nivea-blue-tin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.niveausa.com/products/nivea-creme-721408010140079.html",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "eucerin-advanced-repair",
+      "brandId": "eucerin",
+      "name": "Advanced Repair",
+      "nameEn": "Advanced Repair",
+      "category": "身体护理",
+      "description": "Advanced Repair 的产品资料，从已收录的 身体乳 开始。",
+      "audience": "想了解身体保湿的人",
+      "productIds": [
+        "advanced-repair-lotion"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "dove-beauty-bar",
+      "brandId": "dove",
+      "name": "Beauty Bar",
+      "nameEn": "Beauty Bar",
+      "category": "身体护理",
+      "description": "Beauty Bar 的产品资料，从已收录的 身体清洁 开始。",
+      "audience": "想了解身体清洁的人",
+      "productIds": [
+        "dove-original-bar"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dove.com/uk/p/dove-original-beauty-cream-soap-bar-4-x-90g.sm.html/08720181218286",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "paula-skin-perfecting",
+      "brandId": "paulas-choice",
+      "name": "Skin Perfecting",
+      "nameEn": "Skin Perfecting",
+      "category": "面部护肤",
+      "description": "Skin Perfecting 的产品资料，从已收录的 去角质液 开始。",
+      "audience": "想了解角质调理的人",
+      "productIds": [
+        "paula-bha"
+      ],
+      "sources": [
+        {
+          "url": "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "matte-revolution",
+      "brandId": "charlotte-tilbury",
+      "name": "Matte Revolution",
+      "nameEn": "Matte Revolution",
+      "category": "唇妆",
+      "description": "Matte Revolution 的产品资料，从已收录的 口红 开始。",
+      "audience": "想了解哑光唇妆的人",
+      "productIds": [
+        "pillow-talk-original"
+      ],
+      "sources": [
+        {
+          "url": "https://www.charlottetilbury.com/us/product/matte-revolution-lipstick-pillowtalk",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "rabanne-one-million",
+      "brandId": "rabanne",
+      "name": "1 Million",
+      "nameEn": "1 Million",
+      "category": "香氛",
+      "description": "1 Million 的产品资料，从已收录的 淡香水 开始。",
+      "audience": "想了解香氛的人",
+      "productIds": [
+        "one-million-edt"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rabanne.com/us/en_US/fragrance/p/1-million--000000000065187136",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "advanced-night-repair",
+      "brandId": "estee-lauder",
+      "name": "Advanced Night Repair",
+      "nameEn": "Advanced Night Repair",
+      "category": "面部护肤",
+      "description": "Advanced Night Repair 的产品资料，从已收录的 护肤精华 开始。",
+      "audience": "想了解日常精华护理的人",
+      "productIds": [
+        "anr-serum"
+      ],
+      "sources": [
+        {
+          "url": "https://www.esteelauder.com/skin-care/advanced-night-repair/",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "double-wear",
+      "brandId": "estee-lauder",
+      "name": "Double Wear",
+      "nameEn": "Double Wear",
+      "category": "面部彩妆",
+      "description": "Double Wear 的产品资料，从已收录的 粉底 开始。",
+      "audience": "想了解持妆与哑光妆效的人",
+      "productIds": [
+        "double-wear-foundation"
+      ],
+      "sources": [
+        {
+          "url": "https://www.esteelauder.com/product/643/141225/product-catalog/makeup/face/foundation/double-wear/stay-in-place-longwear-matte-foundation",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    },
+    {
+      "id": "natura-ekos",
+      "brandId": "natura-brand",
+      "name": "Ekos Castanha",
+      "nameEn": "Ekos Castanha",
+      "category": "身体护理",
+      "description": "Ekos Castanha 的产品资料，从已收录的 护手霜 开始。",
+      "audience": "想了解手部保湿的人",
+      "productIds": [
+        "ekos-castanha-hands"
+      ],
+      "sources": [
+        {
+          "url": "https://www.natura.com.br/p/polpa-hidratante-para-maos-ekos-castanha/NATBRA-140422",
+          "label": "品牌官方产品或系列资料"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "ruby-serum",
+      "brandId": "proya-brand",
+      "seriesId": "red-ruby",
+      "name": "红宝石精华",
+      "nameEn": "",
+      "category": "护肤精华",
+      "benefits": [
+        "紧致",
+        "淡纹"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.proya-group.com/news-info/2037",
+      "images": [],
+      "ingredients": [
+        "视黄醇",
+        "环肽-161",
+        "棕榈酰三肽-5"
+      ],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [
+        "featured"
+      ],
+      "functionTags": [
+        "紧致",
+        "淡纹"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/news-info/2037",
+          "label": "集团官方产品介绍"
+        },
+        {
+          "url": "https://www.proya-group.com/local_upload/20250507/1920002941906542592.pdf",
+          "label": "品牌手册中的系列与剂型"
+        },
+        {
+          "label": "集团官网红宝石系列成分说明（对应所列剂型）",
+          "url": "https://proya-group.com/component2"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05"
+    },
+    {
+      "id": "ruby-cream-4",
+      "brandId": "proya-brand",
+      "seriesId": "red-ruby",
+      "name": "红宝石面霜 4.0",
+      "nameEn": "",
+      "category": "面霜",
+      "benefits": [
+        "紧致",
+        "淡纹"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.proya-group.com/news-info/2042",
+      "images": [],
+      "ingredients": [
+        "双环肽 Pro",
+        "紧塑肽",
+        "燕窝酸（品牌资料列示）"
+      ],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [
+        "featured"
+      ],
+      "functionTags": [
+        "紧致",
+        "淡纹"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/news-info/2042",
+          "label": "官方发布会"
+        },
+        {
+          "url": "https://www.proya-group.com/news-info/2047",
+          "label": "官方产品展示与成分介绍"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "ruby-eye",
+      "brandId": "proya-brand",
+      "seriesId": "red-ruby",
+      "name": "红宝石眼霜",
+      "nameEn": "",
+      "category": "眼部护理",
+      "benefits": [
+        "眼周护理"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.proya-group.com/local_upload/20250507/1920002941906542592.pdf",
+      "images": [],
+      "ingredients": [
+        "视黄醇",
+        "乙酰基六肽-1",
+        "棕榈酰四肽-7"
+      ],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "眼周护理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/local_upload/20250507/1920002941906542592.pdf",
+          "label": "品牌手册中列示的系列单品"
+        },
+        {
+          "label": "集团官网红宝石系列成分说明（对应所列剂型）",
+          "url": "https://proya-group.com/component2"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05"
+    },
+    {
+      "id": "timage-contour",
+      "brandId": "timage",
+      "seriesId": "timage-sculpt",
+      "name": "浮光掠影修容盘",
+      "nameEn": "",
+      "category": "修容",
+      "benefits": [
+        "轮廓修饰"
+      ],
+      "usage": "用浅色提亮，深色塑造阴影，逐次少量叠加。",
+      "officialUrl": "https://www.proya-group.com/en/news-info/1459",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "轮廓修饰"
+      ],
+      "sources": [
+        {
+          "url": "https://www.proya-group.com/en/news-info/1459",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "toleriane-double-repair",
+      "brandId": "laroche-posay",
+      "seriesId": "toleriane",
+      "name": "Double Repair 面部保湿乳",
+      "nameEn": "Toleriane Double Repair Face Moisturizer",
+      "category": "保湿乳",
+      "benefits": [
+        "保湿",
+        "屏障护理"
+      ],
+      "usage": "早晚洁面后，轻柔涂于面部及颈部。",
+      "officialUrl": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-tolerianedoublerepair.html",
+      "images": [
+        {
+          "src": "https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-acd-laroche-posay-master-catalog/default/dw95489393/img/tolerianedoublerepair/2026%20Update/3337875545792_LaRochePosay_Toleriane_DRM_ATF_All_Skin_Types_1500x1500.webp?q=70&sfrm=jpg&sh=320&sm=cut&sw=320",
+          "alt": "理肤泉特安双重修护面部保湿乳，美国官网产品图",
+          "sourceUrl": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-tolerianedoublerepair.html"
+        }
+      ],
+      "ingredients": [
+        "神经酰胺 NP",
+        "甘油",
+        "烟酰胺"
+      ],
+      "skinTypes": [
+        "品牌标注适用于各肤质，包括敏感肌",
+        "重点推荐普通、混合及干性皮肤"
+      ],
+      "variants": [
+        {
+          "size": "40 mL"
+        },
+        {
+          "size": "100 mL",
+          "price": {
+            "amount": 24.99,
+            "currency": "USD",
+            "market": "美国",
+            "date": "2026-11-05",
+            "sourceUrl": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-tolerianedoublerepair.html",
+            "kind": "官网标价"
+          }
+        }
+      ],
+      "tags": [],
+      "functionTags": [
+        "保湿",
+        "屏障护理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-face-moisturizer-tolerianedoublerepair.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05",
+      "market": "美国"
+    },
+    {
+      "id": "toleriane-double-repair-matte",
+      "brandId": "laroche-posay",
+      "seriesId": "toleriane",
+      "name": "Double Repair 哑光面部保湿乳",
+      "nameEn": "Toleriane Double Repair Matte Face Moisturizer",
+      "category": "保湿乳",
+      "benefits": [
+        "保湿",
+        "哑光肤感"
+      ],
+      "usage": "清洁后用于面部，按包装说明使用。",
+      "officialUrl": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-matte-face-moisturizer-for-oily-skin-3337875782999.html",
+      "images": [],
+      "ingredients": [
+        "烟酰胺",
+        "神经酰胺"
+      ],
+      "skinTypes": [
+        "偏油肤质"
+      ],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "保湿",
+        "哑光肤感"
+      ],
+      "sources": [
+        {
+          "url": "https://www.laroche-posay.us/our-products/face/face-moisturizer/toleriane-double-repair-matte-face-moisturizer-for-oily-skin-3337875782999.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04",
+      "market": "美国"
+    },
+    {
+      "id": "cerave-moisturizing-cream",
+      "brandId": "cerave",
+      "seriesId": "cerave-body-moisturizers",
+      "name": "适乐肤保湿霜",
+      "nameEn": "Moisturizing Cream",
+      "category": "面霜",
+      "benefits": [
+        "保湿",
+        "屏障护理"
+      ],
+      "usage": "根据需要涂在面部或身体，白天和夜间均可使用。",
+      "officialUrl": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "images": [],
+      "ingredients": [
+        "神经酰胺 NP、AP、EOP",
+        "透明质酸钠",
+        "聚二甲基硅氧烷",
+        "凡士林"
+      ],
+      "skinTypes": [
+        "中性至干性皮肤"
+      ],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "保湿",
+        "屏障护理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05",
+      "market": "美国"
+    },
+    {
+      "id": "cerave-daily-lotion",
+      "brandId": "cerave",
+      "seriesId": "cerave-body-moisturizers",
+      "name": "适乐肤日常保湿乳",
+      "nameEn": "Daily Moisturizing Lotion",
+      "category": "保湿乳",
+      "benefits": [
+        "保湿",
+        "屏障护理"
+      ],
+      "usage": "按需涂抹面部或身体。",
+      "officialUrl": "https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion",
+      "images": [],
+      "ingredients": [
+        "神经酰胺",
+        "透明质酸"
+      ],
+      "skinTypes": [
+        "中性至干性"
+      ],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "保湿",
+        "屏障护理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cerave.com/skincare/moisturizers/daily-moisturizing-lotion",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04",
+      "market": "美国"
+    },
+    {
+      "id": "eudermine-essence",
+      "brandId": "shiseido-brand",
+      "seriesId": "eudermine",
+      "name": "Eudermine 护肤精华水",
+      "nameEn": "Eudermine Activating Essence",
+      "category": "精华水",
+      "benefits": [
+        "保湿"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.shiseido.com/us/en/eudermine-activating-essence-9990000000221.html",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [
+        "classic"
+      ],
+      "functionTags": [
+        "保湿"
+      ],
+      "sources": [
+        {
+          "url": "https://www.shiseido.com/us/en/eudermine-activating-essence-9990000000221.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "ultimune-serum",
+      "brandId": "shiseido-brand",
+      "seriesId": "ultimune",
+      "name": "ULTIMUNE 护肤精华",
+      "nameEn": "",
+      "category": "护肤精华",
+      "benefits": [
+        "日常精华护理"
+      ],
+      "usage": "",
+      "officialUrl": "https://corp.shiseido.com/en/newsimg/3953_d3b90_en.pdf",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "日常精华护理"
+      ],
+      "sources": [
+        {
+          "url": "https://corp.shiseido.com/en/newsimg/3953_d3b90_en.pdf",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "water-sleeping-mask",
+      "brandId": "laneige",
+      "seriesId": "laneige-sleeping-mask",
+      "name": "兰芝夜间保湿面膜",
+      "nameEn": "Water Sleeping Mask",
+      "category": "睡眠面膜",
+      "benefits": [
+        "保湿"
+      ],
+      "usage": "按美国官网说明，在面霜之后均匀涂在脸上，留敷过夜，早上洗掉。",
+      "officialUrl": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask",
+      "images": [
+        {
+          "src": "https://us.laneige.com/cdn/shop/files/2895241-av-01.png?v=1772747776&width=640",
+          "alt": "兰芝夜间保湿面膜，美国官网产品图",
+          "sourceUrl": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask"
+        }
+      ],
+      "ingredients": [
+        "透明质酸",
+        "角鲨烷"
+      ],
+      "skinTypes": [
+        "中性",
+        "干性"
+      ],
+      "variants": [
+        {
+          "size": "70 mL",
+          "price": {
+            "amount": 33,
+            "currency": "USD",
+            "market": "美国",
+            "date": "2026-11-05",
+            "sourceUrl": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask",
+            "kind": "官网标价"
+          }
+        }
+      ],
+      "tags": [
+        "popular"
+      ],
+      "functionTags": [
+        "保湿"
+      ],
+      "sources": [
+        {
+          "url": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05"
+    },
+    {
+      "id": "first-care-activating-serum",
+      "brandId": "sulwhasoo",
+      "seriesId": "sulwhasoo-first-care",
+      "name": "雪花秀润燥精华",
+      "nameEn": "First Care Activating Serum VI",
+      "category": "护肤精华",
+      "benefits": [
+        "洁面后精华护理"
+      ],
+      "usage": "",
+      "officialUrl": "https://int.sulwhasoo.com/products/first-care-activating-serum-vi",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "洁面后精华护理"
+      ],
+      "sources": [
+        {
+          "url": "https://int.sulwhasoo.com/products/first-care-activating-serum-vi",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "dior-face-body",
+      "brandId": "dior-beauty",
+      "seriesId": "dior-backstage",
+      "name": "Dior Backstage 粉底液",
+      "nameEn": "Face & Body Foundation",
+      "category": "粉底",
+      "benefits": [
+        "均匀肤色",
+        "分层遮瑕"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.dior.com/en_us/beauty/products/dior-backstage-face-and-body-foundation-C033000012.html",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "均匀肤色",
+        "分层遮瑕"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dior.com/en_us/beauty/products/dior-backstage-face-and-body-foundation-C033000012.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "terracotta-bronzing",
+      "brandId": "guerlain",
+      "seriesId": "guerlain-terracotta",
+      "name": "Terracotta 暖肤修饰粉",
+      "nameEn": "The Bronzing Powder",
+      "category": "暖肤粉",
+      "benefits": [
+        "暖肤修饰"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.guerlain.com/us/en-us/p/terracotta-the-bronzing-powder---96-naturally-derived-ingredients-P044077.html",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "暖肤修饰"
+      ],
+      "sources": [
+        {
+          "url": "https://www.guerlain.com/us/en-us/p/terracotta-the-bronzing-powder---96-naturally-derived-ingredients-P044077.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "nivea-blue-tin",
+      "brandId": "nivea",
+      "seriesId": "nivea-creme",
+      "name": "妮维雅蓝罐润肤霜",
+      "nameEn": "NIVEA Creme",
+      "category": "润肤霜",
+      "benefits": [
+        "保湿"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.niveausa.com/products/nivea-creme-721408010140079.html",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [
+        "classic"
+      ],
+      "functionTags": [
+        "保湿"
+      ],
+      "sources": [
+        {
+          "url": "https://www.niveausa.com/products/nivea-creme-721408010140079.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "advanced-repair-lotion",
+      "brandId": "eucerin",
+      "seriesId": "eucerin-advanced-repair",
+      "name": "优色林 Advanced Repair 身体乳",
+      "nameEn": "Advanced Repair Body Lotion",
+      "category": "身体乳",
+      "benefits": [
+        "身体保湿"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "身体保湿"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eucerinus.com/products/advanced-repair/eucerin-smoothing-repair-dry-skin-lotion",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "dove-original-bar",
+      "brandId": "dove",
+      "seriesId": "dove-beauty-bar",
+      "name": "多芬原味美容清洁块",
+      "nameEn": "Original Beauty Cream Bar",
+      "category": "身体清洁",
+      "benefits": [
+        "身体清洁"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.dove.com/uk/p/dove-original-beauty-cream-soap-bar-4-x-90g.sm.html/08720181218286",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "身体清洁"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dove.com/uk/p/dove-original-beauty-cream-soap-bar-4-x-90g.sm.html/08720181218286",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "paula-bha",
+      "brandId": "paulas-choice",
+      "seriesId": "paula-skin-perfecting",
+      "name": "2% BHA 去角质液",
+      "nameEn": "Skin Perfecting 2% BHA Liquid Exfoliant",
+      "category": "去角质液",
+      "benefits": [
+        "角质调理"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "角质调理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "pillow-talk-original",
+      "brandId": "charlotte-tilbury",
+      "seriesId": "matte-revolution",
+      "name": "Pillow Talk Original 哑光口红",
+      "nameEn": "Matte Revolution Lipstick in Pillow Talk Original",
+      "category": "口红",
+      "benefits": [
+        "哑光唇妆"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.charlottetilbury.com/us/product/matte-revolution-lipstick-pillowtalk",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "哑光唇妆"
+      ],
+      "sources": [
+        {
+          "url": "https://www.charlottetilbury.com/us/product/matte-revolution-lipstick-pillowtalk",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "one-million-edt",
+      "brandId": "rabanne",
+      "seriesId": "rabanne-one-million",
+      "name": "1 Million 淡香水",
+      "nameEn": "1 Million Eau de Toilette",
+      "category": "淡香水",
+      "benefits": [
+        "香氛"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.rabanne.com/us/en_US/fragrance/p/1-million--000000000065187136",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "香氛"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rabanne.com/us/en_US/fragrance/p/1-million--000000000065187136",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "anr-serum",
+      "brandId": "estee-lauder",
+      "seriesId": "advanced-night-repair",
+      "name": "雅诗兰黛小棕瓶精华",
+      "nameEn": "Advanced Night Repair Synchronized Multi-Recovery Complex",
+      "category": "护肤精华",
+      "benefits": [
+        "日常精华护理"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.esteelauder.com/skin-care/advanced-night-repair/",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "日常精华护理"
+      ],
+      "sources": [
+        {
+          "url": "https://www.esteelauder.com/skin-care/advanced-night-repair/",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "double-wear-foundation",
+      "brandId": "estee-lauder",
+      "seriesId": "double-wear",
+      "name": "雅诗兰黛 Double Wear 持妆粉底",
+      "nameEn": "Double Wear Stay-in-Place Longwear Matte Foundation",
+      "category": "粉底",
+      "benefits": [
+        "持妆",
+        "哑光妆效"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.esteelauder.com/product/643/141225/product-catalog/makeup/face/foundation/double-wear/stay-in-place-longwear-matte-foundation",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "持妆",
+        "哑光妆效"
+      ],
+      "sources": [
+        {
+          "url": "https://www.esteelauder.com/product/643/141225/product-catalog/makeup/face/foundation/double-wear/stay-in-place-longwear-matte-foundation",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    },
+    {
+      "id": "ekos-castanha-hands",
+      "brandId": "natura-brand",
+      "seriesId": "natura-ekos",
+      "name": "Ekos 巴西坚果护手霜",
+      "nameEn": "Polpa Hidratante para Mãos Ekos Castanha",
+      "category": "护手霜",
+      "benefits": [
+        "手部保湿"
+      ],
+      "usage": "",
+      "officialUrl": "https://www.natura.com.br/p/polpa-hidratante-para-maos-ekos-castanha/NATBRA-140422",
+      "images": [],
+      "ingredients": [],
+      "skinTypes": [],
+      "variants": [],
+      "tags": [],
+      "functionTags": [
+        "手部保湿"
+      ],
+      "sources": [
+        {
+          "url": "https://www.natura.com.br/p/polpa-hidratante-para-maos-ekos-castanha/NATBRA-140422",
+          "label": "官方资料"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-04"
+    }
+  ],
+  "evidence": [
+    {
+      "productId": "ruby-cream-4",
+      "tag": "featured",
+      "type": "品牌发布会",
+      "url": "https://www.proya-group.com/news-info/2042",
+      "date": "2026-08-25",
+      "status": "verified",
+      "label": "2026 珀莱雅创新科技大会重点介绍红宝石面霜 4.0 的配方更新。"
+    },
+    {
+      "productId": "ruby-serum",
+      "tag": "featured",
+      "type": "官方合作公告",
+      "url": "https://www.proya-group.com/news-info/2037",
+      "date": "2026-08-19",
+      "status": "verified",
+      "label": "集团将红宝石精华列为首批美国渠道合作的重点产品。"
+    },
+    {
+      "productId": "eudermine-essence",
+      "tag": "classic",
+      "type": "集团品牌史",
+      "url": "https://corp.shiseido.com/en/company/history/",
+      "date": "2026-11-04",
+      "status": "verified",
+      "label": "资生堂历史档案记载 Eudermine 初次推出于 1897 年，后续版本继续沿用该名称。"
+    },
+    {
+      "productId": "nivea-blue-tin",
+      "tag": "classic",
+      "type": "集团品牌史",
+      "url": "https://www.beiersdorf.com/brands/nivea",
+      "date": "2026-11-04",
+      "status": "verified",
+      "label": "集团品牌资料将 NIVEA Creme 追溯至 1911 年，蓝罐属于经典产品。"
+    },
+    {
+      "productId": "water-sleeping-mask",
+      "tag": "popular",
+      "type": "品牌披露的全球销售汇总",
+      "url": "https://us.laneige.com/collections/all-products/products/water-sleeping-mask",
+      "date": "2026-11-05",
+      "status": "verified",
+      "market": "全球，2024 年数据",
+      "label": "品牌官网引用 2024 年全球单位销量汇总，称平均约每 13 秒售出一件。来源为品牌自报。"
+    }
+  ]
+}
