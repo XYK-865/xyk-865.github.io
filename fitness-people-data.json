@@ -370,9 +370,9 @@
       "sourceIds": [
         "priest-interview"
       ],
-      "image": "assets/creators/lee-priest.jpg",
-      "photoSourceId": "priest-interview",
-      "photoNote": "来源页人物照片",
+      "image": "assets/creators/lee-priest-user.png",
+      "photoSourceId": "lee-priest-user-photo",
+      "photoNote": "用户提供并选定的照片",
       "level": "researched",
       "channels": [
         {
@@ -380,7 +380,6 @@
           "url": "https://thebarbell.com/lee-priest-interview/"
         }
       ],
-      "photoOriginalUrl": "https://thebarbell.com/wp-content/uploads/2023/08/Lee-Priest-bodybuilder.jpg",
       "photoAlign": "top"
     },
     {
@@ -988,6 +987,15 @@
       "url": "https://feastgood.com/macrofactor-brand-story/",
       "publishedAt": null,
       "verifiedAt": "2026-11-06"
+    },
+    {
+      "id": "lee-priest-user-photo",
+      "title": "李·普瑞斯特 · 用户选定照片",
+      "publisher": "用户提供",
+      "url": "https://xyk-865.github.io/assets/creators/lee-priest-user.png",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-06",
+      "note": "使用用户提供的图片文件，未进行重绘。"
     }
   ],
   "topics": [
