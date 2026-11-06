@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <base href="../../">
+  <title>人物认知与分析模型 · Spike Hsu</title>
+  <meta name="description" content="Personal OS 的跨领域人物理解框架，从十二个维度提出问题、整理证据与保留不确定性。">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028">
+  <link rel="stylesheet" href="assets/personal-os/life-projects.css?v=project-split-20261102">
+  <link rel="stylesheet" href="assets/personal-os/person-analysis.css?v=person-v02-20261105">
+</head>
+<body class="life-project-page">
+  <a class="skip-link" href="personal-os/person-analysis/#main">跳到主要内容</a>
+  <header id="site-header" data-page="projects"></header>
+  <main id="main" class="page-shell life-main" tabindex="-1">
+    <nav class="life-breadcrumb" aria-label="面包屑">
+      <a href="projects.html">项目与作品</a><span>/</span>
+      <a href="personal-os.html">Personal OS</a><span>/</span><span>人物认知</span>
+    </nav>
+    <nav class="life-project-nav" aria-label="Personal OS 模块">
+      <a href="personal-os.html">人生元系统</a>
+      <a href="decision-model.html">判断与退出</a>
+      <a href="life-checklist.html">人生清单</a>
+      <a href="mother-questions.html">母题</a>
+      <a href="personal-os/person-analysis/" aria-current="page">人物认知</a>
+    </nav>
+    <header class="person-heading"><div>
+      <p class="kicker">PERSONAL OS / PERSON UNDERSTANDING MODEL / V0.2</p>
+      <h1>人物认知与分析模型</h1>
+      <p>从经历、处境和选择出发，理解一个人的行为。选择一个维度，先问一个开放的问题，再区分观察和解释。</p>
+      </div><img src="assets/personal-os/person-analysis-illustration.svg" width="520" height="260" alt="从多个角度观察同一个人">
+    </header>
+    <section class="person-map" aria-labelledby="person-map-title">
+      <div class="person-core"><p class="kicker">人物认知</p><h2 id="person-map-title">如何理解一个人</h2></div>
+      <svg class="person-branches" aria-hidden="true"></svg>
+      <div class="person-nodes person-left"></div>
+      <div class="person-nodes person-right"></div>
+    </section>
+    <p id="person-status" role="status">正在加载分析维度…</p>
+    <script>if (location.protocol === 'file:') document.querySelector('#person-status').textContent = '请通过本地 HTTP 预览打开此页，以加载交互导图。';</script>
+    <noscript><p>启用 JavaScript 后可查看并切换维度。</p></noscript>
+    <article id="person-detail" aria-labelledby="person-detail-title" hidden></article>
+    <footer class="life-page-end"><a href="personal-os.html">← 返回 Personal OS</a></footer>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="posts.js"></script>
+  <script src="app.js?v=cat-smooth-parity-20261028"></script>
+  <script type="module" src="assets/personal-os/person-analysis.js?v=person-v02-20261105"></script>
+</body>
+</html>

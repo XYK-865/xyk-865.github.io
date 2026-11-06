@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从清洁、保湿、防晒与剃须开始，建立日常男士护肤流程。">
+  <title>男士护肤 | Spike Hsu</title>
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028">
+  <link rel="stylesheet" href="cosmetic.css?v=guide-3">
+  <script>
+    if (location.hash === '#acne') {
+      const acnePage = new URL('cosmetic-acne.html', location.href);
+      acnePage.search = location.search;
+      acnePage.hash = 'acne';
+      location.replace(acnePage.href);
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header id="site-header" data-page="projects"></header>
+  <main id="main" class="page-shell inner-page cosmetic">
+    <a href="cosmetic.html">← 返回 Cosmetic</a>
+    <header class="cosmetic-hero">
+      <p class="kicker">COSMETIC</p>
+      <h1>男士护肤</h1>
+      <p>从早晚清洁、保湿和防晒开始，再把剃须放进日常流程。</p>
+      <nav aria-label="化妆品专题">
+        <a href="cosmetic-skin.html" aria-current="page">男士护肤</a>
+        <a href="cosmetic-acne.html">痘痘护理</a>
+        <a href="cosmetic-ingredients.html">原料词典</a>
+        <a href="cosmetic-brands.html">集团产品地图</a>
+        <a href="cosmetic-gifts.html">给女生选品</a>
+      </nav>
+    </header>
+    <section id="routine">
+      <h2>早晚护肤与剃须</h2>
+      <div class="cosmetic-grid">
+        <article><h3>早上</h3><p>按需要温和清洁，再保湿。出门时给暴露的皮肤涂广谱、SPF 30 或以上的防晒，耳朵和脖子也记得照顾。</p></article>
+        <article><h3>晚上</h3><p>洗掉日间的防晒和污垢，再保湿。皮肤洗完发紧时，先回看清洁力度和保湿是否合适。</p></article>
+        <article><h3>剃须</h3><p>先打湿皮肤与胡须，用剃须润滑产品，顺着毛发生长方向剃。反复在胡须区起疙瘩，可以记录剃须频率、工具和位置，帮助判断诱因。</p></article>
+      </div>
+      <p><a href="https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-for-men">美国皮肤科学会（AAD）男士护肤指南 ↗</a></p>
+    </section>
+    <p id="acne"><a href="cosmetic-acne.html#acne">想了解黑头、白头或红肿痘痘？查看痘痘护理 ↗</a></p>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="posts.js"></script>
+  <script src="app.js?v=cat-smooth-parity-20261028"></script>
+</body>
+</html>

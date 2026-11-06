@@ -1,0 +1,84 @@
+.person-heading { padding: clamp(1.5rem, 4vw, 3rem) 0 1.6rem; }
+.person-heading h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 3.6rem); letter-spacing: -.045em; }
+.person-heading > p:last-child { max-width: 42rem; color: var(--muted); line-height: 1.85; }
+.person-map {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: clamp(2rem, 9vw, 8rem);
+  align-items: center;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+}
+.person-core, .person-nodes { position: relative; z-index: 1; min-width: 0; }
+.person-core {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 1.1rem .55rem;
+  text-align: center;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+.person-core .kicker { margin: 0 0 .45rem; color: var(--muted); }
+.person-core h2 { margin: 0; font-size: clamp(1rem, 2.5vw, 1.6rem); }
+.person-left { grid-column: 1; grid-row: 1; }
+.person-right { grid-column: 3; grid-row: 1; }
+.person-nodes { display: grid; gap: .75rem; }
+.person-node {
+  min-height: 46px;
+  padding: .65rem .4rem;
+  border: 1px solid color-mix(in srgb, var(--node) 48%, var(--line));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--node) 15%, var(--bg));
+  color: var(--text);
+  font-weight: 600;
+  cursor: pointer;
+}
+.person-node:hover, .person-node[aria-pressed="true"] {
+  border-color: var(--node);
+  background: color-mix(in srgb, var(--node) 31%, var(--bg));
+}
+.person-node[aria-pressed="true"] { box-shadow: inset 0 0 0 1px var(--node); }
+.person-branches { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.person-branches path { fill: none; opacity: .6; stroke-width: 1.5; }
+.person-branches path.is-active { opacity: 1; stroke-width: 3; }
+#person-status { color: var(--muted); font-size: .85rem; }
+#person-detail { scroll-margin-top: 6rem; margin-top: 1.5rem; }
+.person-detail-header { border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
+.person-detail-header h2 { margin: 0; font-size: clamp(1.5rem, 3.5vw, 2.2rem); }
+.person-detail-header .kicker { margin-bottom: .5rem; color: var(--muted); }
+.person-detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.person-detail-grid section { padding: clamp(1rem, 3vw, 1.5rem); border: 1px solid var(--line); border-radius: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.person-detail-grid h3 { margin: 0 0 .65rem; font-size: 1rem; }
+.person-detail-grid p, .person-detail-grid li, .person-detail-grid dl { font-size: .9rem; }
+.person-detail-grid p, .person-detail-grid dl { margin: .45rem 0; }
+.person-detail-grid ul, .person-detail-grid ol { margin: .45rem 0; padding-inline-start: 1.3rem; }
+.person-detail-grid dt { font-weight: 600; }
+.person-detail-grid dd { margin: 0 0 .5rem; color: var(--muted); }
+.person-detail-grid a { text-decoration: underline; text-underline-offset: .2em; }
+.person-detail-grid a:hover { color: var(--accent); }
+@media (max-width: 660px) {
+  .person-map { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem .75rem; }
+  .person-core { grid-column: 1 / -1; grid-row: 1; justify-self: center; padding-inline: 1rem; }
+  .person-left { grid-column: 1; grid-row: 2; }
+  .person-right { grid-column: 2; grid-row: 2; }
+  .person-branches { display: none; }
+  .person-detail-grid { grid-template-columns: 1fr; }
+}
+.person-detail-header .life-copy { margin-top: .75rem; }
+.person-node.is-related { border-style: dashed; border-color: var(--node); }
+.person-knowledge-card { margin-top: .65rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: 9px; background: var(--panel); }
+.person-knowledge-card > span { display: block; color: var(--muted); font-size: .73rem; }
+.person-knowledge-card > a { font-size: .92rem; font-weight: 600; }
+.person-knowledge-card > p { margin: .2rem 0 0; color: var(--muted); }
+.person-detail-grid .person-case-review { margin-top: 1rem; }
+.person-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .62fr); gap: 1.5rem; align-items: center; }
+.person-heading > div > p:last-child { max-width: 42rem; color: var(--muted); line-height: 1.85; }
+.person-heading img { width: 100%; height: auto; border-radius: 18px; }
+@media (max-width: 660px) {
+  .person-heading { grid-template-columns: 1fr; gap: .6rem; }
+  .person-heading img { max-width: 360px; }
+}

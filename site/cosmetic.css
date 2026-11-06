@@ -1,0 +1,70 @@
+.cosmetic.inner-page { padding-block: clamp(1.35rem, 3vw, 2.5rem) 4rem; }
+.cosmetic-hero {
+  margin-block: 1.25rem 3rem;
+  padding: clamp(1.5rem, 6vw, 4rem);
+  border-radius: 1.5rem;
+  background: linear-gradient(115deg, #f6ede6, #e6d3c7);
+  color: #30251f;
+}
+.cosmetic-hero h1 {
+  margin: 0 0 .45em;
+  font: 600 clamp(2rem, 5.1vw, 4.15rem)/1.12 var(--sans);
+  letter-spacing: -.045em;
+}
+.cosmetic-hero > p:not(.kicker) { max-width: 31rem; margin: 0; line-height: 1.75; }
+.cosmetic-hero nav, .cosmetic-country-nav { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
+.cosmetic-hero nav { max-width: 36rem; }
+.cosmetic-hero nav a, .cosmetic-country-nav a {
+  border: 1px solid currentColor;
+  border-radius: 2rem;
+  padding: .32rem .82rem;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+.cosmetic-hero nav a { background: #fff9f1b5; }
+.cosmetic-hero nav a:hover, .cosmetic-hero nav a[aria-current="page"] { background: #30251f; color: #fff7ed; }
+.cosmetic a:focus-visible, .cosmetic summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+#explore { scroll-margin-top: 19rem; }
+.cosmetic section { margin-block: 3rem; scroll-margin-top: 6rem; }
+.cosmetic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1rem; }
+.cosmetic-grid > *, .cosmetic details { border: 1px solid var(--line, #c9bdb6); border-radius: .85rem; padding: 1rem; }
+.cosmetic-grid h3, .cosmetic-grid dt { margin-top: 0; font-weight: 700; }
+.cosmetic-grid dd { margin: .4rem 0 0; }
+.cosmetic details { margin-bottom: .65rem; }
+.cosmetic summary { cursor: pointer; font-weight: 600; }
+.cosmetic-hero--cover {
+  min-height: clamp(24rem, 34vw, 30rem);
+  display: grid;
+  align-content: center;
+  background: linear-gradient(90deg, #f6eee4 4%, #f6eee4f5 31%, #f6eee4a0 47%, transparent 68%),
+    #f6eee4 url("cosmetic-cover-photo.webp") right center / cover no-repeat;
+}
+.cosmetic-hero--cover h1 { font-size: clamp(3rem, 7vw, 6.25rem); margin-bottom: .2em; }
+.cosmetic-hero--ingredients {
+  background: radial-gradient(ellipse at 24% 18%, #fffaf1, transparent 65%),
+    repeating-radial-gradient(ellipse at 103% 28%, #54604a22 0 1px, transparent 2px 29px),
+    linear-gradient(118deg, #f0eee2 35%, #d4ddc7);
+  color: #283529;
+}
+.cosmetic-hero--brands {
+  background: radial-gradient(ellipse at 12% 12%, #faf7f0, transparent 75%),
+    repeating-linear-gradient(0deg, #37586b19 0 1px, transparent 1px 23px),
+    repeating-linear-gradient(90deg, #37586b19 0 1px, transparent 1px 23px),
+    linear-gradient(122deg, #f0eee7, #c5d7df);
+  color: #243741;
+}
+.cosmetic h2 { font-size: clamp(1.55rem, 3vw, 2.25rem); }
+.cosmetic-grid > * { min-width: 0; overflow-wrap: anywhere; }
+.cosmetic-source { font-size: .875rem; }
+.cosmetic-country-nav a:hover { background: var(--panel); }
+.cosmetic .cosmetic-brand-country { margin-block: 2rem; }
+.cosmetic-brand-group .cosmetic-grid { margin-top: .85rem; }
+.cosmetic-brand-group h4 { margin: 0; }
+@media (max-width: 760px) {
+  .cosmetic-hero--cover {
+    min-height: 0;
+    padding-bottom: clamp(11rem, 43vw, 16rem);
+    background: linear-gradient(180deg, #f6eee4 calc(100% - 13rem), #f6eee400 calc(100% - 8rem)),
+      #f6eee4 url("cosmetic-cover-photo.webp") right bottom / auto 16rem no-repeat;
+  }
+}

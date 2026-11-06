@@ -71,10 +71,10 @@ document.querySelector('.theme-toggle')?.addEventListener('click',()=>{const dar
     {title:'我的健身训练实践',description:'训练实践 · V1.56',href:'fitness-practice.html'},
     ...(window.SPIKE_POSTS||[]).filter(post=>post.status==='published'&&safeHref(post.href)).map(post=>({title:post.title,description:post.tags.join(' · '),summary:post.summary,href:post.href}))];
   const entries=[];
-  let loading=null,loaded=false,failed=false;
+  let loading=null,loaded=false,failed=false,catalogLoading=null;
   const dialog=document.createElement('dialog');
   dialog.className='search-dialog';dialog.setAttribute('aria-label','站内全文搜索');
-  dialog.innerHTML='<div class="search-head"><input type="search" placeholder="搜索文章标题、标签或正文…" aria-label="全站搜索" maxlength="160"><button class="search-close" type="button">关闭</button></div><p class="search-status" aria-live="polite"></p><div class="search-results"></div>';
+  dialog.innerHTML='<div class="search-head"><input type="search" placeholder="搜索文章、项目或化妆品…" aria-label="全站搜索" maxlength="160"><button class="search-close" type="button">关闭</button></div><p class="search-status" aria-live="polite"></p><div class="search-results"></div>';
   document.body.append(dialog);
   const input=dialog.querySelector('input'),results=dialog.querySelector('.search-results'),status=dialog.querySelector('.search-status');
   function highlight(text,terms){
@@ -102,7 +102,7 @@ document.querySelector('.theme-toggle')?.addEventListener('click',()=>{const dar
       const score=terms.reduce((sum,term)=>sum+(title.includes(term)?50:0)+(description.includes(term)?15:0)+(body.includes(term)?3:0),0)+(item.text?0:10);
       return {item,score};
     }).filter(Boolean).sort((a,b)=>b.score-a.score);
-    status.textContent=failed?'正文索引暂时无法加载，仍可搜索页面和文章标题。':!loaded?'正在加载文章正文索引…':terms.length?`找到 ${matches.length} 项结果${matches.length>12?'，显示前 12 项':''}`:'支持已发布文章的标题、标签和正文搜索。';
+    status.textContent=failed?'正文索引暂时无法加载，仍可搜索页面和文章标题。':!loaded?'正在加载文章正文索引…':terms.length?`找到 ${matches.length} 项结果${matches.length>12?'，显示前 12 项':''}`:'支持文章标题、标签、正文及化妆品图鉴检索。';
     results.innerHTML=matches.length?matches.slice(0,12).map(({item})=>{
       const excerpt=snippet(item.text||item.summary||'',terms);
       return `<a class="search-result" href="${escape(item.href)}"><strong>${highlight(item.title,terms)}</strong><small>${escape(item.description||(item.text?item.sourceTitle+' · 正文':'文章'))}</small>${excerpt?`<p class="search-excerpt">${highlight(excerpt,terms)}</p>`:''}</a>`;
@@ -122,7 +122,16 @@ document.querySelector('.theme-toggle')?.addEventListener('click',()=>{const dar
     }).catch(()=>{failed=true;loading=null;}).finally(()=>{if(dialog.open)render();});
     return loading;
   }
-  function openSearch(){if(!dialog.open)dialog.showModal();loadIndex();render();input.focus();}
+  function loadCosmeticIndex(){
+    catalogLoading??=import('./cosmetic-catalog-data.js')
+      .then(module=>module.catalogSearchEntries())
+      .then(items=>{
+        entries.push(...items.filter(item=>safeHref(item.href)));
+        if(dialog.open)render();
+      })
+      .catch(()=>{catalogLoading=null;});
+  }
+  function openSearch(){if(!dialog.open)dialog.showModal();loadIndex();loadCosmeticIndex();render();input.focus();}
   document.querySelectorAll('.search-open').forEach(button=>button.addEventListener('click',openSearch));
   dialog.querySelector('.search-close').addEventListener('click',()=>dialog.close());
   dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
