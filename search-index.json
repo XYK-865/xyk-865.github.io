@@ -6403,7 +6403,7 @@
       "title": "人物认知与分析模型 V0.2",
       "heading": "人物认知",
       "text": "十二维度 职业 关系 人物理解 母题 证据 复盘",
-      "href": "personal-os/person-analysis/",
+      "href": "personal-os/person-analysis/index.html",
       "kind": "project",
       "sourceTitle": "Personal OS"
     },
@@ -6411,7 +6411,7 @@
       "title": "人物认知 · 职业选择",
       "heading": "职业选择",
       "text": "{\"id\":\"career\",\"title\":\"职业选择\",\"category\":\"选择与方向\",\"summary\":\"从职业选择看一个人如何权衡收入、兴趣、稳定性与成长机会。\",\"prompts\":[\"做过哪些职业选择，当时有哪些可行选项？\",\"在收入、稳定和成长之间，最近一次如何取舍？\",\"如果外部条件改变，哪些选择会随之改变？\"],\"method\":{\"title\":\"机会成本\",\"summary\":\"列出当时可行的选项和放弃的收益，避免用结果倒推当初的动机。\"},\"domainIds\":[\"os-career\",\"os-money\"],\"relatedIds\":[\"ideals\",\"plans\"],\"motherQuestionIds\":[\"MQ-001\",\"MQ-008\"],\"principleIds\":[\"dec-target-options\"],\"modelIds\":[\"dec-cost-risk\"],\"references\":[{\"postHref\":\"blog-articles/product-thinking.html\",\"note\":\"从价值创造和能力要求回看一份工作的内容与取舍。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#a275bc\"}",
-      "href": "personal-os/person-analysis/#career",
+      "href": "personal-os/person-analysis/index.html#career",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6419,7 +6419,7 @@
       "title": "人物认知 · 近期处境",
       "heading": "近期处境",
       "text": "{\"id\":\"situation\",\"title\":\"近期处境\",\"category\":\"处境与习惯\",\"summary\":\"把近期变化放回时间线，观察资源、压力与行为如何一起变化。\",\"prompts\":[\"最近发生了哪些具体变化？\",\"变化前后，哪些行为有所不同？\",\"哪些支持能减轻当前的压力？\"],\"method\":{\"title\":\"前后对照\",\"summary\":\"比较同一人在变化前后的具体行为，并记录同时发生的其他变化。\"},\"domainIds\":[\"os-health\",\"os-time\"],\"relatedIds\":[\"routine\",\"spending\"],\"motherQuestionIds\":[\"MQ-005\",\"MQ-012\"],\"principleIds\":[\"os-principles\"],\"modelIds\":[\"dec-checkpoints\"],\"references\":[{\"postHref\":\"blog-articles/product-design-methods.html\",\"note\":\"借用场景七要素补问变化发生的时间、环境和限制。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#578bae\"}",
-      "href": "personal-os/person-analysis/#situation",
+      "href": "personal-os/person-analysis/index.html#situation",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6427,7 +6427,7 @@
       "title": "人物认知 · 家庭婚姻",
       "heading": "家庭婚姻",
       "text": "{\"id\":\"family\",\"title\":\"家庭婚姻\",\"category\":\"关系与环境\",\"summary\":\"了解当事人自愿谈及的亲密关系观念、家庭责任和协商方式。\",\"prompts\":[\"怎样理解双方的责任与独立空间？\",\"遇到分歧时，希望如何沟通和分担？\",\"哪些家庭议题希望保持私人？\"],\"method\":{\"title\":\"边界与同意\",\"summary\":\"把共同责任、个人意愿和双方同意的范围分开讨论。\"},\"domainIds\":[\"os-romance\",\"os-society\"],\"relatedIds\":[\"origin\",\"friends\"],\"motherQuestionIds\":[\"MQ-009\",\"MQ-011\"],\"principleIds\":[\"dec-hard-constraints\"],\"modelIds\":[\"dec-target-options\"],\"references\":[],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#4f9a97\"}",
-      "href": "personal-os/person-analysis/#family",
+      "href": "personal-os/person-analysis/index.html#family",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6435,7 +6435,7 @@
       "title": "人物认知 · 生活规律",
       "heading": "生活规律",
       "text": "{\"id\":\"routine\",\"title\":\"生活规律\",\"category\":\"处境与习惯\",\"summary\":\"观察作息与习惯如何随环境、工作安排和可用精力变化。\",\"prompts\":[\"普通一周如何分配时间和精力？\",\"哪些习惯在不同环境下都能维持？\",\"哪些临时条件会打断原来的节奏？\"],\"method\":{\"title\":\"情境比较\",\"summary\":\"在工作日、休息日等不同情境里重复观察，区分习惯和临时调整。\"},\"domainIds\":[\"os-health\",\"os-time\"],\"relatedIds\":[\"situation\",\"growth\",\"plans\"],\"motherQuestionIds\":[\"MQ-006\",\"MQ-010\"],\"principleIds\":[\"os-reviews\"],\"modelIds\":[\"dec-checkpoints\"],\"references\":[{\"postHref\":\"blog-articles/zhihu-no-temporary-life.html\",\"note\":\"对照计划与当下行为，找出可以实际观察的一步。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#6a9b65\"}",
-      "href": "personal-os/person-analysis/#routine",
+      "href": "personal-os/person-analysis/index.html#routine",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6443,7 +6443,7 @@
       "title": "人物认知 · 未来规划",
       "heading": "未来规划",
       "text": "{\"id\":\"plans\",\"title\":\"未来规划\",\"category\":\"选择与方向\",\"summary\":\"从目标、时间范围和已采取的行动理解一个人对未来的安排。\",\"prompts\":[\"近期准备采取哪一步？\",\"长期计划依赖哪些条件？\",\"什么新信息会促使重新规划？\"],\"method\":{\"title\":\"检查点\",\"summary\":\"为计划标注前提和下一次检查时间，用反馈更新判断。\"},\"domainIds\":[\"os-career\",\"os-time\"],\"relatedIds\":[\"career\",\"routine\"],\"motherQuestionIds\":[\"MQ-002\",\"MQ-010\"],\"principleIds\":[\"dec-target-options\"],\"modelIds\":[\"dec-experiments\",\"dec-checkpoints\"],\"references\":[{\"postHref\":\"blog-articles/zhihu-no-temporary-life.html\",\"note\":\"比较未来承诺与已经发生的行动。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#b58b4b\"}",
-      "href": "personal-os/person-analysis/#plans",
+      "href": "personal-os/person-analysis/index.html#plans",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6451,7 +6451,7 @@
       "title": "人物认知 · 人生理想",
       "heading": "人生理想",
       "text": "{\"id\":\"ideals\",\"title\":\"人生理想\",\"category\":\"选择与方向\",\"summary\":\"通过当事人的表达和反复出现的取舍，理解其重视的价值。\",\"prompts\":[\"希望长期投入在哪些事情上？\",\"两个重要价值发生冲突时如何选择？\",\"哪些行动体现了这些价值，哪些仍是愿望？\"],\"method\":{\"title\":\"取舍对照\",\"summary\":\"将自述和具体选择放在一起阅读，同时保留资源约束等解释。\"},\"domainIds\":[\"os-society\",\"os-career\"],\"relatedIds\":[\"career\",\"spending\"],\"motherQuestionIds\":[\"MQ-001\",\"MQ-012\"],\"principleIds\":[\"os-principles\"],\"modelIds\":[\"dec-target-options\"],\"references\":[{\"postHref\":\"blog-articles/product-thinking.html\",\"note\":\"从作者对价值与持续投入的讨论出发，区分追求与行动。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#bc7587\"}",
-      "href": "personal-os/person-analysis/#ideals",
+      "href": "personal-os/person-analysis/index.html#ideals",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6459,7 +6459,7 @@
       "title": "人物认知 · 消费习惯",
       "heading": "消费习惯",
       "text": "{\"id\":\"spending\",\"title\":\"消费习惯\",\"category\":\"处境与习惯\",\"summary\":\"观察资源如何在日常需要、责任和偏好之间分配。\",\"prompts\":[\"怎样区分必要开支和可延后的开支？\",\"条件允许时，最愿意为哪些事情付费？\",\"哪些消费受预算、地点或家庭责任影响？\"],\"method\":{\"title\":\"约束与偏好\",\"summary\":\"先辨认预算、可得性和责任，再讨论选择可能反映的偏好。\"},\"domainIds\":[\"os-money\"],\"relatedIds\":[\"ideals\",\"situation\"],\"motherQuestionIds\":[\"MQ-001\",\"MQ-008\"],\"principleIds\":[\"dec-hard-constraints\"],\"modelIds\":[\"dec-cost-risk\"],\"references\":[{\"postHref\":\"blog-articles/inflation-deflation.html\",\"note\":\"补充价格和购买力的背景，避免把开支变化直接归因于偏好。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#a47058\"}",
-      "href": "personal-os/person-analysis/#spending",
+      "href": "personal-os/person-analysis/index.html#spending",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6467,7 +6467,7 @@
       "title": "人物认知 · 求学经历",
       "heading": "求学经历",
       "text": "{\"id\":\"education\",\"title\":\"求学经历\",\"category\":\"经历与学习\",\"summary\":\"理解知识从何处获得，以及学习方法如何随任务改变。\",\"prompts\":[\"在哪些环境中学到了最有用的知识？\",\"面对陌生领域时，通常怎样开始？\",\"什么反馈曾让自己改变学习方法？\"],\"method\":{\"title\":\"迁移检验\",\"summary\":\"观察知识能否在新任务中使用，并区分接触过与能应用。\"},\"domainIds\":[\"os-learning\"],\"relatedIds\":[\"interests\"],\"motherQuestionIds\":[\"MQ-007\",\"MQ-010\"],\"principleIds\":[\"os-reviews\"],\"modelIds\":[\"dec-experiments\"],\"references\":[{\"postHref\":\"blog-articles/product-design-framework.html\",\"note\":\"把知识框架当作练习材料，检查能否把学到的方法用在新任务。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#7988c0\"}",
-      "href": "personal-os/person-analysis/#education",
+      "href": "personal-os/person-analysis/index.html#education",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6475,7 +6475,7 @@
       "title": "人物认知 · 成长经历",
       "heading": "成长经历",
       "text": "{\"id\":\"growth\",\"title\":\"成长经历\",\"category\":\"经历与学习\",\"summary\":\"从环境、转折和可用支持出发，理解不同阶段的行为变化。\",\"prompts\":[\"哪些转折改变了自己的选择范围？\",\"当时有哪些人或资源提供支持？\",\"如何理解同一事件在当时和现在的意义？\"],\"method\":{\"title\":\"事件时间线\",\"summary\":\"区分事件、当时的应对和事后的解释，给缺失信息留位置。\"},\"domainIds\":[\"os-learning\",\"os-society\"],\"relatedIds\":[\"routine\",\"origin\"],\"motherQuestionIds\":[\"MQ-005\",\"MQ-012\"],\"principleIds\":[\"os-principles\"],\"modelIds\":[\"dec-quality\"],\"references\":[],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#619783\"}",
-      "href": "personal-os/person-analysis/#growth",
+      "href": "personal-os/person-analysis/index.html#growth",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6483,7 +6483,7 @@
       "title": "人物认知 · 原生家庭",
       "heading": "原生家庭",
       "text": "{\"id\":\"origin\",\"title\":\"原生家庭\",\"category\":\"关系与环境\",\"summary\":\"从当事人愿意分享的早期互动出发，理解某些习惯可能的来源。\",\"prompts\":[\"早期环境如何处理分歧和表达感受？\",\"哪些旧习惯后来被保留或调整？\",\"还有哪些环境可能形成了类似的应对方式？\"],\"method\":{\"title\":\"多重解释\",\"summary\":\"并列家庭、同伴和后来的经历等可能因素，避免把来源归结为单一原因。\"},\"domainIds\":[\"os-society\",\"os-romance\"],\"relatedIds\":[\"family\",\"growth\"],\"motherQuestionIds\":[\"MQ-005\",\"MQ-012\"],\"principleIds\":[\"os-principles\"],\"modelIds\":[\"os-reviews\"],\"references\":[],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#a180a7\"}",
-      "href": "personal-os/person-analysis/#origin",
+      "href": "personal-os/person-analysis/index.html#origin",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6491,7 +6491,7 @@
       "title": "人物认知 · 兴趣爱好",
       "heading": "兴趣爱好",
       "text": "{\"id\":\"interests\",\"title\":\"兴趣爱好\",\"category\":\"经历与学习\",\"summary\":\"观察自主投入、练习方式和参与条件，理解什么活动让人愿意持续参与。\",\"prompts\":[\"不需要外部奖励也愿意做什么？\",\"更喜欢活动的过程、挑战还是社交？\",\"投入会随时间、设备或伙伴改变吗？\"],\"method\":{\"title\":\"投入轨迹\",\"summary\":\"比较开始、持续与中断的条件，区分兴趣变化和现实条件变化。\"},\"domainIds\":[\"os-learning\",\"os-time\"],\"relatedIds\":[\"education\",\"friends\"],\"motherQuestionIds\":[\"MQ-001\",\"MQ-010\"],\"principleIds\":[\"dec-target-options\"],\"modelIds\":[\"dec-experiments\"],\"references\":[{\"postHref\":\"blog-articles/product-thinking.html\",\"note\":\"借用有关持续投入的讨论，区分一时尝试与长期参与。\"}],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#608d9b\"}",
-      "href": "personal-os/person-analysis/#interests",
+      "href": "personal-os/person-analysis/index.html#interests",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     },
@@ -6499,7 +6499,7 @@
       "title": "人物认知 · 朋友交际",
       "heading": "朋友交际",
       "text": "{\"id\":\"friends\",\"title\":\"朋友交际\",\"category\":\"关系与环境\",\"summary\":\"关注交往中的信任、互惠和边界，以及这些关系如何随情境变化。\",\"prompts\":[\"什么样的相处方式让人感到自在？\",\"如何协商请求、拒绝和分歧？\",\"信任在什么具体互动中建立或改变？\"],\"method\":{\"title\":\"互动序列\",\"summary\":\"沿请求、回应和后续行动观察互动，不以一次回应推断长期关系。\"},\"domainIds\":[\"os-friendship\",\"os-society\"],\"relatedIds\":[\"interests\",\"family\"],\"motherQuestionIds\":[\"MQ-009\",\"MQ-011\"],\"principleIds\":[\"dec-hard-constraints\"],\"modelIds\":[\"dec-checkpoints\"],\"references\":[],\"updated\":\"2026-11-05\",\"status\":\"published\",\"color\":\"#b678a5\"}",
-      "href": "personal-os/person-analysis/#friends",
+      "href": "personal-os/person-analysis/index.html#friends",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
     }
