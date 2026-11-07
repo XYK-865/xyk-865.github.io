@@ -1,4 +1,4 @@
-import {loadCatalogue} from './reading-catalogue.js';
+import {loadCatalogue} from './reading-catalogue.js?v=books-online-20261107';
 import {openEPUB} from './reading-epub.js';
 import {listItems,listStates,importItem} from './reading-store.js';
 import {getItemTopics,normalizeShelfCategory} from './bookshelf-topics.js';
@@ -16,7 +16,7 @@ function render(){
  }).join(''):'<p class="shelf-empty">没有找到对应资料，可以换个关键词或导入 PDF。</p>';
  document.querySelector('#shelf-count').textContent=shown.length+' 份资料';
 }
-async function refresh(){const saved=await listItems(),boundHashes=new Set(saved.filter(item=>!item.id.startsWith('local-')&&item.sha256).map(item=>item.sha256));items=[...new Map([...await loadCatalogue(),...saved].map(item=>[item.id,item])).values()].filter(item=>!item.id.startsWith('local-')||!boundHashes.has(item.sha256||item.id.slice(6)));states=new Map((await listStates()).map(s=>[s.id,s]));const note=document.querySelector('.shelf-local-note');if(note)note.textContent=items.some(item=>item.requiresImport)?'支持 PDF、EPUB、TXT 和 Markdown。打开书籍条目后，选择自己的文件即可阅读；自行导入的文件、阅读进度和批注保存在当前浏览器。':'支持 PDF、EPUB、TXT 和 Markdown。原文件在本机读取；自行导入的文件、阅读进度和批注保存在当前浏览器。';render();}
+async function refresh(){const saved=await listItems(),boundHashes=new Set(saved.filter(item=>!item.id.startsWith('local-')&&item.sha256).map(item=>item.sha256));items=[...new Map([...await loadCatalogue(),...saved].map(item=>[item.id,item])).values()].filter(item=>!item.id.startsWith('local-')||!boundHashes.has(item.sha256||item.id.slice(6)));states=new Map((await listStates()).map(s=>[s.id,s]));const note=document.querySelector('.shelf-local-note');if(note)note.textContent=items.some(item=>item.requiresImport)?'支持 PDF、EPUB、TXT 和 Markdown。打开书籍条目后，选择自己的文件即可阅读；自行导入的文件、阅读进度和批注保存在当前浏览器。':'支持 PDF、EPUB、TXT 和 Markdown。点击书目即可阅读。自行导入的文件、阅读进度和批注保存在当前浏览器。';render();}
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{active=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();}));
 search.addEventListener('input',render);sort.addEventListener('change',render);
 if(generalShelf)window.addEventListener('shelf-category-change',event=>{category=normalizeShelfCategory(event.detail.category);if(category!=='dating')render();});

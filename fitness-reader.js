@@ -1,4 +1,4 @@
-import {loadCatalogue,loadBlogArticle} from './reading-catalogue.js?v=blog-reading-20261103';
+import {loadCatalogue,loadBlogArticle} from './reading-catalogue.js?v=books-online-20261107';
 import {openEPUB} from './reading-epub.js';
 import {createPDFRegions} from './reading-pdf-regions.js';
 import {createScriptView} from './reading-script.js';
@@ -176,7 +176,7 @@ async function openArticle(){
  content.className='reader-content reader-article';
  let book;
  if(item.kind==='epub'){
-  const bytes=item.source?await fetch(item.source).then(r=>{if(!r.ok)throw Error('找不到本地 EPUB 文件。');return r.arrayBuffer();}):(await getFile(item.id)).bytes;
+  const bytes=item.source?await fetch(item.source).then(r=>{if(!r.ok)throw Error('无法读取 EPUB 文件。');return r.arrayBuffer();}):(await getFile(item.id)).bytes;
   book=await openEPUB(bytes);content.replaceChildren(book.fragment);window.addEventListener('pagehide',()=>book.release(),{once:true});
  }else if(item.source){
   const response=await fetch(item.source);if(!response.ok)throw Error('无法加载这份站内资料。');
@@ -289,6 +289,7 @@ async function init(){
   stopPrivateWatcher?.();stopPrivateWatcher=watchPrivateShelf(()=>hidePrivateReading('会话已结束，请重新解锁。'));
  }else item=id?.startsWith('blog-')?await loadBlogArticle(id):await getItem(id)||(await loadCatalogue()).find(x=>x.id===id);
  if(!item)throw Error('未找到这份资料，请返回书架重新打开。');
+ if(item.source?.startsWith('assets/books/files/'))document.querySelector('.reader-local-label').textContent='在线阅读';
  if(id.startsWith('blog-')){const back=document.querySelector('.reader-top a');back.href=item.source;back.textContent='← 返回文章';}
  state=await getState(item.id);state.lastOpened=Date.now();state.annotations=Array.isArray(state.annotations)?state.annotations:[];
  if(stale())return;

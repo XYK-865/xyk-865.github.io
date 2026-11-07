@@ -8,78 +8,78 @@ export const catalogue=[
 {id:'philosophy-v1',title:'增肌区块周期化训练理念',type:'文章',label:'基础版本 · V1',source:'fitness-philosophy-v1.html',selector:'.practice-article',tone:'gray',subtitle:'训练框架的最初版本',author:'版本档案'}
 ];
 export const fileCatalogue=[
- {
-  "id": "eating-science",
-  "title": "吃的科学",
-  "subtitle": "饮食、健康与个人记录",
-  "type": "书籍",
-  "kind": "epub",
-  "author": "巴斯·卡斯特（Bas Kast）",
-  "label": "EPUB · 选择本机文件阅读",
-  "cover": "assets/books/covers/eating-science.webp",
-  "requiresImport": true
- },
- {
-  "id": "loading-recommendations",
-  "title": "Loading Recommendations for Muscle Strength, Hypertrophy, and Local Endurance",
-  "type": "论文",
-  "kind": "pdf",
-  "author": "Brad J. Schoenfeld 等",
-  "label": "PDF · 选择本机文件阅读",
-  "cover": "assets/books/covers/loading-recommendations.webp",
-  "requiresImport": true
- },
- {
-  "id": "leangains",
-  "title": "The Leangains Method",
-  "subtitle": "The Art of Getting Ripped",
-  "type": "书籍",
-  "kind": "pdf",
-  "author": "Martin Berkhan",
-  "label": "PDF · 选择本机文件阅读",
-  "cover": "assets/books/covers/leangains.webp",
-  "requiresImport": true
- },
- {
-  "id": "functional-training",
-  "title": "功能性训练：提升运动表现的动作练习和方案设计",
-  "type": "书籍",
-  "kind": "pdf",
-  "author": "胡安·卡洛斯·桑塔纳",
-  "label": "PDF · 选择本机文件阅读",
-  "cover": "assets/books/covers/functional-training.webp",
-  "requiresImport": true
- },
- {
-  "id": "core-stability",
-  "title": "肌肉训练完全图解：核心稳定性训练",
-  "type": "书籍",
-  "kind": "pdf",
-  "author": "霍利斯·兰斯·利伯曼",
-  "label": "PDF · 选择本机文件阅读",
-  "cover": "assets/books/covers/core-stability.webp",
-  "requiresImport": true
- },
- {
-  "id": "nsca-strength",
-  "title": "美国国家体能协会力量训练指南（第2版）",
-  "type": "书籍",
-  "kind": "pdf",
-  "author": "NSCA · Lee E. Brown 编著",
-  "label": "PDF · 选择本机文件阅读",
-  "cover": "assets/books/covers/nsca-strength.webp",
-  "requiresImport": true
- },
- {
-  "id": "bodybuilding-anatomy",
-  "title": "健美健身运动系统训练（全彩图解第2版）",
-  "type": "书籍",
-  "kind": "epub",
-  "author": "尼克·伊万斯",
-  "label": "EPUB · 选择本机文件阅读",
-  "cover": "assets/books/covers/bodybuilding-anatomy.webp",
-  "requiresImport": true
- }
+  {
+    "id": "eating-science",
+    "title": "吃的科学",
+    "subtitle": "饮食、健康与个人记录",
+    "type": "书籍",
+    "kind": "epub",
+    "author": "巴斯·卡斯特（Bas Kast）",
+    "label": "EPUB · 可在线阅读",
+    "cover": "assets/books/covers/eating-science.webp",
+    "source": "assets/books/files/eating-science.epub"
+  },
+  {
+    "id": "loading-recommendations",
+    "title": "Loading Recommendations for Muscle Strength, Hypertrophy, and Local Endurance",
+    "type": "论文",
+    "kind": "pdf",
+    "author": "Brad J. Schoenfeld 等",
+    "label": "PDF · 可在线阅读",
+    "cover": "assets/books/covers/loading-recommendations.webp",
+    "source": "assets/books/files/loading-recommendations.pdf"
+  },
+  {
+    "id": "leangains",
+    "title": "The Leangains Method",
+    "subtitle": "The Art of Getting Ripped",
+    "type": "书籍",
+    "kind": "pdf",
+    "author": "Martin Berkhan",
+    "label": "PDF · 可在线阅读",
+    "cover": "assets/books/covers/leangains.webp",
+    "source": "assets/books/files/leangains.pdf"
+  },
+  {
+    "id": "functional-training",
+    "title": "功能性训练：提升运动表现的动作练习和方案设计",
+    "type": "书籍",
+    "kind": "pdf",
+    "author": "胡安·卡洛斯·桑塔纳",
+    "label": "PDF · 可在线阅读",
+    "cover": "assets/books/covers/functional-training.webp",
+    "source": "assets/books/files/functional-training.pdf"
+  },
+  {
+    "id": "core-stability",
+    "title": "肌肉训练完全图解：核心稳定性训练",
+    "type": "书籍",
+    "kind": "pdf",
+    "author": "霍利斯·兰斯·利伯曼",
+    "label": "PDF · 可在线阅读",
+    "cover": "assets/books/covers/core-stability.webp",
+    "source": "assets/books/files/core-stability.pdf"
+  },
+  {
+    "id": "nsca-strength",
+    "title": "美国国家体能协会力量训练指南（第2版）",
+    "type": "书籍",
+    "kind": "pdf",
+    "author": "NSCA · Lee E. Brown 编著",
+    "label": "PDF · 可在线阅读",
+    "cover": "assets/books/covers/nsca-strength.webp",
+    "source": "assets/books/files/nsca-strength.pdf"
+  },
+  {
+    "id": "bodybuilding-anatomy",
+    "title": "健美健身运动系统训练（全彩图解第2版）",
+    "type": "书籍",
+    "kind": "epub",
+    "author": "尼克·伊万斯",
+    "label": "EPUB · 可在线阅读",
+    "cover": "assets/books/covers/bodybuilding-anatomy.webp",
+    "source": "assets/books/files/bodybuilding-anatomy.epub"
+  }
 ];
 export async function loadCatalogue(){
  if(['127.0.0.1','localhost','[::1]'].includes(location.hostname)){
