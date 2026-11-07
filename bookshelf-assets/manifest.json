@@ -1,0 +1,58 @@
+[
+  {
+    "path": "site/assets/books/files/functional-training.pdf",
+    "bytes": 60706516,
+    "sha256": "25e9e9c38571e58401691adeef8b96436e599b57b835053d4547e2638d43644f",
+    "chunks": [
+      "bookshelf-assets/functional-training.pdf/00.part",
+      "bookshelf-assets/functional-training.pdf/01.part",
+      "bookshelf-assets/functional-training.pdf/02.part",
+      "bookshelf-assets/functional-training.pdf/03.part",
+      "bookshelf-assets/functional-training.pdf/04.part",
+      "bookshelf-assets/functional-training.pdf/05.part",
+      "bookshelf-assets/functional-training.pdf/06.part",
+      "bookshelf-assets/functional-training.pdf/07.part",
+      "bookshelf-assets/functional-training.pdf/08.part",
+      "bookshelf-assets/functional-training.pdf/09.part"
+    ]
+  },
+  {
+    "path": "site/assets/books/files/core-stability.pdf",
+    "bytes": 23032723,
+    "sha256": "28d021294d59e42ac9e54029ee6751f57f41c95d3da5f0783ce44a016ae27d32",
+    "chunks": [
+      "bookshelf-assets/core-stability.pdf/00.part",
+      "bookshelf-assets/core-stability.pdf/01.part",
+      "bookshelf-assets/core-stability.pdf/02.part",
+      "bookshelf-assets/core-stability.pdf/03.part"
+    ]
+  },
+  {
+    "path": "site/assets/books/files/nsca-strength.pdf",
+    "bytes": 65848793,
+    "sha256": "5c3a63457a3df1c76f06ccdeefd5b4211e3a6a1572c5b34069b001d2c2fafe4f",
+    "chunks": [
+      "bookshelf-assets/nsca-strength.pdf/00.part",
+      "bookshelf-assets/nsca-strength.pdf/01.part",
+      "bookshelf-assets/nsca-strength.pdf/02.part",
+      "bookshelf-assets/nsca-strength.pdf/03.part",
+      "bookshelf-assets/nsca-strength.pdf/04.part",
+      "bookshelf-assets/nsca-strength.pdf/05.part",
+      "bookshelf-assets/nsca-strength.pdf/06.part",
+      "bookshelf-assets/nsca-strength.pdf/07.part",
+      "bookshelf-assets/nsca-strength.pdf/08.part",
+      "bookshelf-assets/nsca-strength.pdf/09.part",
+      "bookshelf-assets/nsca-strength.pdf/10.part"
+    ]
+  },
+  {
+    "path": "site/assets/books/files/bodybuilding-anatomy.epub",
+    "bytes": 13983994,
+    "sha256": "89085884ff557fa96f1f3767c43ddf7a862075385105f98599e51049cc10f1e5",
+    "chunks": [
+      "bookshelf-assets/bodybuilding-anatomy.epub/00.part",
+      "bookshelf-assets/bodybuilding-anatomy.epub/01.part",
+      "bookshelf-assets/bodybuilding-anatomy.epub/02.part"
+    ]
+  }
+]

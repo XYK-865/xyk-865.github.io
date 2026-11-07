@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "site/**"
+      - "bookshelf-assets/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -21,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Verify and assemble bookshelf files
+        run: node bookshelf-assets/assemble.mjs
       - name: Publish site
         uses: JamesIves/github-pages-deploy-action@v4
         with:
