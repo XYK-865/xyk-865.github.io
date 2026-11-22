@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>调酒｜日常生活</title>
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="learning-modules.css">
+  <link rel="stylesheet" href="beverage-studio.css?v=coffee-bar-guide">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header id="site-header" data-page="daily"></header>
+  <main id="main" class="page-shell learning-main beverage-page beverage-page--cocktails">
+    <p class="beverage-breadcrumb"><a href="daily.html">← 返回日常</a></p>
+    <header class="beverage-hero">
+      <div class="beverage-hero-copy">
+        <p class="kicker">COCKTAIL RECIPES</p>
+        <h1>调酒</h1>
+        <p>从一杯尼格罗尼开始。按手边的基酒找配方，看看换一味材料，风味和做法会怎么变。</p>
+        <div class="beverage-hero-actions"><a class="beverage-action" href="#recipes">查经典配方 ↓</a><a class="beverage-action" href="#versions">比较同系做法 ↓</a></div>
+      </div>
+      <img src="assets/beverages/cocktails-hero.webp" alt="吧台上的鸡尾酒、柑橘和调酒器具" width="426" height="481" fetchpriority="high">
+    </header>
+    <nav class="beverage-nav learning-nav" aria-label="调酒栏目">
+      <a href="#recipes">经典酒谱</a>
+      <a href="#versions">同系配方</a>
+      <a href="#basics">家用吧台</a>
+      <a href="#notes">试调笔记</a>
+    </nav>
+    <section id="recipes" class="beverage-section" aria-labelledby="recipes-heading">
+      <div class="beverage-section-head">
+        <h2 id="recipes-heading">经典酒谱</h2>
+        <p>按基酒或手法找配方。每份配方为一杯，配图为 AI 生成的外观示意。</p>
+      </div>
+      <div class="beverage-controls learning-controls">
+        <label for="spirit">基酒
+          <select id="spirit"><option value="">全部基酒</option></select>
+        </label>
+        <label for="cocktail-method">手法
+          <select id="cocktail-method"><option value="">全部手法</option></select>
+        </label>
+        <p id="cocktail-results" role="status"></p>
+      </div>
+      <div id="cocktail-grid" class="beverage-grid"></div>
+    </section>
+    <section id="versions" class="beverage-section" aria-labelledby="versions-heading">
+      <div class="beverage-section-head">
+        <h2 id="versions-heading">同系配方与变体</h2>
+        <p>喜欢某一杯时，可以沿着相近的材料和手法多试一种。每个版本都写明差异，配图为示意。</p>
+      </div>
+      <div id="cocktail-versions" class="beverage-grid"></div>
+    </section>
+    <section id="basics" class="beverage-section" aria-labelledby="basics-heading">
+      <div class="beverage-section-head">
+        <h2 id="basics-heading">家用吧台</h2>
+        <p>先选想做的酒，再备器具和材料。每张器具卡都有用法、常见区别和可练习的酒谱。图片为 AI 生成的器具示意。</p>
+      </div>
+      <nav class="beverage-nav" aria-label="家用吧台目录">
+        <a href="#bar-tools">认识器具</a>
+        <a href="#bar-methods">三种基本手法</a>
+        <a href="#bar-ingredients">材料与备料</a>
+        <a href="#bar-care">收纳与清洁</a>
+      </nav>
+      <section id="bar-tools" class="bar-subsection" aria-labelledby="bar-tools-heading">
+        <h3 id="bar-tools-heading">认识器具</h3>
+        <div class="beverage-grid">
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-jigger.webp" alt="上下两端容量不同的双头量酒器" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>量酒器</h4>
+              <p>量出基酒、果汁和糖浆，方便复做同一配比。</p>
+              <details class="beverage-details">
+                <summary>如何读刻度</summary>
+                <p>稳定拿住量酒器，倒至内侧所需的毫升刻度，再把材料转入调酒容器。双头容量和中间刻度因型号而异，先认清每一边。</p>
+                <p>带毫升刻度的小量杯可替代。酒谱写的苦精「dash」是瓶口轻甩的次数，瓶口和动作都会影响出量。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-negroni">练习等量配比 · 尼格罗尼 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-shaker.webp" alt="并排放置的两件式雪克壶和带盖三件式雪克壶" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>雪克壶</h4>
+              <p>带冰摇和果汁、糖浆与酒，快速降温、融冰和混合。</p>
+              <details class="beverage-details">
+                <summary>两件式和三件式怎么用</summary>
+                <p>波士顿壶由两个壶身组成，合紧后两手握牢摇动，开壶后配滤冰器。三件式壶有内置滤网，取下顶盖即可倒酒，缝隙和滤网也要拆开清洗。</p>
+                <p>先倒材料，最后加冰。摇完及时滤出。苏打水等有气饮料留到杯中最后加入。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-daiquiri">练习摇和 · 代基里 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-mixing.webp" alt="带倒口的调酒杯和一把长柄吧勺" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>调酒杯与吧勺</h4>
+              <p>用带倒口的容器搅拌冰块与酒液，适合保持酒液清澈。</p>
+              <details class="beverage-details">
+                <summary>如何顺着杯壁搅拌</summary>
+                <p>把材料倒入杯中并加冰，让勺背贴杯壁，以稳定速度带动冰块转动。达到想要的温度和稀释程度后滤出。</p>
+                <p>带倒口的调酒杯方便出液，较大的雪克壶壶身也能用。吧勺的长柄便于伸到底部；把「吧勺」当计量单位时，先核对手上勺子的容量。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-boulevardier">练习搅拌 · 大道酒 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-strainers.webp" alt="弹簧滤冰器、带孔勺型滤冰器与细网筛" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>滤冰器与细网筛</h4>
+              <p>滤掉用过的冰块、果肉和碎叶，也能控制倒出后的稀释。</p>
+              <details class="beverage-details">
+                <summary>三种滤网的区别</summary>
+                <p>弹簧滤冰器（Hawthorne）搭雪克壶或调酒杯，用食指压住倒酒。勺型滤冰器（Julep）常贴在搅拌杯内侧。细网筛负责拦下更小的冰屑和果肉。</p>
+                <p>需要更平滑的口感时，用滤冰器拦大块，同时把手持细筛放在成品杯上方，做一次双重过滤。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-margarita">练习滤出 · 玛格丽特 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-muddler.webp" alt="平头捣棒在厚底杯内轻压薄荷叶" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>捣棒</h4>
+              <p>轻压薄荷、捣开水果，也可在古典里压散浸湿的方糖。</p>
+              <details class="beverage-details">
+                <summary>薄荷、果肉和方糖分别怎么压</summary>
+                <p>用厚底杯或金属壶。薄荷用平头轻压，闻到香气即可；需要出汁的水果可略加力度。方糖先用少量水和苦精润湿，再边压边溶开。</p>
+                <p>木柄用后手洗并晾干。较软的材料可用干净的木勺柄轻压。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-mojito">练习轻压 · 莫吉托 →</a><a href="#cocktail-old-fashioned">练习溶糖 · 古典 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-juicer.webp" alt="手压榨汁器和切开的青柠" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>柑橘榨汁器</h4>
+              <p>为代基里和玛格丽特准备鲜榨青柠汁，也能榨柠檬和橙。</p>
+              <details class="beverage-details">
+                <summary>榨汁、去籽和清理</summary>
+                <p>洗净水果再对切。少量用手压式或旋拧式榨汁器即可，多个水果可以用带接汁碗的款式。滤去籽和粗果肉，再量出配方需要的毫升数。</p>
+                <p>尽量按需现榨，榨完立即冲掉果肉，尤其是压头与出汁孔。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-daiquiri">量取青柠汁 · 代基里 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-peeler.webp" alt="削皮器与切好的橙皮" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>削皮器与小刀</h4>
+              <p>削皮器取宽片果皮，小刀切橙片、青柠角和杯沿装饰。</p>
+              <details class="beverage-details">
+                <summary>怎样把果皮香带进杯中</summary>
+                <p>用洗净的柑橘，削下一片带颜色的皮，少带白瓤。在杯上方让有颜色的一面朝向酒液，折压挤出皮油，再按酒谱放进杯里。</p>
+                <p>切果片时用稳固的砧板；先切好装饰，再开始给酒液加冰。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-old-fashioned">橙皮装饰 · 古典 →</a><a href="#cocktail-sazerac">柠檬皮装饰 · 萨泽拉克 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-ice.webp" alt="冰夹旁的普通冰块、大方冰和碎冰" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>冰模、冰夹与冰块</h4>
+              <p>普通方冰负责摇和与搅拌，大方冰适合入杯慢饮，碎冰常用于需要快速降温的酒谱。</p>
+              <details class="beverage-details">
+                <summary>调制冰和出杯冰怎么选</summary>
+                <p>滤出时把调制用的冰留在壶里。成品酒谱需要带冰饮用时，用冰夹另取新冰入杯；直倒杯调按酒谱在杯内加冰。</p>
+                <p>用饮用水制冰，成冰后密封存放，减少沾到冰箱异味。相同重量下，碎冰通常接触面积更大。对比稀释程度时，先固定配方和其他条件。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-tommys-margarita">练习换新冰出杯 · 汤米玛格丽特 →</a></p>
+            </div>
+          </article>
+          <article class="beverage-card">
+            <img class="beverage-photo" src="assets/beverages/bar-glassware.webp" alt="从左到右的古典杯、高球杯、碟形杯和 V 形马天尼杯" loading="lazy" decoding="async">
+            <div class="beverage-card-copy">
+              <h4>酒杯</h4>
+              <p>古典杯留出放冰空间，高球杯容纳长饮，带脚鸡尾酒杯适合滤出后直接喝。</p>
+              <details class="beverage-details">
+                <summary>四种杯型与对应酒谱</summary>
+                <ul>
+                  <li><strong>古典杯（Rocks）</strong> 矮而宽，适合古典和加冰的尼格罗尼。</li>
+                  <li><strong>高球杯（Highball）</strong> 高而窄，适合有冰块与苏打水的莫吉托。</li>
+                  <li><strong>碟形杯（Coupe）</strong> 带脚浅杯，适合滤去冰块后上桌的代基里或浓缩马天尼。</li>
+                  <li><strong>马天尼杯（Martini）</strong> V 形杯口较宽，也可盛滤出后直接上桌的浓缩马天尼。</li>
+                </ul>
+                <p>家用可按接近的容量替换。需要预冷时，先在杯内加冰，出杯前倒净冰与融水。</p>
+              </details>
+              <p class="beverage-card-links"><a href="#cocktail-mojito">高球杯示例 · 莫吉托 →</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="bar-methods" class="bar-subsection" aria-labelledby="bar-methods-heading">
+        <h3 id="bar-methods-heading">三种基本手法</h3>
+        <div class="beverage-layout">
+          <article class="learning-card">
+            <h4>杯调 · Build</h4>
+            <p>直接在饮用杯里完成。莫吉托先轻拌薄荷、糖和青柠，加冰与朗姆，最后加苏打水轻搅。</p>
+            <p>先备小量杯、够高的玻璃杯、可伸到杯底的长勺和冰。家里有这些就能试做。</p>
+          </article>
+          <article class="learning-card">
+            <h4>加冰搅拌、滤出 · Stir &amp; Strain</h4>
+            <p>在调酒杯里搅拌到酒液变凉，再滤进饮用杯。大道酒可以用来练习控制温度和融冰水。</p>
+            <p>先备量酒器、长勺、滤冰器和够深的容器，按酒谱选择预冷空杯或加新冰的杯子。</p>
+          </article>
+          <article class="learning-card">
+            <h4>加冰摇和、滤出 · Shake &amp; Strain</h4>
+            <p>例如代基里，先量朗姆、青柠汁和糖，再加冰摇到壶身明显变凉，及时滤入预冷杯。</p>
+            <p>先备量酒器、雪克壶和滤冰器；果汁现榨。先用同一份配方和相近的冰量练习，再调整摇和时间。</p>
+          </article>
+        </div>
+      </section>
+      <section id="bar-ingredients" class="bar-subsection" aria-labelledby="bar-ingredients-heading">
+        <h3 id="bar-ingredients-heading">材料与备料</h3>
+        <div class="beverage-layout">
+          <article class="learning-card">
+            <h4>基酒</h4>
+            <ul>
+              <li><strong>金酒</strong> 带杜松和草本香，可做尼格罗尼。</li>
+              <li><strong>白朗姆</strong> 常与青柠搭配，一瓶可练代基里和莫吉托。</li>
+              <li><strong>威士忌</strong> 波本或黑麦可做古典与大道酒，换基酒时可以记录甜香和辛香的变化。</li>
+              <li><strong>龙舌兰酒（Tequila）与伏特加</strong> 分别用于玛格丽特和浓缩马天尼。</li>
+              <li><strong>干邑</strong> 适合练 IBA 版本的萨泽拉克。</li>
+            </ul>
+          </article>
+          <article class="learning-card">
+            <h4>苦味酒、味美思和利口酒</h4>
+            <ul>
+              <li><strong>金巴利</strong> 给尼格罗尼和美式鸡尾酒苦甜与草本香；甜红味美思会增加酒体和香气。</li>
+              <li><strong>橙味利口酒、咖啡利口酒、樱桃利口酒</strong> 分别为玛格丽特、浓缩马天尼和海明威特调提供对应风味。</li>
+              <li><strong>苦精</strong> 用少量芳香苦精给古典调味；萨泽拉克则使用 Peychaud’s 苦精，并以苦艾酒润杯。</li>
+            </ul>
+          </article>
+          <article class="learning-card">
+            <h4>果汁、糖浆与气泡</h4>
+            <ul>
+              <li><strong>酸味</strong> 鲜榨青柠汁是代基里和玛格丽特的主酸味，葡萄柚汁则给海明威特调另一层香气。</li>
+              <li><strong>甜味</strong> 家用简易糖浆可按白糖和水各 1 份（称重）搅匀、晾凉再用。标记糖浆浓度；替换细砂糖时也要考虑糖浆带入的水。</li>
+              <li><strong>拉长口感</strong> 调莫吉托时最后倒入冷藏的无糖苏打水，轻轻搅匀。薄荷、柑橘皮和杯沿盐都留到酒谱指定的步骤。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section id="bar-care" class="bar-subsection" aria-labelledby="bar-care-heading">
+        <h3 id="bar-care-heading">收纳与清洁</h3>
+        <div class="beverage-layout">
+          <article class="learning-card">
+            <h4>开瓶和自制材料</h4>
+            <p>烈酒加盖直立避光，利口酒按瓶身提示保存。甜红和干型味美思开瓶后加盖冷藏，并标上开瓶日期。鲜榨果汁尽量现做，糖浆用干净的密闭容器冷藏，写上制作日期。</p>
+          </article>
+          <article class="learning-card">
+            <h4>用完立刻清理</h4>
+            <p>拆开雪克壶的盖与滤网，用温水和洗洁精洗净果泥与糖分，冲净后分开晾干。细网筛可从背面冲掉果肉，木制捣棒手洗后晾干。冰夹、砧板和杯口也一并清洗。</p>
+          </article>
+          <article class="learning-card">
+            <h4>调完怎么复盘</h4>
+            <p>记下实际用量、冰块大小和出杯方式。酸甜失衡时先核对果汁或糖浆用量，喝起来水味重时先看冰块状态和调制时长。每次只改一项，方便对照。</p>
+          </article>
+        </div>
+      </section>
+      <details class="beverage-details">
+        <summary>器具与手法参考</summary>
+        <ul>
+          <li><a href="https://www.campariacademy.com/en-uk/training/tools-techniques/cocktail-tools/" target="_blank" rel="noopener noreferrer">Campari Academy · 常用器具</a>、<a href="https://www.campariacademy.com/en-uk/training/tools-techniques/cocktail-shakers/" target="_blank" rel="noopener noreferrer">雪克壶</a>、<a href="https://www.campariacademy.com/en-uk/training/tools-techniques/how-to-stir-a-cocktail/" target="_blank" rel="noopener noreferrer">搅拌</a>、<a href="https://www.campariacademy.com/en-ch/training/tools-techniques/cocktail-strainers/" target="_blank" rel="noopener noreferrer">滤冰器</a>、<a href="https://www.campariacademy.com/training/tools-techniques/glassware-basics/" target="_blank" rel="noopener noreferrer">杯型</a>、<a href="https://www.campariacademy.com/en-asia/training/tools-techniques/the-new-ice-age/" target="_blank" rel="noopener noreferrer">冰</a></li>
+          <li><a href="https://www.diageobaracademy.com/en-zz/home/bartender-skills-and-techniques/become-a-muddling-maestro" target="_blank" rel="noopener noreferrer">Diageo Bar Academy · 捣棒用法</a></li>
+          <li><a href="https://www.martini.com/a-guide-to-vermouth/" target="_blank" rel="noopener noreferrer">Martini · 味美思保存</a></li>
+          <li><a href="https://iba-world.com/cocktails/" target="_blank" rel="noopener noreferrer">国际调酒师协会（IBA） · 经典酒谱</a></li>
+        </ul>
+      </details>
+    </section>
+    <section id="notes" class="beverage-section" aria-labelledby="notes-heading">
+      <div class="beverage-section-head"><h2 id="notes-heading">试调笔记</h2></div>
+      <form id="cocktail-notes" class="learning-card beverage-form">
+        <p><label for="cocktail-note-text">我的配方和口味记录（当前浏览器）</label></p>
+        <textarea id="cocktail-note-text" rows="5" maxlength="10000" placeholder="酒名、用量、试调结果，下次想改的一点"></textarea>
+        <p><button type="submit">保存笔记</button> <span role="status"></span></p>
+      </form>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="posts.js"></script>
+  <script src="app.js?v=cat-smooth-parity-20261028"></script>
+  <script type="module" src="cocktails.js?v=20261117"></script>
+</body>
+</html>

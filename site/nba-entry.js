@@ -1,0 +1,2 @@
+import {load,validateNBA,esc} from './learning-store.js';
+load('nba-data.json',validateNBA).then(d=>{const i=d.images.find(i=>i.id===d.hero.imageId),slot=document.querySelector('.nba-entry-art');if(i&&slot){const img=document.createElement('img');img.src=i.src;img.alt=i.caption;if(i.srcset){img.srcset=i.srcset;img.sizes='(max-width:650px) 100vw, 50vw';}img.loading='lazy';img.decoding='async';img.onerror=()=>img.replaceWith(slot);slot.replaceWith(img);}}).catch(()=>{});

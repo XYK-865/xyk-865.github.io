@@ -1,0 +1,582 @@
+{
+  "drinks": [
+    [
+      "espresso",
+      "意式浓缩",
+      "加压萃取咖啡",
+      "杯量小，质地集中，可能带油脂泡沫",
+      "浓｜无奶",
+      "是其他五款常用的基底。"
+    ],
+    [
+      "americano",
+      "美式",
+      "浓缩＋水",
+      "香气展开，质地较轻",
+      "随加水量变化｜无奶",
+      "美式稀释的是浓缩，滴滤咖啡则直接用水经过咖啡粉萃取。"
+    ],
+    [
+      "latte",
+      "拿铁",
+      "浓缩＋较多蒸奶＋薄奶泡",
+      "圆润温和，奶甜明显",
+      "相对温和｜奶感明显",
+      "与卡布奇诺相比通常奶泡更薄、液态奶更多。"
+    ],
+    [
+      "cappuccino",
+      "卡布奇诺",
+      "浓缩＋蒸奶＋较厚的奶泡",
+      "入口轻盈，咖啡香与奶泡层次分明",
+      "中等｜奶泡明显",
+      "奶泡口感通常比拿铁和馥芮白更突出。"
+    ],
+    [
+      "flat-white",
+      "馥芮白",
+      "浓缩＋细密微奶泡蒸奶",
+      "奶质丝滑，咖啡味更靠前",
+      "相对突出｜薄而细的奶泡",
+      "与拿铁相比通常杯量更小，奶量也较少。各店配方不同。"
+    ],
+    [
+      "mocha",
+      "摩卡",
+      "浓缩＋奶＋巧克力",
+      "可可香、甜度较明显",
+      "随可可和奶量变化｜奶感明显",
+      "饮品摩卡指加巧克力的咖啡。豆袋上的摩卡可能是产地、贸易或风味命名。"
+    ]
+  ],
+  "beans": [
+    [
+      "arabica",
+      "豆种｜阿拉比卡",
+      "Coffea arabica 是物种，波旁与铁皮卡是其下的品种。",
+      "常见花果香、可可等不同表现，批次差异大。"
+    ],
+    [
+      "robusta",
+      "豆种｜罗布斯塔",
+      "通常指 Coffea canephora 的栽培类型。",
+      "拼配中常带较厚的质地与更明显的苦感，也有清甜的精品批次。"
+    ],
+    [
+      "ethiopia",
+      "产地｜埃塞俄比亚",
+      "国家只是起点，还可记录产区、海拔、庄园或处理站。",
+      "有些批次呈花香、柑橘或莓果，处理方式会改变呈现。"
+    ],
+    [
+      "colombia",
+      "产地｜哥伦比亚",
+      "结合地区、庄园、品种和处理法辨认批次。",
+      "一些水洗批次有明亮酸质、焦糖甜或柑橘香。"
+    ],
+    [
+      "brazil",
+      "产地｜巴西",
+      "同一国家有不同产区、海拔和处理条件。",
+      "一些批次偏坚果、巧克力或柔和甜感。"
+    ],
+    [
+      "washed",
+      "处理｜水洗",
+      "去果皮后去除果胶，再干燥。",
+      "常见清晰、干净的风味，仍取决于豆种和发酵控制。"
+    ],
+    [
+      "natural",
+      "处理｜日晒",
+      "咖啡果通常带果肉整体干燥，再脱壳。",
+      "常见较浓的成熟水果感，也可能有更明显的发酵调性。"
+    ],
+    [
+      "honey",
+      "处理｜蜜处理",
+      "去果皮后保留部分果胶干燥。",
+      "甜感与质地可能更突出，保留程度和操作有差别。"
+    ],
+    [
+      "roast-level",
+      "烘焙｜浅、中、深",
+      "烘焙程度影响豆子表现，各烘焙商命名没有统一刻度。",
+      "浅焙常保留较多明亮香气，中焙较易平衡酸甜，深焙常见明显烘烤味。"
+    ]
+  ],
+  "brews": [
+    {
+      "id": "pour-over",
+      "title": "手冲",
+      "summary": "热水穿过咖啡粉层和滤纸，杯中细粉较少，适合分辨香气与酸甜变化。",
+      "tools": "滤杯、匹配的滤纸、分享壶、细嘴壶、电子秤和计时器。",
+      "recipe": "以 V60 单杯为例，15 g 粉／250 g 水（约 1:16.7），中等研磨，水温 92–94°C，总时长约 2:30–3:30。",
+      "steps": [
+        { "title": "润纸与称量", "detail": "用热水润透滤纸并温热下壶，倒掉这部分水。放入 15 g 咖啡粉，轻晃滤杯铺平粉层，把秤归零。" },
+        { "title": "闷蒸", "detail": "开计时，从中心向外注到 45 g，使粉层均匀润湿，等到 30–45 秒。" },
+        { "title": "分段注水", "detail": "以稳定细水流续注，分两至三段加到总重 250 g。等水位回落再补下一段，尽量让水落在咖啡粉上。" },
+        { "title": "滴滤与试喝", "detail": "水落尽后取走滤杯，轻晃分享壶混匀。记下研磨刻度和总时长，稍微放凉后再判断酸、苦和浓淡。" }
+      ],
+      "adjustments": [
+        { "label": "酸尖且下水快", "detail": "下次保持粉量、水量和水温，磨细一小格再试。" },
+        { "label": "苦涩且下水慢", "detail": "下次稍微磨粗，保持注水方式一致。" },
+        { "label": "味道平衡但太淡", "detail": "保持 15 g 粉，将总水量减到约 225 g 再比。" }
+      ],
+      "imageCaption": "手冲用细嘴壶控制水流。实际操作时可把分享壶放到秤上记录累计水量。",
+      "alt": "手持细嘴壶，向置于玻璃分享壶上的纸滤杯缓慢注水",
+      "sources": [
+        { "label": "Hario UK｜V60 单杯配方与注水步骤", "url": "https://www.hario.co.uk/blogs/news/how-to-brew-coffee-with-hario-v60-coffee-dripper" }
+      ]
+    },
+    {
+      "id": "french-press",
+      "title": "法压",
+      "summary": "粉和水一起浸泡，最后用金属滤网分离。杯中保留的油脂和细粉较多，口感通常更厚。",
+      "tools": "法压壶、热水壶、电子秤、计时器。",
+      "recipe": "家用起点为粗磨 20 g 粉／320 g 水（1:16），浸泡约 4 分钟。",
+      "steps": [
+        { "title": "装粉", "detail": "把壶放在平稳台面，倒入粗磨咖啡粉，把秤归零。壶嘴与液面之间留出空间。" },
+        { "title": "注水并浸泡", "detail": "注入热水并开始计时，轻拌一下让干粉润湿。盖上壶盖，浸泡时保持压杆提起。" },
+        { "title": "缓慢下压", "detail": "约 4 分钟后轻而均匀地下压。阻力很大时停手，轻提后再慢压，下次把粉磨粗一点。" },
+        { "title": "全部倒出", "detail": "冲好就倒入杯中，余下的咖啡也转入另一容器，减少咖啡与壶底残粉继续接触。" }
+      ],
+      "adjustments": [
+        { "label": "太酸或香气弱", "detail": "先确认粉都润湿；下一次可将浸泡时间略延长。" },
+        { "label": "太苦或杯底渣多", "detail": "保持时间不变，试更粗一档，压下后立刻倒出。" },
+        { "label": "味道平衡但太淡", "detail": "水量不变，略增加粉量。例如从 20 g 试到 22 g。" }
+      ],
+      "imageCaption": "法压壶靠浸泡萃取。金属滤网在压杆底端，下压后把大部分咖啡渣留在壶底。",
+      "alt": "玻璃法压壶与压杆，中央可见浸泡的咖啡和金属过滤组件",
+      "sources": [
+        { "label": "Blue Bottle Coffee｜法压操作与倒出时机", "url": "https://bluebottlecoffee.com/us/eng/brew-guides/french-press" },
+        { "label": "Bodum｜粗磨与四分钟浸泡示例", "url": "https://www.bodum.com/us/en/11057-01bus-travel-press" }
+      ]
+    },
+    {
+      "id": "moka-pot",
+      "title": "摩卡壶",
+      "summary": "炉火加热下壶，压力把热水推过粉槽，咖啡从上壶的中央导管流出，适合做风味浓厚的小杯咖啡或加奶。",
+      "tools": "摩卡壶、适配热源、摩卡壶用研磨咖啡粉。",
+      "recipe": "按壶容量配水和粉。水位低于安全阀；粉槽松装并铺平。中小火加热，时间随壶型与火力变化。",
+      "steps": [
+        { "title": "检查后加水", "detail": "确认安全阀、滤网和密封圈清洁且完整。向下壶加水，水位停在安全阀下沿以下。" },
+        { "title": "装粉后旋紧", "detail": "放入漏斗粉槽，松松填满并刮平，多余粉末从壶口擦掉，随后将上壶旋紧。粉层保持松散。" },
+        { "title": "中小火加热", "detail": "用适合壶底的热源加热，燃气火焰控制在壶底范围内。从旁观察出液或留意声音变化。" },
+        { "title": "离火与清洁", "detail": "接近出液末段时及时离火；出现明显喷溅或咕噜声就停止加热。待壶冷却后再拆开，按壶的说明冲净并晾干。" }
+      ],
+      "adjustments": [
+        { "label": "出液断续或喷溅", "detail": "先关火并让壶冷却，再检查水位、粉槽有无压实、密封圈是否装好和火力是否过大。" },
+        { "label": "苦或焦", "detail": "下一壶先降低火力，接近出液末段时提前离火。" },
+        { "label": "味道太淡", "detail": "先确认粉槽松装至平，选摩卡壶适用的研磨度。想加水或奶，先照常煮完，再在杯中调。" }
+      ],
+      "imageCaption": "咖啡从上壶中央的导管流出。图中掀盖以露出导管，实际加热时合上壶盖。",
+      "alt": "八角摩卡壶的壶盖打开，可见咖啡从上壶的中央导管流出",
+      "sources": [
+        { "label": "Bialetti｜摩卡壶水位、装粉与加热说明", "url": "https://bialetti-cookware.zendesk.com/hc/en-us/articles/5416235346322-How-to-use-the-Moka-Express" }
+      ]
+    },
+    {
+      "id": "espresso",
+      "title": "意式浓缩",
+      "summary": "意式机加压，让热水短时间穿过压实的细粉层。所得浓缩可直接喝，也能作为拿铁、馥芮白和美式的基底。",
+      "tools": "意式机、适合意式研磨的磨豆机、匹配的粉碗和压粉器、电子秤。",
+      "recipe": "容量合适的双份粉碗可从 18 g 粉／36 g 出液（1:2）起步，启动萃取后约 25–30 秒。时间用来辅助判断流速。",
+      "steps": [
+        { "title": "预热并称粉", "detail": "按机型说明预热机器和手柄，擦干粉碗。按粉碗建议容量称粉并研磨。" },
+        { "title": "布粉与压平", "detail": "把粉均匀分到粉碗各处，垂直按平。擦掉碗沿散粉后装好手柄。" },
+        { "title": "同时看重量与时间", "detail": "把杯子放到秤上归零，启动萃取时计时。出液接近目标重量时停止，记录最终重量和时间。" },
+        { "title": "先尝再调一项", "detail": "将杯中浓缩轻轻搅匀再尝。先固定粉量和出液量，用研磨刻度调整流速，再视口味微调比例。" }
+      ],
+      "adjustments": [
+        { "label": "出液很快，喝起来酸尖", "detail": "磨细一小格，并确认粉层分布均匀。" },
+        { "label": "出液过慢，喝起来苦涩", "detail": "磨粗一小格，保持粉量和出液目标不变。" },
+        { "label": "流速合适，仍想更浓", "detail": "保持粉量，试少出几克液体，同步记录口味变化。" }
+      ],
+      "imageCaption": "杯子放在秤上接浓缩。粉重和杯中出液重量用来计算萃取比例。",
+      "alt": "意式机的手柄正在向电子秤上的小杯萃取浓缩咖啡",
+      "sources": [
+        { "label": "Breville｜粉量、出液比与调整研磨", "url": "https://www.breville.com/en-us/blog/coffee-and-espresso/how-to-dial-in-espresso" }
+      ]
+    },
+    {
+      "id": "cold-brew",
+      "title": "冷萃",
+      "summary": "用冷水长时间浸泡，再把咖啡渣滤走。可以分批提前准备，喝前再试浓淡。",
+      "tools": "带盖冷萃壶或洁净带盖容器、细滤网或滤纸、电子秤、冰箱。",
+      "recipe": "家用起点为粗磨 50 g 粉／550 g 冷水（1:11），冷藏约 8 小时后试喝。",
+      "steps": [
+        { "title": "准备容器", "detail": "洗净容器与过滤组件。称量粗磨咖啡粉，放入滤篮或带盖容器。" },
+        { "title": "浸湿后冷藏", "detail": "倒入冷的饮用水，使咖啡粉都接触到水。盖严并放进冰箱，记录开始时间。" },
+        { "title": "试味与过滤", "detail": "约 8 小时后先尝一小口；达到想要的味道就取出滤篮或把液体滤进干净容器。喜欢更清澈的口感，可以加一道滤纸过滤。" },
+        { "title": "按杯加水或奶", "detail": "先尝原液，再少量加入水、冰或奶。余下的咖啡盖好冷藏，记下冲泡日期。" }
+      ],
+      "adjustments": [
+        { "label": "酸尖或味道单薄", "detail": "下一批保持水粉比，略延长冷藏浸泡时间。" },
+        { "label": "苦感明显", "detail": "下一批先缩短浸泡时间；需要比较时保持同样的稀释比例。" },
+        { "label": "加冰之后太淡", "detail": "先减少杯里的额外加水；原液也偏淡时，下次再微增粉量。" }
+      ],
+      "imageCaption": "玻璃罐可以浸泡咖啡粉，达到口味后再过筛。冷藏浸泡时给容器加盖。",
+      "alt": "粗咖啡粉在玻璃罐的水中浸泡，罐旁放着手持金属滤网",
+      "sources": [
+        { "label": "Hario USA｜冷藏浸泡与过滤器使用", "url": "https://www.hario-usa.com/products/cold-brew-coffee-wine-bottle-650ml" },
+        { "label": "Hario USA｜不同器具的冷萃配方", "url": "https://www.hario-usa.com/blogs/cold-brew-recipes-and-guides" }
+      ]
+    }
+  ],
+  "gear": [
+    {
+      "id": "semi-auto",
+      "title": "半自动意式机",
+      "summary": "自己磨豆、布粉和压粉，机器负责控制加热和萃取。适合把咖啡当成一项可以慢慢练的手艺。",
+      "compareType": "手柄与粉碗",
+      "compareControl": "粉量与出液自定",
+      "mechanism": "泵驱动热水通过手柄粉碗内的咖啡粉饼。常见机型支持预设或手动停止出液，有些机型另带蒸汽棒或自动奶泡功能。",
+      "controls": "可换豆子、磨度、用粉量与出液比例。水温调节、预浸和蒸奶模式取决于机型。",
+      "tradeoff": "可反复比较同一款豆子的不同冲法。每杯都要准备手柄和清理粉饼，通常要搭配可细调的意式磨豆机。",
+      "uses": "适合练习意式浓缩和蒸奶，或想用称重调整拿铁基底。看机型时可留意粉碗容量、是否带磨豆机和蒸汽操作。",
+      "care": "每杯后倒掉粉饼，冲净粉碗和冲煮头；蒸完奶后即刻按说明擦拭并排汽。反冲、清洁片和除垢分别按对应机型手册进行。",
+      "imageCaption": "半自动意式机的手柄、粉碗和蒸汽棒是三个常用操作部位。",
+      "alt": "带手柄与侧边蒸汽棒的半自动意式咖啡机",
+      "sources": [
+        { "label": "Breville｜半自动意式机功能与维护手册", "url": "https://assets.breville.com/BES500/BES500_USCM_IB_T23_LR.pdf" }
+      ]
+    },
+    {
+      "id": "bean-to-cup",
+      "title": "全自动咖啡机",
+      "summary": "把整豆放进豆仓，选饮品后由机器磨豆、成形和冲煮。不同机型的打奶操作有明显差别。",
+      "compareType": "整豆自动冲煮",
+      "compareControl": "档位与杯量预设",
+      "mechanism": "机内磨豆机将咖啡磨进冲煮组件，程序控制每杯冲煮。有些机型配手动蒸汽棒，有些内置吸奶及打泡系统。",
+      "controls": "通常可设置研磨档、浓度或杯量，奶温和奶泡选择视型号而定。磨豆机调档的时机以操作手册为准。",
+      "tradeoff": "处理早晨连续几杯比较省力。磨度和冲煮程序可调范围有限，奶路、渣盒和滴水盘仍需定期维护。",
+      "uses": "适合想用鲜磨整豆快速喝日常咖啡的人。常喝奶咖时，比较奶壶是否好拆洗、奶路是否有冲洗程序。",
+      "care": "定期清空渣盒与滴水盘，清洗水箱。做完奶咖按说明清洗奶路，能拆冲煮组件的机型依说明冲净晾干，提示除垢时按厂商程序做。",
+      "imageCaption": "豆仓、饮品选择面板和出液口是全自动机常见的外部部件。",
+      "alt": "全自动咖啡机的顶部豆仓、前置点选面板和咖啡出液口",
+      "sources": [
+        { "label": "De’Longhi｜全自动机配置与奶泡功能示例", "url": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine/ECAM29043SB.html" },
+        { "label": "De’Longhi｜奶壶冲洗与清洁说明", "url": "https://www.delonghi.com/en-my/faqs/Magnifica-Evo-range%3A-Milk-container-doesn%27t-froth-the-milk-properly/a/572977" }
+      ]
+    },
+    {
+      "id": "capsule",
+      "title": "胶囊机",
+      "summary": "用定量胶囊做一杯咖啡，省掉称量与研磨。可选咖啡、杯量和耗材由各自兼容体系决定。",
+      "compareType": "定量胶囊冲煮",
+      "compareControl": "胶囊与杯量选择",
+      "mechanism": "机器使用加热的水萃取胶囊中的咖啡。注水方式视体系而异，例如 Nespresso Vertuo 会读取胶囊条码并旋转胶囊参与萃取。",
+      "controls": "更换胶囊选择风味或杯型；部分机型可调整杯量。粉量、研磨和兼容胶囊规格由体系决定。",
+      "tradeoff": "出杯操作少，适合每次只做一杯。长期使用要考虑兼容胶囊的获取和回收，想自己换粉量或微调磨度时选择较少。",
+      "uses": "适合台面有限或每次只想快速做一杯的场合。先按机器型号核对胶囊规格和可选杯量。",
+      "care": "用后取出胶囊并清空胶囊盒，更换水箱里的水。出水口、奶泡器和除垢程序随型号不同，按说明进行。",
+      "imageCaption": "胶囊机靠匹配的定量胶囊出杯。用户从胶囊和预设杯量入手选口味。",
+      "alt": "紧凑型胶囊咖啡机旁放着一颗金色胶囊，接水盘上放着小杯",
+      "sources": [
+        { "label": "Nespresso｜Original 和 Vertuo 的兼容性及萃取差异", "url": "https://www.contact.nespresso.com/faq-3/at/en" },
+        { "label": "Nespresso｜按型号查清洁、除垢与设置", "url": "https://www.nespresso.com/nl/en/machine-assistance" }
+      ]
+    },
+    {
+      "id": "grinder",
+      "title": "磨豆机",
+      "summary": "把整豆磨成适合当前冲法的颗粒。相同的豆子，在不同粗细下会有不同流速和萃取表现。",
+      "compareType": "研磨咖啡豆",
+      "compareControl": "粒径与小步微调",
+      "mechanism": "可调磨盘式磨豆机用两片磨盘逐步碾碎豆子，通过磨盘间隙调整粒径。常见锥刀和平刀结构，手摇或电动则区别在驱动方式。",
+      "controls": "档位式方便记刻度，无级式可连续微调。意式通常需要更细的颗粒和更小的调节幅度，手冲、法压则需要设备覆盖相应的中等到粗磨范围。",
+      "tradeoff": "手摇常便于收纳携带，连做几杯细磨会花体力。电动适合频繁冲煮，可比较噪音、残粉和拆洗方式。",
+      "uses": "适合手冲、法压、冷萃和意式机用户。兼做多种冲法时，可把各自的刻度记下来，方便来回切换。",
+      "care": "电动机先断电，再依说明拆下可拆部件，用干刷清残粉。机身和磨盘的清洁方式按手册；允许水洗的豆仓和粉盒应干透后装回。",
+      "imageCaption": "左侧是手摇磨，右侧是电动磨。两类设备均可通过调整磨盘间距改变粉粒粗细。",
+      "alt": "手摇磨豆机和电动磨豆机并排，电动款带透明豆仓与接粉杯",
+      "sources": [
+        { "label": "Baratza｜锥刀和平刀原理", "url": "https://www.baratza.com/en-us/landing/shop-by-burr-type" },
+        { "label": "Baratza｜清理磨盘、粉道和可拆部件", "url": "https://www.baratza.com/en-au/blog/cleaning/grinder-cleaning-essentials" }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "dk-coffee-book",
+      "title": "The Coffee Book",
+      "author": "Anette Moldvaer",
+      "publisher": "DK",
+      "editions": [
+        {
+          "title": "英国精装 · 2021 · 224 页",
+          "isbn": "9780241481127",
+          "url": "https://dk.com/products/9780241481127-the-coffee-book"
+        },
+        {
+          "title": "英国电子版 · 2021 · 224 页",
+          "isbn": "9780241536940",
+          "url": "https://dk.com/products/9780241536940-the-coffee-book"
+        }
+      ],
+      "note": "适合先建立从产地、豆种到研磨、冲煮和饮品配方的知识框架。"
+    }
+  ],
+  "sources": [
+    [
+      "DK｜The Coffee Book",
+      "https://dk.com/products/9780241536940-the-coffee-book"
+    ],
+    [
+      "World Coffee Research｜品种目录",
+      "https://varieties.worldcoffeeresearch.org/"
+    ],
+    [
+      "SCA｜手冲实践",
+      "https://sca.coffee/s/best-practices-two-cup-pour-over-brewer.pdf"
+    ],
+    [
+      "SCA｜意式浓缩的萃取参数",
+      "https://sca.coffee/sca-news/25-magazine/issue-3/defining-ever-changing-espresso-25-magazine-issue-3-zyx36"
+    ],
+    [
+      "Toddy｜冷萃说明",
+      "https://toddycafe.com/cold-brew/instruction-manual"
+    ]
+  ],
+  "drinkRecipes": [
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "group": "black",
+      "amount": "咖啡粉 18 g，目标出液 36 g",
+      "tools": "意式机、磨豆机、电子秤",
+      "steps": [
+        "预热机器和杯子，磨粉并称重。",
+        "布粉后压平，锁上手柄。",
+        "开始萃取并称出液，接近 36 g 时停止。"
+      ],
+      "tip": "流速过快可试磨细，过慢可试磨粗。",
+      "source": "站内冲煮方法",
+      "url": "#coffee-brews",
+      "variants": [
+        {
+          "id": "ristretto",
+          "image": "assets/beverages/ristretto.webp",
+          "title": "短萃浓缩",
+          "name": "Ristretto",
+          "temperature": "hot",
+          "amount": "咖啡粉 18 g，目标出液约 25 g",
+          "tools": "意式机、磨豆机、电子秤",
+          "steps": [
+            "沿用双份浓缩的粉量和布粉方式。",
+            "用秤盯住出液量，到约 25 g 时停萃。"
+          ],
+          "tip": "先比较同一批豆子的长短出液。如果短萃酸涩而且余味短，可略磨细后再试。",
+          "source": "Nespresso Professional · Momento 饮品体积示例",
+          "url": "https://www.nespresso.com/ecom/medias/sys_master/public/27119847407646/Momento-User-Manual-2023-04.pdf"
+        },
+        {
+          "id": "freddo-espresso",
+          "image": "assets/beverages/freddo-espresso.webp",
+          "title": "希腊式冰浓缩",
+          "name": "Freddo Espresso",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冰块适量，糖可选",
+          "tools": "意式机、摇壶或手持奶泡器、小玻璃杯",
+          "steps": [
+            "用刚萃好的浓缩溶解少量糖，喜欢原味也可以省略。",
+            "加入几块冰，短摇或用奶泡器搅打到快速降温、略有泡沫。",
+            "滤入装有新冰的杯子。"
+          ],
+          "tip": "浓缩一降温即可倒出。摇得太久时，融冰容易把小杯饮品冲淡。",
+          "source": "Starbucks at Home · Freddo Espresso",
+          "url": "https://www.starbucksathome.com/gb/recipes/freddo-espresso"
+        }
+      ]
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "group": "black",
+      "amount": "双份浓缩 36 g，热水 120–180 ml",
+      "tools": "意式机、杯子",
+      "steps": [
+        "先把热水倒入杯中。",
+        "另萃取双份浓缩，倒入热水。",
+        "尝一口，再决定是否加水。"
+      ],
+      "tip": "味道偏淡时，先减少水量。也可以用秤记下每次加水量，找到自己喜欢的浓淡。",
+      "source": "Starbucks at Home",
+      "url": "https://www.starbucksathome.com/recipes/caffe-americano",
+      "variants": [
+        {
+          "id": "iced-americano",
+          "image": "assets/beverages/iced-americano.webp",
+          "title": "冰美式",
+          "name": "Iced Americano",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冷水 90–130 ml，冰块适量",
+          "tools": "意式机、杯子；做摇冰版需摇壶",
+          "steps": [
+            "杯中加入冰块和冷水，水量从低端开始。",
+            "另萃取浓缩并倒入杯中，轻搅后试浓淡。",
+            "想做摇冰版，可以先用几块冰短摇浓缩，再加冷水。"
+          ],
+          "tip": "冰融化后还会继续稀释。觉得太淡，下一杯先少加冷水。",
+          "source": "Starbucks at Home · 冰摇美式做法",
+          "url": "https://www.starbucksathome.com/gb/recipes/iced-shaken-americano-recipe"
+        }
+      ]
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "group": "milk",
+      "amount": "双份浓缩 36 g，牛奶 150–180 ml",
+      "tools": "意式机、奶缸与蒸汽棒或奶泡器",
+      "steps": [
+        "萃取浓缩到杯里。",
+        "蒸打牛奶，前段少量进气，随后让牛奶旋转，打出细薄奶泡。",
+        "轻晃奶缸，把蒸奶倒入浓缩，表面留一层薄泡。"
+      ],
+      "tip": "蒸打时尽早结束进气，把大部分时间留给旋转打细，奶泡更容易和浓缩融合。",
+      "source": "Nespresso 奶咖手册",
+      "url": "https://www.nespresso.com/ecom/medias/sys_master/public/26943966445598/Vertuo-Creatista-User-Manual.pdf",
+      "variants": [
+        {
+          "id": "iced-latte",
+          "title": "冰拿铁",
+          "name": "Iced Latte",
+          "image": "assets/beverages/iced-latte.webp",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冷牛奶 120–150 ml，冰块适量",
+          "tools": "意式机、透明杯",
+          "steps": [
+            "杯中加冰，再倒入冷牛奶。",
+            "另萃取浓缩，沿冰块缓慢倒入杯中。",
+            "喝前搅匀，尝一口再调奶量。"
+          ],
+          "tip": "先用较少的奶，可以保留融冰之后的咖啡味。冷牛奶无需加热。",
+          "source": "Nespresso · Ice Latte",
+          "url": "https://www.nespresso.com/ncp/res/generated/recipes/422ICE_en_US.pdf"
+        },
+        {
+          "id": "brown-sugar-oat-latte",
+          "image": "assets/beverages/brown-sugar-oat-latte.webp",
+          "title": "冰黑糖燕麦拿铁",
+          "name": "Iced Brown Sugar Oat Latte",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，燕麦饮 125 ml，黑糖 1–2 茶匙，肉桂粉少许，冰块适量",
+          "tools": "意式机、摇壶、玻璃杯",
+          "steps": [
+            "把黑糖和肉桂粉加入刚萃取的浓缩，搅至糖溶。",
+            "待浓缩稍降温后加冰短摇，再倒进装有新冰的杯子。",
+            "沿杯壁倒入燕麦饮。"
+          ],
+          "tip": "燕麦饮自身带甜味时，黑糖从 1 茶匙起试。",
+          "source": "Starbucks at Home · Iced Brown Sugar Oat Latte",
+          "url": "https://www.starbucksathome.com/gb/recipes/iced-brown-sugar-oat-latte"
+        }
+      ]
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "group": "milk",
+      "amount": "双份浓缩 36 g，牛奶 90–120 ml",
+      "tools": "意式机、奶缸与蒸汽棒或奶泡器",
+      "steps": [
+        "在小杯中接取浓缩。",
+        "蒸打牛奶时多进一点空气，再旋转打细。",
+        "让热奶和奶泡一起倒入杯中，保留比拿铁更明显的泡层。"
+      ],
+      "tip": "泡太粗时减少进气，并让牛奶在奶缸里充分旋转。",
+      "source": "Nespresso 奶咖手册",
+      "url": "https://www.nespresso.com/ecom/medias/sys_master/public/26943966445598/Vertuo-Creatista-User-Manual.pdf",
+      "variants": [
+        {
+          "id": "freddo-cappuccino",
+          "image": "assets/beverages/freddo-cappuccino.webp",
+          "title": "希腊式冰卡布奇诺",
+          "name": "Freddo Cappuccino",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冷牛奶 60–80 ml，冰块适量",
+          "tools": "意式机、摇壶或手持奶泡器、小玻璃杯",
+          "steps": [
+            "将浓缩加冰短摇降温，滤入装有新冰的小杯。",
+            "另用奶泡器打冷牛奶，打至可以铺在咖啡表面。",
+            "用勺把冷奶泡铺在咖啡上。"
+          ],
+          "tip": "把牛奶和打泡容器预先冷藏，牛奶泡好后尽快装杯。",
+          "source": "Starbucks at Home 希腊 · Freddo Cappuccino",
+          "url": "https://www.starbucksathome.com/gr/recipes/freddo-cappuccino"
+        }
+      ]
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "group": "milk",
+      "amount": "双份浓缩 36 g，牛奶 90–110 ml",
+      "tools": "意式机、奶缸与蒸汽棒或奶泡器",
+      "steps": [
+        "用小杯接取浓缩。",
+        "蒸打牛奶，只短暂进气，打出流动的微奶泡。",
+        "奶缸轻晃后立即倒入咖啡，保持薄泡。"
+      ],
+      "tip": "用较小杯量保留咖啡存在感。",
+      "source": "Nespresso 馥芮白配方",
+      "url": "https://www.nespresso.com/recipes/int/en/19766FLA-flat-white-by-nespresso.html",
+      "variants": [
+        {
+          "id": "iced-flat-white",
+          "image": "assets/beverages/iced-flat-white.webp",
+          "title": "冰馥芮白",
+          "name": "Iced Flat White",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冷牛奶 90–110 ml，冰块适量",
+          "tools": "意式机、奶泡器、矮杯",
+          "steps": [
+            "杯中铺冰，倒入刚萃好的浓缩。",
+            "把冷牛奶轻打几下，形成薄薄一层细泡。",
+            "沿杯边倒入牛奶，留一点薄泡在表面。"
+          ],
+          "tip": "这个小杯家用版用较少的奶保留浓缩风味。冷版用轻打的奶，温热版靠蒸汽形成微奶泡。",
+          "source": "Starbucks at Home · Iced Flat White 操作参考",
+          "url": "https://www.starbucksathome.com/gb/iced-flat-white-recipe"
+        }
+      ]
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "group": "milk",
+      "amount": "双份浓缩 36 g、牛奶 150 ml、巧克力酱 15–25 g",
+      "tools": "意式机、奶泡器、杯子",
+      "steps": [
+        "杯中放巧克力酱。",
+        "倒入刚萃好的浓缩，搅至均匀。",
+        "蒸打牛奶后倒入，按喜好加少许巧克力碎。"
+      ],
+      "tip": "先用较少巧克力酱，尝甜度后再调整。",
+      "source": "Starbucks at Home",
+      "url": "https://www.starbucksathome.com/recipes/caffe-mocha",
+      "variants": [
+        {
+          "id": "iced-mocha",
+          "image": "assets/beverages/iced-mocha.webp",
+          "title": "冰摩卡",
+          "name": "Iced Mocha",
+          "temperature": "iced",
+          "amount": "双份浓缩 36 g，冷牛奶 120–150 ml，巧克力酱 15–20 g，冰块适量",
+          "tools": "意式机、搅拌勺、玻璃杯",
+          "steps": [
+            "把巧克力酱和刚萃好的浓缩在小杯中拌匀。",
+            "饮用杯装冰，加入冷奶。",
+            "倒入摩卡浓缩并搅匀。喜欢甜品口感可再加打发奶油。"
+          ],
+          "tip": "巧克力酱先在热浓缩里化开，装冰后可可就不容易成团。",
+          "source": "Starbucks at Home · Iced Mocha",
+          "url": "https://www.starbucksathome.com/recipes/iced-mocha"
+        }
+      ]
+    }
+  ]
+}

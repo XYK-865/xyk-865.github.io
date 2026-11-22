@@ -6502,6 +6502,198 @@
       "href": "personal-os/person-analysis/index.html#friends",
       "kind": "project",
       "sourceTitle": "人物认知与分析模型"
+    },
+    {
+      "title": "复利与现值",
+      "heading": "复利与现值",
+      "text": "把不同时间点的金额放在同一时间尺度比较。",
+      "href": "finance-detail.html?id=compound",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "资产负债表",
+      "heading": "资产负债表",
+      "text": "观察某个时点的资产、负债和权益。",
+      "href": "finance-detail.html?id=balance-sheet",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "宏观周期作为研究视角",
+      "heading": "宏观周期作为研究视角",
+      "text": "把债务、货币和市场环境作为提问框架，而非固定择时公式。",
+      "href": "finance-detail.html?id=macro-cycles",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "瑞·达利欧",
+      "heading": "瑞·达利欧",
+      "text": "引用网站已有的人物条目与访谈笔记。",
+      "href": "finance-detail.html?id=dalio",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "周金涛",
+      "heading": "周金涛",
+      "text": "引用现有人物条目，区分原始观点与整理者比较。",
+      "href": "finance-detail.html?id=zhou",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "通货膨胀与通货紧缩全面解析",
+      "heading": "通货膨胀与通货紧缩全面解析",
+      "text": "已有博客中的学习整理；保留一份正文。",
+      "href": "finance-detail.html?id=inflation-note",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "Ray Dalio 访谈：核心内容与个人启发",
+      "heading": "Ray Dalio 访谈：核心内容与个人启发",
+      "text": "已有访谈整理，引用其债务货币及风险讨论。",
+      "href": "finance-detail.html?id=dalio-note",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "达利欧 × 周金涛：双周期观察与行动框架",
+      "heading": "达利欧 × 周金涛：双周期观察与行动框架",
+      "text": "现有文章对两套框架作比较。",
+      "href": "finance-detail.html?id=cycles-note",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "复利计算器与变量说明",
+      "heading": "复利计算器与变量说明",
+      "text": "SEC 投资者教育资料。",
+      "href": "finance-detail.html?id=sec-compound",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "教学示例｜10,000 元的两年复利与折现",
+      "heading": "教学示例｜10,000 元的两年复利与折现",
+      "text": "虚构数字，用于验证公式与双向引用，不代表真实投资记录。",
+      "href": "finance-detail.html?id=compound-example",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "教学示例｜如何阅读一篇周期判断",
+      "heading": "教学示例｜如何阅读一篇周期判断",
+      "text": "演示区分资料中的观点与未来待观察的结果。",
+      "href": "finance-detail.html?id=cycle-reading-example",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "金融学习与投资研究",
+      "heading": "金融学习与投资研究",
+      "text": "金融学习与投资研究",
+      "href": "finance.html",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "NBA 篮球收藏",
+      "heading": "NBA 篮球收藏",
+      "text": "NBA 篮球收藏",
+      "href": "nba.html",
+      "kind": "project",
+      "sourceTitle": "NBA 篮球收藏"
+    },
+    {
+      "title": "咖啡百科与冲煮笔记",
+      "heading": "咖啡百科与冲煮笔记",
+      "text": "咖啡百科与冲煮笔记",
+      "href": "coffee.html",
+      "kind": "page",
+      "sourceTitle": "咖啡百科与冲煮笔记"
+    },
+    {
+      "title": "咖啡豆与产地",
+      "heading": "咖啡豆与产地",
+      "text": "咖啡豆与产地",
+      "href": "coffee-origins.html",
+      "kind": "page",
+      "sourceTitle": "咖啡豆与产地"
+    },
+    {
+      "title": "调酒与家用吧台",
+      "heading": "调酒与家用吧台",
+      "text": "调酒与家用吧台",
+      "href": "cocktails.html",
+      "kind": "page",
+      "sourceTitle": "调酒与家用吧台"
+    },
+    {
+      "title": "衣装｜个人穿搭档案",
+      "heading": "衣装｜个人穿搭档案",
+      "text": "衣装｜个人穿搭档案",
+      "href": "wardrobe.html",
+      "kind": "page",
+      "sourceTitle": "衣装｜个人穿搭档案"
+    },
+    {
+      "title": "利润表",
+      "heading": "利润表",
+      "text": "某段期间收入多少、扣除成本费用后赚了多少？",
+      "href": "finance-detail.html?id=income-statement",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "现金流量表",
+      "heading": "现金流量表",
+      "text": "这段时间现金从哪里来、又用到哪里？",
+      "href": "finance-detail.html?id=cash-flow-statement",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "苹果 FY2024 的收入增长来自哪里？",
+      "heading": "苹果 FY2024 的收入增长来自哪里？",
+      "text": "对照 FY2023 与 FY2024 的五项净销售额，拆出增长和抵消项。",
+      "href": "finance-detail.html?id=apple-fy2024-revenue",
+      "kind": "project",
+      "sourceTitle": "金融学习与投资研究"
+    },
+    {
+      "title": "对方来求助时，我该怎样帮？",
+      "heading": "对方来求助时，我该怎样帮？",
+      "text": "朋友说「最近工作很累」时，怎样问清他想被倾听还是需要帮忙？用四行记录回看一次谈话。",
+      "href": "assets/personal-os/content/ask-before-helping.html",
+      "kind": "project",
+      "sourceTitle": "人生元系统"
+    },
+    {
+      "title": "投递前的岗位验证与能力证据表",
+      "heading": "投递前的岗位验证与能力证据表",
+      "text": "把三份招聘说明放在一起，挑出一项重复任务。用五列表格写清自己做过什么、还差哪份证据。",
+      "href": "assets/personal-os/content/job-evidence.html",
+      "kind": "project",
+      "sourceTitle": "人生元系统"
+    },
+    {
+      "title": "三分钟表达练习",
+      "heading": "三分钟表达练习",
+      "text": "用三分钟讲清一个概念，请听者复述并举例。根据他卡住的地方，重讲其中一句。",
+      "href": "assets/personal-os/content/three-minute-explanation.html",
+      "kind": "project",
+      "sourceTitle": "人生元系统"
+    },
+    {
+      "title": "主动检索与浏览推荐流",
+      "heading": "主动检索与浏览推荐流",
+      "text": "候选实验：围绕同一问题，各花十五分钟搜索和浏览推荐流，比较能找到的原文与下一步。",
+      "href": "assets/personal-os/content/search-and-feed.html",
+      "kind": "project",
+      "sourceTitle": "人生元系统"
     }
   ]
 }

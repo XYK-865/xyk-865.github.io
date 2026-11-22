@@ -1,0 +1,222 @@
+{
+  "countries": [
+    {
+      "id": "ethiopia",
+      "name": "埃塞俄比亚",
+      "label": "Ethiopia",
+      "journalBeanId": "ethiopia",
+      "pick": "想找花香、柑橘和茶感，从水洗耶加雪菲开始。想喝核果调，看看水洗古吉。",
+      "summary": "埃塞俄比亚有丰富的阿拉比卡种质。耶加雪菲、古吉和哈拉尔是产区名称；豆袋上的 Heirloom 常泛指本地品种或混合品种，具体到批次时以生产者标注为准。",
+      "choose": "想分辨处理法，可以挑同一处理站或庄园的水洗、日晒各一包，尽量选相近的烘焙度。若只买一包，偏清香可从水洗耶加雪菲入门，偏厚实可找带可可、酒香描述的哈拉尔日晒批次。",
+      "sources": [
+        [
+          "埃塞俄比亚咖啡与茶管理局 · 水洗耶加雪菲、古吉风味档案",
+          "https://ethiocta.gov.et/wp-content/uploads/2022/09/Coffee-Tea-and-Spice-Exporters-Buisness-Directory.pdf"
+        ],
+        [
+          "埃塞俄比亚咖啡与茶管理局 · 哈拉尔等特色产区",
+          "https://ethiocta.gov.et/wp-content/uploads/2022/09/ECTA-new-Coffee-Booklet-.pdf"
+        ],
+        [
+          "埃塞俄比亚政府门户 · 咖啡与产区",
+          "https://www.ethiopia.gov.et/articles/the-jebena-and-the-market"
+        ]
+      ],
+      "regions": [
+        {
+          "id": "yirgacheffe",
+          "name": "耶加雪菲",
+          "label": "Yirgacheffe",
+          "varieties": "阿拉比卡。官方水洗样本以本地 Heirloom 品种群标示。",
+          "profile": "水洗样本可以留意花香、柠檬调与茶香。",
+          "compare": "与古吉水洗比较，先辨花香和柑橘，再找古吉更偏桃、杏的核果调。与巴西塞拉多相比，可对照花香和坚果、可可两种香气方向。"
+        },
+        {
+          "id": "guji",
+          "name": "古吉",
+          "label": "Guji",
+          "varieties": "阿拉比卡。官方水洗样本以本地 Heirloom 品种群标示。",
+          "profile": "水洗样本有玫瑰、杏或芒果的描述，也能出现青柠般的明快感。",
+          "compare": "想喝带果肉感的水洗豆，可以用古吉与纳里尼奥水洗对照，一个重点找核果香，一个观察酸甜、干净度和香气强弱。"
+        },
+        {
+          "id": "harar",
+          "name": "哈拉尔",
+          "label": "Harar",
+          "varieties": "埃塞俄比亚东部高地的阿拉比卡。查看豆袋或商品页确认更细的品种。",
+          "profile": "常见线索是日晒处理、醇厚口感、酒香或摩卡般的香气。",
+          "compare": "与耶加雪菲水洗相比，可以观察更厚的口感与更明显的日晒香气。这个组合同时改变了产地和处理法。"
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "name": "哥伦比亚",
+      "label": "Colombia",
+      "journalBeanId": "colombia",
+      "pick": "想喝果香带焦糖甜的咖啡，先试薇拉水洗。偏爱明亮酸质，可以找纳里尼奥。",
+      "summary": "薇拉和纳里尼奥都有受保护的产地名称。地区风味可参考哥伦比亚咖啡种植者联合会的描述，具体品种可看授权产品或生产者标注。",
+      "choose": "想做日常手冲，可从标注薇拉、卡杜拉或卡斯蒂略、水洗的批次入手。想比较地区，再挑相近烘焙度的纳里尼奥水洗，放到温热时一起喝。",
+      "sources": [
+        [
+          "哥伦比亚咖啡种植者联合会 · 地区原产地与风味",
+          "https://cafedecolombia.com/denominacion-de-origen-regional/"
+        ],
+        [
+          "联合会 · 薇拉品种与授权产品",
+          "https://www.cafedecolombia.com/wp-content/uploads/2023/11/2023-11-16-Usuarios-autorizados-DO-Huila.pdf"
+        ],
+        [
+          "联合会 · 纳里尼奥品种与授权产品",
+          "https://cafedecolombia.com/wp-content/uploads/2024/12/usuarios_autorizados_DO_narino.pdf"
+        ]
+      ],
+      "regions": [
+        {
+          "id": "huila",
+          "name": "薇拉（慧兰）",
+          "label": "Huila",
+          "language": "es",
+          "varieties": "阿拉比卡。授权产品可见卡杜拉（Caturra）、卡斯蒂略（Castillo）、哥伦比亚（Colombia）等。",
+          "profile": "受保护的水洗风味重视平衡、甜感、果香与焦糖香，口感可从中等到偏饱满。",
+          "compare": "同样带甜感，薇拉可以先找果香与焦糖并存，和塞拉多的坚果可可调放在一起更容易分辨。"
+        },
+        {
+          "id": "narino",
+          "name": "纳里尼奥",
+          "label": "Nariño",
+          "language": "es",
+          "varieties": "阿拉比卡。授权产品可见卡斯蒂略、卡杜拉和哥伦比亚品种。",
+          "profile": "官方产地描述强调较鲜明的酸质、甜感、清洁度与明显香气，口感中等。",
+          "compare": "与薇拉水洗对照，可以留意纳里尼奥的酸感是否更鲜明，以及回甜和口感厚度如何变化。"
+        }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "巴西",
+      "label": "Brazil",
+      "journalBeanId": "brazil",
+      "pick": "偏坚果、可可和柔和酸感，可先挑米纳斯塞拉多。想比较巴西果香批次，再看曼蒂凯拉。",
+      "summary": "仅凭包装上的「巴西」无法确定豆种或风味。米纳斯州能找到阿拉比卡，圣埃斯皮里图州还能找到与阿拉比卡不同的 Conilon。",
+      "choose": "偏爱可可和坚果，可以找米纳斯塞拉多的中烘，再分别做黑咖啡和奶咖。对巴西的果香感兴趣，可找产地、品种、处理法都写清的曼蒂凯拉黄波旁日晒，比较回甜。",
+      "sources": [
+        [
+          "米纳斯塞拉多咖啡种植者联合会 · 地区品种与风味",
+          "https://www.cerradomineiro.org/pdf/release_eng.pdf"
+        ],
+        [
+          "Alliance for Coffee Excellence · 曼蒂凯拉黄波旁日晒样本",
+          "https://allianceforcoffeeexcellence.org/farm-directory/90-15-2/"
+        ],
+        [
+          "巴西精品咖啡协会 · 曼蒂凯拉庄园品种示例",
+          "https://www.bsca.com.br/38-2/"
+        ],
+        [
+          "INPI · 圣埃斯皮里图 Conilon 产地技术文件",
+          "https://revistas.inpi.gov.br/pdf/Indicacoes_Geograficas2627.pdf"
+        ],
+        [
+          "Incaper · 圣埃斯皮里图 Conilon 品种",
+          "https://incaper.es.gov.br/cafeicultura-tecnologias"
+        ]
+      ],
+      "regions": [
+        {
+          "id": "cerrado",
+          "name": "米纳斯塞拉多",
+          "label": "Cerrado Mineiro",
+          "language": "pt",
+          "varieties": "阿拉比卡。地区联合会列举卡杜艾（Catuaí）与新世界（Mundo Novo）为主要品种。",
+          "profile": "焦糖和坚果香、较温和的柑橘酸质、带巧克力感的回味，是官方地区档案给出的线索。",
+          "compare": "与花香型耶加雪菲或酸感较明亮的纳里尼奥相比，适合用来观察坚果、可可感和入口圆润度。"
+        },
+        {
+          "id": "mantiqueira",
+          "name": "米纳斯曼蒂凯拉",
+          "label": "Mantiqueira de Minas",
+          "language": "pt",
+          "varieties": "阿拉比卡。当地庄园有黄波旁（Bourbon Amarelo）、黄卡杜艾（Catuaí Amarelo）等。",
+          "profile": "以 Fazenda Fortaleza 2018 年日晒黄波旁为例，比赛杯测记有桃、深色水果、烘烤坚果和蜂蜜香。",
+          "compare": "同一州也有鲜明的果香批次。和塞拉多并排试时，注意品种、处理与烘焙是否一致，避免把单一批次风味当作全区典型。"
+        },
+        {
+          "id": "espirito-santo",
+          "name": "圣埃斯皮里图",
+          "label": "Espírito Santo",
+          "language": "pt",
+          "varieties": "当地的 Conilon 属中果咖啡（Coffea canephora），可见 Vitória 8142、Robusta Tropical 等栽培品种。",
+          "profile": "产地技术档案描述 Conilon 的风味和气味较强，常带更明显的苦感。",
+          "compare": "与同烘焙度的塞拉多阿拉比卡试喝，观察苦感、浓度和加入牛奶后还能保留多少咖啡香。"
+        }
+      ]
+    },
+    {
+      "id": "guatemala",
+      "name": "危地马拉",
+      "label": "Guatemala",
+      "pick": "喜欢可可甜香和亮一点的酸感，可从安提瓜入门，再用微微带葡萄调的韦韦特南戈对照。",
+      "summary": "安提瓜与韦韦特南戈的区域杯测画像不同。危地马拉咖啡协会（Anacafé）的地区比赛同时记录了批次品种，便于对照两地的波旁和卡杜拉。",
+      "choose": "想试可可与明亮酸质一起出现，可找安提瓜波旁。若想重点观察酒香、葡萄调和多汁口感，挑一支写清产村、品种和处理方式的韦韦特南戈。",
+      "sources": [
+        [
+          "Anacafé · 安提瓜与韦韦特南戈地区杯测和批次品种",
+          "https://www.anacafe.org/articles/anacafe-anuncia-los-ganadores-de-las-competencias-regionales-2020-2021/"
+        ],
+        [
+          "Anacafé · 韦韦特南戈卡杜拉与波旁批次",
+          "https://www.anacafe.org/uploads/file/48ae13376d3a429c81e38f4419193393/MemoriaAnacafe2020.pdf"
+        ]
+      ],
+      "regions": [
+        {
+          "id": "antigua",
+          "name": "安提瓜",
+          "label": "Antigua",
+          "language": "es",
+          "varieties": "阿拉比卡。地区比赛名单中有波旁、卡杜拉和品种拼配。",
+          "profile": "协会地区杯测描述包括巧克力、焦糖、蜂蜜，酸质明亮，口感可呈奶油般的圆润质地。",
+          "compare": "和塞拉多相比，两地可能都有可可和焦糖调，可以比较安提瓜的酸感和醇厚度。"
+        },
+        {
+          "id": "huehuetenango",
+          "name": "韦韦特南戈",
+          "label": "Huehuetenango",
+          "language": "es",
+          "varieties": "阿拉比卡。历史比赛批次中可见波旁、卡杜拉等。",
+          "profile": "协会风味描述有葡萄般酸质、酒香和多汁口感。",
+          "compare": "与安提瓜对照时，可以从葡萄或酒香与焦糖可可的区别入手，也可以与埃塞俄比亚古吉比较两种果香的质感。"
+        }
+      ]
+    }
+  ],
+  "labelGuide": [
+    [
+      "豆种与品种",
+      "阿拉比卡（Coffea arabica）和中果咖啡（Coffea canephora）是物种。波旁、卡杜拉等是更细的栽培品种。"
+    ],
+    [
+      "产地",
+      "先看国家，再看产区、庄园、合作社或处理站。耶加雪菲和薇拉属于产地信息；同个地区可以种好几个品种。"
+    ],
+    [
+      "处理法",
+      "水洗通常去皮并去除果胶后干燥，日晒保留整颗咖啡果实一起干燥；蜜处理通常去皮后留部分果胶干燥。"
+    ],
+    [
+      "烘焙与风味",
+      "找同一家烘焙商、同一烘焙深浅的豆子做对照。包装上的花香或可可属感官描述，也可用自己的冲煮记录检验。"
+    ]
+  ],
+  "sources": [
+    [
+      "World Coffee Research · 全球咖啡品种目录",
+      "https://varieties.worldcoffeeresearch.org/"
+    ],
+    [
+      "SCA · 咖啡风味轮",
+      "https://sca.coffee/research/coffee-tasters-flavor-wheel"
+    ]
+  ]
+}

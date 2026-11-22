@@ -1,0 +1,495 @@
+{
+  "version": 1,
+  "entities": [
+    {
+      "tags": [
+        "公式",
+        "折现"
+      ],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "compound",
+      "type": "knowledge",
+      "title": "复利与现值",
+      "summary": "把不同时间点的金额放在同一时间尺度比较。",
+      "topic": "时间价值",
+      "body": "复利把本金与累计利息按给定利率继续计息；现值将未来给定金额换算到今天。这里使用固定年有效利率、每年计息一次、无中途现金流的教学模型。",
+      "formulas": [
+        {
+          "expression": "FV = P × (1 + r)ⁿ",
+          "variables": [
+            "FV：期末金额，元",
+            "P：期初本金，元",
+            "r：年有效利率，小数，例如 0.05",
+            "n：完整年数，年"
+          ],
+          "conditions": "一年计息一次；期间利率固定；没有追加或支取。",
+          "limits": "未计税费、通胀、违约；假设利率不是收益承诺。"
+        },
+        {
+          "expression": "PV = FV ÷ (1 + r)ⁿ",
+          "variables": [
+            "PV：今天的现值，元",
+            "FV：未来金额，元",
+            "r：与期间匹配的年折现率，小数，须大于 −1",
+            "n：距离收到金额的年数，年"
+          ],
+          "conditions": "现金流币种与折现率一致，时间单位匹配。",
+          "limits": "选择折现率需要另行论证；这不是完整公司估值模型。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SEC Investor.gov · 复利计算器",
+          "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+          "reason": "本金、时间、利率与计息频率的基础教学入口；本站公式限定为年有效利率。",
+          "verifiedAt": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "tags": [
+        "会计",
+        "公式"
+      ],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "balance-sheet",
+      "type": "knowledge",
+      "title": "资产负债表",
+      "summary": "观察某个时点的资产、负债和权益。",
+      "topic": "财务报表",
+      "body": "资产负债表是一张时点快照，不能代替期间利润或现金流量表。账面权益也不等于公司市场价值。",
+      "formulas": [
+        {
+          "expression": "资产 = 负债 + 股东权益",
+          "variables": [
+            "资产：同一报告日、同一货币单位的账面金额",
+            "负债：同一口径的义务金额",
+            "权益：相同口径的剩余权益金额"
+          ],
+          "conditions": "同一会计主体、日期、币种及会计口径。",
+          "limits": "不能单凭这个恒等式判断估值、偿债能力或未来回报。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SEC · 财务报表入门",
+          "url": "https://www.sec.gov/investor/pubs/begfinstmtguide.htm",
+          "reason": "说明资产负债表的时点性质及基本会计等式。",
+          "verifiedAt": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "tags": [
+        "周期",
+        "阅读方法"
+      ],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "macro-cycles",
+      "type": "knowledge",
+      "title": "宏观周期作为研究视角",
+      "summary": "把债务、货币和市场环境作为提问框架，而非固定择时公式。",
+      "topic": "宏观与风险",
+      "body": "现有达利欧访谈和双周期整理涉及债务、货币、流动性及不同周期框架。学习时需分别记录原始说法、整理者延伸、数据日期和反例。周期叙事不直接证明具体资产的买卖时点。",
+      "sources": []
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "dalio",
+      "type": "person",
+      "title": "瑞·达利欧",
+      "summary": "引用网站已有的人物条目与访谈笔记。",
+      "existing": {
+        "kind": "person",
+        "id": "ray-dalio"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "zhou",
+      "type": "person",
+      "title": "周金涛",
+      "summary": "引用现有人物条目，区分原始观点与整理者比较。",
+      "existing": {
+        "kind": "person",
+        "id": "zhou-jintao"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "inflation-note",
+      "type": "resource",
+      "title": "通货膨胀与通货紧缩全面解析",
+      "summary": "已有博客中的学习整理；保留一份正文。",
+      "resourceKind": "文章",
+      "href": "blog-articles/inflation-deflation.html",
+      "body": "讨论物价总水平、购买力和债务。原稿中的概括性策略具有条件限制，本项目仅作为学习资料入口。",
+      "existing": {
+        "kind": "post",
+        "id": "blog-articles/inflation-deflation.html"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "dalio-note",
+      "type": "resource",
+      "title": "Ray Dalio 访谈：核心内容与个人启发",
+      "summary": "已有访谈整理，引用其债务货币及风险讨论。",
+      "resourceKind": "访谈笔记",
+      "href": "blog-articles/dalio-interview.html",
+      "body": "按主持人问题整理，包含货币、财富、泡沫、周期和个人启发；并非访谈逐字稿。",
+      "existing": {
+        "kind": "post",
+        "id": "blog-articles/dalio-interview.html"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "cycles-note",
+      "type": "resource",
+      "title": "达利欧 × 周金涛：双周期观察与行动框架",
+      "summary": "现有文章对两套框架作比较。",
+      "resourceKind": "文章",
+      "href": "blog-articles/dalio-zhou-cycles.html",
+      "body": "包含共同点、差异和整理者的延伸判断。比较不等于两位人物共同发表意见，不把对未来的推断当作事实。",
+      "existing": {
+        "kind": "post",
+        "id": "blog-articles/dalio-zhou-cycles.html"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "sec-compound",
+      "type": "resource",
+      "title": "复利计算器与变量说明",
+      "summary": "SEC 投资者教育资料。",
+      "resourceKind": "官方资料",
+      "href": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+    },
+    {
+      "tags": [
+        "教学示例"
+      ],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "compound-example",
+      "type": "case",
+      "title": "教学示例｜10,000 元的两年复利与折现",
+      "summary": "虚构数字，用于验证公式与双向引用，不代表真实投资记录。",
+      "topic": "时间价值",
+      "example": true,
+      "date": "2026-11-06",
+      "sections": {
+        "背景": "虚构的学习练习，没有账户、真实持仓或交易。",
+        "研究问题": "同样以 5% 年有效利率衡量，今天的金额与两年后的金额如何比较？",
+        "当时可获得的信息": "仅采用本案例给定的本金、期限和假设利率，没有后来行情。",
+        "事实": "以下结果来自算术运算，不是历史投资收益。",
+        "假设": "本金 10,000 元；年有效利率 5%；每年计息一次；两年；不含税费。",
+        "个人判断": "只检验时间价值公式，不判断某项资产是否值得购买。",
+        "分析过程": "FV = 10,000 × 1.05² = 11,025 元；未来 10,000 元的现值 = 10,000 ÷ 1.05² ≈ 9,070.29 元。",
+        "结果": "金额的时间点不同，不能不经换算直接比较。",
+        "事后观察": "这是教学计算，未发生真实投资，也没有真实市场结果。",
+        "复盘": "改变利率会改变结果；实际现金流、风险与折现率选择需要额外资料。"
+      }
+    },
+    {
+      "tags": [],
+      "updatedAt": "2026-11-06",
+      "status": "published",
+      "id": "cycle-reading-example",
+      "type": "case",
+      "title": "教学示例｜如何阅读一篇周期判断",
+      "summary": "演示区分资料中的观点与未来待观察的结果。",
+      "example": true,
+      "topic": "宏观与风险",
+      "date": "2026-11-06",
+      "sections": {
+        "背景": "以站内双周期文章作阅读练习，不构造实际投资组合。",
+        "研究问题": "哪些内容是人物讨论，哪些是整理者推断？",
+        "当时可获得的信息": "当前文章正文和其公开来源入口；没有检验其所有数字。",
+        "事实": "站内文章包含债务、货币与周期框架的比较。",
+        "假设": "若采用某周期解释，需要先明确适用市场、数据时期和反例。",
+        "个人判断": "先建立待核验清单，再考虑能否支持案例分析。",
+        "分析过程": "分别摘记原始观点、整理者延伸与可证伪条件；未提供买卖结论。",
+        "结果": "得到阅读问题和核查任务，不是已验证的收益结论。",
+        "事后观察": "暂无市场结果，不能用后来表现改写当时信息。",
+        "复盘": "下一步补原始访谈和带日期的数据，允许证据推翻初始解释。"
+      }
+    },
+    {
+      "status": "published",
+      "updatedAt": "2026-11-08",
+      "id": "income-statement",
+      "title": "利润表",
+      "summary": "某段期间收入多少、扣除成本费用后赚了多少？",
+      "body": "先比较收入和毛利，再看营业利润与净利润。利润表按权责发生制确认，收入与收到现金的时点可能不同。",
+      "type": "knowledge",
+      "topic": "财务报表",
+      "tags": [
+        "三张报表"
+      ],
+      "sources": [
+        {
+          "title": "Apple 2024 年报 · 合并财务报表",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "reason": "Part II Item 8 可以对照实际报表。"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updatedAt": "2026-11-08",
+      "id": "cash-flow-statement",
+      "title": "现金流量表",
+      "summary": "这段时间现金从哪里来、又用到哪里？",
+      "body": "按经营、投资和筹资三类拆开看。先把净利润与经营现金流对照，再看资本开支和融资，避免把净利润直接当作现金。",
+      "type": "knowledge",
+      "topic": "财务报表",
+      "tags": [
+        "三张报表"
+      ],
+      "sources": [
+        {
+          "title": "Apple 2024 年报 · 合并财务报表",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "reason": "Part II Item 8 可以对照实际报表。"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updatedAt": "2026-11-08",
+      "id": "apple-fy2024-revenue",
+      "type": "case",
+      "title": "苹果 FY2024 的收入增长来自哪里？",
+      "summary": "对照 FY2023 与 FY2024 的五项净销售额，拆出增长和抵消项。",
+      "topic": "财务报表",
+      "tags": [
+        "AAPL",
+        "美股",
+        "真实财报"
+      ],
+      "example": false,
+      "date": "2026-11-08",
+      "sections": {
+        "研究问题": "苹果 FY2024 的净销售额同比增加 77.50 亿美元。哪些业务贡献了这部分增量？",
+        "期间与口径": "对比截至 2024 年 9 月 28 日与 2023 年 9 月 30 日的两个财年。表格以百万美元计，使用公司披露的净销售额分类。",
+        "拆解结果": "总净销售额由 3,832.85 亿美元增至 3,910.35 亿美元，约增 2.02%。服务增加 109.69 亿美元，产品合计减少 32.19 亿美元，因此服务增量高于全公司净增量。产品内部，iPhone 和 Mac 的增长被 iPad 与可穿戴设备、家居与配件的下滑抵消。",
+        "复盘与待验证": "服务分类包含多个业务，汇总数据无法单独量化各子业务的贡献，也无法拆出销量、价格和汇率影响。收入拆解完成后，可再看利润率、经营现金流与应收账款变化，分别验证盈利和现金表现。"
+      },
+      "table": {
+        "caption": "苹果净销售额分项（百万美元）",
+        "headers": [
+          "业务",
+          "FY2023",
+          "FY2024",
+          "增减"
+        ],
+        "rows": [
+          [
+            "iPhone",
+            "200,583",
+            "201,183",
+            "+600"
+          ],
+          [
+            "Mac",
+            "29,357",
+            "29,984",
+            "+627"
+          ],
+          [
+            "iPad",
+            "28,300",
+            "26,694",
+            "−1,606"
+          ],
+          [
+            "可穿戴设备、家居与配件",
+            "39,845",
+            "37,005",
+            "−2,840"
+          ],
+          [
+            "服务",
+            "85,200",
+            "96,169",
+            "+10,969"
+          ],
+          [
+            "合计",
+            "383,285",
+            "391,035",
+            "+7,750"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "SEC EDGAR · Apple FY2024 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "reason": "Part II Item 7 与 Item 8 提供比较口径和三张报表。"
+        },
+        {
+          "title": "SEC EDGAR · 分项净销售额原表",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/R26.htm",
+          "reason": "五项净销售额的原始披露。"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "fr-1",
+      "from": "compound-example",
+      "to": "compound",
+      "type": "使用模型",
+      "reason": "案例明确选择此知识 ID 进行复利与折现计算。"
+    },
+    {
+      "id": "fr-2",
+      "from": "compound-example",
+      "to": "sec-compound",
+      "type": "我的学习参考",
+      "reason": "参考变量与计息频率的教学说明。"
+    },
+    {
+      "id": "fr-3",
+      "from": "dalio-note",
+      "to": "dalio",
+      "type": "访谈对象",
+      "reason": "正文按主持人问题整理达利欧的回答，不把整理者当作本人。"
+    },
+    {
+      "id": "fr-4",
+      "from": "cycles-note",
+      "to": "dalio",
+      "type": "讨论对象",
+      "reason": "比较其债务与货币周期框架。"
+    },
+    {
+      "id": "fr-5",
+      "from": "cycles-note",
+      "to": "zhou",
+      "type": "讨论对象",
+      "reason": "比较其康波观察；原文中的延伸推断保留整理者身份。"
+    },
+    {
+      "id": "fr-6",
+      "from": "dalio-note",
+      "to": "macro-cycles",
+      "type": "讨论",
+      "reason": "正文涉及债务、货币和市场情绪。"
+    },
+    {
+      "id": "fr-7",
+      "from": "cycles-note",
+      "to": "macro-cycles",
+      "type": "讨论",
+      "reason": "文章直接比较周期框架及其差异。"
+    },
+    {
+      "id": "fr-8",
+      "from": "inflation-note",
+      "to": "macro-cycles",
+      "type": "我的学习参考",
+      "reason": "补充理解物价、购买力与债务讨论；不据此直接确认择时结论。"
+    },
+    {
+      "id": "fr-9",
+      "from": "cycle-reading-example",
+      "to": "macro-cycles",
+      "type": "使用概念",
+      "reason": "用此视角组织阅读问题和反例。"
+    },
+    {
+      "id": "fr-10",
+      "from": "cycle-reading-example",
+      "to": "cycles-note",
+      "type": "我的学习参考",
+      "reason": "原文作为区分事实、假设与判断的阅读对象。"
+    },
+    {
+      "id": "fr-11",
+      "from": "cycle-reading-example",
+      "to": "dalio",
+      "type": "讨论对象",
+      "reason": "来自所引用文章的讨论人物，非案例共同作者。"
+    },
+    {
+      "id": "apple-fy2024-revenue-income-statement",
+      "from": "apple-fy2024-revenue",
+      "to": "income-statement",
+      "type": "阅读与复核",
+      "reason": "从利润表确认全公司净销售额，再用附注分项拆解。"
+    },
+    {
+      "id": "apple-fy2024-revenue-balance-sheet",
+      "from": "apple-fy2024-revenue",
+      "to": "balance-sheet",
+      "type": "阅读与复核",
+      "reason": "下一步用应收账款观察期末收款状况。"
+    },
+    {
+      "id": "apple-fy2024-revenue-cash-flow-statement",
+      "from": "apple-fy2024-revenue",
+      "to": "cash-flow-statement",
+      "type": "阅读与复核",
+      "reason": "下一步对照经营现金流，区分收入与现金流入。"
+    }
+  ],
+  "sections": {
+    "us": {
+      "title": "美股研究",
+      "items": [
+        "apple-fy2024-revenue"
+      ],
+      "categories": [
+        "公司研究",
+        "财报阅读",
+        "估值分析",
+        "观察记录",
+        "案例"
+      ]
+    },
+    "ths": {
+      "title": "同花顺学习与实践",
+      "items": [],
+      "categories": [
+        "工具学习",
+        "观察笔记",
+        "市场研究"
+      ],
+      "market": "不限市场"
+    }
+  },
+  "overview": {
+    "featured": "apple-fy2024-revenue",
+    "route": [
+      "balance-sheet",
+      "income-statement",
+      "cash-flow-statement",
+      "apple-fy2024-revenue"
+    ],
+    "recent": [
+      "apple-fy2024-revenue",
+      "cash-flow-statement",
+      "income-statement"
+    ]
+  }
+}
