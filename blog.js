@@ -42,7 +42,7 @@ function render(){
     const date=/^\d{4}-\d{2}-\d{2}$/.test(post.date)?` datetime="${post.date}"`:'';
     const category=categories.find(item=>item.id===post.category)?.label;
     const cover=typeof post.cover==='string'&&/^assets\/[a-zA-Z0-9_\/-]+\.webp$/.test(post.cover)?`<img class="post-card-cover" src="${escapeHtml(post.cover)}" alt="${escapeHtml(post.title)}封面" loading="lazy">`:'';
-    return `<article class="post-card${href?'':' post-card-draft'}"><div class="post-meta">${category?`<small class="post-category">${escapeHtml(category)}</small>`:''}${post.status==='published'?`<time${date}>${escapeHtml(post.date)}</time>`:'<span class="post-status">准备中</span>'}</div>${cover}<h2>${title}</h2><p>${escapeHtml(post.summary)}</p><div class="post-card-footer"><div class="post-tags">${post.tags.slice(0,3).map(tag=>`<span>${escapeHtml(tag)}</span>`).join('')}</div>${href?'<span class="post-read" aria-hidden="true">'+(post.status==='draft'?'查看文章草稿':'阅读全文')+' <span>↗</span></span>':''}</div></article>`;
+    return `<article class="post-card${href?'':' post-card-draft'}"><div class="post-meta">${category?`<small class="post-category">${escapeHtml(category)}</small>`:''}${post.status==='published'?`<time${date}>${escapeHtml(post.date)}</time>`:'<span class="post-status">准备中</span>'}</div>${cover}<h2>${title}</h2><p>${escapeHtml(post.summary)}</p></article>`;
   }).join(''):`<p class="post-empty">${escapeHtml(categories.find(item=>item.id===activeCategory).label)}板块暂时还没有文章。</p>`;
 }
 categoryBar.addEventListener('click',event=>{

@@ -1,0 +1,125 @@
+/* Shared layout for Personal OS exercises. */
+.practice-page {
+  --exercise-ink: #193f36;
+  --exercise-surface: #eef3ef;
+  --exercise-line: #ccdcd3;
+  padding-block: clamp(1.75rem, 5vw, 4rem) 4rem;
+}
+[data-theme="dark"] .practice-page {
+  --exercise-ink: #c8ebdb;
+  --exercise-surface: #192922;
+  --exercise-line: #354c40;
+}
+.practice-crumb {
+  margin-bottom: 1.15rem;
+  font-size: .85rem;
+  color: var(--muted);
+}
+.practice-crumb a:hover,
+.practice-guide a:hover,
+.practice-links a:hover { text-decoration: underline; text-underline-offset: .22em; }
+.practice-hero {
+  background: var(--exercise-surface);
+  border: 1px solid var(--exercise-line);
+  border-radius: 1.15rem;
+  padding: clamp(1.5rem, 4.3vw, 3.25rem);
+}
+.practice-hero .kicker { color: var(--exercise-ink); margin-block: 0 .7rem; }
+.practice-hero h1 {
+  color: var(--exercise-ink);
+  font: 600 clamp(1.85rem, 3.4vw, 2.8rem)/1.35 var(--sans);
+  margin: 0;
+  text-wrap: balance;
+}
+.practice-hero > p:last-child {
+  max-width: 42rem;
+  margin: 1rem 0 0;
+  line-height: 1.8;
+}
+.practice-layout {
+  display: grid;
+  align-items: start;
+  grid-template-columns: minmax(9rem, 13rem) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  margin-block: clamp(1.75rem, 4vw, 3.25rem);
+}
+.practice-guide {
+  position: sticky;
+  top: 6rem;
+  border-right: 1px solid var(--line);
+  padding-inline-end: 1rem;
+}
+.practice-guide h2, .practice-links h2 {
+  margin: 0;
+  font: 600 .86rem/1.5 var(--sans);
+}
+.practice-guide ol { list-style: none; padding: 0; margin: .65rem 0 1.25rem; }
+.practice-guide li a { display: block; padding-block: .32rem; color: var(--muted); font-size: .87rem; }
+.practice-guide .practice-download {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  background: var(--exercise-surface);
+  color: var(--exercise-ink);
+  border: 1px solid var(--exercise-line);
+  border-radius: .45rem;
+  padding: .55rem .75rem;
+  font-size: .84rem;
+  font-weight: 600;
+}
+.practice-content { line-height: 1.85; }
+.practice-content:focus { outline: none; }
+.practice-step { padding-bottom: 1.35rem; }
+.practice-step + .practice-step { border-top: 1px solid var(--line); padding-top: 1.65rem; }
+.practice-content h2 {
+  font: 600 clamp(1.15rem, 2.2vw, 1.5rem)/1.5 var(--sans);
+  margin: 0 0 .75rem;
+  scroll-margin-top: 6rem;
+}
+.practice-content p { max-width: 46rem; }
+.practice-content .practice-step > :last-child { margin-bottom: 0; }
+.practice-example {
+  padding: clamp(1rem, 2.4vw, 1.7rem);
+  border: 1px solid var(--exercise-line);
+  border-radius: .8rem;
+  background: var(--exercise-surface);
+}
+.practice-example > :first-child { margin-top: 0; }
+.practice-example > :last-child { margin-bottom: 0; }
+.practice-evidence {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.8rem), 1fr));
+  gap: 1px;
+  background: var(--exercise-line);
+  border: 1px solid var(--exercise-line);
+  border-radius: .6rem;
+  overflow: hidden;
+}
+.practice-evidence > div { min-width: 0; padding: .75rem; background: var(--bg); }
+.practice-evidence dt { color: var(--exercise-ink); font-size: .83rem; line-height: 1.5; font-weight: 700; }
+.practice-evidence dd { margin: .4rem 0 0; font-size: .88rem; line-height: 1.65; }
+.practice-source {
+  padding: 1.15rem 1.35rem;
+  border-radius: .7rem;
+  background: var(--panel);
+}
+.practice-source h2 { font-size: 1rem; }
+.practice-source p { margin: .5rem 0; font-size: .88rem; }
+.practice-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1.35rem 2rem;
+  padding-top: 1.45rem;
+  border-top: 1px solid var(--line);
+}
+.practice-links a { display: block; width: fit-content; padding-block: .25rem; font-size: .85rem; }
+.practice-links h2 { margin-bottom: .35rem; }
+@media (max-width: 740px) {
+  .practice-layout { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
+  .practice-guide { position: static; padding: 0 0 1rem; border-right: 0; border-bottom: 1px solid var(--line); }
+  .practice-evidence { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .practice-guide ol { display: flex; flex-wrap: wrap; gap: .2rem 1.1rem; margin-block: .45rem .65rem; }
+}
+@media (max-width: 460px) {
+  .practice-evidence { grid-template-columns: minmax(0, 1fr); }
+}

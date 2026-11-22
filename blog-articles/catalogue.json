@@ -6,7 +6,7 @@
     "status": "published",
     "category": "product",
     "href": "blog-articles/product-thinking.html",
-    "summary": "从科学方法、价值、获取与持续行动，梳理产品思维如何应用于工作和生活。",
+    "summary": "同样是物业服务，业主关心社区体验，物业人员关心办事效率。文章用两款产品说明，先认清服务对象，才能判断什么对他有价值。",
     "tags": [
       "产品思维",
       "价值创造",
@@ -106,7 +106,7 @@
     "status": "published",
     "category": "product",
     "href": "blog-articles/product-design-methods.html",
-    "summary": "产品经理的角色、工作环节和六种设计方法：生命周期、场景、KANO、用户体验、项目管理与复盘。",
+    "summary": "一项需求从提出到上线，产品经理在哪一步用什么方法？文中用场景七要素描述使用过程，用 KANO 模型区分需求，最后用 KISS 模型做复盘。",
     "tags": [
       "产品设计",
       "KANO",
@@ -430,7 +430,7 @@
     "status": "published",
     "category": "product",
     "href": "blog-articles/product-design-framework.html",
-    "summary": "从产品本质到用户研究、KANO、用户体验五要素与双钻模型，整理方法体系、对比表和练习计划。",
+    "summary": "适合对照复习的产品设计笔记。双钻模型的两颗钻石各解决什么问题？KANO 的五种需求如何区分？文末附对比表和七天练习计划。",
     "tags": [
       "知识框架",
       "双钻模型",
@@ -862,7 +862,7 @@
     "status": "published",
     "category": "finance",
     "href": "blog-articles/inflation-deflation.html",
-    "summary": "以一连串问题拆解物价、债务、购买力与资产负债表的关系，保留原有问答和例子。",
+    "summary": "东西便宜了，欠的钱为什么反而更难还？从苹果的价格讲到购买力，再把收入、资产和贷款放在一起，理解物价变化怎样影响一个家庭。",
     "tags": [
       "通胀",
       "通缩",
@@ -1487,7 +1487,7 @@
     "status": "published",
     "category": "finance",
     "href": "blog-articles/inflation-money-view.html",
-    "summary": "围绕金融炼药师播客中的双端思维，整理资产、负债、收入和消费地之间的联系。",
+    "summary": "如果挣钱、借钱和花钱发生在不同地方，怎样看自己的收支？这篇播客笔记用一张 T 字表梳理资产与负债，再回看跨地区收入和消费的例子。",
     "tags": [
       "播客摘记",
       "通胀",
@@ -2981,7 +2981,7 @@
     "status": "published",
     "category": "zhihu",
     "href": "blog-articles/zhihu-moving-up.html",
-    "summary": "关于价值输出、资源整合、自控能力和健康习惯的一篇知乎摘录。",
+    "summary": "答主实践出真知从一个人能为别人做什么谈起，接着讨论怎样与人合作、怎样对待人际冲突，以及为什么长期工作离不开健康习惯。",
     "tags": [],
     "folderIds": [
       "favorites"
@@ -3050,7 +3050,7 @@
     "status": "published",
     "category": "zhihu",
     "href": "blog-articles/zhihu-no-temporary-life.html",
-    "summary": "围绕“过临时生活”展开：今天对生活、工作和关系的态度，如何塑造未来的自己。",
+    "summary": "为什么定好了减肥计划，今天反而更容易放纵？奇迹年借这个例子讨论把改变推给未来会怎样影响眼下的生活和关系。",
     "tags": [],
     "folderIds": [
       "favorites"
@@ -3105,7 +3105,7 @@
     "status": "published",
     "category": "zhihu",
     "href": "blog-articles/zhihu-graduate-value.html",
-    "summary": "沐霖关于就业、行业选择、经济价值密度与长期积累的回答摘录。",
+    "summary": "一个广告系统只需几个人维护，却能支撑很高的收入。沐霖从自己的工作经历谈起，解释为什么业务增长未必带来更多岗位，以及毕业时可以怎样观察行业。",
     "tags": [],
     "folderIds": [
       "favorites"

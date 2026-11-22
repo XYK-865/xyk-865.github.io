@@ -29,9 +29,24 @@ if(guide){
 }
 
 async function loadStructure(){
- const response=await fetch('assets/personal-os/project-structure.json?v=project-split-20261102');
+ const response=await fetch('assets/personal-os/project-structure.json?v=20261122-site-refresh');
  if(!response.ok)throw Error('项目结构暂时无法加载，请刷新后重试。');
- return response.json();
+ const data=await response.json();
+ const branches=new Map(data.nodes.map(node=>[node.id,node]));
+ for(const note of data.practiceNotes||[]){
+  for(const id of note.branches)branches.get(id).resources.push(note);
+  if(!guide)continue;
+  for(const anchor of note.anchors){
+   const target=document.getElementById(anchor);
+   if(!target||!guide.contains(target))continue;
+   const container=target.closest('article,section');
+   if(!container)continue;
+   const line=document.createElement('p'),link=document.createElement('a');
+   link.href=note.href;link.textContent=note.type+' · '+note.title+' →';
+   line.append(link);container.append(line);
+  }
+ }
+ return data;
 }
 
 function createIndex(data){

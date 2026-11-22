@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "hero": {
+    "imageId": null,
+    "intro": "把喜欢的球员、球队和那些想再看一次的画面，慢慢收集起来。"
+  },
+  "players": [
+    {
+      "id": "shai-gilgeous-alexander",
+      "name": "谢伊·吉尔杰斯-亚历山大（SGA）",
+      "reason": "从快船新秀到雷霆总冠军。沿半环展墙按赛季看球衣，也可以翻看球星卡和签名鞋。"
+    },
+    {
+      "id": "kawhi-leonard",
+      "name": "科怀·莱昂纳德（小卡）",
+      "reason": "马刺、猛龙、快船三面球衣墙。猛龙展墙分别记录 2019 夺冠与 2026 回归。",
+      "sourceUrl": "https://www.nba.com/news/kawhi-leonard-signs-multi-year-extension-raptors"
+    }
+  ],
+  "teams": [
+    {
+      "id": "okc",
+      "name": "俄克拉荷马城雷霆",
+      "shortName": "雷霆",
+      "mark": "OKC",
+      "note": "把喜欢的阵容、比赛和照片按时期留下来。",
+      "eras": [
+        {
+          "id": "okc-big-three",
+          "title": "雷霆三少",
+          "note": "收录当时的合影、比赛与回看笔记。",
+          "games": [],
+          "playerIds": []
+        }
+      ]
+    },
+    {
+      "id": "sas",
+      "name": "圣安东尼奥马刺",
+      "shortName": "马刺",
+      "mark": "SPURS",
+      "note": "从熟悉的人和比赛进入马刺的历史。",
+      "eras": [
+        {
+          "id": "sas-big-three",
+          "title": "马刺三驾马车",
+          "note": "收录阵容合照、比赛与回看笔记。",
+          "games": [],
+          "playerIds": []
+        },
+        {
+          "id": "sas-kawhi",
+          "title": "小卡时期",
+          "note": "收录这一时期的球队与比赛影像。",
+          "games": [],
+          "playerIds": [
+            "kawhi-leonard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lac",
+      "name": "洛杉矶快船",
+      "shortName": "快船",
+      "note": "SGA 的新秀赛季与莱昂纳德的快船时期。"
+    },
+    {
+      "id": "tor",
+      "name": "多伦多猛龙",
+      "shortName": "猛龙",
+      "note": "莱昂纳德的夺冠与回归。"
+    }
+  ],
+  "images": [
+    {
+      "id": "topps-mvpa-front",
+      "src": "https://cdn.sanity.io/images/hj34sz77/development/49479a4ed12cd8f9918e801017cf35612cb894cb-875x1225.jpg?auto=format&w=600",
+      "caption": "Topps NOW #MVPA · 正面",
+      "kind": "card",
+      "playerIds": [
+        "shai-gilgeous-alexander"
+      ],
+      "teamIds": [
+        "okc"
+      ],
+      "tags": [
+        "球员卡"
+      ],
+      "source": "Topps",
+      "credit": "Topps",
+      "sourceUrl": "https://www.topps.com/products/shai-gilgeous-alexander-2025-26-nba-topps-now%C2%AE-card-mvpa"
+    },
+    {
+      "id": "topps-mvpa-back",
+      "src": "https://cdn.sanity.io/images/hj34sz77/development/50b4a4895dd0310f5fab23a900e24669b74cd598-875x1225.jpg?auto=format&w=600",
+      "caption": "Topps NOW #MVPA · 背面",
+      "kind": "card",
+      "playerIds": [
+        "shai-gilgeous-alexander"
+      ],
+      "teamIds": [
+        "okc"
+      ],
+      "tags": [
+        "球员卡"
+      ],
+      "source": "Topps",
+      "credit": "Topps",
+      "sourceUrl": "https://www.topps.com/products/shai-gilgeous-alexander-2025-26-nba-topps-now%C2%AE-card-mvpa"
+    },
+    {
+      "id": "sga-clippers-2019-playoffs",
+      "src": "https://sothebys-md.brightspotcdn.com/dims4/default/d6d0c43/2147483647/strip/true/crop/3202x4800%2B0%2B0/resize/800x1199%21/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F4f%2F38%2Fb86e33cb4168b0a8629b7a40d925%2Fshaigilgeous-alexander2019rookieyearnbaplayoffgamewornlosangelesclippersjersey.jpg",
+      "caption": "SGA 快船新秀季 · 季后赛首秀实穿球衣",
+      "kind": "jersey",
+      "playerIds": [
+        "shai-gilgeous-alexander"
+      ],
+      "teamIds": [
+        "lac"
+      ],
+      "tags": [
+        "球衣",
+        "季后赛实穿"
+      ],
+      "season": "2018–19",
+      "source": "苏富比拍品档案",
+      "credit": "Sotheby’s",
+      "sourceUrl": "https://www.sothebys.com/en/buy/all-collectibles/_Shai-Gilgeous-Alexander-2019-Rookie-Year-NBA-Playoff-Game-Worn-Los-Angeles-Clippers-Jersey"
+    }
+  ],
+  "memberships": [
+    {
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "lac",
+      "period": "2018–19"
+    },
+    {
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "period": "2019 年起"
+    },
+    {
+      "playerId": "kawhi-leonard",
+      "teamId": "sas",
+      "period": "2011–18"
+    },
+    {
+      "playerId": "kawhi-leonard",
+      "teamId": "tor",
+      "period": "2018–19"
+    },
+    {
+      "playerId": "kawhi-leonard",
+      "teamId": "lac",
+      "period": "2019–26"
+    },
+    {
+      "playerId": "kawhi-leonard",
+      "teamId": "tor",
+      "period": "2026 年回归"
+    }
+  ],
+  "jerseys": [
+    {
+      "id": "shai-gilgeous-alexander-rookie",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "lac",
+      "title": "季后赛首秀 · 对勇士 G1",
+      "season": "2018–19",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/all-collectibles/_Shai-Gilgeous-Alexander-2019-Rookie-Year-NBA-Playoff-Game-Worn-Los-Angeles-Clippers-Jersey",
+      "status": "比赛实穿有据",
+      "tone": "blue",
+      "imageId": "sga-clippers-2019-playoffs"
+    },
+    {
+      "id": "shai-gilgeous-alexander-lac-team",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "lac",
+      "title": "Association / Icon / Statement",
+      "season": "2018–19",
+      "number": 2,
+      "sourceUrl": "https://basketballjerseyarchive.com/ms/los-angeles-clippers-jerseys-2018-19-t6073/",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "silver"
+    },
+    {
+      "id": "shai-gilgeous-alexander-lac-city",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "lac",
+      "title": "City · 洛杉矶奥运致敬款",
+      "season": "2018–19",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/clippers/clippers-celebrate-35th-season-la-new-nike-city-edition-jersey",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-finals",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "Icon · 2025 总决赛 G3",
+      "season": "2024–25",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2025/nba-auctions-nba-finals-live",
+      "status": "比赛实穿有据",
+      "tone": "blue"
+    },
+    {
+      "id": "shai-gilgeous-alexander-okc-core",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "Association / Icon / Statement · 历年常规款",
+      "season": "2019–20 至 2026–27",
+      "number": 2,
+      "sourceUrl": "https://basketballjerseyarchive.com/oklahoma-city-thunder-jerseys-t6076/",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "silver"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city19",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · 俄克拉荷马城国家纪念馆",
+      "season": "2019–20",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/news/thunder-unveil-city-edition-uniform-okc-memorial-official-release",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city20",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · 州主题",
+      "season": "2020–21",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2026/summer-sports-classic/shai-gilgeous-alexander-oklahoma-city-thunder-2020",
+      "status": "比赛实穿有据",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-earned20",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "Earned",
+      "season": "2020–21",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/news/nike-earned-edition-jersey-oklahoma-city-thunder",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city21",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · NBA 75 周年",
+      "season": "2021–22",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/news/oklahoma-city-thunder-city-edition-uniform-classic-moments",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "silver"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city22",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City",
+      "season": "2022–23",
+      "number": 2,
+      "sourceUrl": "https://basketballjerseyarchive.com/oklahoma-city-thunder-jerseys-t6076/",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "silver"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city23",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · 城市文化复兴",
+      "season": "2023–24",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/thunder/news/release-cityedition-231102",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city24",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · 城市文化复兴续篇",
+      "season": "2024–25",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/news/oklahoma-city-thunder-2024-25-city-edition-uniform",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city25",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City · 原住民文化主题",
+      "season": "2025–26",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2026/nba-auctions-weekly-2026-nba-cup-part-ii/shai-gilgeous-alexander-oklahoma-city-thunder-2025",
+      "status": "比赛实穿有据",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-cup25",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "Statement · NBA Cup",
+      "season": "2025–26",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2026/nba-auctions-weekly-a-2026-nba-all-star",
+      "status": "比赛实穿有据",
+      "tone": "orange"
+    },
+    {
+      "id": "shai-gilgeous-alexander-city26",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": "okc",
+      "title": "City",
+      "season": "2026–27",
+      "number": 2,
+      "sourceUrl": "https://basketballjerseyarchive.com/oklahoma-city-thunder-2026-2027-city-jersey-90189/",
+      "status": "球队款式 · 个人实穿待核",
+      "tone": "navy"
+    },
+    {
+      "id": "shai-gilgeous-alexander-allstar",
+      "playerId": "shai-gilgeous-alexander",
+      "teamId": null,
+      "title": "全明星正赛 · 上半场",
+      "season": "2024",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2024/2024-nba-all-star-game-live/shai-gilgeous-alexander-game-worn-nba-all-star",
+      "status": "比赛实穿有据",
+      "tone": "navy"
+    },
+    {
+      "id": "kawhi-leonard-sas-finals",
+      "playerId": "kawhi-leonard",
+      "teamId": "sas",
+      "title": "总决赛 G1 · 对热火",
+      "season": "2013–14",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2026/summer-sports-classic/kawhi-leonard-san-antonio-spurs-2014-nba-finals",
+      "status": "比赛实穿有据",
+      "tone": "silver"
+    },
+    {
+      "id": "kawhi-leonard-tor-finals",
+      "playerId": "kawhi-leonard",
+      "teamId": "tor",
+      "title": "总决赛 G3 · 首冠赛季",
+      "season": "2018–19",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2025/sports-4/kawhi-leonard-toronto-raptors-2019-nba-finals-game",
+      "status": "比赛实穿有据",
+      "tone": "red"
+    },
+    {
+      "id": "kawhi-leonard-tor-return",
+      "playerId": "kawhi-leonard",
+      "teamId": "tor",
+      "title": "回到多伦多",
+      "season": "2026–27",
+      "number": 2,
+      "sourceUrl": "https://www.nba.com/news/kawhi-leonard-signs-multi-year-extension-raptors",
+      "status": "回归时期 · 具体球衣待核",
+      "tone": "red"
+    },
+    {
+      "id": "kawhi-leonard-lac-playoffs",
+      "playerId": "kawhi-leonard",
+      "teamId": "lac",
+      "title": "Statement · 季后赛首轮 G1",
+      "season": "2023–24",
+      "number": 2,
+      "sourceUrl": "https://www.sothebys.com/en/buy/auction/2024/nba-auctions-2024-playoffs-finals/kawhi-leonard-los-angeles-clippers-2024-nba",
+      "status": "比赛实穿有据",
+      "tone": "navy"
+    }
+  ],
+  "cards": [
+    {
+      "id": "shai-gilgeous-alexander-184",
+      "playerId": "shai-gilgeous-alexander",
+      "title": "2018–19 Panini Prizm #184 · 快船新秀",
+      "sourceUrl": "https://www.psacard.com/cardfacts/basketball-cards/2018-panini-prizm/shai-gilgeous-alexander-184/717311",
+      "season": "2018–19",
+      "photoSource": "PSA CardFacts · Panini Prizm 图档",
+      "story": "快船新秀季的 Prizm #184。SGA 在快船开始 NBA 生涯，同一季就打进季后赛。这张卡可和展墙左端的新秀季球衣对照。",
+      "storyUrl": "https://cdn.nba.com/teams/uploads/sites/1610612760/2025/10/Thunder-Media-Guide-2025-26_WEB.pdf"
+    },
+    {
+      "id": "shai-gilgeous-alexander-162",
+      "playerId": "shai-gilgeous-alexander",
+      "title": "2018–19 Donruss Optic #162 · 快船新秀",
+      "sourceUrl": "https://www.psacard.com/cardfacts/basketball-cards/2018-panini-donruss-optic/shai-gilgeous-alexander-162/784031",
+      "season": "2018–19",
+      "photoSource": "PSA CardFacts · Donruss Optic 图档",
+      "story": "同一个快船新秀赛季的另一套卡。Optic #162 属于 Rated Rookie，适合和 Prizm #184 对照两套新秀卡的设计。",
+      "storyUrl": "https://cdn.nba.com/teams/uploads/sites/1610612760/2025/10/Thunder-Media-Guide-2025-26_WEB.pdf"
+    },
+    {
+      "id": "shai-gilgeous-alexander-638",
+      "playerId": "shai-gilgeous-alexander",
+      "title": "2024–25 Panini Instant #638 · 总决赛 MVP",
+      "sourceUrl": "https://www.ebay.com/itm/177221098888",
+      "season": "2024–25",
+      "photoSource": "Panini Instant · 实物刊登参考",
+      "story": "雷霆夺冠后的总决赛 MVP 纪念卡。SGA 在抢七拿到 29 分和 12 次助攻，带队击败步行者，获颁总决赛 MVP。",
+      "storyUrl": "https://www.nba.com/news/nba-finals-mvp-2025"
+    },
+    {
+      "id": "shai-gilgeous-alexander-mvpa",
+      "playerId": "shai-gilgeous-alexander",
+      "title": "2025–26 Topps NOW #MVPA",
+      "sourceUrl": "https://www.topps.com/products/shai-gilgeous-alexander-2025-26-nba-topps-now%C2%AE-card-mvpa",
+      "frontId": "topps-mvpa-front",
+      "backId": "topps-mvpa-back",
+      "season": "2025–26",
+      "photoSource": "Topps · 产品原图",
+      "story": "这张 Topps NOW 对应他连续第二年拿下常规赛 MVP 的赛季。和 #638 并排，可以区分两张卡纪念的奖项和年份。",
+      "storyUrl": "https://pr.nba.com/shai-gilgeous-alexander-2025-26-kia-nba-most-valuable-player"
+    },
+    {
+      "id": "kawhi-leonard-209",
+      "playerId": "kawhi-leonard",
+      "title": "2012–13 Panini Prizm #209 · 马刺新秀",
+      "sourceUrl": "https://www.psacard.com/cardfacts/basketball-cards/2012-panini-prizm/kawhi-leonard-209/677472"
+    },
+    {
+      "id": "kawhi-leonard-236",
+      "playerId": "kawhi-leonard",
+      "title": "2012–13 Panini Hoops #236 · 马刺新秀",
+      "sourceUrl": "https://blog.paniniamerica.net/wp-content/uploads/2012/08/2012-13-hoops-checklist.pdf"
+    },
+    {
+      "id": "kawhi-leonard-53",
+      "playerId": "kawhi-leonard",
+      "title": "2018–19 Panini Prizm #53 · 猛龙",
+      "sourceUrl": "https://store.nba.com/toronto-raptors/kawhi-leonard-trading-cards/t-47815395%2Ba-04323990%2Bd-129475%2Bz-8-220741307"
+    },
+    {
+      "id": "kawhi-leonard-149",
+      "playerId": "kawhi-leonard",
+      "title": "2019–20 Panini Prizm #149 · 快船",
+      "sourceUrl": "https://www.sportscollectorsdaily.com/wp-content/uploads/2019/10/2019-20-Panini-Prizm-Basketball-Final-Checklist.pdf"
+    }
+  ],
+  "interviews": [],
+  "honors": [],
+  "seasons": [
+    {
+      "id": "2026-2027",
+      "title": "2026–2027 赛季"
+    }
+  ],
+  "series": [],
+  "shoes": [
+    {
+      "id": "butter",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 · 拉链版",
+      "title": "Butter",
+      "tone": "gold",
+      "sourceUrl": "https://about.nike.com/en/newsroom/releases/converse-shai-001-official-images"
+    },
+    {
+      "id": "charm",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 · 拉链版",
+      "title": "Charm Black",
+      "tone": "navy",
+      "sourceUrl": "https://converse.cz/shai"
+    },
+    {
+      "id": "ares",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 · 拉链版",
+      "title": "Ares Grey",
+      "tone": "silver",
+      "sourceUrl": "https://converse.cz/shai"
+    },
+    {
+      "id": "masi",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 · 拉链版",
+      "title": "Masi Blue",
+      "tone": "blue",
+      "sourceUrl": "https://converse.cz/shai"
+    },
+    {
+      "id": "hail",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 · 拉链版",
+      "title": "Hail Clay",
+      "tone": "red",
+      "sourceUrl": "https://converse.cz/shai"
+    },
+    {
+      "id": "sun-ray",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 Lace Up · 系带版",
+      "title": "Sun Ray",
+      "tone": "gold",
+      "sourceUrl": "https://www.converse.com/c/shai?icid=NA_US_2026_10_29_M_Hmpg_P1_Shai_cta_1"
+    },
+    {
+      "id": "fever-black",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 Lace Up · 系带版",
+      "title": "Fever Dream Black",
+      "tone": "navy",
+      "sourceUrl": "https://www.converse.com/c/shai?icid=NA_US_2026_10_29_M_Hmpg_P1_Shai_cta_1"
+    },
+    {
+      "id": "fever-white",
+      "playerId": "shai-gilgeous-alexander",
+      "model": "SHAI 001 Lace Up · 系带版",
+      "title": "Fever Dream White",
+      "tone": "silver",
+      "sourceUrl": "https://www.converse.com/c/shai?icid=NA_US_2026_10_29_M_Hmpg_P1_Shai_cta_1"
+    }
+  ]
+}

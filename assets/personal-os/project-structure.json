@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-21",
   "projects": [
     {
       "id": "personal-os",
@@ -1646,6 +1646,72 @@
       "target": "os-evolution",
       "label": "把结果用于系统修订",
       "type": "feedback"
+    }
+  ],
+  "practiceNotes": [
+    {
+      "id": "ask-before-helping",
+      "title": "对方来求助时，我该怎样帮？",
+      "summary": "朋友说「最近工作很累」时，怎样问清他想被倾听还是需要帮忙？用四行记录回看一次谈话。",
+      "type": "关系练习",
+      "branches": [
+        "os-friendship",
+        "os-romance",
+        "os-cases",
+        "os-sources",
+        "os-feedback"
+      ],
+      "anchors": [
+        "romance",
+        "MQ-005",
+        "MQ-011"
+      ],
+      "href": "assets/personal-os/content/ask-before-helping.html"
+    },
+    {
+      "id": "job-evidence",
+      "title": "投递前的岗位验证与能力证据表",
+      "summary": "把三份招聘说明放在一起，挑出一项重复任务。用五列表格写清自己做过什么、还差哪份证据。",
+      "type": "职业练习",
+      "branches": [
+        "os-career",
+        "os-sources",
+        "os-feedback"
+      ],
+      "anchors": [
+        "MQ-010"
+      ],
+      "href": "assets/personal-os/content/job-evidence.html"
+    },
+    {
+      "id": "three-minute-explanation",
+      "title": "三分钟表达练习",
+      "summary": "用三分钟讲清一个概念，请听者复述并举例。根据他卡住的地方，重讲其中一句。",
+      "type": "学习练习",
+      "branches": [
+        "os-learning",
+        "os-sources",
+        "os-feedback"
+      ],
+      "anchors": [
+        "MQ-007"
+      ],
+      "href": "assets/personal-os/content/three-minute-explanation.html"
+    },
+    {
+      "id": "search-and-feed",
+      "title": "主动检索与浏览推荐流",
+      "summary": "候选实验：围绕同一问题，各花十五分钟搜索和浏览推荐流，比较能找到的原文与下一步。",
+      "type": "候选实验",
+      "branches": [
+        "os-time",
+        "os-learning",
+        "os-feedback"
+      ],
+      "anchors": [
+        "MQ-001"
+      ],
+      "href": "assets/personal-os/content/search-and-feed.html"
     }
   ]
 }

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="assets/intro/entry.js?v=cat-smooth-parity-20261028"></script>
+  <meta name="theme-color" content="#ffffff"><title>咖啡百科与冲煮笔记 · Spike Hsu</title>
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=cat-smooth-parity-20261028"><link rel="stylesheet" href="daily-coffee.css?v=20261101">
+<link rel="stylesheet" href="learning-modules.css"><link rel="stylesheet" href="daily-collections.css?v=20261108"><link rel="stylesheet" href="beverage-studio.css?v=coffee-bar-guide"></head><body class="daily-page">
+  <a class="skip-link" href="#main">跳到主要内容</a><header id="site-header" data-page="daily"></header>
+<main id="main" class="page-shell learning-main coffee-atlas beverage-page">
+  <p><a href="daily.html">← 返回日常</a></p>
+  <header class="beverage-hero">
+    <div class="beverage-hero-copy">
+      <p class="kicker">COFFEE</p>
+    <h1>咖啡百科<span>与冲煮笔记</span></h1>
+      <p>从一份意式浓缩做出拿铁、馥芮白或冰美式。也可以按手边的器具挑一种冲法，把喝过的豆子和试过的配方记下来。</p>
+    <div class="beverage-hero-actions"><a class="beverage-action" href="#coffee-drinks">查饮品做法 ↓</a><a class="beverage-action" id="coffee-start" href="#coffee-records">记下一杯 ↓</a></div>
+    </div>
+    <img class="beverage-photo" src="assets/beverages/coffee-hero.webp" alt="" fetchpriority="high" aria-hidden="true">
+  </header>
+  <nav class="learning-nav beverage-nav" aria-label="咖啡栏目"><a href="#coffee-drinks">饮品配方</a><a href="#coffee-brews">冲煮方法</a><a href="coffee-origins.html">咖啡豆与产地</a><a href="#coffee-gear">咖啡机与器具</a><a href="#coffee-books">咖啡书架</a><a href="#coffee-records">我的记录</a></nav>
+  <div id="coffee-guide"><p role="status">正在读取咖啡百科…</p></div>
+    <section id="coffee-records" class="coffee-records" aria-labelledby="coffee-records-title">
+      <header class="coffee-section-heading"><div><p class="kicker">MY CUPS</p><h2 id="coffee-records-title">我的咖啡记录</h2></div><p id="coffee-count" aria-live="polite">0 杯记录</p></header>
+      <details class="coffee-editor" id="coffee-editor"><summary>＋ 记下一杯</summary>
+        <p class="coffee-storage-note">记录仅保存在当前浏览器，不会自动上传网站。换设备或清理浏览器前，可以导出备份。</p>
+        <form id="coffee-form">
+          <div class="coffee-form-grid"><label>日期<input name="date" type="date" required></label><label>咖啡 / 豆子名称<input name="name" maxlength="100" placeholder="这杯咖啡叫什么" required></label><label>产地 / 庄园<input name="origin" maxlength="120" placeholder="知道多少就记多少"></label><label>烘焙程度<select name="roast"><option value="">未记录</option><option>浅烘</option><option>中浅烘</option><option>中烘</option><option>中深烘</option><option>深烘</option></select></label><label>冲煮方式<select name="method"><option value="">未记录</option><option>手冲</option><option>意式浓缩</option><option>美式</option><option>拿铁</option><option>卡布奇诺</option><option>馥芮白</option><option>摩卡咖啡</option><option>法压</option><option>摩卡壶</option><option>冷萃</option><option>其他</option></select></label><div class="coffee-ratio-inputs"><label>咖啡粉 / g<input name="dose" type="number" min="0.1" max="1000" step="0.1" placeholder="可不填"></label><label>注水量 / g<input name="water" type="number" min="1" max="10000" step="1" placeholder="可不填"></label></div></div>
+          <label>关联豆子百科（可选）<select id="coffee-bean" name="beanId"><option value="">暂不关联</option></select></label><label>风味与感受<textarea name="notes" maxlength="3000" rows="3" placeholder="香气、酸甜、口感，或者下次想调整的地方。"></textarea></label>
+          <div class="coffee-editor-actions"><button type="submit">保存到本机</button><p id="coffee-status" role="status" aria-live="polite"></p></div>
+        </form>
+      </details>
+      <div class="coffee-record-list" id="coffee-record-list"></div>
+      <button id="coffee-export" type="button" hidden>导出咖啡记录</button>
+    </section>
+</main><footer id="site-footer"></footer><script src="posts.js"></script><script src="app.js?v=cat-smooth-parity-20261028"></script><script type="module" src="daily-coffee.js?v=20261108"></script><script type="module" src="coffee-guide.js?v=coffee-bar-guide"></script></body></html>
