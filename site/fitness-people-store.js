@@ -20,7 +20,8 @@ export function validatePeople(data, movementLibrary) {
   };
   for (const p of data.people) {
     if (!p.nameZh || !p.nameEn || !p.roles.length || p.roles.some(r => !ROLE_LABELS[r])) throw new Error(`人物名称或身份不完整：${p.id}`);
-    sources(p); ref('sources',p.photoSourceId);
+    sources(p);
+    if (p.image) ref('sources',p.photoSourceId);
   }
   data.views.forEach(v => v.topicIds.forEach(id => ref('topics',id)));
   for (const r of data.personViews) {ref('people',r.personId);ref('views',r.viewId);sources(r);}
@@ -34,6 +35,7 @@ export function validatePeople(data, movementLibrary) {
   for (const v of data.videos) {
     v.personIds.forEach(id => ref('people',id));sources(v);
     if(v.articleId) ref('articles',v.articleId);
+    if(v.articlePath && !/^[a-z0-9-]+\.html$/.test(v.articlePath)) throw new Error(`无效文章路径：${v.id}`);
     for(const moment of v.keyMoments || []) if(!Number.isInteger(moment.seconds)||moment.seconds<0||!moment.label) throw new Error(`无效时间点：${v.id}`);
   }
   for(const b of data.books || []) {b.personIds.forEach(id=>ref('people',id));sources(b);}
@@ -62,7 +64,7 @@ export function loadPeople({retry=false}={}) {
 export const esc = value => String(value ?? '').replace(/[&<>"']/g,c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const normalize = text => String(text).normalize('NFKC').toLowerCase().replace(/[\s·・._-]/g,'');
 export const personHref = p => ['jeff-nippard','mike-israetel','eric-helms'].includes(p.id) ? `fitness-creator-${p.id}.html` : `fitness-person.html?id=${encodeURIComponent(p.id)}`;
-export const videoHref = v => v.id==='volume-original'?'fitness-video-volume-hypertrophy.html':v.id==='junk-original'?'fitness-video-junk-volume.html':`fitness-video.html?id=${encodeURIComponent(v.id)}`;
+export const videoHref = v => v.articlePath || (v.id==='volume-original'?'fitness-video-volume-hypertrophy.html':v.id==='junk-original'?'fitness-video-junk-volume.html':`fitness-video.html?id=${encodeURIComponent(v.id)}`);
 export const external = (url,label) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
 export function sourceLinks(ids,maps) {
   return `<div class="people-sources-inline">${[...new Set(ids)].map(id => {
@@ -71,6 +73,7 @@ export function sourceLinks(ids,maps) {
   }).join('')}</div>`;
 }
 export function photo(p,loading='lazy') {
+  if (!p.image) return `<span class="person-image"><span class="person-image-fallback"><strong>${esc(p.nameZh)}</strong><small>${esc(p.nameEn)}</small></span></span>`;
   return `<span class="person-image${p.photoFit==='contain'?' person-image--contain':''}"><img src="${esc(p.image)}" alt="${esc(p.nameZh+' / '+p.nameEn)}" loading="${loading}"${p.photoAlign==='top'?' style="object-position:center top"':''}><span class="person-image-fallback" hidden>${esc(p.nameZh)}<small>${esc(p.nameEn)}</small></span></span>`;
 }
 export function bindPhotoFallback(container) {

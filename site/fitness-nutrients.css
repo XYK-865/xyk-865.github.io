@@ -1,0 +1,131 @@
+#nutrients {
+  margin-bottom: clamp(3.5rem, 7vw, 6rem);
+}
+
+#nutrients .nutrient-knowledge-title {
+  margin: 0 0 .4rem;
+}
+
+.nutrient-knowledge-title span {
+  color: var(--muted);
+  font-size: .57em;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.nutrient-knowledge-lead {
+  margin: 0 0 2.3rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.nutrient-knowledge-group + .nutrient-knowledge-group {
+  margin-top: clamp(1.8rem, 4vw, 2.9rem);
+}
+
+.nutrient-knowledge-group h3 {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .35rem .65rem;
+  margin: 0 0 .9rem;
+  font-size: 1.15rem;
+}
+
+.nutrient-knowledge-english {
+  color: var(--muted);
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.nutrient-knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .9rem;
+}
+
+.nutrient-knowledge-group[data-category="macro"] .nutrient-knowledge-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.nutrient-knowledge-card {
+  min-height: 0;
+  min-width: 0;
+  padding: 1.25rem;
+  background: var(--bg);
+  scroll-margin-top: 105px;
+}
+
+.nutrient-knowledge-card:hover,
+.nutrient-knowledge-card:focus-visible {
+  background: var(--panel);
+  border-color: var(--accent);
+}
+
+.nutrient-knowledge-icon {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9px;
+  background: var(--panel);
+}
+
+.nutrient-knowledge-icon svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.nutrient-knowledge-card h4 {
+  margin: .85rem 0 .2rem;
+  font-size: 1.15rem;
+}
+
+.nutrient-knowledge-card p.nutrient-knowledge-english {
+  margin-bottom: .65rem;
+  line-height: 1.35;
+}
+
+.nutrient-knowledge-card > div {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .4rem .8rem;
+}
+
+.nutrient-knowledge-card .nutrient-knowledge-status {
+  padding: .17rem .5rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+.nutrient-knowledge-card .nutrient-knowledge-status.is-ready {
+  color: var(--text);
+  background: var(--panel);
+}
+
+.nutrient-knowledge-scope {
+  margin: .85rem 0 0;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 760px) {
+  .nutrient-knowledge-group[data-category="macro"] .nutrient-knowledge-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .nutrient-knowledge-title span {
+    display: block;
+    margin-top: .35rem;
+  }
+
+  .nutrient-knowledge-grid,
+  .nutrient-knowledge-group[data-category="macro"] .nutrient-knowledge-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
