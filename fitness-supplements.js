@@ -1,4 +1,5 @@
 import {supplements,sources,evidenceGroups,activityLevels,energySources} from './supplements-data.js';
+import { renderNutrientKnowledge } from './fitness-nutrients.js';
 
 export function estimateEnergy({sex,weight,height,age,activity}) {
   const values=[weight,height,age,activity].map(Number);
@@ -16,6 +17,7 @@ const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&l
 const link=source=>'<a href="'+escape(source.url)+'" target="_blank" rel="noopener noreferrer">'+escape(source.title)+' ↗</a>';
 
 function init() {
+  renderNutrientKnowledge(document.querySelector('#nutrient-knowledge'));
   const form=document.querySelector('#energy-form'),activity=form?.querySelector('[name=activity]');
   const cards=document.querySelector('#supplement-cards'),search=document.querySelector('#supplement-search'),filter=document.querySelector('#supplement-evidence');
   if(form){
@@ -50,19 +52,67 @@ function init() {
     '<dl><div><dt>作用与潜在收益</dt><dd>'+escape(item.action)+' '+escape(item.benefit)+'</dd></div><div><dt>适用情境</dt><dd>'+escape(item.context)+'</dd></div><div><dt>证据边界</dt><dd>'+escape(item.boundary)+'</dd></div></dl>'+
     '<div class="supplement-risk"><strong>风险与相互作用关注</strong><p>'+escape(item.risk)+'</p></div><details><summary>研究与资料来源（'+item.references.length+'）</summary><ol class="supplement-sources">'+
     item.references.map(id=>'<li>'+link(sources[id])+'<small>'+escape(sources[id].kind)+'</small></li>').join('')+'</ol></details></article>').join('');
+  const omegaSources=cards.querySelector('#omega-3 > details');
+  if(omegaSources){
+    const related=document.createElement('a');
+    related.className='nutrient-omega-back';
+    related.href='#dietary-fats';
+    related.textContent='回看脂肪营养专题 ↑';
+    omegaSources.before(related);
+  }
   const applyFilters=()=>{
     const term=search.value.trim().toLocaleLowerCase('zh-CN');let visible=0;
     for(const item of supplements){const match=(filter.value==='all'||filter.value===item.evidence)&&Object.values(item).join(' ').toLocaleLowerCase('zh-CN').includes(term);document.getElementById(item.id).hidden=!match;if(match)visible++;}
     document.querySelector('#supplement-count').textContent='显示 '+visible+' / '+supplements.length+' 类资料'+(visible?'':'，可清空关键词或切换分类。');
   };
-  const revealAnchor=()=>{
-    let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
-    if(!supplements.some(item=>item.id===id))return;
-    search.value='';filter.value='all';applyFilters();
-    requestAnimationFrame(()=>document.getElementById(id).scrollIntoView({block:'start'}));
-  };
-  search.addEventListener('input',applyFilters);filter.addEventListener('change',applyFilters);window.addEventListener('hashchange',revealAnchor);
-  applyFilters();revealAnchor();
+  search.addEventListener('input',applyFilters);
+  filter.addEventListener('change',applyFilters);
+  applyFilters();
+
+  const navigation = document.querySelector('.supplement-tabs');
+  const tabs = [...navigation.querySelectorAll('a')];
+  const panels = tabs.map(tab => document.getElementById(tab.hash.slice(1)));
+  let scrollFrame;
+
+  function syncPanel(scrollToTarget) {
+    if (location.hash === '#energy') {
+      location.replace('fitness-energy.html');
+      return;
+    }
+    let id = location.hash.slice(1);
+    try { id = decodeURIComponent(id); } catch { /* Keep the original fragment on invalid encoding. */ }
+    const target = document.getElementById(id);
+    const matchingPanel = panels.find(panel => panel.contains(target));
+    const activePanel = matchingPanel ?? panels[0];
+    panels.forEach((panel, index) => {
+      panel.hidden = panel !== activePanel;
+      if (panel === activePanel) tabs[index].setAttribute('aria-current', 'location');
+      else tabs[index].removeAttribute('aria-current');
+    });
+
+    if (target?.matches('.supplement-card')) {
+      search.value = '';
+      filter.value = 'all';
+      applyFilters();
+    }
+
+    cancelAnimationFrame(scrollFrame);
+    if (scrollToTarget && matchingPanel) {
+      const anchor = target === activePanel ? navigation : target;
+      scrollFrame = requestAnimationFrame(() => anchor.scrollIntoView({ block: 'start', behavior: 'instant' }));
+    }
+  }
+
+  for (const tab of tabs) {
+    tab.addEventListener('click', event => {
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      if (location.hash !== tab.hash) history.pushState(null, '', tab.hash);
+      syncPanel(false);
+    });
+  }
+  window.addEventListener('hashchange', () => syncPanel(true));
+  syncPanel(true);
 }
 
 if(typeof document!=='undefined')init();

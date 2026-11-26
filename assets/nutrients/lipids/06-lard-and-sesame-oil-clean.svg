@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="510" viewBox="0 0 1060 510" role="img" aria-labelledby="title description">
+  <title id="title">猪油与芝麻油的组成示例</title>
+  <desc id="description">猪油为饱和41%、单元不饱和47%、多元不饱和12%。芝麻油分别为15%、40%、45%。</desc>
+  <defs>
+    <marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" viewBox="0 0 8 9" refX="7" refY="4.5" orient="auto">
+  <path d="M0 0l8 4.5L0 9z" fill="#2d6957"/>
+  </marker>
+  </defs>
+  <rect width="1060" height="510" rx="26" fill="#fbf9f3"/>
+  <g fill="#222b26" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, system-ui, sans-serif">
+  <text x="42" y="62" font-size="37" font-weight="700">猪油与芝麻油的脂肪酸组成示例</text>
+  <rect x="42" y="93" width="976" height="246" rx="21" fill="#fffdf8" stroke="#d8ded4"/>
+  <text x="67" y="170" font-size="30" font-weight="700">猪油</text>
+  <rect x="220" y="124" width="315.7" height="63" rx="4" fill="#f3e8d8" stroke="none"/>
+  <text x="377.85" y="165" font-size="30" font-weight="700" text-anchor="middle" fill="#8f643b">41%</text>
+  <rect x="535.7" y="124" width="361.90000000000003" height="63" rx="4" fill="#ddeee5" stroke="none"/>
+  <text x="716.6500000000001" y="165" font-size="30" font-weight="700" text-anchor="middle" fill="#2d6957">47%</text>
+  <rect x="897.6000000000001" y="124" width="92.4" height="63" rx="4" fill="#f0e7f2" stroke="none"/>
+  <text x="943.8000000000002" y="165" font-size="30" font-weight="700" text-anchor="middle" fill="#745384">12%</text>
+  <text x="67" y="285" font-size="30" font-weight="700">芝麻油</text>
+  <rect x="220" y="239" width="115.5" height="63" rx="4" fill="#f3e8d8" stroke="none"/>
+  <text x="277.75" y="280" font-size="30" font-weight="700" text-anchor="middle" fill="#8f643b">15%</text>
+  <rect x="335.5" y="239" width="308" height="63" rx="4" fill="#ddeee5" stroke="none"/>
+  <text x="489.5" y="280" font-size="30" font-weight="700" text-anchor="middle" fill="#2d6957">40%</text>
+  <rect x="643.5" y="239" width="346.5" height="63" rx="4" fill="#f0e7f2" stroke="none"/>
+  <text x="816.75" y="280" font-size="30" font-weight="700" text-anchor="middle" fill="#745384">45%</text>
+  <rect x="54" y="377" width="22" height="22" rx="4" fill="#f3e8d8" stroke="#8f643b"/>
+  <text x="89" y="398" font-size="25" font-weight="700" fill="#8f643b">饱和脂肪酸</text>
+  <text x="89" y="431" font-size="22" fill="#536059">如棕榈酸、硬脂酸</text>
+  <rect x="374" y="377" width="22" height="22" rx="4" fill="#ddeee5" stroke="#2d6957"/>
+  <text x="409" y="398" font-size="25" font-weight="700" fill="#2d6957">单元不饱和</text>
+  <text x="409" y="431" font-size="22" fill="#536059">如油酸</text>
+  <rect x="694" y="377" width="22" height="22" rx="4" fill="#f0e7f2" stroke="#745384"/>
+  <text x="729" y="398" font-size="25" font-weight="700" fill="#745384">多元不饱和</text>
+  <text x="729" y="431" font-size="22" fill="#536059">如亚油酸</text>
+  <text x="42" y="478" font-size="24" fill="#536059">比例为示例，原料品种、饲料和加工条件会改变组成。</text>
+  </g>
+</svg>

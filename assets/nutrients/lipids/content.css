@@ -1,0 +1,36 @@
+.nutrient-lipids .pathways {
+  display: grid;
+  gap: 0.75rem;
+  margin-block: 1.25rem;
+}
+
+.nutrient-lipids .pathways > div {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: 0.5rem;
+  background: var(--panel);
+}
+
+.nutrient-lipids .pathways p {
+  margin: 0.4rem 0 0;
+}
+
+.nutrient-lipids .pathways em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nutrient-lipids .note {
+  color: var(--muted);
+  font-size: 0.875em;
+}
+
+.nutrient-lipids table .lipid-numeric-cell {
+  text-align: end;
+}
+
+.nutrient-lipids .nutrient-legacy-anchor {
+  display: block;
+  scroll-margin-top: 6.5rem;
+}

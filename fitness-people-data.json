@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-11-06",
+  "verifiedAt": "2026-11-25",
   "people": [
     {
       "id": "jeff-nippard",
@@ -493,6 +493,45 @@
         }
       ],
       "photoOriginalUrl": "https://podcast.rippedbody.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA5MTQ2NDgsInB1ciI6ImJsb2JfaWQifX0=--843e72986ca31a034d915a54ec97c411a69bbc6a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOlsxMDgwLDE0NDAseyJjcm9wIjoiY2VudHJlIn1dLCJzYXZlciI6eyJxdWFsaXR5Ijo2MH0sImNvbG91cnNwYWNlIjoic3JnYiJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--355526e0ad8d751b2d7838e573060e1c9e6162cc/Andy-Morgan-Profile-Paisley-Shirt-820x1024.jpeg"
+    },
+    {
+      "id": "kuba-cielen",
+      "nameZh": "库巴·切伦",
+      "nameEn": "Kuba Cielen",
+      "aliases": [
+        "库巴",
+        "Kuba",
+        "Kuba Sylvester-Cielen",
+        "Kilo Culture",
+        "KubaKiloCulture"
+      ],
+      "roles": [
+        "athlete",
+        "educator"
+      ],
+      "identity": "IFBB Pro 职业健美运动员 · MK Coaching 主教练",
+      "bio": "Kuba Sylvester-Cielen 参加男子职业健美比赛，也是 MK Coaching 主教练。他在个人频道分享健美训练、营养安排和训练日常。",
+      "directions": [
+        "增肌训练",
+        "动作执行与渐进超负荷",
+        "训练量与恢复"
+      ],
+      "sourceIds": [
+        "kuba-coaching",
+        "kuba-contest",
+        "kuba-channel"
+      ],
+      "level": "focus",
+      "channels": [
+        {
+          "label": "YouTube 官方频道",
+          "url": "https://www.youtube.com/channel/UCIfNocTBJECCId_oW11YeRw"
+        },
+        {
+          "label": "赛事档案",
+          "url": "https://contests.npcnewsonline.com/contests/2025/ifbb_promuscle_italy_pro/mapr/kuba_cielen"
+        }
+      ]
     }
   ],
   "sources": [
@@ -996,6 +1035,45 @@
       "publishedAt": null,
       "verifiedAt": "2026-11-06",
       "note": "使用用户提供的图片文件，未进行重绘。"
+    },
+    {
+      "id": "kuba-coaching",
+      "title": "MK Coaching · Head Coach Kuba",
+      "publisher": "MK Coaching",
+      "url": "https://teammkcoaching.com/wp-content/uploads/2025/12/MK-KUBA-WEBSITE.pdf",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-25",
+      "status": "verified",
+      "note": "教练资料列明全名、主教练身份和 IFBB Pro 资格。"
+    },
+    {
+      "id": "kuba-contest",
+      "title": "Kuba Cielen · IFBB ProMuscle Italy Pro",
+      "publisher": "NPC News Online",
+      "url": "https://contests.npcnewsonline.com/contests/2025/ifbb_promuscle_italy_pro/mapr/kuba_cielen",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-25",
+      "status": "verified",
+      "note": "官方赛事档案记录男子健美组参赛经历。"
+    },
+    {
+      "id": "kuba-channel",
+      "title": "Kuba Cielen 官方频道",
+      "publisher": "Kuba Cielen",
+      "url": "https://www.youtube.com/channel/UCIfNocTBJECCId_oW11YeRw",
+      "publishedAt": null,
+      "verifiedAt": "2026-11-25",
+      "status": "verified"
+    },
+    {
+      "id": "kuba-growth-video",
+      "title": "9 Steps for Maximum Muscle Growth",
+      "publisher": "Kuba Cielen",
+      "url": "https://www.youtube.com/watch?v=7EyaEOblcCg",
+      "publishedAt": "2026-11-09",
+      "verifiedAt": "2026-11-25",
+      "status": "metadata-matched",
+      "note": "视频标题、日期与链接通过公开视频目录核对。具体观点取自用户提供的英文逐字稿，未逐段播放核对。"
     }
   ],
   "topics": [
@@ -1133,6 +1211,19 @@
         "progression"
       ],
       "description": "职业健美运动员的历史训练体验，不作为普通训练者的直接处方。"
+    },
+    {
+      "id": "prioritize-weak-muscles",
+      "label": "向薄弱肌群倾斜训练频率",
+      "topicIds": [
+        "recovery"
+      ],
+      "description": "根据肌群发展、单次训练质量和恢复调整周内训练分配。",
+      "aliases": [
+        "薄弱部位",
+        "训练频率",
+        "分摊工作组"
+      ]
     }
   ],
   "personViews": [
@@ -1458,6 +1549,54 @@
       ],
       "period": "职业训练历史回顾；文章日期未核实",
       "context": "极端职业经历，不建议据此照搬强迫次数或疲劳极限。",
+      "organizerSummary": true
+    },
+    {
+      "id": "kuba-control",
+      "personId": "kuba-cielen",
+      "viewId": "controlled-reps",
+      "claim": "他强调每次重复都要主动控制负荷，在可控的活动范围内完成动作，并保持目标肌群的发力意图。",
+      "sourceIds": [
+        "kuba-growth-video"
+      ],
+      "period": "2026 年增肌教学",
+      "context": "举例讨论卧推、深蹲的下放与变向。动作控制也用于判断一组是否达到了预期训练质量。",
+      "organizerSummary": true
+    },
+    {
+      "id": "kuba-recoverable",
+      "personId": "kuba-cielen",
+      "viewId": "recoverable",
+      "claim": "他在工作组数之外，也看用力程度、动作幅度、负荷、动作选择和训练频率。目标是找到能恢复、下次还能保持质量的工作量。",
+      "sourceIds": [
+        "kuba-growth-video"
+      ],
+      "period": "2026 年增肌教学",
+      "context": "把动作质量、关节感受、睡眠与日常压力作为调整训练的线索。",
+      "organizerSummary": true
+    },
+    {
+      "id": "kuba-progression",
+      "personId": "kuba-cielen",
+      "viewId": "small-progress",
+      "claim": "他把负重、次数、活动范围、节奏和动作质量都纳入进步观察，等训练适应出现后再提高要求。",
+      "sourceIds": [
+        "kuba-growth-video"
+      ],
+      "period": "2026 年增肌教学",
+      "context": "在同一动作标准下比较训练表现，更容易分辨是否已经具备加重或加次数的条件。",
+      "organizerSummary": true
+    },
+    {
+      "id": "kuba-frequency",
+      "personId": "kuba-cielen",
+      "viewId": "prioritize-weak-muscles",
+      "claim": "他倾向把薄弱肌群排到每周两次。举例可把某肌群单次 10 个工作组分成两次各 5 组，用于保持每组表现。",
+      "sourceIds": [
+        "kuba-growth-video"
+      ],
+      "period": "2026 年增肌教学",
+      "context": "这是教练的周内安排思路。组数相同的情况下，还要结合动作表现和个人恢复判断分配方式。",
       "organizerSummary": true
     }
   ],
@@ -1923,6 +2062,29 @@
       "contentReview": "依据主持人公开导读，不声称已逐段观看。",
       "articleId": "haney-long-term",
       "metadataVerifiedAt": "2026-11-06"
+    },
+    {
+      "id": "kuba-muscle-growth",
+      "personIds": [
+        "kuba-cielen"
+      ],
+      "titleZh": "最大化肌肉增长的 9 个步骤",
+      "titleOriginal": "9 Steps for Maximum Muscle Growth",
+      "translated": true,
+      "url": "https://www.youtube.com/watch?v=7EyaEOblcCg",
+      "platform": "YouTube",
+      "publisher": "Kuba Cielen",
+      "sourceIds": [
+        "kuba-growth-video"
+      ],
+      "summary": "从工作组的努力程度与完成质量，读到训练量、频率、渐进超负荷，以及饮食和恢复的安排。",
+      "publishedAt": "2026-11-09",
+      "dateNote": "发布日来自公开视频目录",
+      "keyMoments": [],
+      "status": "metadata-matched",
+      "contentReview": "中文文章依据用户提供的英文逐字稿整理。通过公开目录核对标题、日期和链接，未逐段播放核对。",
+      "articlePath": "fitness-kuba-muscle-growth.html",
+      "metadataVerifiedAt": "2026-11-25"
     }
   ],
   "diets": [
